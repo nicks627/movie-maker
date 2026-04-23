@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:19:05.243Z",
+  "query": "silicon wafer semiconductor",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": false,
+  "items": [
+    {
+      "id": "commons-file-silicon-wafer-researcher-jpg",
+      "query": "silicon wafer semiconductor",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Silicon_wafer_researcher.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Silicon_wafer_researcher.jpg/1920px-Silicon_wafer_researcher.jpg",
+      "width": 5760,
+      "height": 3840,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2024-11-29 00:21:05\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Silicon wafer researcher\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Lawrence Livermore National Laboratory|PD US DOE|Flickr images reviewed by FlickreviewR 2|Silicon wafers|Flickr images missing SDC published in\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"LAWRENCE LIVERMORE NATIONAL LABORATORY RESEARCHER WILL FABRICATE NEUTRAL INTERFACES ON THIS FINISHED SILICON WAFER, POLYMER DEVICES DESIGNED TO BYPASS DAMAGED NERVES AND NEUTRONS IN HUMANS.\\n<p>THE DEVICES ARE BEING ENGINEERED TO RESTORE SIGHT, HEARING, AND SPEECH AND EVEN REANIMATE LIMBS. ONE SUCH DEVICES IS THE FIRST EVER FDA-APPROVED RETINAL PROSTHESIS.\\n</p>\\nFor more information or additional images, please contact 202-586-5251.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2013-08-05 20:09:20\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://www.flickr.com/photos/departmentofenergy/10843067534/\\\">https://www.flickr.com/photos/departmentofenergy/10843067534/</a>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"U.S. Department of Energy\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "U.S. Department of Energy",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg",
+        "text": "U.S. Department of Energy | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:19:05.242Z",
+      "tags": []
+    }
+  ]
+}

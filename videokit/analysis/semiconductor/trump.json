@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:16:10.515Z",
+  "query": "Donald Trump White House",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": false,
+  "items": [
+    {
+      "id": "commons-file-donald-trump-official-portrait-jpg",
+      "query": "Donald Trump White House",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1920px-Donald_Trump_official_portrait.jpg",
+      "width": 2250,
+      "height": 2850,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2018-08-30 06:28:22\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Donald Trump official portrait\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Images from the Library of Congress|Executive Office of the President files|Photographs by Shealah Craighead|Images with extracted images|Featured pictures on Wikipedia, Persian|United States photographs taken on 2017-10-06|Donald Trump in October 2017|Politicians with the national flag of the United States in background|2017 portrait photographs of men|Published consent|Official portraits of Donald Trump (first presidency)|Donald Trump smiling|Donald Trump wearing lapel pins of the national flag of the United States\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"valued\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017.  (Official White House Photo by Shealah Craighead)\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2017-10-06\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"This image  is available from the United States <a href=\\\"//commons.wikimedia.org/wiki/Library_of_Congress\\\" title=\\\"Library of Congress\\\">Library of Congress</a>'s <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"//www.loc.gov/rr/print/\\\">Prints and Photographs division</a><br> under the digital ID <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"https://hdl.loc.gov/loc.pnp/ppbd.00608\\\">ppbd.00608</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\\\"white-space:nowrap\\\">A normal <a href=\\\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\\\" title=\\\"Special:MyLanguage/Commons:Copyright tags\\\">copyright tag</a> is still required.</span> <span style=\\\"white-space:nowrap\\\">See <a href=\\\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\\\" title=\\\"Special:MyLanguage/Commons:Licensing\\\">Commons:Licensing</a>.</span></small>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<bdi><a href=\\\"https://en.wikipedia.org/wiki/en:Shealah_Craighead\\\" class=\\\"extiw\\\" title=\\\"w:en:Shealah Craighead\\\"><span title=\\\"American photographer\\\">Shealeah Craighead</span></a></bdi>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Shealeah Craighead",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+        "text": "Shealeah Craighead | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:16:10.514Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-logo-white-house-president-donald-trump-2025-png",
+      "query": "Donald Trump White House",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Logo_White_House_-_President_Donald_Trump_(2025).png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Logo_White_House_-_President_Donald_Trump_%282025%29.png",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Logo_White_House_-_President_Donald_Trump_%282025%29.png/1920px-Logo_White_House_-_President_Donald_Trump_%282025%29.png",
+      "width": 2160,
+      "height": 1524,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2025-01-20 18:28:23\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Logo White House - President Donald Trump (2025)\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"PD US Government|Files from external sources with reviewed licenses|CC-PD-Mark|Logos of Washington, D.C.|Donald Trump symbols and logos|Logos of the White House\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"Logo White House-President Donald Trump (2025).\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2025-01-20\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://www.whitehouse.gov/\\\">https://www.whitehouse.gov/</a> - <a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://www.whitehouse.gov/copyright/\\\">https://www.whitehouse.gov/copyright/</a> (CC-BY-3.0)\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"White House\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "White House",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Logo_White_House_-_President_Donald_Trump_(2025).png",
+        "text": "White House | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Logo_White_House_-_President_Donald_Trump_(2025).png"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:16:10.515Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-president-trump-and-ukrainian-president-zelenskyy-clash-during-meet",
+      "query": "Donald Trump White House",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office,_Feb._28,_2025.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office%2C_Feb._28%2C_2025.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office%2C_Feb._28%2C_2025.jpg",
+      "width": 1920,
+      "height": 1080,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2025-03-01 01:32:56\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"President Trump and Ukrainian President Zelenskyy Clash During Meeting in Oval Office, Feb. 28, 2025\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Media from YouTube|Executive Office of the President files|Images with extracted images|Extracted images|Donald Trump and JD Vance in 2025|JD Vance in February 2025|Donald Trump in the Oval Office|JD Vance in the Oval Office|Meeting of the President of Ukraine and the President of the United States, 28 February 2025|JD Vance and Volodymyr Zelenskyy|Claw-and-ball feet in portrait photographs\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"U.S. President Donald Trump and Vice President JD Vance clash with Ukrainian President Volodymyr Zelenskyy during an Oval Office meeting on February 28, 2025\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2025-02-28\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<bdi lang=\\\"en\\\" dir=\\\"ltr\\\"><a href=\\\"//commons.wikimedia.org/wiki/Commons:YouTube_files\\\" title=\\\"Commons:YouTube files\\\">YouTube</a>: <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"https://www.youtube.com/watch?v=cmgHM7oxVIw\\\"><bdi lang=\\\"\\\">President Trump and Ukrainian President Zelenskyy in Oval Office, Feb. 28, 2025</bdi></a> – View/save archived versions on <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=cmgHM7oxVIw\\\">archive.org</a></bdi> (46m44s)\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"The White House\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "The White House",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office,_Feb._28,_2025.jpg",
+        "text": "The White House | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office,_Feb._28,_2025.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:16:10.515Z",
+      "tags": []
+    }
+  ]
+}

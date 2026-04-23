@@ -1,0 +1,40 @@
+# Local agent/editor state
+.claude/
+.superpowers/
+
+# Dependencies
+node_modules/
+videokit/node_modules/
+videokit/.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test/build/temp output
+test-results/
+tmp/
+videokit/build/
+videokit/test-results/
+videokit/tmp_recover_preview/
+videokit/scripts/__pycache__/
+videokit/scripts/_tmp_*.mjs
+videokit/tmp-dev-ui.log
+videokit/tmp-dev-ui.err.log
+videokit/tmp-short-check-*.jpg
+
+# Local environment and generated review output
+videokit/.claude/
+videokit/.env.local
+videokit/assets-manifest.generated.json
+videokit/*.generated.json
+videokit/out-*.mp4
+videokit/qa-*.jpg
+videokit/src/data/*.codex-preview-backup
+
+# Large local-only sources/runtime assets that should not go to GitHub
+videokit/inputs/gameplay/
+videokit/vendor/voicevox_core/
+
+# Logs
+*.log

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:18:27.026Z",
+  "query": "ASML lithography machine",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-asml-headquarters-veldhoven-jpg",
+      "query": "ASML lithography machine",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ASML_headquarters_Veldhoven.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/ASML_headquarters_Veldhoven.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/ASML_headquarters_Veldhoven.jpg/1920px-ASML_headquarters_Veldhoven.jpg",
+      "width": 2048,
+      "height": 1536,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2026-01-28 18:20:56\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"ASML headquarters Veldhoven\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Self-published work|PD-self|Files with coordinates missing SDC location of creation (51° N, 5° E)|ASML Toren, Veldhoven\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"GPSLatitude\":{\"value\":\"51.404500\",\"source\":\"commons-desc-page\"},\"GPSLongitude\":{\"value\":\"5.417010\",\"source\":\"commons-desc-page\"},\"GPSMapDatum\":{\"value\":\"WGS-84\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"Corporate headquarters of ASML (NASDAQ:ASMLD), a supplier of lithography systems for the semiconductor industry. The office building is 82 metres tall and located in Veldhoven, Netherlands.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2008-05-22\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/wiki/User:A_ansems\\\" title=\\\"User:A ansems\\\">A ansems</a>\",\"source\":\"commons-desc-page\"},\"Permission\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "A ansems",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ASML_headquarters_Veldhoven.jpg",
+        "text": "A ansems | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:ASML_headquarters_Veldhoven.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:18:25.939Z",
+      "tags": [],
+      "localPath": "public/assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-asml-headquarters-veldhoven-jpg.jpg"
+    }
+  ]
+}

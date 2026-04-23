@@ -1,0 +1,21 @@
+{
+  "name": "movie-maker",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix my-remotion-project run dev",
+    "dev:ui": "npm --prefix my-remotion-project run dev:ui",
+    "build": "npm --prefix my-remotion-project run build",
+    "render": "npm --prefix my-remotion-project run render",
+    "render:long": "npm --prefix my-remotion-project run render:long",
+    "render:short": "npm --prefix my-remotion-project run render:short",
+    "render:both": "npm --prefix my-remotion-project run render:both",
+    "generate:voices": "npm --prefix my-remotion-project run generate:voices",
+    "generate:voices:short": "npm --prefix my-remotion-project run generate:voices:short",
+    "review:text-audio": "npm --prefix my-remotion-project run review:text-audio --",
+    "review:audio-balance": "npm --prefix my-remotion-project run review:audio-balance --",
+    "review:preflight": "npm --prefix my-remotion-project run review:preflight --",
+    "review:publish": "npm --prefix my-remotion-project run review:publish --",
+    "review:delivery": "npm --prefix my-remotion-project run review:delivery --",
+    "lint": "npm --prefix my-remotion-project run lint"
+  }
+}

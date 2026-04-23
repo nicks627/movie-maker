@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:18:20.007Z",
+  "query": "TSMC logo",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-tsmc-logo-on-taichung-factory-building-jpg",
+      "query": "TSMC logo",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:TSMC_logo_on_Taichung_factory_building.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/TSMC_logo_on_Taichung_factory_building.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/TSMC_logo_on_Taichung_factory_building.jpg/1920px-TSMC_logo_on_Taichung_factory_building.jpg",
+      "width": 3928,
+      "height": 2208,
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "raw": "{\"DateTime\":{\"value\":\"2020-06-26 15:21:08\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"TSMC logo on Taichung factory building\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Taken with ASUS ZenFone 3 Zoom|Central Taiwan Science Park|Self-published work|Files with coordinates missing SDC location of creation|2020 photographs of Taichung|TSMC fabrication plants|Industry buildings in Taichung\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"GPSLatitude\":{\"value\":\"24.209595\",\"source\":\"commons-desc-page\"},\"GPSLongitude\":{\"value\":\"120.616480\",\"source\":\"commons-desc-page\"},\"GPSMapDatum\":{\"value\":\"WGS-84\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"One of TSMC's factories in Taichung's Central Taiwan Science Park\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2020-06-25\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/w/index.php?title=User:Briaxis&amp;action=edit&amp;redlink=1\\\" class=\\\"new\\\" title=\\\"User:Briaxis (page does not exist)\\\">Briáxis F. Mendes (孟必思)</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY-SA 4.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution-Share Alike 4.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by-sa/4.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-sa-4.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": true,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Briáxis F. Mendes (孟必思)",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TSMC_logo_on_Taichung_factory_building.jpg",
+        "text": "Briáxis F. Mendes (孟必思) | Wikimedia Commons | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:TSMC_logo_on_Taichung_factory_building.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:18:19.183Z",
+      "tags": [],
+      "localPath": "public/assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-tsmc-logo-on-taichung-factory-building-jpg.jpg"
+    }
+  ]
+}

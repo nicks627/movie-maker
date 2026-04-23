@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:18:12.280Z",
+  "query": "White House South Portico",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-white-house-lawn-jpg",
+      "query": "White House South Portico",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:White_House_lawn.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/White_House_lawn.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/White_House_lawn.jpg/1920px-White_House_lawn.jpg",
+      "width": 7720,
+      "height": 3089,
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "raw": "{\"DateTime\":{\"value\":\"2009-02-04 05:24:56\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"White House lawn\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Featured pictures of Washington, D.C.|GFDL|Taken with Canon EOS 5D|White House South Lawn|License migration redundant|Lawns in the United States|Self-published work|Images with extracted images|Featured pictures by User:Dschwen|Featured pictures on Wikipedia, Turkish|United States photographs taken on 2008-05-30|White House in May 2008|Files by User:Dschwen|White House South Portico|Photographs of flags of the United States at the White House\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"quality|featured\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"GPSLatitude\":{\"value\":\"38.895348\",\"source\":\"commons-desc-page\"},\"GPSLongitude\":{\"value\":\"-77.036565\",\"source\":\"commons-desc-page\"},\"GPSMapDatum\":{\"value\":\"WGS-84\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"Lawn in front of the White House, Washington, DC.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"Taken on 30 May 2008\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/wiki/User:Dschwen\\\" title=\\\"User:Dschwen\\\">Daniel Schwen</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY-SA 3.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution-Share Alike 3.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Attribution\":{\"value\":\"I, <a href=\\\"//commons.wikimedia.org/wiki/User:Dschwen\\\" title=\\\"User:Dschwen\\\">Daniel Schwen</a>\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"http://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-sa-3.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": true,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Daniel Schwen",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:White_House_lawn.jpg",
+        "text": "I, Daniel Schwen"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:18:11.340Z",
+      "tags": [],
+      "localPath": "public/assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-white-house-lawn-jpg.jpg"
+    }
+  ]
+}

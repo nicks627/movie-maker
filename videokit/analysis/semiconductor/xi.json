@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:18:14.399Z",
+  "query": "Xi Jinping official portrait",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-xi-jinping-2022-cropped-jpg",
+      "query": "Xi Jinping official portrait",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_2022_(cropped).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Xi_Jinping_2022_%28cropped%29.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Xi_Jinping_2022_%28cropped%29.jpg",
+      "width": 276,
+      "height": 402,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2022-12-04 17:24:33\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Xi Jinping 2022 (cropped)\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"PD-PhilippinesGov|APEC Thailand 2022|Extracted images|Xi Jinping in November 2022|Portraits of Xi Jinping in 2022\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"BANGKOK, Thailand – President Ferdinand R. Marcos Jr. and Chinese President &amp; General Secretary of the Chinese Communist Party Xi Jinping met for the first time on 17 November 2022 on the sidelines of the APEC Economic Leaders Meeting in Bangkok. It was their first face-to-face meeting after a phone call on 18 May 2022.\\n<p>During the bilateral meeting, the two leaders discussed the future direction of Philippines-China relations and agreed to deepen bilateral cooperation.\\n</p><p>President Marcos highlighted the need for enhanced economic and development partnerships. Among the areas of cooperation discussed were in agriculture, trade, infrastructure, energy, people-to-people ties, and pandemic response.\\n</p><p>“There has been tremendous growth in exchanges and cooperation in agriculture, infrastructure, energy, and people-to-people ties between the two countries,” President Marcos told President Xi.\\n</p><p>President Marcos thanked President Xi for China’s donation of 20,000 tons of urea fertilizers. He also said that Covid-19 cooperation helped strengthen trust, with China being the first to donate Covid-19 vaccines to the country.\\n</p><p>Both leaders agreed to consider more infrastructure projects. President Xi cited the Davao-Samal bridge project in Davao as a prime example of infrastructure partnership. He thanked President Marcos for personally attending the groundbreaking ceremony for the bridge project.\\n</p><p>President Xi said that China was open to increasing the importation of quality agricultural produce from the Philippines, highlighting the planned entry of durian from the Philippines to the Chinese market.\\n</p><p>On the South China Sea issue, the two leaders agreed that maritime issues do not define the totality of Philippines-China relations. They also reaffirmed their support for the early conclusion of a Code of Conduct on the South China Sea to help manage differences and regional tensions.\\n</p><p>“Our foreign policy refuses to fall into the trap of a Cold War mindset. Ours is an independent foreign policy guided by our national interest and commitment to peace,” asserted President Marcos.\\n</p><p>President Marcos also accepted the invitation from President Xi for a state visit to China in early January next year.\\n</p>\\nPresident Marcos was joined in the meeting by former President Gloria Macapagal-Arroyo, House Speaker Martin Romualdez, Secretary for Foreign Affairs Enrique Manalo, Secretary for Trade and Industry Alfredo Pascual, Special Assistant to the President Antonio Lagdameo, Jr., Presidential Adviser on Foreign Affairs and Chief of Presidential Protocol Adelio Angelito Cruz, Office of the Press Secretary-OIC Undersecretary Cheloy Velicaria-Garafil, and DFA Assistant Secretary for Asian and Pacific Affairs Neal Imperial. END\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2022-11-17\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://www.facebook.com/opsgov/posts/514252490727482\\\">https://www.facebook.com/opsgov/posts/514252490727482</a>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗼𝗳 𝗙𝗼𝗿𝗲𝗶𝗴𝗻 𝗔𝗳𝗳𝗮𝗶𝗿𝘀\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗼𝗳 𝗙𝗼𝗿𝗲𝗶𝗴𝗻 𝗔𝗳𝗳𝗮𝗶𝗿𝘀",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_2022_(cropped).jpg",
+        "text": "𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗼𝗳 𝗙𝗼𝗿𝗲𝗶𝗴𝗻 𝗔𝗳𝗳𝗮𝗶𝗿𝘀 | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Xi_Jinping_2022_(cropped).jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:18:13.644Z",
+      "tags": [],
+      "localPath": "public/assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-xi-jinping-2022-cropped-jpg.jpg"
+    }
+  ]
+}

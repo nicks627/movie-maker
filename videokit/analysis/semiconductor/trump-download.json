@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:17:11.424Z",
+  "query": "Donald Trump official portrait",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-donald-trump-official-portrait-jpg",
+      "query": "Donald Trump official portrait",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1920px-Donald_Trump_official_portrait.jpg",
+      "width": 2250,
+      "height": 2850,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2018-08-30 06:28:22\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Donald Trump official portrait\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Images from the Library of Congress|Executive Office of the President files|Photographs by Shealah Craighead|Images with extracted images|Featured pictures on Wikipedia, Persian|United States photographs taken on 2017-10-06|Donald Trump in October 2017|Politicians with the national flag of the United States in background|2017 portrait photographs of men|Published consent|Official portraits of Donald Trump (first presidency)|Donald Trump smiling|Donald Trump wearing lapel pins of the national flag of the United States\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"valued\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017.  (Official White House Photo by Shealah Craighead)\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2017-10-06\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"This image  is available from the United States <a href=\\\"//commons.wikimedia.org/wiki/Library_of_Congress\\\" title=\\\"Library of Congress\\\">Library of Congress</a>'s <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"//www.loc.gov/rr/print/\\\">Prints and Photographs division</a><br> under the digital ID <a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"https://hdl.loc.gov/loc.pnp/ppbd.00608\\\">ppbd.00608</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\\\"white-space:nowrap\\\">A normal <a href=\\\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\\\" title=\\\"Special:MyLanguage/Commons:Copyright tags\\\">copyright tag</a> is still required.</span> <span style=\\\"white-space:nowrap\\\">See <a href=\\\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\\\" title=\\\"Special:MyLanguage/Commons:Licensing\\\">Commons:Licensing</a>.</span></small>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<bdi><a href=\\\"https://en.wikipedia.org/wiki/en:Shealah_Craighead\\\" class=\\\"extiw\\\" title=\\\"w:en:Shealah Craighead\\\"><span title=\\\"American photographer\\\">Shealeah Craighead</span></a></bdi>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Shealeah Craighead",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+        "text": "Shealeah Craighead | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:17:10.327Z",
+      "tags": [],
+      "localPath": "public/assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-donald-trump-official-portrait-jpg.jpg"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:19:05.269Z",
+  "query": "Taiwan locator map",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": false,
+  "items": [
+    {
+      "id": "commons-file-locator-map-of-the-roc-taiwan-svg",
+      "query": "Taiwan locator map",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Locator_map_of_the_ROC_Taiwan.svg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Locator_map_of_the_ROC_Taiwan.svg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Locator_map_of_the_ROC_Taiwan.svg/1920px-Locator_map_of_the_ROC_Taiwan.svg.png",
+      "width": 1000,
+      "height": 508,
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "raw": "{\"DateTime\":{\"value\":\"2019-09-24 20:32:01\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Locator map of the ROC Taiwan\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"GFDL|Images requiring an update|License migration redundant|SVG locator maps of the Republic of China|Self-published work|SVG locator maps of countries of Asia (red and pink scheme)|SVG locator maps of Taiwan\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"Location map of Taiwan\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2010-08-10\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span> ,based on <a href=\\\"//commons.wikimedia.org/wiki/File:BlankMap-World6.svg\\\" class=\\\"mw-redirect\\\" title=\\\"File:BlankMap-World6.svg\\\">File:BlankMap-World6.svg</a>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/wiki/User:JOSH_tw\\\" title=\\\"User:JOSH tw\\\">JOSH tw</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY-SA 3.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution-Share Alike 3.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-sa-3.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": true,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "JOSH tw",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Locator_map_of_the_ROC_Taiwan.svg",
+        "text": "JOSH tw | Wikimedia Commons | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Locator_map_of_the_ROC_Taiwan.svg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:19:05.268Z",
+      "tags": []
+    }
+  ]
+}

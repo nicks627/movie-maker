@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-21T14:19:05.580Z",
+  "query": "semiconductor cleanroom",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": false,
+  "items": [
+    {
+      "id": "commons-file-ion-bombardment-units-jpg",
+      "query": "semiconductor cleanroom",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ion_bombardment_units.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ion_bombardment_units.JPG",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ion_bombardment_units.JPG",
+      "width": 1880,
+      "height": 2816,
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "raw": "{\"DateTime\":{\"value\":\"2012-04-21 16:24:58\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Ion bombardment units\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"GFDL|Taken with Canon EOS 400D|License migration redundant|Self-published work|Cleanroom equipment|Semiconductor Physics and Technology Laboratory\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"Ion bombardment units used for cathode purification at the Semiconductor Physics and Technology Laboratory at the Physics Faculty of Sofia University\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2012-04-21\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/wiki/User:Tourbillon\\\" title=\\\"User:Tourbillon\\\">Tourbillon</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY-SA 3.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution-Share Alike 3.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-sa-3.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": true,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Tourbillon",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ion_bombardment_units.JPG",
+        "text": "Tourbillon | Wikimedia Commons | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Ion_bombardment_units.JPG"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:19:05.579Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-semiconductor-electronics-division-programs-activities-and-accompli",
+      "query": "semiconductor cleanroom",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Semiconductor_Electronics_Division-_programs,_activities,_and_accomplishments_(IA_semiconductorele6833elec).pdf",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Semiconductor_Electronics_Division-_programs%2C_activities%2C_and_accomplishments_%28IA_semiconductorele6833elec%29.pdf",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Semiconductor_Electronics_Division-_programs%2C_activities%2C_and_accomplishments_%28IA_semiconductorele6833elec%29.pdf/page1-960px-Semiconductor_Electronics_Division-_programs%2C_activities%2C_and_accomplishments_%28IA_semiconductorele6833elec%29.pdf.jpg",
+      "width": 1247,
+      "height": 1622,
+      "license": {
+        "name": "Public domain",
+        "raw": "{\"DateTime\":{\"value\":\"2020-07-24 14:14:44\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"<div class=\\\"fn\\\">\\nSemiconductor Electronics Division: programs, activities, and accomplishments</div>\",\"source\":\"commons-desc-page\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"PD US Government|FEDLINK - United States Federal Collection|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Artist\":{\"value\":\"<div class=\\\"fn value\\\">\\nElectronics and Electrical Engineering Laboratory</div>\",\"source\":\"commons-desc-page\"},\"ImageDescription\":{\"value\":\"<div class=\\\"description\\\">\\nSubjects: Semiconductors -- Periodicals; Semiconductor industry -- Standards -- United States; Semiconductor industrial equipment industry -- United States -- Periodicals</div>\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<dl><dd><a href=\\\"//archive.org/details/semiconductorele6833elec\\\" class=\\\"extiw\\\" title=\\\"iarchive:semiconductorele6833elec\\\"><bdi class=\\\"description en\\\" lang=\\\"en\\\" dir=\\\"ltr\\\">Internet Archive identifier</bdi>: semiconductorele6833elec</a></dd>\\n<dd><a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://archive.org/download/semiconductorele6833elec/semiconductorele6833elec.pdf\\\">https://archive.org/download/semiconductorele6833elec/semiconductorele6833elec.pdf</a></dd></dl>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Public domain\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Copyrighted\":{\"value\":\"False\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"pd\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Electronics and Electrical Engineering Laboratory",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Semiconductor_Electronics_Division-_programs,_activities,_and_accomplishments_(IA_semiconductorele6833elec).pdf",
+        "text": "Electronics and Electrical Engineering Laboratory | Wikimedia Commons | Public domain | https://commons.wikimedia.org/wiki/File:Semiconductor_Electronics_Division-_programs,_activities,_and_accomplishments_(IA_semiconductorele6833elec).pdf"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:19:05.580Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-how-st-designs-and-manufactures-semiconductor-devices-screenshot-1-",
+      "query": "semiconductor cleanroom",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:How_ST_designs_and_manufactures_semiconductor_devices_-_screenshot_1.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/How_ST_designs_and_manufactures_semiconductor_devices_-_screenshot_1.png",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/How_ST_designs_and_manufactures_semiconductor_devices_-_screenshot_1.png/1920px-How_ST_designs_and_manufactures_semiconductor_devices_-_screenshot_1.png",
+      "width": 2543,
+      "height": 1366,
+      "license": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0",
+        "raw": "{\"DateTime\":{\"value\":\"2025-03-30 15:12:10\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"How ST designs and manufactures semiconductor devices - screenshot 1\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Media from YouTube|Retouched pictures|STMicroelectronics|Cleanrooms|Cleanroom suits|Derivative versions|Microprocessor laboratories|Still images of YouTube videos\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"screenshot of the video, interior of a manufacturing industry of STMicroelectronics, a cleanroom for Semiconductor device fabrication.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"<ul><li>2022-06-16 (original work)</li>\\n<li>2025-03-30 (screenshot)</li></ul>\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<ul><li><a rel=\\\"nofollow\\\" class=\\\"external text\\\" href=\\\"https://www.youtube.com/@stmicroelectronics\\\">STMicroelectronics</a> (original work)</li>\\n<li><a href=\\\"//commons.wikimedia.org/wiki/User:Una_tantum\\\" title=\\\"User:Una tantum\\\">Una tantum</a> (screenshot)</li></ul>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY 3.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution 3.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Attribution\":{\"value\":\"STMicroelectronics\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by/3.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-3.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "STMicroelectronics (original work) Una tantum (screenshot)",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:How_ST_designs_and_manufactures_semiconductor_devices_-_screenshot_1.png",
+        "text": "STMicroelectronics"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-21T14:19:05.580Z",
+      "tags": []
+    }
+  ]
+}
