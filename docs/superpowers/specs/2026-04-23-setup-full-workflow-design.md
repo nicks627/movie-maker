@@ -141,6 +141,19 @@ repo root に次のコマンドを追加する。
 - `public/assets/imported` の書き込み先
 - `.env.local` の存在
 
+検査対象の source は、現行 registry に合わせて次を標準にする。
+
+- `official-press`
+  - API キー不要
+- `wikimedia-commons`
+  - API キー不要
+- `pixabay`
+  - `PIXABAY_API_KEY`
+- `pexels`
+  - `PEXELS_API_KEY`
+- `unsplash`
+  - `UNSPLASH_ACCESS_KEY`
+
 出力は、人が読むテキストに加えて、将来的にエージェントが解釈しやすい JSON も選べる形にする。
 
 ## Setup Skill
@@ -198,6 +211,7 @@ repo root に次のコマンドを追加する。
 - `doctor` は pass / warning / error の 3 段階
 - `doctor:analysis` は不足パッケージを個別表示する
 - `doctor:assets` は source ごとに ready / missing-env / missing-dir を表示する
+- `doctor:assets` の missing-env には、取得先ドキュメントへの案内を含める
 
 ### Starter
 
@@ -217,6 +231,48 @@ README には次を追加または更新する。
 - YouTube 分析の実行例
 - 素材取得の実行例
 - どこまで自動で、どこから API キー設定が必要か
+
+加えて、API キー取得方法をまとめた専用ドキュメントを追加する。
+
+- 想定ファイル:
+  - `videokit/docs/api-key-setup.md`
+- 含める内容:
+  - `PIXABAY_API_KEY` の取得手順
+  - `PEXELS_API_KEY` の取得手順
+  - `UNSPLASH_ACCESS_KEY` の取得手順
+  - `official-press`, `wikimedia-commons` は API キー不要であること
+  - `.env.local` への設定例
+  - 各サービスの利用規約と API ドキュメントへのリンク
+  - この project での推奨用途と注意点
+
+README からはこの API キーガイドへ必ずリンクする。
+
+## API Key Acquisition Guidance
+
+今回の実装では、API キー取得自体を自動化しない代わりに、取得方法を repo 内で完結して追えるようにする。
+
+対象:
+
+- Pixabay
+- Pexels
+- Unsplash
+
+期待する user flow:
+
+1. `npm run setup:full`
+2. `npm run doctor:assets`
+3. missing-env が出た source の案内を読む
+4. `videokit/docs/api-key-setup.md` の手順で API キーを取得する
+5. `.env.local` に設定する
+6. `npm run doctor:assets` を再実行して ready にする
+
+各 source について、少なくとも次を共有する。
+
+- 取得ページ URL
+- 開発者登録の入口
+- どの環境変数名に入れるか
+- この repo の `fetch-assets` でどう使うか
+- 利用上の制約
 
 ## Testing Strategy
 
