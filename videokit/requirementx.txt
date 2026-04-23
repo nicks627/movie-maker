@@ -1,0 +1,148 @@
+videokit setup requirements
+
+This project needs both Node.js and Python tooling.
+The commands below assume Windows + PowerShell.
+
+1. Required software
+
+- Node.js 20.x or later
+- npm 10.x or later
+- Python 3.11.x
+- Git
+
+Recommended Windows install commands:
+
+winget install OpenJS.NodeJS.LTS
+winget install Python.Python.3.11
+winget install Git.Git
+
+2. Node.js dependencies
+
+From the project root:
+
+npm install
+
+Main packages used by this project:
+
+- remotion 4.0.435
+- react 19.2.3
+- react-dom 19.2.3
+- vite 8.x
+- tailwindcss 4.x
+- axios
+- zod
+
+3. Python virtual environment
+
+Create and activate a project-local Python 3.11 environment:
+
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+
+4. Python packages
+
+Install the Python dependencies used by local voice generation:
+
+python -m pip install --upgrade pip
+python -m pip install pykakasi
+python -m pip install "https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.4/voicevox_core-0.16.4-cp310-abi3-win_amd64.whl"
+
+Notes:
+
+- AquesTalk bridge uses `pykakasi`.
+- VOICEVOX local generation uses `voicevox_core`.
+- デフォルトでは `.venv\Scripts\python.exe` を使います。
+- 別レイアウトの PC では `.env.local` で `PYTHON_BIN` を上書きできます。
+
+5. VOICEVOX Core runtime and models
+
+The Python package alone is not enough.
+You also need the local runtime DLL, Open JTalk dictionary, and VVM models.
+
+Download helper:
+
+New-Item -ItemType Directory -Force -Path tools | Out-Null
+Invoke-WebRequest -Uri "https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.4/download-windows-x64.exe" -OutFile "tools\voicevox_core_downloader.exe"
+
+Download VOICEVOX runtime:
+
+cmd /c "echo y| tools\voicevox_core_downloader.exe --only onnxruntime --output .\vendor\voicevox_core"
+
+Download Open JTalk dictionary and talk models:
+
+cmd /c "echo y| tools\voicevox_core_downloader.exe --only models dict --output .\vendor\voicevox_core --models-pattern [0-9]*.vvm"
+
+Expected local paths after setup:
+
+- vendor\voicevox_core\onnxruntime\lib\voicevox_onnxruntime.dll
+- vendor\voicevox_core\dict\open_jtalk_dic_utf_8-1.11\
+- vendor\voicevox_core\models\vvms\
+
+Important:
+
+- VOICEVOX model downloads require accepting their terms.
+- Generated audio must follow the relevant VOICEVOX speaker license and credit rules.
+- For this project, at least `VOICEVOX:四国めたん` and `VOICEVOX:ずんだもん` may be required depending on usage.
+
+6. Included native asset
+
+These files are already expected inside `src\`:
+
+- AquesTalk.dll
+- AquesTalk.lib
+- AquesTalk.h
+
+No separate install step is needed if they are already present in the repo/workspace.
+
+7. First-run commands
+
+Install JS packages:
+
+npm install
+
+Prepare Python:
+
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install pykakasi
+python -m pip install "https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.4/voicevox_core-0.16.4-cp310-abi3-win_amd64.whl"
+
+Prepare VOICEVOX assets:
+
+New-Item -ItemType Directory -Force -Path tools | Out-Null
+Invoke-WebRequest -Uri "https://github.com/VOICEVOX/voicevox_core/releases/download/0.16.4/download-windows-x64.exe" -OutFile "tools\voicevox_core_downloader.exe"
+cmd /c "echo y| tools\voicevox_core_downloader.exe --only onnxruntime --output .\vendor\voicevox_core"
+cmd /c "echo y| tools\voicevox_core_downloader.exe --only models dict --output .\vendor\voicevox_core --models-pattern [0-9]*.vvm"
+
+8. Run commands
+
+Open the editor UI:
+
+npm run dev:ui
+
+Open Remotion Studio:
+
+npm run dev
+
+Render the final video:
+
+npm run render
+
+9. Verification
+
+Optional checks:
+
+npx tsc --noEmit
+.venv\Scripts\python.exe scripts\voicevox_core_bridge.py public\voices\voicevox_core_test.wav "テストです。" '{"speaker":"metan","styleId":2,"speedScale":1.0,"pitchScale":0.0,"intonationScale":1.0,"volumeScale":1.0}'
+.venv\Scripts\python.exe scripts\aquestalk_bridge.py public\voices\aquestalk_test.wav "テストです。" '{"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100}'
+
+If VOICEVOX assets live outside `vendor\voicevox_core`, set `VOICEVOX_CORE_ROOT` in `.env.local`.
+
+10. Local-only directories
+
+These are intentionally local and are ignored by git:
+
+- .venv
+- vendor\voicevox_core
+- tools\voicevox_core_downloader.exe

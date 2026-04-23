@@ -1,0 +1,65 @@
+{
+  "_comment": "SE asset manifest. assign-se.mjs resolves role-based intents to real files from this manifest.",
+  "version": 1,
+  "defaults": {
+    "fallbackVolume": 0.65,
+    "fallbackDurationFrames": 36
+  },
+  "assets": [
+    {
+      "file": "シャキーン1.mp3",
+      "role": "accent-ping",
+      "mood": ["tech", "clean", "positive"],
+      "strength": "light",
+      "texture": ["metallic", "sharp", "clean"],
+      "recommendedVolume": 0.62,
+      "durationFrames": 28,
+      "aliases": ["ping", "ding", "attention", "sparkle-tech"],
+      "notes": "図表表示、ポイント強調、技術系の切り替えに合う軽い金属音。"
+    },
+    {
+      "file": "きらきら輝く3.mp3",
+      "role": "success-sting",
+      "mood": ["positive", "cute", "uplift"],
+      "strength": "light",
+      "texture": ["sparkle", "airy", "shimmer"],
+      "recommendedVolume": 0.58,
+      "durationFrames": 42,
+      "aliases": ["sparkle", "power-up-light", "light-success"],
+      "notes": "ポジティブな驚き、なるほど感、軽い成功演出向け。"
+    },
+    {
+      "file": "ビシッとツッコミ1.mp3",
+      "role": "tsukkomi",
+      "mood": ["comedy", "snappy", "playful"],
+      "strength": "medium",
+      "texture": ["slap", "snap", "dry"],
+      "recommendedVolume": 0.78,
+      "durationFrames": 22,
+      "aliases": ["comedy-hit", "retort", "reaction-tap"],
+      "notes": "ツッコミ、リアクション、短い強調向け。"
+    },
+    {
+      "file": "間抜け3.mp3",
+      "role": "deflate",
+      "mood": ["comedy", "fail", "awkward"],
+      "strength": "light",
+      "texture": ["droop", "soft", "cartoon"],
+      "recommendedVolume": 0.56,
+      "durationFrames": 26,
+      "aliases": ["fail-light", "awkward", "question-light"],
+      "notes": "肩透かし、失敗、脱力、微妙な空気に向く。"
+    },
+    {
+      "file": "和太鼓でドドン.mp3",
+      "role": "impact-soft",
+      "mood": ["serious", "dramatic", "energetic"],
+      "strength": "heavy",
+      "texture": ["drum", "hit", "traditional", "low-end"],
+      "recommendedVolume": 0.84,
+      "durationFrames": 34,
+      "aliases": ["dramatic-hit", "fanfare-big", "panic-hit", "reveal-heavy"],
+      "notes": "強い論点、重いリスク、勝負どころの見出し向け。"
+    }
+  ]
+}

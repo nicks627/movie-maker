@@ -1,0 +1,82 @@
+{
+  "project": {
+    "title": "地図テンプレート サンプル"
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "scenes": [
+      {
+        "id": "sample_geo_map",
+        "speaker": "metan",
+        "emotion": "通常",
+        "text": "まずは地域ごとの分布を地図で見ていきましょう。",
+        "duration": 150,
+        "startTime": 0,
+        "bg_image": "bg.png",
+        "popups": [
+          {
+            "component": "GeoPoliticalMap",
+            "props": {
+              "title": "レバノン国内の主な宗派",
+              "subtitle": "地図を色分けして勢力の分布を説明",
+              "legendTitle": "主要宗派",
+              "mapLabel": "レバノン",
+              "note": "色、模様、注釈を使い分けて視認性を高める"
+            },
+            "imageX": 50,
+            "imageY": 45,
+            "imageWidth": 94,
+            "imageHeight": 74,
+            "startOffset": 8,
+            "duration": 126,
+            "effect": {
+              "type": "ripple",
+              "duration": 28,
+              "intensity": 1.1,
+              "frequency": 0.9,
+              "color": "#38bdf8"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sample_orbital_zoom",
+        "speaker": "zundamon",
+        "emotion": "得意",
+        "text": "次は宇宙から寄っていく導入で、場所のイメージを一気につかむのだ。",
+        "duration": 165,
+        "startTime": 165,
+        "bg_image": "bg.png",
+        "popups": [
+          {
+            "component": "OrbitalMapZoom",
+            "props": {
+              "title": "宇宙からレバノンへ",
+              "subtitle": "広域から局地へズームして導入",
+              "locationLabel": "Middle East",
+              "focusLabel": "Lebanon",
+              "mapLabel": "レバノン",
+              "note": "地政学、観光、物流、企業拠点の導入演出に流用可能"
+            },
+            "imageX": 50,
+            "imageY": 45,
+            "imageWidth": 94,
+            "imageHeight": 74,
+            "startOffset": 6,
+            "duration": 140,
+            "effect": {
+              "type": "spotlight",
+              "duration": 24,
+              "intensity": 1.0,
+              "color": "#38bdf8"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "project": {
+    "id": "wintest-business-turning-point",
+    "title": "ウインテストは何の会社で どこが転機なのか",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.045,
+    "voiceVolume": 1.32,
+    "seVolume": 0.58,
+    "voiceDucking": 0.42,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "config": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      },
+      {
+        "at_scene": 6,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 11,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "wintest_long_00_hook",
+        "speaker": "metan",
+        "sceneRole": "hook",
+        "text": "売上は四点二九億円。営業赤字は十二点一八億円。数字だけ見ると、かなり厳しい会社です。でもウインテストをそれだけで切ってしまうと、何を狙っている会社なのかが見えません。この会社は半導体そのものを作るのではなく、半導体を検査する装置の会社です。そして今、旧主力が細るなかで、より上流側、中国販路、車載や電力向け、液体レンズという四つの転機を作ろうとしています。",
+        "speechText": "売上は四点二九億円。営業赤字は十二点一八億円。数字だけ見ると、かなり厳しい会社です。でもウインテストをそれだけで切ってしまうと、何を狙っている会社なのかが見えません。この会社は半導体そのものを作るのではなく、半導体を検査する装置の会社です。そして今、旧主力が細るなかで、より上流側、中国販路、車載や電力向け、液体レンズという四つの転機を作ろうとしています。",
+        "subtitleText": "赤字の奥にある、会社の正体と転機。",
+        "bg_image": "assets/images/wintest-hook-board.svg",
+        "asset_query": "wintest semiconductor inspection company turning point",
+        "popups": [
+          {
+            "component": "HookHeadline",
+            "props": {
+              "tag": "6721 ウインテスト",
+              "title": "何の会社?",
+              "subtitle": "赤字の奥にある転機を見る",
+              "accentColor": "#38bdf8",
+              "secondaryColor": "#fb7185"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 86,
+            "imageHeight": 18,
+            "duration": 120,
+            "startOffset": 0
+          },
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2024年12月期",
+              "stats": [
+                {
+                  "icon": "売",
+                  "label": "売上高",
+                  "value": "4.29億円",
+                  "color": "#f8fafc"
+                },
+                {
+                  "icon": "赤",
+                  "label": "営業損失",
+                  "value": "12.18億円",
+                  "color": "#fb7185"
+                },
+                {
+                  "icon": "転",
+                  "label": "転機候補",
+                  "value": "4本",
+                  "color": "#38bdf8"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 190,
+            "startOffset": 90
+          },
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "誤解しやすい",
+                "titleColor": "#f87171",
+                "items": [
+                  "半導体を作る会社",
+                  "単なる赤字株"
+                ]
+              },
+              "right": {
+                "title": "本当の軸",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "検査装置会社",
+                  "勝負の場所を変える"
+                ],
+                "highlight": true
+              },
+              "tagline": "会社の正体を先に見る"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 190,
+            "startOffset": 310
+          },
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "転機の4本柱",
+              "steps": [
+                {
+                  "label": "上流側",
+                  "sub": "開発 / ウエハ"
+                },
+                {
+                  "label": "パワー",
+                  "sub": "車載 / 電力"
+                },
+                {
+                  "label": "中国",
+                  "sub": "製造 / 販売"
+                },
+                {
+                  "label": "液体レンズ",
+                  "sub": "独自技術",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 90,
+            "imageHeight": 22,
+            "duration": 230,
+            "startOffset": 540
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.88
+          }
+        },
+        "duration": 871,
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "full",
+        "voiceFile": "wintest_long_00_hook.wav",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.22,
+            "duration": 20
+          },
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 14,
+            "volume": 0.16,
+            "duration": 34
+          }
+        ],
+        "startTime": 0
+      },
+      {
+        "id": "wintest_long_01_boundary",
+        "speaker": "zundamon",
+        "sceneRole": "boundary",
+        "text": "今日は買いか売りかではなく、何の会社で、どこを転機にしようとしているのかだけに絞って見ます。先に地図を置くと、見るポイントは四つです。会社の正体。なぜ苦しいのか。何を次の柱にしたいのか。そして最後に、何がまだ危ないのか。この順番で見れば、ウインテストの輪郭はかなり掴みやすくなるのだ。",
+        "speechText": "今日は買いか売りかではなく、何の会社で、どこを転機にしようとしているのかだけに絞って見ます。先に地図を置くと、見るポイントは四つです。会社の正体。なぜ苦しいのか。何を次の柱にしたいのか。そして最後に、何がまだ危ないのか。この順番で見れば、ウインテストの輪郭はかなり掴みやすくなるのだ。",
+        "subtitleText": "見るポイントは、会社の正体、苦境、転機、リスク。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-01.png",
+        "asset_query": "wintest official strengths and route overview",
+        "popups": [
+          {
+            "component": "HookHeadline",
+            "props": {
+              "tag": "この動画で見る順番",
+              "title": "今日は4つだけ",
+              "subtitle": "正体 → 苦境 → 転機 → リスク",
+              "accentColor": "#38bdf8",
+              "secondaryColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 84,
+            "imageHeight": 18,
+            "duration": 120,
+            "startOffset": 0
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "株価",
+              "connector": "→",
+              "line2": "事業",
+              "sub": "まずは会社の正体から",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 55,
+            "imageWidth": 80,
+            "imageHeight": 18,
+            "duration": 150,
+            "startOffset": 120
+          },
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るポイント",
+              "bullets": [
+                "何の会社か",
+                "なぜ苦しいか",
+                "転機は何か",
+                "残るリスク"
+              ],
+              "tagline": "この順番で輪郭が見える",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 260,
+            "startOffset": 270
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "drift",
+            "intensity": 0.45,
+            "speed": 0.8
+          }
+        },
+        "duration": 716,
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "full",
+        "voiceFile": "wintest_long_01_boundary.wav",
+        "startTime": 885
+      },
+      {
+        "id": "wintest_long_02_identity",
+        "speaker": "metan",
+        "sceneRole": "chapter",
+        "text": "ウインテストは半導体メーカーではありません。主力は、半導体やディスプレイを作る工程で使う検査装置です。公式の個人投資家向け資料では、エルシーディードライバーアイシー、先端ロジックアイシー、イメージセンサ、ミックスドシグナルデバイス向けの自動検査装置を開発、設計、製造、販売している会社だと説明しています。つまり、作る会社ではなく、作られたチップをちゃんと測るための装置会社なんです。",
+        "speechText": "ウインテストは半導体メーカーではありません。主力は、半導体やディスプレイを作る工程で使う検査装置です。公式の個人投資家向け資料では、エルシーディードライバーアイシー、先端ロジックアイシー、イメージセンサ、ミックスドシグナルデバイス向けの自動検査装置を開発、設計、製造、販売している会社だと説明しています。つまり、作る会社ではなく、作られたチップをちゃんと測るための装置会社なんです。",
+        "subtitleText": "半導体を作る会社ではなく、検査装置会社。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-08.jpg",
+        "asset_query": "wintest official business overview image sensor ddic inspection",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "作る会社",
+                "titleColor": "#f87171",
+                "items": [
+                  "半導体そのもの",
+                  "工場を回す",
+                  "量産メーカー"
+                ]
+              },
+              "right": {
+                "title": "検査する会社",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "検査装置",
+                  "設計と開発",
+                  "販売とサポート"
+                ],
+                "highlight": true
+              },
+              "tagline": "正体は半導体検査装置会社"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 86,
+            "imageHeight": 34,
+            "duration": 320
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.86
+          }
+        },
+        "duration": 877,
+        "speedScale": 1.07,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_02_identity.wav",
+        "startTime": 1615
+      },
+      {
+        "id": "wintest_long_03_core",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "しかも範囲が狭すぎる会社でもないのだ。公式の事業説明を見ると、液晶や有機イーエルではアレイ検査から表示検査まで、シーシーディーやシーモスイメージセンサではウエハー検査から出荷前検査までをカバーできるとしています。つまり、ディーディーアイシーとシーアイエスが歴史的な軸ではあるけれど、強みは特定デバイスに合わせて電気検査と画像系の検査を組み上げるところにある、と見ると分かりやすいのだ。",
+        "speechText": "しかも範囲が狭すぎる会社でもないのだ。公式の事業説明を見ると、液晶や有機イーエルではアレイ検査から表示検査まで、シーシーディーやシーモスイメージセンサではウエハー検査から出荷前検査までをカバーできるとしています。つまり、ディーディーアイシーとシーアイエスが歴史的な軸ではあるけれど、強みは特定デバイスに合わせて電気検査と画像系の検査を組み上げるところにある、と見ると分かりやすいのだ。",
+        "subtitleText": "DDIC と CIS が歴史的な軸。強みは検査の組み合わせ。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-07.jpg",
+        "asset_query": "wintest official logic ic inspection equipment",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "歴史的な軸",
+              "stats": [
+                {
+                  "icon": "D",
+                  "label": "DDIC",
+                  "value": "旧主力",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "C",
+                  "label": "CIS",
+                  "value": "画像検査",
+                  "color": "#67e8f9"
+                },
+                {
+                  "icon": "M",
+                  "label": "MIX",
+                  "value": "電気+画像",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 320
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "drift",
+            "intensity": 0.38,
+            "speed": 0.78
+          }
+        },
+        "duration": 869,
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_03_core.wav",
+        "startTime": 2506
+      },
+      {
+        "id": "wintest_long_04_pain",
+        "speaker": "metan",
+        "sceneRole": "fact",
+        "text": "では、なぜその会社がここまで苦しいのか。ポイントは、昔から強かった分野だけでは成長しにくくなったことです。公式の対処すべき課題でも、特にディスプレイドライバーアイシーは新製品サイクルが速く、機能が上がるたびに検査要求が変わると説明しています。需要の波が激しいうえに、売上規模が細ると固定費と開発費が一気に重く見える。つまり、技術がゼロというより、今の市場構成では稼ぎ方が細くなりやすいんです。",
+        "speechText": "では、なぜその会社がここまで苦しいのか。ポイントは、昔から強かった分野だけでは成長しにくくなったことです。公式の対処すべき課題でも、特にディスプレイドライバーアイシーは新製品サイクルが速く、機能が上がるたびに検査要求が変わると説明しています。需要の波が激しいうえに、売上規模が細ると固定費と開発費が一気に重く見える。つまり、技術がゼロというより、今の市場構成では稼ぎ方が細くなりやすいんです。",
+        "subtitleText": "旧主力だけでは、稼ぎ方が細くなりやすい。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/wts-577sr.jpg",
+        "asset_query": "wintest wts-577sr official product image",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "なぜ苦しい?",
+              "bullets": [
+                "旧主力の伸びが鈍い",
+                "要求変化が速い",
+                "売上規模が細い",
+                "固定費と開発費が重い"
+              ],
+              "accent": "#fb7185"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 34,
+            "duration": 320
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.92
+          }
+        },
+        "duration": 913,
+        "speedScale": 1.06,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_04_pain.wav",
+        "startTime": 3389
+      },
+      {
+        "id": "wintest_long_05_finance",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "ユーザー提供の分析ピーディーエフベースで二〇二四年十二月期を見ると、売上高は四点二九億円、営業損失は十二点一八億円、純損失は十二点四二億円でした。ここがこの会社の一番きついところで、売上が小さいのに赤字幅が大きい。だから今の論点は、次に売る装置を増やせるかではなく、事業の単価と土俵を変えられるか、なのだ。",
+        "speechText": "ユーザー提供の分析ピーディーエフベースで二〇二四年十二月期を見ると、売上高は四点二九億円、営業損失は十二点一八億円、純損失は十二点四二億円でした。ここがこの会社の一番きついところで、売上が小さいのに赤字幅が大きい。だから今の論点は、次に売る装置を増やせるかではなく、事業の単価と土俵を変えられるか、なのだ。",
+        "subtitleText": "小さい売上に対して、赤字幅が大きすぎる。",
+        "bg_image": "assets/images/wintest-finance-board.svg",
+        "asset_query": "financial stress board documentary",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2024年12月期",
+              "stats": [
+                {
+                  "icon": "売",
+                  "label": "売上高",
+                  "value": "4.29億円",
+                  "color": "#f8fafc"
+                },
+                {
+                  "icon": "赤",
+                  "label": "営業損失",
+                  "value": "12.18億円",
+                  "color": "#fb7185"
+                },
+                {
+                  "icon": "資",
+                  "label": "自己資本比率",
+                  "value": "37.4%",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 340
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "drift",
+            "intensity": 0.42,
+            "speed": 0.78
+          }
+        },
+        "duration": 874,
+        "speedScale": 1.06,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_05_finance.wav",
+        "startTime": 4316
+      },
+      {
+        "id": "wintest_long_06_turning_point_intro",
+        "speaker": "metan",
+        "sceneRole": "chapter",
+        "text": "だから、ここから先は転機候補を見るのが大事です。私は四本に整理すると見やすいと思います。より上流の検査領域。車載や電力まわりのアナログ、パワー系。中国での製造と販売ルート。そして液体レンズのような独自技術。この四本が、ウインテストが次に何で食べていきたいのかを示しています。",
+        "speechText": "だから、ここから先は転機候補を見るのが大事です。私は四本に整理すると見やすいと思います。より上流の検査領域。車載や電力まわりのアナログ、パワー系。中国での製造と販売ルート。そして液体レンズのような独自技術。この四本が、ウインテストが次に何で食べていきたいのかを示しています。",
+        "subtitleText": "転機は、上流側、パワー系、中国、液体レンズ。",
+        "bg_image": "assets/images/wintest-turning-point-board.svg",
+        "asset_query": "turning point board semiconductor analysis",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "転機の4本柱",
+              "steps": [
+                {
+                  "label": "上流側",
+                  "sub": "開発 / ウエハ"
+                },
+                {
+                  "label": "パワー",
+                  "sub": "車載 / 電力"
+                },
+                {
+                  "label": "中国",
+                  "sub": "製造 / 販売"
+                },
+                {
+                  "label": "液体レンズ",
+                  "sub": "独自技術",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 320
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.62,
+            "speed": 0.74
+          }
+        },
+        "duration": 634,
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_06_turning_point_intro.wav",
+        "startTime": 5204
+      },
+      {
+        "id": "wintest_long_07_upstream",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "一つ目は、より上流側に食い込む動きなのだ。公式の課題ページでは、ダブリューティーエス九千と、小型化したダブリューティーエス五八八ディーを出し、開発部門から量産までをシームレスにつなげる提案を進めると書いてある。さらにハイフィックスの紹介でも、前工程のウエーハ検査から後工程のパッケージ検査までカバーできると説明している。つまり、量産の末端だけでなく、開発やウエハ検査に近いところまで守備範囲を広げたいわけなのだ。",
+        "speechText": "一つ目は、より上流側に食い込む動きなのだ。公式の課題ページでは、ダブリューティーエス九千と、小型化したダブリューティーエス五八八ディーを出し、開発部門から量産までをシームレスにつなげる提案を進めると書いてある。さらにハイフィックスの紹介でも、前工程のウエーハ検査から後工程のパッケージ検査までカバーできると説明している。つまり、量産の末端だけでなく、開発やウエハ検査に近いところまで守備範囲を広げたいわけなのだ。",
+        "subtitleText": "量産の末端だけでなく、上流側へ守備範囲を広げたい。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/wts-ylft01-hifix.png",
+        "asset_query": "wintest hifix wafer package inspection official",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "従来の軸",
+                "titleColor": "#94a3b8",
+                "items": [
+                  "DDIC中心",
+                  "量産寄り",
+                  "後工程の印象"
+                ]
+              },
+              "right": {
+                "title": "次の狙い",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "WTS-9000",
+                  "WTS-588D",
+                  "開発→量産"
+                ],
+                "highlight": true
+              },
+              "tagline": "上流側まで取りに行く"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 34,
+            "duration": 340
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.64,
+            "speed": 0.78
+          }
+        },
+        "duration": 1079,
+        "speedScale": 1.05,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_07_upstream.wav",
+        "startTime": 5852
+      },
+      {
+        "id": "wintest_long_08_power",
+        "speaker": "metan",
+        "sceneRole": "fact",
+        "text": "二つ目は、車載や電力まわりです。ダブリューティーエス八九の製品情報を見ると、車載アイシーやグリーンテクノロジ向けを想定し、高電圧二千ボルト、大電流五百アンペアまで触れる汎用テストシステムだと分かります。ここが意味するのは、スマホ周辺だけでなく、パワー半導体や電源管理のような、別の需要に入り込める余地があるということです。",
+        "speechText": "二つ目は、車載や電力まわりです。ダブリューティーエス八九の製品情報を見ると、車載アイシーやグリーンテクノロジ向けを想定し、高電圧二千ボルト、大電流五百アンペアまで触れる汎用テストシステムだと分かります。ここが意味するのは、スマホ周辺だけでなく、パワー半導体や電源管理のような、別の需要に入り込める余地があるということです。",
+        "subtitleText": "車載・電力まわりへ広げられる余地。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/wts-89.png",
+        "asset_query": "wintest wts-89 automotive power official",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "パワー系で見えるもの",
+              "stats": [
+                {
+                  "icon": "EV",
+                  "label": "車載IC",
+                  "value": "車の中へ",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "HV",
+                  "label": "高電圧",
+                  "value": "2000V",
+                  "color": "#facc15"
+                },
+                {
+                  "icon": "A",
+                  "label": "大電流",
+                  "value": "500A",
+                  "color": "#fb7185"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 320
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "drift",
+            "intensity": 0.36,
+            "speed": 0.75
+          }
+        },
+        "duration": 738,
+        "speedScale": 1.07,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_08_power.wav",
+        "startTime": 6945
+      },
+      {
+        "id": "wintest_long_09_china",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "三つ目は中国ルートなのだ。会社概要では、武漢の子会社が検査装置の製造、改版、共同開発、中国半導体メーカーへの販売とサポートを担うと明記している。対処すべき課題でも、武漢で次世代型検査装置の製造移管を進め、蘇州の販売、サポート拠点も強化するとしている。トップメッセージでも、中国本土と台湾を主要市場として前面に出している。つまり販路の中心をアジアの需要地に置く戦略がかなりはっきりしているのだ。",
+        "speechText": "三つ目は中国ルートなのだ。会社概要では、武漢の子会社が検査装置の製造、改版、共同開発、中国半導体メーカーへの販売とサポートを担うと明記している。対処すべき課題でも、武漢で次世代型検査装置の製造移管を進め、蘇州の販売、サポート拠点も強化するとしている。トップメッセージでも、中国本土と台湾を主要市場として前面に出している。つまり販路の中心をアジアの需要地に置く戦略がかなりはっきりしているのだ。",
+        "subtitleText": "中国本土・台湾を主戦場に据える。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-01.png",
+        "asset_query": "wintest china taiwan route official image",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "中国ルート",
+              "steps": [
+                {
+                  "label": "武漢",
+                  "sub": "製造 / 改版 / 共同開発"
+                },
+                {
+                  "label": "蘇州",
+                  "sub": "販売 / サポート"
+                },
+                {
+                  "label": "中国・台湾",
+                  "sub": "主要市場",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 330
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.58,
+            "speed": 0.72
+          }
+        },
+        "duration": 1114,
+        "speedScale": 1.05,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_09_china.wav",
+        "startTime": 7697
+      },
+      {
+        "id": "wintest_long_10_lens",
+        "speaker": "metan",
+        "sceneRole": "fact",
+        "text": "四つ目は液体レンズ、リュウグウです。公式ページでは、電圧で液体の表面張力を変え、数ミリ秒で焦点を合わせられる、高速高精密なオンライン検査に使える技術だと説明しています。しかも機械的な変位空間がいらず、焦点範囲も広い。これは今すぐ売上の柱とまでは言えなくても、ウインテストが単なる旧型テスター会社ではなく、検査周辺の独自技術を持ち込みたい会社だと示す材料になります。",
+        "speechText": "四つ目は液体レンズ、リュウグウです。公式ページでは、電圧で液体の表面張力を変え、数ミリ秒で焦点を合わせられる、高速高精密なオンライン検査に使える技術だと説明しています。しかも機械的な変位空間がいらず、焦点範囲も広い。これは今すぐ売上の柱とまでは言えなくても、ウインテストが単なる旧型テスター会社ではなく、検査周辺の独自技術を持ち込みたい会社だと示す材料になります。",
+        "subtitleText": "液体レンズは、独自技術の象徴。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ryugu-liquid-lens.png",
+        "asset_query": "wintest ryugu liquid lens official image",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "液体レンズ RYUGU",
+              "bullets": [
+                "数ミリ秒で焦点合わせ",
+                "10mm超の広い焦点範囲",
+                "機械的変位空間が不要",
+                "オンライン検査に適用可能"
+              ],
+              "accent": "#67e8f9"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 34,
+            "duration": 330
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "drift",
+            "intensity": 0.34,
+            "speed": 0.72
+          }
+        },
+        "duration": 884,
+        "speedScale": 1.06,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_10_lens.wav",
+        "startTime": 8825
+      },
+      {
+        "id": "wintest_long_11_risks",
+        "speaker": "zundamon",
+        "sceneRole": "risk",
+        "text": "ただし、ここをそのまま復活シナリオにしてはいけないのだ。リスクは三つある。一つ目は、転機候補がまだ売上と利益に十分つながっていないこと。二つ目は、装置開発と多角化を同時に進めるので、資源が分散しやすいこと。三つ目は、赤字が続く間は資金調達や希薄化の圧力が残りやすいこと。転機はあるが、どれも数字になるまで時間がかかる。ここが一番冷静に見るべき点なのだ。",
+        "speechText": "ただし、ここをそのまま復活シナリオにしてはいけないのだ。リスクは三つある。一つ目は、転機候補がまだ売上と利益に十分つながっていないこと。二つ目は、装置開発と多角化を同時に進めるので、資源が分散しやすいこと。三つ目は、赤字が続く間は資金調達や希薄化の圧力が残りやすいこと。転機はあるが、どれも数字になるまで時間がかかる。ここが一番冷静に見るべき点なのだ。",
+        "subtitleText": "転機はある。でも数字になるまでは別問題。",
+        "bg_image": "assets/images/wintest-finance-board.svg",
+        "asset_query": "risk board finance dilution execution",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "残るリスク",
+              "bullets": [
+                "まだ利益に結びついていない",
+                "テーマが多く資源が散りやすい",
+                "資金調達・希薄化の圧力",
+                "中国依存と価格競争の難しさ"
+              ],
+              "accent": "#fb7185"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 34,
+            "duration": 340
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.54,
+            "speed": 0.74
+          }
+        },
+        "duration": 970,
+        "speedScale": 1.05,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_11_risks.wav",
+        "startTime": 9723
+      },
+      {
+        "id": "wintest_long_12_verdict",
+        "speaker": "metan",
+        "sceneRole": "verdict",
+        "text": "まとめます。ウインテストは、赤字の小型株として見るだけだと輪郭を間違えます。正体は半導体検査装置の会社。そして今は、旧主力だけでは苦しいから、より上流側、パワー系、中国ルート、液体レンズで勝負を変えようとしている段階です。つまり、転機はある。でも、転機が業績になったとはまだ言えない。ここを見誤らないのが、この会社の見方だと思います。",
+        "speechText": "まとめます。ウインテストは、赤字の小型株として見るだけだと輪郭を間違えます。正体は半導体検査装置の会社。そして今は、旧主力だけでは苦しいから、より上流側、パワー系、中国ルート、液体レンズで勝負を変えようとしている段階です。つまり、転機はある。でも、転機が業績になったとはまだ言えない。ここを見誤らないのが、この会社の見方だと思います。",
+        "subtitleText": "転機はある。数字になるまでが本番。",
+        "bg_image": "assets/images/wintest-verdict-board.svg",
+        "asset_query": "verdict board analytical documentary",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "転機はある",
+              "subline": "数字になるまでが本番",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 70,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.6,
+            "speed": 0.78
+          }
+        },
+        "duration": 816,
+        "speedScale": 1.06,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_long_12_verdict.wav",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          }
+        ],
+        "startTime": 10707
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Gravity.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "wintest_short_00_hook",
+        "speaker": "metan",
+        "sceneRole": "hook",
+        "text": "ウインテストは、半導体を作る会社ではなく、半導体を検査する装置の会社です。赤字の奥にあるのは、何を次の柱にしたいのか、という話なんです。",
+        "speechText": "ウインテストは、半導体を作る会社ではなく、半導体を検査する装置の会社です。赤字の奥にあるのは、何を次の柱にしたいのか、という話なんです。",
+        "subtitleText": "正体は半導体検査装置会社。",
+        "bg_image": "assets/images/wintest-hook-board.svg",
+        "asset_query": "wintest short hook",
+        "popups": [
+          {
+            "component": "HookHeadline",
+            "props": {
+              "tag": "6721 ウインテスト",
+              "title": "何の会社?",
+              "subtitle": "赤字の奥を見る",
+              "accentColor": "#38bdf8",
+              "secondaryColor": "#fb7185"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 86,
+            "imageHeight": 18,
+            "duration": 84,
+            "startOffset": 0
+          },
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "誤解",
+                "titleColor": "#f87171",
+                "items": [
+                  "半導体を作る会社"
+                ]
+              },
+              "right": {
+                "title": "正体",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "検査装置会社"
+                ],
+                "highlight": true
+              },
+              "tagline": "まずここが入口"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 86,
+            "imageHeight": 22,
+            "duration": 108,
+            "startOffset": 72
+          },
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "次に見るもの",
+              "steps": [
+                {
+                  "label": "上流側"
+                },
+                {
+                  "label": "パワー"
+                },
+                {
+                  "label": "中国"
+                },
+                {
+                  "label": "液体レンズ",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 20,
+            "duration": 96,
+            "startOffset": 176
+          }
+        ],
+        "duration": 288,
+        "speedScale": 1.16,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "full",
+        "voiceFile": "wintest_short_00_hook.wav",
+        "startTime": 0
+      },
+      {
+        "id": "wintest_short_01_identity",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "主力の歴史的な軸はディーディーアイシーとシーアイエスなのだ。ただ、作る会社ではなく、検査装置で食べてきた会社だと押さえるのが先なのだ。",
+        "speechText": "主力の歴史的な軸はディーディーアイシーとシーアイエスなのだ。ただ、作る会社ではなく、検査装置で食べてきた会社だと押さえるのが先なのだ。",
+        "subtitleText": "DDIC と CIS が歴史的な軸。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-08.jpg",
+        "asset_query": "wintest short official business overview",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "会社の軸",
+              "stats": [
+                {
+                  "icon": "D",
+                  "label": "DDIC",
+                  "value": "旧主力",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "C",
+                  "label": "CIS",
+                  "value": "画像検査",
+                  "color": "#67e8f9"
+                },
+                {
+                  "icon": "T",
+                  "label": "TEST",
+                  "value": "検査装置",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 32,
+            "duration": 180
+          }
+        ],
+        "duration": 285,
+        "speedScale": 1.18,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_short_01_identity.wav",
+        "startTime": 296
+      },
+      {
+        "id": "wintest_short_02_pain",
+        "speaker": "metan",
+        "sceneRole": "fact",
+        "text": "問題は、売上四点二九億円に対して営業赤字が十二点一八億円と、売上規模より赤字の重さが目立つことです。旧主力だけでは苦しいんです。",
+        "speechText": "問題は、売上四点二九億円に対して営業赤字が十二点一八億円と、売上規模より赤字の重さが目立つことです。旧主力だけでは苦しいんです。",
+        "subtitleText": "旧主力だけでは、稼ぎ方が細い。",
+        "bg_image": "assets/images/wintest-finance-board.svg",
+        "asset_query": "wintest short finance",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "数字の重さ",
+              "stats": [
+                {
+                  "icon": "売",
+                  "label": "売上高",
+                  "value": "4.29億円",
+                  "color": "#f8fafc"
+                },
+                {
+                  "icon": "赤",
+                  "label": "営業損失",
+                  "value": "12.18億円",
+                  "color": "#fb7185"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 80,
+            "imageHeight": 30,
+            "duration": 160
+          }
+        ],
+        "duration": 302,
+        "speedScale": 1.16,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_short_02_pain.wav",
+        "startTime": 589
+      },
+      {
+        "id": "wintest_short_03_turning_points",
+        "speaker": "zundamon",
+        "sceneRole": "fact",
+        "text": "転機候補は四本なのだ。上流側。パワー、車載側。中国ルート。液体レンズ。つまり、勝負の場所を変えようとしているのだ。",
+        "speechText": "転機候補は四本なのだ。上流側。パワー、車載側。中国ルート。液体レンズ。つまり、勝負の場所を変えようとしているのだ。",
+        "subtitleText": "勝負の場所を変えようとしている。",
+        "bg_image": "assets/imported/wintest-business-turning-point/wintest-official/ir-individual-01.png",
+        "asset_query": "wintest short china route and turning points",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "転機の4本柱",
+              "steps": [
+                {
+                  "label": "上流側"
+                },
+                {
+                  "label": "パワー"
+                },
+                {
+                  "label": "中国"
+                },
+                {
+                  "label": "液体レンズ",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 84,
+            "imageHeight": 30,
+            "duration": 180
+          }
+        ],
+        "duration": 306,
+        "speedScale": 1.18,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_short_03_turning_points.wav",
+        "startTime": 899
+      },
+      {
+        "id": "wintest_short_04_risk",
+        "speaker": "metan",
+        "sceneRole": "risk",
+        "text": "ただし、転機があることと、業績になったことは別です。利益化まで時間がかかるし、資金調達の圧力も残ります。",
+        "speechText": "ただし、転機があることと、業績になったことは別です。利益化まで時間がかかるし、資金調達の圧力も残ります。",
+        "subtitleText": "転機と黒字化は別問題。",
+        "bg_image": "assets/images/wintest-finance-board.svg",
+        "asset_query": "wintest short risk",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "最大の注意点",
+              "bullets": [
+                "利益化はまだ先",
+                "資金調達の圧力"
+              ],
+              "accent": "#fb7185"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 80,
+            "imageHeight": 30,
+            "duration": 150
+          }
+        ],
+        "duration": 228,
+        "speedScale": 1.16,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_short_04_risk.wav",
+        "startTime": 1213
+      },
+      {
+        "id": "wintest_short_05_verdict",
+        "speaker": "zundamon",
+        "sceneRole": "verdict",
+        "text": "つまりウインテストは、赤字の会社というより、検査装置会社が次の土俵を探している最中の会社、と見るのが一番近いのだ。",
+        "speechText": "つまりウインテストは、赤字の会社というより、検査装置会社が次の土俵を探している最中の会社、と見るのが一番近いのだ。",
+        "subtitleText": "検査装置会社が、次の土俵を探している。",
+        "bg_image": "assets/images/wintest-verdict-board.svg",
+        "asset_query": "wintest short verdict",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "転機はある",
+              "subline": "でもまだ途中",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 70,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 150
+          }
+        ],
+        "duration": 271,
+        "speedScale": 1.18,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "wintest_short_05_verdict.wav",
+        "startTime": 1449
+      }
+    ]
+  }
+}

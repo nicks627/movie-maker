@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#081325"/>
+  <text x="180" y="140" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="64" font-weight="800">グローバル供給網の終わり</text>
+  <text x="180" y="196" fill="#94A3B8" font-family="Arial, sans-serif" font-size="28" font-weight="600">コスト最優先から、陣営ごとの安全保障へ</text>
+  <rect x="180" y="280" width="500" height="520" rx="34" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="3"/>
+  <rect x="710" y="280" width="500" height="520" rx="34" fill="#111827" stroke="#EF4444" stroke-opacity="0.45" stroke-width="3"/>
+  <rect x="1240" y="280" width="500" height="520" rx="34" fill="#10211B" stroke="#22C55E" stroke-opacity="0.45" stroke-width="3"/>
+  <text x="230" y="360" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="800">米国ブロック</text>
+  <text x="230" y="420" fill="#7DD3FC" font-family="Arial, sans-serif" font-size="28" font-weight="700">設計 / 資本 / 補助金 / 規制</text>
+  <text x="230" y="500" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">先端装置の禁輸</text>
+  <text x="230" y="555" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">国内回帰の巨額支援</text>
+  <text x="230" y="610" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">同盟国への巻き込み</text>
+  <text x="760" y="360" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="800">中国ブロック</text>
+  <text x="760" y="420" fill="#FCA5A5" font-family="Arial, sans-serif" font-size="28" font-weight="700">内製化 / 成熟ノード / 価格攻勢</text>
+  <text x="760" y="500" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">最先端は抑え込まれる</text>
+  <text x="760" y="555" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">レガシーで数量を取る</text>
+  <text x="760" y="610" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">EV と家電で浸透</text>
+  <text x="1290" y="360" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="800">境界領域</text>
+  <text x="1290" y="420" fill="#86EFAC" font-family="Arial, sans-serif" font-size="28" font-weight="700">台湾 / 日本 / 欧州 / 韓国</text>
+  <text x="1290" y="500" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">供給の要所を握る</text>
+  <text x="1290" y="555" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">両陣営から圧力</text>
+  <text x="1290" y="610" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="600">脱リスクの中心</text>
+  <text x="180" y="910" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="34" font-weight="700">ポイント: 半導体は、もはや製造業の部品ではなく、国家ブロックを固定するインフラになった。</text>
+</svg>

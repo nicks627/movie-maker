@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1320" />
+      <stop offset="55%" stop-color="#16263a" />
+      <stop offset="100%" stop-color="#251713" />
+    </linearGradient>
+    <linearGradient id="alert" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)" />
+  <rect x="80" y="86" width="1760" height="908" rx="28" fill="#0f1726" stroke="#475569" stroke-width="2" />
+  <rect x="112" y="118" width="630" height="844" rx="22" fill="#121f30" />
+  <rect x="778" y="118" width="1030" height="384" rx="22" fill="#101926" />
+  <rect x="778" y="540" width="1030" height="422" rx="22" fill="#111b29" />
+  <path d="M1028 868 C1188 716 1360 674 1572 690 C1670 700 1748 738 1808 786 L1808 962 L936 962 C944 924 974 900 1028 868 Z" fill="#1f2937" />
+  <path d="M1328 620 C1380 520 1454 470 1552 446 C1636 428 1718 434 1808 470 L1808 118 L778 118 L778 502 C872 512 968 536 1060 574 C1142 608 1232 640 1328 620 Z" fill="#0b1320" opacity="0.72" />
+  <circle cx="1552" cy="238" r="74" fill="#fde68a" opacity="0.9" />
+  <path d="M1552 334 L1576 390 L1638 394 L1588 432 L1606 492 L1552 458 L1498 492 L1516 432 L1466 394 L1528 390 Z" fill="#f59e0b" opacity="0.42" />
+  <path d="M1492 660 C1522 594 1580 556 1646 556 C1710 556 1776 596 1808 664 L1808 840 C1742 812 1660 798 1560 804 C1536 744 1512 696 1492 660 Z" fill="#0f172a" stroke="#334155" stroke-width="4" />
+  <circle cx="1588" cy="670" r="26" fill="#e5e7eb" />
+  <circle cx="1686" cy="670" r="26" fill="#e5e7eb" />
+  <circle cx="1588" cy="670" r="12" fill="#111827" />
+  <circle cx="1686" cy="670" r="12" fill="#111827" />
+  <ellipse cx="1638" cy="730" rx="58" ry="44" fill="#d1d5db" />
+  <path d="M1638 712 L1668 746 L1638 760 L1608 746 Z" fill="#111827" />
+  <path d="M1524 580 L1566 526 L1604 588 Z" fill="#1f2937" />
+  <path d="M1674 588 L1710 526 L1752 580 Z" fill="#1f2937" />
+  <path d="M168 250 H642" stroke="#64748b" stroke-width="2" opacity="0.45" />
+  <text x="168" y="206" fill="#f8fafc" font-family="Arial, sans-serif" font-size="78" font-weight="700">Bear Crisis</text>
+  <text x="168" y="312" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="38">Boundary management failed before the bear arrived.</text>
+  <rect x="168" y="380" width="506" height="120" rx="16" fill="#0b1320" stroke="#334155" />
+  <text x="210" y="444" fill="#f8fafc" font-family="Arial, sans-serif" font-size="36" font-weight="700">Town / Forest Boundary</text>
+  <rect x="210" y="466" width="422" height="14" rx="7" fill="#1e293b" />
+  <rect x="210" y="466" width="170" height="14" rx="7" fill="url(#alert)" />
+  <text x="210" y="538" fill="#fca5a5" font-family="Arial, sans-serif" font-size="34" font-weight="700">Control capacity down</text>
+  <rect x="168" y="576" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
+  <rect x="422" y="576" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
+  <rect x="168" y="742" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
+  <rect x="422" y="742" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
+  <text x="198" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Food stress</text>
+  <text x="198" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Mast failure</text>
+  <text x="452" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Warm autumn</text>
+  <text x="452" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Long activity</text>
+  <text x="198" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Depopulation</text>
+  <text x="198" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Blurred buffer</text>
+  <text x="452" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Governance gap</text>
+  <text x="452" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Slow response</text>
+  <text x="844" y="204" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Official injury totals</text>
+  <text x="844" y="252" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Environment Ministry reports</text>
+  <line x1="860" y1="432" x2="1750" y2="432" stroke="#334155" stroke-width="2" />
+  <rect x="896" y="346" width="170" height="86" rx="18" fill="#334155" />
+  <rect x="1158" y="232" width="170" height="200" rx="18" fill="#f97316" />
+  <rect x="1420" y="320" width="170" height="112" rx="18" fill="#475569" />
+  <rect x="1682" y="188" width="170" height="244" rx="18" fill="#ef4444" />
+  <text x="930" y="474" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">2022</text>
+  <text x="1192" y="474" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">2023</text>
+  <text x="1454" y="474" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">2024</text>
+  <text x="1716" y="474" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">2025</text>
+  <text x="946" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="32" font-weight="700">157</text>
+  <text x="1208" y="284" fill="#111827" font-family="Arial, sans-serif" font-size="32" font-weight="700">219</text>
+  <text x="1470" y="372" fill="#f8fafc" font-family="Arial, sans-serif" font-size="32" font-weight="700">85</text>
+  <text x="1730" y="240" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">238</text>
+  <text x="844" y="616" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Political reading</text>
+  <text x="844" y="672" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">This is not only wildlife pressure.</text>
+  <text x="844" y="720" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">It is a shrinking-state capacity story.</text>
+  <text x="844" y="816" fill="#fca5a5" font-family="Arial, sans-serif" font-size="54" font-weight="700">Boundary lost.</text>
+  <text x="844" y="882" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">Town pays the price.</text>
+</svg>

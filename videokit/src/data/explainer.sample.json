@@ -1,0 +1,83 @@
+{
+  "project": {
+    "id": "starter-explainer",
+    "title": "新しい解説動画",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.08,
+    "voiceVolume": 1.2,
+    "seVolume": 0.8,
+    "voiceDucking": 0.58,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "bgm_sequence": [],
+    "scenes": [
+      {
+        "id": "starter_long_scene_00",
+        "speaker": "metan",
+        "sceneRole": "hook",
+        "text": "ここに長尺動画の導入を書きます。",
+        "speechText": "ここに長尺動画の導入を書きます。",
+        "subtitleText": "ここに長尺動画の導入を書きます。",
+        "startTime": 0,
+        "duration": 150,
+        "speedScale": 1.6,
+        "popups": []
+      },
+      {
+        "id": "starter_long_scene_01",
+        "speaker": "zundamon",
+        "sceneRole": "explanation",
+        "text": "論点を結論から先に置いて、必要なら具体例を続けます。",
+        "speechText": "論点を結論から先に置いて、必要なら具体例を続けます。",
+        "subtitleText": "論点を結論から先に置いて、必要なら具体例を続けます。",
+        "startTime": 150,
+        "duration": 180,
+        "speedScale": 1.6,
+        "popups": []
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "bgm_sequence": [],
+    "scenes": [
+      {
+        "id": "starter_short_scene_00",
+        "speaker": "metan",
+        "sceneRole": "hook",
+        "text": "ここにショート動画の冒頭を書きます。",
+        "speechText": "ここにショート動画の冒頭を書きます。",
+        "subtitleText": "ここにショート動画の冒頭を書きます。",
+        "startTime": 0,
+        "duration": 120,
+        "speedScale": 1.6,
+        "popups": []
+      },
+      {
+        "id": "starter_short_scene_01",
+        "speaker": "zundamon",
+        "sceneRole": "summary",
+        "text": "短い動画でも、要点と補足を分けて見せます。",
+        "speechText": "短い動画でも、要点と補足を分けて見せます。",
+        "subtitleText": "短い動画でも、要点と補足を分けて見せます。",
+        "startTime": 120,
+        "duration": 120,
+        "speedScale": 1.6,
+        "popups": []
+      }
+    ]
+  }
+}

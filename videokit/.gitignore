@@ -1,0 +1,57 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.local
+.venv/
+vendor/voicevox_core/
+tools/voicevox_core_downloader.exe
+tools/aquestalkplayer/
+tools/aquestalkplayer_*.zip
+
+# Render/build output
+out
+out-*.mp4
+build/
+assets-manifest.generated.json
+review-report.generated.json
+review-feedback.generated.json
+review-feedback-apply.generated.json
+.tmp-review-test/
+
+# Logs
+*.log
+*.err
+*.out
+tmp-dev-ui*.log
+
+# Generated JSON outputs
+script-*.generated.json
+script-*-review.generated.json
+gameplay_analysis.json
+cut_plan.json
+script_outline.json
+gameplay_cut_manifest.json
+
+# Python cache
+scripts/__pycache__/
+
+# Local QA / temp outputs
+.cache/
+analysis/
+analysis_frames/
+temp_frames/
+tmp_recover_preview/
+test-results/
+qa-*.jpg
+tmp-short-check-*.jpg
+scripts/_tmp_*.mjs
+src/data/*.codex-preview-backup
+
+# Local working folders
+projects/**
+!projects/
+!projects/.gitkeep
+inputs/gameplay/**
+!inputs/gameplay/
+!inputs/gameplay/.gitkeep

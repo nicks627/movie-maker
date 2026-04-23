@@ -1,0 +1,1537 @@
+{
+  "project": {
+    "id": "takaichi-cyber-infrastructure-praise",
+    "title": "高市早苗はなぜサイバーと治安で評価されるのか 国の土台を守る政治",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.28,
+    "seVolume": 0.68,
+    "voiceDucking": 0.52,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 8,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 16,
+        "file": "Indomitable.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "takaichi_cyber_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "高市早苗のもう一つの評価点は、国が壊れないための守りを政治テーマとして持ち上げ続けていることです。サイバー、特殊詐欺、闇バイト、基幹インフラ、重要物資。どれも票になりにくいのに、放置すると社会の土台が傷む。だからこの分野を継続して扱う政治家は、裏方ではかなり重く見られます。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "実務家評価",
+              "headline": "目立たない守りの人",
+              "subline": "高市早苗のもう一つの強み",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_00_hook.wav",
+        "duration": 658,
+        "startTime": 0
+      },
+      {
+        "id": "takaichi_cyber_long_01_unrewarded",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "このレーンが難しいのは、成果が見えたときには事件が起きなかった、という形になりやすいからです。サイバー事故が防がれた、港が止まらなかった、詐欺被害の拡大が抑えられた。どれも称賛より先に、何も起きなかった日常として流れやすい。だからこそ、この分野を追い続ける政治家は、目立つ人というより、国家の保守点検を担う人として評価されます。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "守りの政治が損をしやすい理由",
+              "bullets": [
+                "何も起きないことが成果になる",
+                "事件化してからしか見えにくい",
+                "派手な喝采につながりにくい"
+              ],
+              "tagline": "でも国家には不可欠",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_01_unrewarded.wav",
+        "duration": 728,
+        "startTime": 672
+      },
+      {
+        "id": "takaichi_cyber_long_02_issue_selection",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "高市氏の特徴は、この守りの分野を単発ではなく、まとめて政治テーマ化している点です。治安、テロ、サイバー犯罪、特殊詐欺、闇バイト、インフラ防衛。これらは別々の問題に見えて、実際には社会の弱点を突いてくる連続したリスクです。ここを一つの国家安定の問題として束ねる視点があるから、裏側では実務家として評価されやすい。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "ひとつながりの守り",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "治安",
+                  "sub": "特殊詐欺・闇バイト"
+                },
+                {
+                  "label": "サイバー",
+                  "sub": "デジタルの穴"
+                },
+                {
+                  "label": "インフラ",
+                  "sub": "止まらない社会",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_02_issue_selection.wav",
+        "duration": 755,
+        "startTime": 1414
+      },
+      {
+        "id": "takaichi_cyber_long_03_ldp_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "事実面でも、この軸は確認できます。自由民主党の二〇二五年六月のりぶる記事では、高市氏は治安・テロ・サイバー犯罪対策調査会の会長として、闇バイト、特殊詐欺、サイバー犯罪の撲滅を前面に語っています。そこでは、昨年十二月の闇バイト対策の緊急提言と、今年三月の組織的詐欺対策の緊急提言を総理に申し入れた流れまで整理されていました。",
+        "speechText": "事実面でも、この軸は確認できます。自由民主党のにせんにじゅうご年ろくがつのりぶる記事では、高市氏は治安 テロ サイバー犯罪対策調査会の会長として、闇バイト、特殊詐欺、サイバー犯罪の撲滅を前面に語っています。そこでは、昨年じゅうにがつの闇バイト対策の緊急提言と、今年さんがつの組織的詐欺対策の緊急提言を総理に申し入れた流れまで整理されていました。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "確認できる継続関与",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "役職",
+                  "value": "調査会会長",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "提言1",
+                  "value": "闇バイト対策",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "提言2",
+                  "value": "組織的詐欺対策",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_03_ldp_fact.wav",
+        "duration": 843,
+        "startTime": 2183
+      },
+      {
+        "id": "takaichi_cyber_long_04_politics_needed",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ここで大事なのは、こうした問題が警察だけの仕事では終わらないことです。闇バイトはSNS、通信、教育、広報、国際捜査の連携まで要る。特殊詐欺は金融や決済の穴ともつながる。サイバー犯罪は、企業や自治体や病院にも波及する。だから政治が省庁横断で課題を持ち上げ、関係機関を動かす必要がある。高市氏の強みは、そこを政治課題として明確に扱うことです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "政治が必要な理由",
+              "bullets": [
+                "省庁をまたぐ",
+                "民間にも広がる",
+                "対策を急がないと被害が増える"
+              ],
+              "tagline": "警察だけでは足りない",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_04_politics_needed.wav",
+        "duration": 842,
+        "startTime": 3040
+      },
+      {
+        "id": "takaichi_cyber_long_05_dark_jobs",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "闇バイトをここまで重く見ているのも、視点として筋がいい。あれは単なる少年犯罪でも、単なる治安悪化でもない。匿名化された通信、国境をまたぐ指示、脅迫、資金洗浄、実行役の使い捨て。つまり、デジタル社会の弱点と社会不安が結びついた新しい犯罪モデルです。これを軽く扱わず、政治が正面からテーマ化するのは、かなり現実的な判断です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "闇バイトの構造",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "匿名通信",
+                  "sub": "募集と指示"
+                },
+                {
+                  "label": "脅迫",
+                  "sub": "離脱できない"
+                },
+                {
+                  "label": "使い捨て",
+                  "sub": "新型犯罪モデル",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_05_dark_jobs.wav",
+        "duration": 782,
+        "startTime": 3896
+      },
+      {
+        "id": "takaichi_cyber_long_06_fraud",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "特殊詐欺も同じです。被害額の大きさだけが問題ではなく、高齢者の生活資金、家族の安心、地域の信頼を削っていく。さらにSNS型投資詐欺やロマンス詐欺のように、デジタル空間と金融不安が結びつく。だからこれは、治安の話であると同時に、社会の安心のインフラを守る話でもあります。高市氏がそこを政治の言葉にしているのは評価できるポイントです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "狭い見方",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "被害額だけの問題"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本当の影響",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "生活資金を削る",
+                  "社会の安心を削る"
+                ],
+                "highlight": true
+              },
+              "tagline": "金融と治安の接点"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_06_fraud.wav",
+        "duration": 771,
+        "startTime": 4692
+      },
+      {
+        "id": "takaichi_cyber_long_06b_financial_trust",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも詐欺を放置すると、失われるのはお金だけではありません。電話もSNSも決済も、全部が少しずつ信用されにくくなる。人が疑心暗鬼になれば、デジタル化も地域の助け合いも進みにくい。だから特殊詐欺対策は、単なる取り締まりではなく、社会の信頼インフラを守る仕事でもあります。高市氏がここを繰り返し政治課題にしているのは、かなり筋の良い守りです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "詐欺が削るもの",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "生活資金",
+                  "sub": "直接の被害"
+                },
+                {
+                  "label": "デジタル信用",
+                  "sub": "不信が広がる"
+                },
+                {
+                  "label": "社会の安心",
+                  "sub": "基盤が傷む",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_06b_financial_trust.wav",
+        "duration": 746,
+        "startTime": 5477
+      },
+      {
+        "id": "takaichi_cyber_long_07_cyber_state",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "サイバー犯罪やサイバー防衛も、いまや専門家だけの話ではありません。自治体のシステムが止まれば行政が止まる。病院が止まれば診療が止まる。港湾や物流が止まれば物が回らない。つまりサイバーは、国家の運転席に直結する問題です。ここを政治が正面から扱い続けるのは、デジタル時代の統治能力そのものと言っていい。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "サイバーが止めるもの",
+              "bullets": [
+                "行政システム",
+                "医療",
+                "港湾と物流"
+              ],
+              "tagline": "統治能力そのもの",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_07_cyber_state.wav",
+        "duration": 668,
+        "startTime": 6237
+      },
+      {
+        "id": "takaichi_cyber_long_08_infra_fact",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "この守りの視点は、経済安全保障の制度ともつながります。二〇二四年一月三十日の経済安全保障推進会議では、基幹インフラ制度の今後の対応が議題に入り、名古屋港のコンテナターミナルのシステム障害を受けた対応資料まで並びました。つまり政府は、サイバーとインフラを別の話としてではなく、止まらない国家の問題として整理していたわけです。",
+        "speechText": "この守りの視点は、経済安全保障の制度ともつながります。にせんにじゅうよ年いちがつさんじゅう日の経済安全保障推進会議では、基幹インフラ制度の今後の対応が議題に入り、名古屋港のコンテナターミナルのシステム障害を受けた対応資料まで並びました。つまり政府は、サイバーとインフラを別の話としてではなく、止まらない国家の問題として整理していたわけです。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2024-01-30 の基幹インフラ論点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "議題",
+                  "value": "基幹インフラ対応",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "参考事例",
+                  "value": "名古屋港障害",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "視点",
+                  "value": "止まらない国家",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 288
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_08_infra_fact.wav",
+        "duration": 753,
+        "startTime": 6919
+      },
+      {
+        "id": "takaichi_cyber_long_09_ports_logistics",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "港湾や物流は、見えにくいけれど国家の血流です。港が詰まれば輸出入が滞り、部材も燃料も生活物資も動きにくくなる。しかも今は物理の妨害だけではなく、データやシステムへの攻撃でも止められる。だから物流を守るとは、経済政策である前に国家機能を守ることでもある。こういう見方を政治が持っているかどうかは、かなり重要です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "物流が止まると起きること",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "港湾停止",
+                  "sub": "輸出入が詰まる"
+                },
+                {
+                  "label": "物資遅延",
+                  "sub": "産業と生活に波及"
+                },
+                {
+                  "label": "国家機能低下",
+                  "sub": "守りの問題になる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_09_ports_logistics.wav",
+        "duration": 712,
+        "startTime": 7686
+      },
+      {
+        "id": "takaichi_cyber_long_09b_local_state",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "見落とされがちですが、水道、自治体窓口、学校、地域医療のようなローカルな基盤も、壊れると一気に生活不安になります。国の守りは、ミサイルや外交だけではありません。住民がいつもの手続きをできる、救急が止まらない、通信がつながる。そういう足元を守ることまで含めて、はじめて壊れない国家です。高市氏の守りの政治は、この地味な層と相性がいいんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "足元の守り",
+              "bullets": [
+                "自治体窓口",
+                "学校と地域医療",
+                "水道と通信"
+              ],
+              "tagline": "壊れない国家は生活の近くにある",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_09b_local_state.wav",
+        "duration": 827,
+        "startTime": 8412
+      },
+      {
+        "id": "takaichi_cyber_long_10_medical_comms",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "医療や通信も同じです。病院のシステムが止まる、通信網が乱れる、自治体の窓口が落ちる。そうなれば、危機管理の初動から日常の安心まで全部傷みます。だから高市氏が基幹インフラやサイバーを軽く扱わないのは、治安強化の演出ではなく、社会の土台を守る感覚が強いからだと見たほうが自然です。ここはポジティブに評価しやすい点です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "守るべき日常基盤",
+              "bullets": [
+                "病院システム",
+                "通信網",
+                "自治体サービス"
+              ],
+              "tagline": "危機管理の初動にも直結",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_10_medical_comms.wav",
+        "duration": 718,
+        "startTime": 9253
+      },
+      {
+        "id": "takaichi_cyber_long_11_energy_materials",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "さらに守りの国家運営は、エネルギーや重要物資の確保ともつながります。安全保障というと軍事だけに見えますが、実際には燃料、鉱物、物流、決済、通信が回ることの方が日々の国家運営に直結します。ここが弱いと、景気対策も成長戦略も全部空回りする。高市氏の価値は、こうした土台の部分を継続的に政治の議題へ上げているところにあります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-energy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "狭い安全保障",
+                "titleColor": "#ef4444",
+                "items": [
+                  "軍事だけを見る"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "広い安全保障",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "燃料",
+                  "物流",
+                  "通信と決済"
+                ],
+                "highlight": true
+              },
+              "tagline": "土台を守る視点"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_11_energy_materials.wav",
+        "duration": 761,
+        "startTime": 9985
+      },
+      {
+        "id": "takaichi_cyber_long_12_azec_2026",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "この流れの延長線上に、二〇二六年四月十五日の官邸会見があります。エネルギー強靱化に関するエーゼックプラスのオンライン首脳会合について、日本主導でアジアの国々と、エネルギーや重要物資のサプライチェーン強靱化に取り組むと説明されました。守りの政治は国内治安だけではなく、資源と物流のレジリエンスまで広がっているわけです。",
+        "speechText": "この流れの延長線上に、にせんにじゅうろく年しがつじゅうご日の官邸会見があります。エネルギー強靱化に関するエーゼック プラスのオンライン首脳会合について、日本主導でアジアの国々と、エネルギーや重要物資のサプライチェーン強靱化に取り組むと説明されました。守りの政治は国内治安だけではなく、資源と物流のレジリエンスまで広がっているわけです。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-cyber-energy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2026-04-15 の発信",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "会合",
+                  "value": "AZEC+",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "目的",
+                  "value": "エネルギー強靱化",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "論点",
+                  "value": "重要物資の供給網",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 288
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_12_azec_2026.wav",
+        "duration": 736,
+        "startTime": 10760
+      },
+      {
+        "id": "takaichi_cyber_long_12b_supply_chain_everyday",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "エネルギーや重要物資の供給網強靱化も、実は毎日の暮らしに直結しています。燃料が遅れる、部材が詰まる、電力コストが荒れる。そうなると工場だけでなく、家計や地域経済まで揺れます。守りの政治が資源や物流まで含むのは、危機のときだけの話ではなく、平時の生活を安定させるためでもあります。高市氏がこの守備範囲を広く取っているのは、かなり実務家的です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-energy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "危機時だけ?",
+                "titleColor": "#ef4444",
+                "items": [
+                  "有事の備えだけ"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "実際",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "平時の暮らしも守る",
+                  "家計と地域経済に効く"
+                ],
+                "highlight": true
+              },
+              "tagline": "供給網の守りは日常そのもの"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_12b_supply_chain_everyday.wav",
+        "duration": 785,
+        "startTime": 11510
+      },
+      {
+        "id": "takaichi_cyber_long_13_national_continuity",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで見えてくるのは、高市氏が重視しているのが、壊れない国家という発想だということです。治安だけを切り出さない。サイバーだけにも閉じない。インフラ、物流、エネルギー、重要物資まで含めて、平時から弱点を補強する。これは危機が起きたときに一気に対応するより、ずっと地味で、ずっと重要な仕事です。だから裏側の実務評価と相性がいい。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "壊れない国家の発想",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "治安",
+                  "sub": "犯罪を抑える"
+                },
+                {
+                  "label": "サイバー",
+                  "sub": "システムを守る"
+                },
+                {
+                  "label": "供給網",
+                  "sub": "生活を止めない",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_13_national_continuity.wav",
+        "duration": 730,
+        "startTime": 12309
+      },
+      {
+        "id": "takaichi_cyber_long_14_econ_bridge",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だからこの動画のテーマは、経済安保の話と切れていません。攻めの制度設計が A なら、こちらは守りの国家運営です。供給網や重要技術を育てても、治安やサイバーやインフラが脆ければ実力を出し切れない。逆に守りだけあっても、産業や研究が弱ければ先細る。高市氏を高く見る人は、この両方を一人の中で接続できる点を評価しているはずです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "攻め",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "制度設計",
+                  "成長の条件整備"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "守り",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "治安",
+                  "サイバー",
+                  "インフラ防衛"
+                ],
+                "highlight": true
+              },
+              "tagline": "両方つながると国家運営になる"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_14_econ_bridge.wav",
+        "duration": 783,
+        "startTime": 13053
+      },
+      {
+        "id": "takaichi_cyber_long_15_inner_view",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "裏側で高く評価されやすいのは、ここです。目立たないリスクを、面倒でも継続して政治テーマにする。しかも単発の怒りではなく、提言、会議、制度、対策の流れに落としていく。これは人気取りの政治より地味ですが、国家の基礎体力には効く。高市氏を実務家として見る人がいるのは、まさにこの継続性と現実感のためです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "裏側で評価される理由",
+              "bullets": [
+                "目立たないリスクを追う",
+                "提言から制度までつなぐ",
+                "継続して持ち上げる"
+              ],
+              "tagline": "国家の基礎体力に効く",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_15_inner_view.wav",
+        "duration": 713,
+        "startTime": 13850
+      },
+      {
+        "id": "takaichi_cyber_long_16_boundary",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "もちろん、犯罪が減ったとか事故が防げたとかを、この人一人の手柄にはできません。治安やサイバーは、警察、行政、民間企業、国民の行動まで関わる複合課題です。ただ、それでも評価できるのは、票になりにくい守りの論点を、ちゃんと政治の中心に持ち込もうとしていることです。そこを褒めるなら、かなり堅いポジティブ評価になります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "言わないこと",
+                "titleColor": "#ef4444",
+                "items": [
+                  "全部この人のおかげ"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "評価すること",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "守りの論点を持ち込む",
+                  "継続して押し上げる"
+                ],
+                "highlight": true
+              },
+              "tagline": "境界を守って褒める"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_16_boundary.wav",
+        "duration": 753,
+        "startTime": 14577
+      },
+      {
+        "id": "takaichi_cyber_long_17_political_style",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかもこのスタイルは、短期の拍手より長期の安心を取りにいく政治です。今日バズる話ではなく、五年後に効く守りを積む。地味ですが、国を回すという観点ではむしろ王道です。高市氏を単に強い言葉の人として見るより、壊れない国家の保守点検を担う政治家として見るほうが、実像に近いかもしれません。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.68,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "短期",
+                "titleColor": "#ef4444",
+                "items": [
+                  "今日バズる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "長期",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "五年後に効く守り"
+                ],
+                "highlight": true
+              },
+              "tagline": "政治スタイルの違い"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 278
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_17_political_style.wav",
+        "duration": 623,
+        "startTime": 15344
+      },
+      {
+        "id": "takaichi_cyber_long_18_positive_reason",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だからこのテーマは、かなり素直にポジティブに評価できます。国を守ると言いながら、目立つ外交や大きな理念だけに逃げる政治家は多い。でも本当に国の土台を守るには、サイバー、治安、インフラ、物流、資源みたいな手間のかかる論点と付き合わなければいけない。高市氏がそこから逃げていない点は、はっきり長所と言っていいです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ポジティブに評価できる点",
+              "bullets": [
+                "地味な守りから逃げない",
+                "省庁横断の課題を扱う",
+                "国家の土台を意識している"
+              ],
+              "tagline": "ここは長所と言っていい",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_18_positive_reason.wav",
+        "duration": 698,
+        "startTime": 15981
+      },
+      {
+        "id": "takaichi_cyber_long_18b_visibility_gap",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "テレビでこの価値が伝わりにくいのは、成果が画にならないからです。何も止まらなかった、詐欺の拡大が抑えられた、供給網が持ちこたえた。こういう成果は派手なニュースになりません。でも国家運営では、むしろこちらのほうが重い。高市氏を裏側で評価する人がいるのは、この画にならない守りの価値を分かっているからだと思います。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "画にならない成果",
+              "bullets": [
+                "何も止まらなかった",
+                "拡大が抑えられた",
+                "供給網が持ちこたえた"
+              ],
+              "tagline": "地味でも国家には重い",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_18b_visibility_gap.wav",
+        "duration": 641,
+        "startTime": 16693
+      },
+      {
+        "id": "takaichi_cyber_long_19_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "高市早苗がサイバーと治安で評価される理由は、厳しい言葉を使うからではありません。票になりにくい守りの分野を、国家の安定と継続性の問題として、繰り返し政治の前面に上げているからです。表の印象では伝わりにくい。でも裏側の実務から見ると、この人はかなり分かりやすい守りの国家運営型の政治家です。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "守りの国家運営",
+              "subline": "国の土台を守る政治",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_19_verdict.wav",
+        "duration": 613,
+        "startTime": 17348
+      },
+      {
+        "id": "takaichi_cyber_long_20_close",
+        "speaker": "tsumugi",
+        "sceneRole": "close",
+        "text": "もし日本の政治が、守りの実務をもっと正当に評価するようになれば、派手な空気より、壊れない社会を作る人が報われやすくなるはずです。高市氏への評価が割れるとしても、この守りのレーンでの価値は別枠で見るべきだと思います。そこを切り分けて見られるかどうかで、政治の見え方はかなり変わります。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "切り分けて見るべき点",
+              "bullets": [
+                "発言の好き嫌い",
+                "守りの実務価値"
+              ],
+              "tagline": "ここを分けると見え方が変わる",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_20_close.wav",
+        "duration": 584,
+        "startTime": 17975
+      },
+      {
+        "id": "takaichi_cyber_long_21_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたは、政治家にどんな守りの仕事を一番求めますか。治安か、サイバーか、インフラか、それともエネルギーや物流の安定か。コメントで、一番重いと思う守りの論点をぜひ聞かせてください。",
+        "speedScale": 1.12,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "何を一番守ってほしい?",
+              "subline": "治安? サイバー? インフラ?",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 244
+          }
+        ],
+        "voiceFile": "takaichi_cyber_long_21_cta.wav",
+        "duration": 381,
+        "startTime": 18573
+      }
+    ]
+  },
+  "short": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "takaichi_cyber_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "高市早苗の強さは、実は目立たない守りの政治なんです。",
+        "speedScale": 1.22,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.04
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "実はここ",
+              "headline": "目立たない守り",
+              "subline": "高市早苗の裏側評価",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_00_hook.wav",
+        "duration": 107,
+        "startTime": 0
+      },
+      {
+        "id": "takaichi_cyber_short_01_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "二〇二五年六月の自民党記事でも、高市氏は闇バイト、特殊詐欺、サイバー犯罪の撲滅を前面に語っていました。",
+        "speechText": "にせんにじゅうご年ろくがつの自民党記事でも、高市氏は闇バイト、特殊詐欺、サイバー犯罪の撲滅を前面に語っていました。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-crime.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "確認できる継続テーマ",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "闇バイト",
+                  "value": "緊急提言",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "特殊詐欺",
+                  "value": "継続対策",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 196
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_01_fact.wav",
+        "duration": 227,
+        "startTime": 115
+      },
+      {
+        "id": "takaichi_cyber_short_02_infra",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "しかも二〇二四年一月三十日の推進会議では、基幹インフラ対応と名古屋港のシステム障害まで論点に入っていた。",
+        "speechText": "しかもにせんにじゅうよ年いちがつさんじゅう日の推進会議では、基幹インフラ対応と名古屋港のシステム障害まで論点に入っていた。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "守りの本体",
+              "headline": "インフラも見る",
+              "subline": "治安だけで終わらない",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_02_infra.wav",
+        "duration": 217,
+        "startTime": 350
+      },
+      {
+        "id": "takaichi_cyber_short_03_energy",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "さらに二〇二六年四月十五日には、エネルギーと重要物資の供給網強靱化まで、日本主導で前に出している。",
+        "speechText": "さらににせんにじゅうろく年しがつじゅうご日には、エネルギーと重要物資の供給網強靱化まで、日本主導で前に出している。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-energy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "守りの射程",
+              "bullets": [
+                "治安",
+                "サイバー",
+                "供給網"
+              ],
+              "tagline": "壊れない国家を作る",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_03_energy.wav",
+        "duration": 210,
+        "startTime": 575
+      },
+      {
+        "id": "takaichi_cyber_short_03b_local_state",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかも守る対象は、港や資源だけじゃない。病院、自治体、通信みたいな毎日の基盤です。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-infra.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "守る対象",
+              "headline": "毎日の基盤まで見る",
+              "subline": "病院 自治体 通信",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_03b_local_state.wav",
+        "duration": 196,
+        "startTime": 793
+      },
+      {
+        "id": "takaichi_cyber_short_03c_unrewarded",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "派手な成果には見えないけれど、何も壊れないこと自体が、実は一番重い成果なんです。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "守りの成果",
+              "bullets": [
+                "止まらない",
+                "壊れない",
+                "不安が広がらない"
+              ],
+              "tagline": "ここが裏側評価",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_03c_unrewarded.wav",
+        "duration": 163,
+        "startTime": 997
+      },
+      {
+        "id": "takaichi_cyber_short_03d_governance",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "守りの政治は、事件のあとに怒ることじゃなくて、その前に弱点を塞いでおく仕事なんです。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 1
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "守りの本質",
+              "headline": "先に弱点を塞ぐ政治",
+              "subline": "ここが実務家評価",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_03d_governance.wav",
+        "duration": 165,
+        "startTime": 1168
+      },
+      {
+        "id": "takaichi_cyber_short_04_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "つまりこの人の強みは、票になりにくい守りを、ちゃんと政治の仕事にしているところです。",
+        "speedScale": 1.2,
+        "bg_image": "assets/images/takaichi-cyber-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.94,
+            "speed": 1
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "守りの国家運営",
+              "subline": "土台を守るタイプ",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_04_verdict.wav",
+        "duration": 151,
+        "startTime": 1341
+      },
+      {
+        "id": "takaichi_cyber_short_05_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "こういう目立たない守りの政治は、もっと評価されるべきだと思いますか。",
+        "speedScale": 1.2,
+        "bg_image": "assets/images/takaichi-cyber-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.86,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "あなたはどう見る?",
+              "headline": "守りはもっと評価されるべき?",
+              "subline": "コメントで教えてください",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 188
+          }
+        ],
+        "voiceFile": "short_takaichi_cyber_short_05_cta.wav",
+        "duration": 114,
+        "startTime": 1500
+      }
+    ]
+  }
+}

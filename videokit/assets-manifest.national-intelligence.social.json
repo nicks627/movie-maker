@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-16T11:07:32.016Z",
+  "query": "Social media Image01",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": true,
+  "items": [
+    {
+      "id": "commons-file-social-media-image01-jpg",
+      "query": "Social media Image01",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Social_media_Image01.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Social_media_Image01.jpg",
+      "width": 626,
+      "height": 626,
+      "license": {
+        "name": "CC0",
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "raw": "{\"DateTime\":{\"value\":\"2025-10-24 14:01:24\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Social media Image01\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"CC-Zero|Icons|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Self-published work|Self-published work missing SDC copyright license\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"cartoon illustration of a boy using a smartphone surrounded by social media icons.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2025-10-24\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/w/index.php?title=User:Nada_Hany_Fouly&amp;action=edit&amp;redlink=1\\\" class=\\\"new\\\" title=\\\"User:Nada Hany Fouly (page does not exist)\\\">Nada Hany Fouly</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Zero, Public Domain Dedication\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Nada Hany Fouly",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg",
+        "text": "Nada Hany Fouly | Wikimedia Commons | CC0 | https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-16T11:07:31.393Z",
+      "tags": [],
+      "localPath": "public/assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg"
+    }
+  ]
+}

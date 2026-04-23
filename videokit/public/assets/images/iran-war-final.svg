@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08111a"/>
+      <stop offset="100%" stop-color="#211318"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect x="118" y="106" width="1684" height="868" rx="38" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+  <rect x="186" y="172" width="1548" height="170" rx="30" fill="#111827" stroke="#475569" stroke-width="3"/>
+  <rect x="186" y="390" width="460" height="470" rx="30" fill="#132130" stroke="#334155" stroke-width="3"/>
+  <rect x="730" y="390" width="460" height="470" rx="30" fill="#132130" stroke="#334155" stroke-width="3"/>
+  <rect x="1274" y="390" width="460" height="470" rx="30" fill="#132130" stroke="#334155" stroke-width="3"/>
+
+  <circle cx="316" cy="474" r="30" fill="#ef4444"/>
+  <circle cx="860" cy="474" r="30" fill="#f59e0b"/>
+  <circle cx="1404" cy="474" r="30" fill="#38bdf8"/>
+
+  <rect x="254" y="548" width="326" height="24" rx="12" fill="#f8fafc"/>
+  <rect x="254" y="596" width="278" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="254" y="632" width="296" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="254" y="668" width="240" height="18" rx="9" fill="#94a3b8"/>
+
+  <rect x="798" y="548" width="326" height="24" rx="12" fill="#f8fafc"/>
+  <rect x="798" y="596" width="288" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="798" y="632" width="304" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="798" y="668" width="246" height="18" rx="9" fill="#94a3b8"/>
+
+  <rect x="1342" y="548" width="326" height="24" rx="12" fill="#f8fafc"/>
+  <rect x="1342" y="596" width="288" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="1342" y="632" width="304" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="1342" y="668" width="246" height="18" rx="9" fill="#94a3b8"/>
+
+  <path d="M532 796H798" stroke="#475569" stroke-width="6" stroke-dasharray="10 12"/>
+  <path d="M1076 796H1342" stroke="#475569" stroke-width="6" stroke-dasharray="10 12"/>
+</svg>

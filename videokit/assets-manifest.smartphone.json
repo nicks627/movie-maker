@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-16T11:06:44.450Z",
+  "query": "smartphone social media",
+  "assetType": "image",
+  "sourceId": "wikimedia-commons",
+  "downloaded": false,
+  "items": [
+    {
+      "id": "commons-file-social-media-app-icons-on-the-screen-of-a-smartphone-jpg",
+      "query": "smartphone social media",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg/1920px-Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+      "width": 2000,
+      "height": 1600,
+      "license": {
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0",
+        "raw": "{\"DateTime\":{\"value\":\"2020-10-29 16:58:10\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Social Media App Icons On The Screen of A Smartphone\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Smartphones|Flickr images reviewed by FlickreviewR 2\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"PLEASE CREDIT THIS IMAGE PROPERLY AS PER INSTRUCTIONS BELOW IF YOU CHOOSE TO USE IT\\n<p>Want to use this image?\\n</p><p>Feel free to use this photo for your website or blog as long as you include credit. It should include a clickable link to my website as per below. Please do not link to the Flickr profile.\\n</p>\\nImage via www.vpnsrus.com\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2017-07-27\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<a rel=\\\"nofollow\\\" class=\\\"external free\\\" href=\\\"https://www.flickr.com/photos/152824664@N07/36212534755/\\\">https://www.flickr.com/photos/152824664@N07/36212534755/</a>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"mikemacmarketing\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY 2.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution 2.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by/2.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-2.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "mikemacmarketing",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg",
+        "text": "mikemacmarketing | Wikimedia Commons | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-16T11:06:44.449Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-social-media-addiction-jpg",
+      "query": "smartphone social media",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_addiction.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Social_media_addiction.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Social_media_addiction.jpg",
+      "width": 1024,
+      "height": 1024,
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "raw": "{\"DateTime\":{\"value\":\"2023-06-08 22:31:51\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Social media addiction\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"Addictions|Self-published work|People using smartphones in art|Men by DALL-E|Social media in art\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"A young man captivated by social media\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2023-06-08\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/wiki/User:Doctorxgc\\\" title=\\\"User:Doctorxgc\\\">Doctorxgc</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC BY-SA 4.0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Attribution-Share Alike 4.0\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"true\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"https://creativecommons.org/licenses/by-sa/4.0\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc-by-sa-4.0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": true,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Doctorxgc",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_addiction.jpg",
+        "text": "Doctorxgc | Wikimedia Commons | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Social_media_addiction.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-16T11:06:44.450Z",
+      "tags": []
+    },
+    {
+      "id": "commons-file-social-media-image01-jpg",
+      "query": "smartphone social media",
+      "assetType": "image",
+      "sourceId": "wikimedia-commons",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Social_media_Image01.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Social_media_Image01.jpg",
+      "width": 626,
+      "height": 626,
+      "license": {
+        "name": "CC0",
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "raw": "{\"DateTime\":{\"value\":\"2025-10-24 14:01:24\",\"source\":\"mediawiki-metadata\",\"hidden\":\"\"},\"ObjectName\":{\"value\":\"Social media Image01\",\"source\":\"mediawiki-metadata\"},\"CommonsMetadataExtension\":{\"value\":1.2,\"source\":\"extension\",\"hidden\":\"\"},\"Categories\":{\"value\":\"CC-Zero|Icons|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Self-published work|Self-published work missing SDC copyright license\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"Assessments\":{\"value\":\"\",\"source\":\"commons-categories\",\"hidden\":\"\"},\"ImageDescription\":{\"value\":\"cartoon illustration of a boy using a smartphone surrounded by social media icons.\",\"source\":\"commons-desc-page\"},\"DateTimeOriginal\":{\"value\":\"2025-10-24\",\"source\":\"commons-desc-page\"},\"Credit\":{\"value\":\"<span class=\\\"int-own-work\\\" lang=\\\"en\\\">Own work</span>\",\"source\":\"commons-desc-page\"},\"Artist\":{\"value\":\"<a href=\\\"//commons.wikimedia.org/w/index.php?title=User:Nada_Hany_Fouly&amp;action=edit&amp;redlink=1\\\" class=\\\"new\\\" title=\\\"User:Nada Hany Fouly (page does not exist)\\\">Nada Hany Fouly</a>\",\"source\":\"commons-desc-page\"},\"LicenseShortName\":{\"value\":\"CC0\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"UsageTerms\":{\"value\":\"Creative Commons Zero, Public Domain Dedication\",\"source\":\"commons-desc-page\"},\"AttributionRequired\":{\"value\":\"false\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"LicenseUrl\":{\"value\":\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\",\"source\":\"commons-desc-page\"},\"Copyrighted\":{\"value\":\"True\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"Restrictions\":{\"value\":\"\",\"source\":\"commons-desc-page\",\"hidden\":\"\"},\"License\":{\"value\":\"cc0\",\"source\":\"commons-templates\",\"hidden\":\"\"}}",
+        "attributionRequired": true,
+        "shareAlike": false,
+        "noDerivatives": false,
+        "nonCommercial": false,
+        "sourceTermsUrl": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+      },
+      "attribution": {
+        "required": true,
+        "author": "Nada Hany Fouly",
+        "provider": "Wikimedia Commons",
+        "providerUrl": "https://commons.wikimedia.org/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg",
+        "text": "Nada Hany Fouly | Wikimedia Commons | CC0 | https://commons.wikimedia.org/wiki/File:Social_media_Image01.jpg"
+      },
+      "review": {
+        "status": "needs_review",
+        "reason": "Commons file found. Verify the file-specific license and any non-copyright restrictions before publishing."
+      },
+      "fetchedAt": "2026-04-16T11:06:44.450Z",
+      "tags": []
+    }
+  ]
+}

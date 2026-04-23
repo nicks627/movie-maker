@@ -1,0 +1,221 @@
+{
+  "_comment": "Layer 1: キーワード -> SE intent の辞書。assign-se.mjs が se-manifest.json から実ファイルを選びます。",
+  "keywords": {
+    "！": {
+      "role": "accent-ping",
+      "mood": ["tech", "clean"],
+      "strength": "light",
+      "volume": 0.72,
+      "startOffset": 0
+    },
+    "？？": {
+      "role": "deflate",
+      "mood": ["awkward", "comedy"],
+      "strength": "light",
+      "volume": 0.55,
+      "startOffset": 0
+    },
+    "やばい": {
+      "role": "impact-soft",
+      "mood": ["dramatic", "energetic"],
+      "strength": "heavy",
+      "volume": 0.8,
+      "startOffset": 0
+    },
+    "マジか": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "snappy"],
+      "strength": "medium",
+      "volume": 0.68,
+      "startOffset": 0
+    },
+    "嘘だろ": {
+      "role": "deflate",
+      "mood": ["awkward", "fail"],
+      "strength": "light",
+      "volume": 0.58,
+      "startOffset": 0
+    },
+    "えっ": {
+      "role": "accent-ping",
+      "mood": ["clean", "positive"],
+      "strength": "light",
+      "volume": 0.56,
+      "startOffset": 0
+    },
+    "すごい": {
+      "role": "success-sting",
+      "mood": ["positive", "uplift"],
+      "strength": "light",
+      "volume": 0.62,
+      "startOffset": 0
+    },
+    "完璧": {
+      "role": "success-sting",
+      "mood": ["positive", "uplift"],
+      "strength": "light",
+      "volume": 0.66,
+      "startOffset": 0
+    },
+    "最強": {
+      "role": "impact-soft",
+      "mood": ["energetic", "positive"],
+      "strength": "heavy",
+      "volume": 0.78,
+      "startOffset": 0
+    },
+    "やった": {
+      "role": "success-sting",
+      "mood": ["positive", "uplift"],
+      "strength": "light",
+      "volume": 0.75,
+      "startOffset": 0
+    },
+    "勝利": {
+      "role": "impact-soft",
+      "mood": ["dramatic", "positive"],
+      "strength": "heavy",
+      "volume": 0.82,
+      "startOffset": 0
+    },
+    "失敗": {
+      "role": "deflate",
+      "mood": ["fail", "comedy"],
+      "strength": "light",
+      "volume": 0.64,
+      "startOffset": 0
+    },
+    "死んだ": {
+      "role": "deflate",
+      "mood": ["fail", "awkward"],
+      "strength": "light",
+      "volume": 0.66,
+      "startOffset": 0
+    },
+    "逆転": {
+      "role": "impact-soft",
+      "mood": ["dramatic", "energetic"],
+      "strength": "heavy",
+      "volume": 0.82,
+      "startOffset": 0
+    },
+    "キル": {
+      "role": "impact-soft",
+      "mood": ["energetic", "serious"],
+      "strength": "heavy",
+      "volume": 0.78,
+      "startOffset": 0
+    },
+    "ボス": {
+      "role": "impact-soft",
+      "mood": ["dramatic", "serious"],
+      "strength": "heavy",
+      "volume": 0.82,
+      "startOffset": 0
+    },
+    "注目": {
+      "role": "accent-ping",
+      "mood": ["tech", "clean"],
+      "strength": "light",
+      "volume": 0.62,
+      "startOffset": 0
+    },
+    "重要": {
+      "role": "accent-ping",
+      "mood": ["tech", "clean"],
+      "strength": "light",
+      "volume": 0.62,
+      "startOffset": 0
+    },
+    "ポイント": {
+      "role": "accent-ping",
+      "mood": ["tech", "clean"],
+      "strength": "light",
+      "volume": 0.58,
+      "startOffset": 0
+    },
+    "なるほど": {
+      "role": "success-sting",
+      "mood": ["positive", "clean"],
+      "strength": "light",
+      "volume": 0.52,
+      "startOffset": 0
+    },
+    "笑": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "playful"],
+      "strength": "medium",
+      "volume": 0.54,
+      "startOffset": 0
+    },
+    "ww": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "playful"],
+      "strength": "medium",
+      "volume": 0.54,
+      "startOffset": 0
+    },
+    "ｗｗ": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "playful"],
+      "strength": "medium",
+      "volume": 0.54,
+      "startOffset": 0
+    }
+  },
+  "emotions": {
+    "怒り": { "intensityMultiplier": 1.3 },
+    "驚き": { "intensityMultiplier": 1.2 },
+    "興奮": { "intensityMultiplier": 1.4 },
+    "笑い": { "intensityMultiplier": 0.9 },
+    "恐怖": { "intensityMultiplier": 1.2 },
+    "落胆": { "intensityMultiplier": 0.8 },
+    "通常": { "intensityMultiplier": 1.0 },
+    "普通": { "intensityMultiplier": 1.0 },
+    "無": { "intensityMultiplier": 0.9 }
+  },
+  "emphasisEmotionSE": {
+    "_comment": "emotionだけでSEを付けるパターン。優先度は keyword より低い。",
+    "驚き": {
+      "role": "accent-ping",
+      "mood": ["tech", "clean"],
+      "strength": "light",
+      "volume": 0.5
+    },
+    "興奮": {
+      "role": "impact-soft",
+      "mood": ["energetic", "dramatic"],
+      "strength": "heavy",
+      "volume": 0.56
+    },
+    "恐怖": {
+      "role": "impact-soft",
+      "mood": ["serious", "dramatic"],
+      "strength": "heavy",
+      "volume": 0.55
+    },
+    "怒り": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "snappy"],
+      "strength": "medium",
+      "volume": 0.5
+    }
+  },
+  "temperatureThresholds": {
+    "low": { "max": 0.3, "intensityMultiplier": 0.7 },
+    "mid": { "max": 0.6, "intensityMultiplier": 1.0 },
+    "high": { "max": 1.0, "intensityMultiplier": 1.35 }
+  },
+  "emotionWeights": {
+    "怒り": 0.8,
+    "驚き": 0.7,
+    "興奮": 0.9,
+    "笑い": 0.5,
+    "恐怖": 0.7,
+    "落胆": 0.4,
+    "通常": 0.2,
+    "普通": 0.2,
+    "無": 0.15
+  },
+  "defaultSEDurationFrames": 36
+}

@@ -1,0 +1,1940 @@
+{
+  "project": {
+    "id": "cbdc-surveillance",
+    "title": "CBDCの正体 便利な通貨か 監視インフラか",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.2,
+    "seVolume": 0.68,
+    "voiceDucking": 0.56,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 16,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "cbdc_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "CBDCの本題は、支払いが速くなることではありません。お金そのものが、見える化されやすいインフラへ変わるかもしれないことです。便利なデジタル通貨に見えて、実は主導権の話かもしれない。そこがこのテーマの怖い入口です。",
+        "speechText": "CBDCの本題は、支払いが速くなることではありません。お金そのものが、見える化されやすいインフラへ変わるかもしれないことです。便利なデジタル通貨に見えて、実は主導権の話かもしれない。そこがこのテーマの怖い入口です。",
+        "duration": 366,
+        "startTime": 0,
+        "speedScale": 1.38,
+        "asset_query": "cbdc surveillance digital money political documentary",
+        "bg_image": "assets/images/cbdc-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "CBDCの正体",
+              "headline": "監視する通貨か",
+              "subline": "便利さより お金の主導権",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "cbdc_long_00_hook.wav"
+      },
+      {
+        "id": "cbdc_long_01_definition",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "まず確認です。CBDCは、中央銀行が発行するデジタルな公的通貨です。民間の決済アプリや暗号資産とは違って、国家のお金そのものがデジタル化するイメージに近い。だから単なる新サービスではなく、通貨の設計変更として見る必要があります。",
+        "speechText": "まず確認です。CBDCは、中央銀行が発行するデジタルな公的通貨です。民間の決済アプリや暗号資産とは違って、国家のお金そのものがデジタル化するイメージに近い。だから単なる新サービスではなく、通貨の設計変更として見る必要があります。",
+        "duration": 464,
+        "startTime": 380,
+        "speedScale": 1.24,
+        "asset_query": "central bank digital currency definition explainer",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "CBDCとは",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "発行主体",
+                  "value": "中央銀行",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "性格",
+                  "value": "公的なお金",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "論点",
+                  "value": "通貨の設計",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 236
+          }
+        ],
+        "voiceFile": "cbdc_long_01_definition.wav"
+      },
+      {
+        "id": "cbdc_long_02_bis",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ここで、陰謀論っぽい話から一度離れます。BISの2024年調査では、93の中央銀行のうち91パーセントが、小売りかホールセールか、どちらかのCBDCを探っていました。しかも現金の減少、トークン化、ステーブルコインが、この検討を押し上げていると整理されています。世界が本当に動いているのは事実です。",
+        "speechText": "ここで、陰謀論っぽい話から一度離れます。BISの2024年調査では、93の中央銀行のうち91パーセントが、小売りかホールセールか、どちらかのCBDCを探っていました。しかも現金の減少、トークン化、ステーブルコインが、この検討を押し上げていると整理されています。世界が本当に動いているのは事実です。",
+        "duration": 586,
+        "startTime": 858,
+        "speedScale": 1.32,
+        "asset_query": "BIS central banks cbdc global survey",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "BIS 2024調査",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "調査対象",
+                  "value": "93中銀",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "探索中",
+                  "value": "91%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "推進要因",
+                  "value": "現金減少とステーブルコイン",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "cbdc_long_02_bis.wav"
+      },
+      {
+        "id": "cbdc_long_03_euro",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ヨーロッパは特に分かりやすいです。ECBはデジタルユーロの準備を進めていて、2025年後半には次の技術フェーズへ移る流れを示しました。さらに、法整備が進めば2029年に発行準備が整う想定まで出ています。つまり欧州は、もう概念説明の段階ではありません。",
+        "speechText": "ヨーロッパは特に分かりやすいです。ECBはデジタルユーロの準備を進めていて、2025年後半には次の技術フェーズへ移る流れを示しました。さらに、法整備が進めば2029年に発行準備が整う想定まで出ています。つまり欧州は、もう概念説明の段階ではありません。",
+        "duration": 505,
+        "startTime": 1458,
+        "speedScale": 1.22,
+        "asset_query": "digital euro preparation phase Europe cbdc",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "EUの進み方",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "準備段階",
+                  "sub": "制度と技術"
+                },
+                {
+                  "label": "次フェーズ",
+                  "sub": "2025後半"
+                },
+                {
+                  "label": "発行準備",
+                  "sub": "2029想定",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "cbdc_long_03_euro.wav"
+      },
+      {
+        "id": "cbdc_long_04_ecb_privacy",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ただしECBは、自分たちでもかなり慎重な言い方をしています。デジタルユーロは現金を置き換えるのではなく補完するもの。プライバシーも重視する。さらに銀行の役割を壊しすぎないよう、保有上限や設計上の安全策まで議論しています。つまり欧州は、便利さだけで押しているわけではありません。",
+        "speechText": "ただしECBは、自分たちでもかなり慎重な言い方をしています。デジタルユーロは現金を置き換えるのではなく補完するもの。プライバシーも重視する。さらに銀行の役割を壊しすぎないよう、保有上限や設計上の安全策まで議論しています。つまり欧州は、便利さだけで押しているわけではありません。",
+        "duration": 496,
+        "startTime": 1977,
+        "speedScale": 1.32,
+        "asset_query": "digital euro privacy cash complement holding limit",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ECBが前面に出すこと",
+              "bullets": [
+                "現金の補完",
+                "プライバシー重視",
+                "保有上限と安全策"
+              ],
+              "tagline": "便利さだけでは語っていない",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 254
+          }
+        ],
+        "voiceFile": "cbdc_long_04_ecb_privacy.wav"
+      },
+      {
+        "id": "cbdc_long_05_uk",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "イギリスも似ています。デジタルポンドは2026年まで設計段階で、まだ発行の最終決定はしていません。それでも設計文書では、他のお金とどう相互運用するか、預金が一気に動いたら信用供給がどう傷むかまで議論しています。まだ出していないのに、もう副作用の設計に入っているわけです。",
+        "speechText": "イギリスも似ています。デジタルポンドは2026年まで設計段階で、まだ発行の最終決定はしていません。それでも設計文書では、他のお金とどう相互運用するか、預金が一気に動いたら信用供給がどう傷むかまで議論しています。まだ出していないのに、もう副作用の設計に入っているわけです。",
+        "duration": 528,
+        "startTime": 2487,
+        "speedScale": 1.22,
+        "asset_query": "digital pound design phase bank of england",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "英国の立ち位置",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "現在地",
+                  "value": "設計段階",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "期限感",
+                  "value": "2026まで",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "未決",
+                  "value": "発行は未定",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 238
+          }
+        ],
+        "voiceFile": "cbdc_long_05_uk.wav"
+      },
+      {
+        "id": "cbdc_long_06_japan",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "日本銀行も止まってはいません。2023年にパイロットへ入り、2025年6月時点の発言でも、その試行は続いています。日本ではまだ現金が使える場面が多いから、すぐ発行という空気ではない。でも日銀自身が、現金利用が大きく落ちる可能性は無視できないと言っています。日本も準備だけは進めているんです。",
+        "speechText": "日本銀行も止まってはいません。2023年にパイロットへ入り、2025年6月時点の発言でも、その試行は続いています。日本ではまだ現金が使える場面が多いから、すぐ発行という空気ではない。でも日銀自身が、現金利用が大きく落ちる可能性は無視できないと言っています。日本も準備だけは進めているんです。",
+        "duration": 536,
+        "startTime": 3029,
+        "speedScale": 1.34,
+        "asset_query": "Bank of Japan cbdc pilot digital yen",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "日本の現在地",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "パイロット開始",
+                  "value": "2023",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "2025時点",
+                  "value": "試行継続",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "発行決定",
+                  "value": "まだない",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 238
+          }
+        ],
+        "voiceFile": "cbdc_long_06_japan.wav"
+      },
+      {
+        "id": "cbdc_long_07_us",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "アメリカは逆に割れています。FRBは、CBDC発行は決めていないし、明確な授権法が必要だと言っています。一方でホワイトハウスは2025年1月23日の大統領令で、米国の管轄内外でCBDCを設立、発行、推進する行為を原則禁止し、進行中の計画も止めろと打ち出しました。同じ大国でも、温度差はかなり大きいんです。",
+        "speechText": "アメリカは逆に割れています。FRBは、CBDC発行は決めていないし、明確な授権法が必要だと言っています。一方でホワイトハウスは2025年1月23日の大統領令で、米国の管轄内外でCBDCを設立、発行、推進する行為を原則禁止し、進行中の計画も止めろと打ち出しました。同じ大国でも、温度差はかなり大きいんです。",
+        "duration": 688,
+        "startTime": 3579,
+        "speedScale": 1.2,
+        "asset_query": "Federal Reserve White House CBDC split policy",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "FRB",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "発行は未決定",
+                  "授権法が必要"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "ホワイトハウス",
+                "titleColor": "#ef4444",
+                "items": [
+                  "2025年1月23日",
+                  "推進を原則禁止"
+                ],
+                "highlight": true
+              },
+              "tagline": "米国は一枚岩ではない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "cbdc_long_07_us.wav"
+      },
+      {
+        "id": "cbdc_long_08_china",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "そして中国です。ここは世界の中でもかなり前に出ています。2025年末時点の官方発表では、デジタル人民元の累計取引は34億8000万件、金額は16兆7000億元に達したとされました。しかも2026年から管理枠組みを強化し、預金的な性格まで明確にする流れが出ています。進み方の速さという意味では、無視できません。",
+        "speechText": "そして中国です。ここは世界の中でもかなり前に出ています。2025年末時点の官方発表では、デジタル人民元の累計取引は34億8000万件、金額は16兆7000億元に達したとされました。しかも2026年から管理枠組みを強化し、預金的な性格まで明確にする流れが出ています。進み方の速さという意味では、無視できません。",
+        "duration": 613,
+        "startTime": 4281,
+        "speedScale": 1.28,
+        "asset_query": "China digital yuan e-CNY scale official",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "中国の進み方",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "累計取引",
+                  "value": "34.8億件",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "累計金額",
+                  "value": "16.7兆元",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "2026",
+                  "value": "管理強化",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "cbdc_long_08_china.wav"
+      },
+      {
+        "id": "cbdc_long_09_sales_pitch",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "ここまでを並べると、各国の宣伝文句はだいたい似ています。決済の効率化。災害や障害への強さ。民間決済への過度な依存を減らすこと。国際競争力や通貨主権の確保。表向きの説明だけ読めば、むしろ合理的で現代的な更新に見えます。",
+        "speechText": "ここまでを並べると、各国の宣伝文句はだいたい似ています。決済の効率化。災害や障害への強さ。民間決済への過度な依存を減らすこと。国際競争力や通貨主権の確保。表向きの説明だけ読めば、むしろ合理的で現代的な更新に見えます。",
+        "duration": 464,
+        "startTime": 4908,
+        "speedScale": 1.22,
+        "asset_query": "cbdc efficiency resilience sovereignty explainer",
+        "bg_image": "assets/images/cbdc-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "表向きの売り文句",
+              "bullets": [
+                "効率化",
+                "レジリエンス",
+                "主権と競争力"
+              ],
+              "tagline": "ここだけ読むと合理的",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 236
+          }
+        ],
+        "voiceFile": "cbdc_long_09_sales_pitch.wav"
+      },
+      {
+        "id": "cbdc_long_10_not_speed",
+        "speaker": "tsumugi",
+        "sceneRole": "reveal",
+        "text": "でも、この話を本当に見るなら、速いか遅いかで止まってはいけません。論点は、誰が支払いのレールを握るのか。誰が残高や保有上限を設計するのか。誰がデータの見え方に触れるのかです。便利さの顔をしていますが、裏側ではお金の統治構造そのものが動いています。",
+        "speechText": "でも、この話を本当に見るなら、速いか遅いかで止まってはいけません。論点は、誰が支払いのレールを握るのか。誰が残高や保有上限を設計するのか。誰がデータの見え方に触れるのかです。便利さの顔をしていますが、裏側ではお金の統治構造そのものが動いています。",
+        "duration": 453,
+        "startTime": 5386,
+        "speedScale": 1.34,
+        "asset_query": "money control rails surveillance infrastructure",
+        "bg_image": "assets/images/cbdc-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "ここが本題",
+              "headline": "速さではない",
+              "subline": "誰がお金のレールを握るか",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 230
+          }
+        ],
+        "voiceFile": "cbdc_long_10_not_speed.wav"
+      },
+      {
+        "id": "cbdc_long_11_architecture",
+        "speaker": "ryusei",
+        "sceneRole": "explanation",
+        "text": "設計図をかなり単純化すると、中央銀行、仲介する銀行や決済事業者、利用者のウォレット、この三層になります。問題は、そのどこに本人確認が入り、どこに取引情報が見え、どこで制御がかかるかです。同じCBDCでも、この設計次第で、自由度はかなり変わります。",
+        "speechText": "設計図をかなり単純化すると、中央銀行、仲介する銀行や決済事業者、利用者のウォレット、この三層になります。問題は、そのどこに本人確認が入り、どこに取引情報が見え、どこで制御がかかるかです。同じCBDCでも、この設計次第で、自由度はかなり変わります。",
+        "duration": 556,
+        "startTime": 5853,
+        "speedScale": 1.22,
+        "asset_query": "cbdc architecture wallet bank central bank data",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "CBDCの基本構造",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "中央銀行",
+                  "sub": "発行と元帳"
+                },
+                {
+                  "label": "仲介機関",
+                  "sub": "銀行・決済事業者"
+                },
+                {
+                  "label": "利用者",
+                  "sub": "ウォレットと支払い",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_11_architecture.wav"
+      },
+      {
+        "id": "cbdc_long_12_privacy_vs_design",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ここで大事なのは、プライバシー重視という言葉自体を、そのまま安心材料にしないことです。プライバシーは理念ではなく設計の問題だからです。誰がどの粒度で見られるのか。リアルタイムなのか、必要時だけなのか。オフライン決済は可能か。ここまで降りないと、本当の意味は分かりません。",
+        "speechText": "ここで大事なのは、プライバシー重視という言葉自体を、そのまま安心材料にしないことです。プライバシーは理念ではなく設計の問題だからです。誰がどの粒度で見られるのか。リアルタイムなのか、必要時だけなのか。オフライン決済は可能か。ここまで降りないと、本当の意味は分かりません。",
+        "duration": 472,
+        "startTime": 6423,
+        "speedScale": 1.34,
+        "asset_query": "privacy by design digital currency surveillance risk",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "言葉",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "プライバシー重視",
+                  "現金を補完"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "設計で決まる",
+                "titleColor": "#ef4444",
+                "items": [
+                  "誰が見えるか",
+                  "どこで止められるか"
+                ],
+                "highlight": true
+              },
+              "tagline": "理念より仕様"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 262
+          }
+        ],
+        "voiceFile": "cbdc_long_12_privacy_vs_design.wav"
+      },
+      {
+        "id": "cbdc_long_13_identity",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも西側の主要案は、完全匿名のデジタル現金ではありません。多くは民間の仲介機関を通じる中間型で、本人確認や規制対応をどう通すかが前提になっています。犯罪対策としては当然に見えても、その前提は、完全に切り離された私的な支払い空間を狭くする方向へ働きます。",
+        "speechText": "しかも西側の主要案は、完全匿名のデジタル現金ではありません。多くは民間の仲介機関を通じる中間型で、本人確認や規制対応をどう通すかが前提になっています。犯罪対策としては当然に見えても、その前提は、完全に切り離された私的な支払い空間を狭くする方向へ働きます。",
+        "duration": 534,
+        "startTime": 6909,
+        "speedScale": 1.22,
+        "asset_query": "intermediated cbdc identity verification KYC",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "主要案の前提",
+              "bullets": [
+                "仲介機関を通す",
+                "本人確認が入る",
+                "規制対応を前提化"
+              ],
+              "tagline": "完全匿名ではない",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_13_identity.wav"
+      },
+      {
+        "id": "cbdc_long_14_limits",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "保有上限の議論も同じです。欧州や英国が何を恐れているかと言えば、CBDCが便利すぎると銀行預金が一気に逃げることです。つまり、口座にいくら置けるかを設計で決める話が、最初から出てくる。これは監視の証拠ではありませんが、お金の自由度が制度設計で絞られることは意味しています。",
+        "speechText": "保有上限の議論も同じです。欧州や英国が何を恐れているかと言えば、CBDCが便利すぎると銀行預金が一気に逃げることです。つまり、口座にいくら置けるかを設計で決める話が、最初から出てくる。これは監視の証拠ではありませんが、お金の自由度が制度設計で絞られることは意味しています。",
+        "duration": 481,
+        "startTime": 7457,
+        "speedScale": 1.34,
+        "asset_query": "CBDC holding limits bank deposits risk",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "保有上限が出る理由",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "便利すぎる",
+                  "sub": "預金が動く"
+                },
+                {
+                  "label": "銀行が弱る",
+                  "sub": "信用供給に波及"
+                },
+                {
+                  "label": "上限を設ける",
+                  "sub": "設計で抑える",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_14_limits.wav"
+      },
+      {
+        "id": "cbdc_long_15_banks",
+        "speaker": "ryusei",
+        "sceneRole": "banking",
+        "text": "ここで初めて、銀行との水面下の攻防が見えてきます。いまの銀行は、預金を集め、決済を回し、その手数料や顧客接点を握ることで力を持っています。もし国家系のデジタル通貨が、そのレールの一部を公的に置き換えたら、既存銀行の優位はかなり揺れます。だから静かでも争いは深いんです。",
+        "speechText": "ここで初めて、銀行との水面下の攻防が見えてきます。いまの銀行は、預金を集め、決済を回し、その手数料や顧客接点を握ることで力を持っています。もし国家系のデジタル通貨が、そのレールの一部を公的に置き換えたら、既存銀行の優位はかなり揺れます。だから静かでも争いは深いんです。",
+        "duration": 559,
+        "startTime": 7952,
+        "speedScale": 1.22,
+        "asset_query": "banks deposits payment rails cbdc conflict",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "裏の争点",
+              "headline": "政府 vs 銀行",
+              "subline": "決済レールの主導権",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 230
+          }
+        ],
+        "voiceFile": "cbdc_long_15_banks.wav"
+      },
+      {
+        "id": "cbdc_long_16_disintermediation",
+        "speaker": "tsumugi",
+        "sceneRole": "banking",
+        "text": "しかも、これは批判側の想像だけではありません。ECBも英国中銀も、銀行から預金が流出するリスクを公式に書いています。専門用語ではディスインターミディエーション、つまり銀行を飛ばして資金が別のレールへ移ることです。公式の議論がここまで来ている時点で、争点が単なるアプリ論ではないことははっきりしています。",
+        "speechText": "しかも、これは批判側の想像だけではありません。ECBも英国中銀も、銀行から預金が流出するリスクを公式に書いています。専門用語ではディスインターミディエーション、つまり銀行を飛ばして資金が別のレールへ移ることです。公式の議論がここまで来ている時点で、争点が単なるアプリ論ではないことははっきりしています。",
+        "duration": 505,
+        "startTime": 8525,
+        "speedScale": 1.34,
+        "asset_query": "bank disintermediation cbdc official concern",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "公式に出てくる懸念",
+              "bullets": [
+                "預金流出",
+                "信用供給の弱まり",
+                "銀行の役割低下"
+              ],
+              "tagline": "想像だけではない",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 254
+          }
+        ],
+        "voiceFile": "cbdc_long_16_disintermediation.wav"
+      },
+      {
+        "id": "cbdc_long_17_stablecoins",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "さらにややこしいのは、CBDCだけが競争相手ではないことです。BISの調査では、ステーブルコインやトークン化も各国の検討を押したと書かれています。国家は、民間のデジタルドルや巨大プラットフォーム決済に全部を渡したくない。だから公的なレールを残したい。この政治的な焦りもかなり大きいんです。",
+        "speechText": "さらにややこしいのは、CBDCだけが競争相手ではないことです。BISの調査では、ステーブルコインやトークン化も各国の検討を押したと書かれています。国家は、民間のデジタルドルや巨大プラットフォーム決済に全部を渡したくない。だから公的なレールを残したい。この政治的な焦りもかなり大きいんです。",
+        "duration": 535,
+        "startTime": 9044,
+        "speedScale": 1.22,
+        "asset_query": "stablecoins tokenization cbdc public payment rails",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "国家が恐れること",
+                "titleColor": "#ef4444",
+                "items": [
+                  "民間通貨に主導権を奪われる",
+                  "決済の公共性が薄れる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "だから残したいもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "公的レール",
+                  "通貨主権"
+                ],
+                "highlight": true
+              },
+              "tagline": "焦りも推進力"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "cbdc_long_17_stablecoins.wav"
+      },
+      {
+        "id": "cbdc_long_18_sovereignty",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "欧州がデジタルユーロで繰り返す主権という言葉も、ここにつながります。外国系カードネットワークや巨大IT決済に依存しすぎると、通貨があってもレールは他人のものになる。だからCBDCは、便利な財布ではなく、国家が支払いの基盤をどこまで持ち続けるかという話でもあるんです。",
+        "speechText": "欧州がデジタルユーロで繰り返す主権という言葉も、ここにつながります。外国系カードネットワークや巨大IT決済に依存しすぎると、通貨があってもレールは他人のものになる。だからCBDCは、便利な財布ではなく、国家が支払いの基盤をどこまで持ち続けるかという話でもあるんです。",
+        "duration": 446,
+        "startTime": 9593,
+        "speedScale": 1.34,
+        "asset_query": "payment sovereignty digital euro Europe",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "主権という論点",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "通貨は自国",
+                  "sub": "でも"
+                },
+                {
+                  "label": "決済レールは他国",
+                  "sub": "依存が深い"
+                },
+                {
+                  "label": "公的レールを残す",
+                  "sub": "CBDCの動機",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_18_sovereignty.wav"
+      },
+      {
+        "id": "cbdc_long_19_cash_decline",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ただし、ここで現金の存在を軽く見ると危ないです。現金がしっかり残っている間は、デジタル設計が気に入らなければ逃げ場があります。でも現金が細るほど、デジタルな設計条件が生活の土台に近づく。つまり怖いのは、明日いきなり監視社会になることより、選択肢が少しずつ減っていくことです。",
+        "speechText": "ただし、ここで現金の存在を軽く見ると危ないです。現金がしっかり残っている間は、デジタル設計が気に入らなければ逃げ場があります。でも現金が細るほど、デジタルな設計条件が生活の土台に近づく。つまり怖いのは、明日いきなり監視社会になることより、選択肢が少しずつ減っていくことです。",
+        "duration": 528,
+        "startTime": 10053,
+        "speedScale": 1.22,
+        "asset_query": "cash decline digital payments choice freedom",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "現金が細ると",
+              "bullets": [
+                "逃げ場が減る",
+                "設計条件が生活へ近づく",
+                "選択肢が徐々に薄くなる"
+              ],
+              "tagline": "ここがじわっと怖い",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 254
+          }
+        ],
+        "voiceFile": "cbdc_long_19_cash_decline.wav"
+      },
+      {
+        "id": "cbdc_long_20_freeze_fear",
+        "speaker": "tsumugi",
+        "sceneRole": "fear",
+        "text": "視聴者が一番反応するのは、凍結や制限の話でしょう。思想が気に入らない人の口座を止められるのか。購買履歴でスコアリングされるのか。こうした不安が広がるのは自然です。お金のレールが中央設計に近づくほど、その疑いは消えにくくなります。",
+        "speechText": "視聴者が一番反応するのは、凍結や制限の話でしょう。思想が気に入らない人の口座を止められるのか。購買履歴でスコアリングされるのか。こうした不安が広がるのは自然です。お金のレールが中央設計に近づくほど、その疑いは消えにくくなります。",
+        "duration": 398,
+        "startTime": 10595,
+        "speedScale": 1.34,
+        "asset_query": "account freeze surveillance social credit fear money",
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最大の不安",
+              "headline": "凍結できるのか",
+              "subline": "スコアリングはあるのか",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 232
+          }
+        ],
+        "voiceFile": "cbdc_long_20_freeze_fear.wav"
+      },
+      {
+        "id": "cbdc_long_21_not_confirmed",
+        "speaker": "ryusei",
+        "sceneRole": "clarifier",
+        "text": "ただし、ここは線を引かなければいけません。今回見た欧州、英国、日本、米国の公式資料から、特定思想の人を自動スコアリングして口座を凍結する実装が確認できるわけではありません。そこを事実として断定すると、一気に雑になります。怖さを語るほど、確認済みと未確認を分ける必要があります。",
+        "speechText": "ただし、ここは線を引かなければいけません。今回見た欧州、英国、日本、米国の公式資料から、特定思想の人を自動スコアリングして口座を凍結する実装が確認できるわけではありません。そこを事実として断定すると、一気に雑になります。怖さを語るほど、確認済みと未確認を分ける必要があります。",
+        "duration": 573,
+        "startTime": 11007,
+        "speedScale": 1.2,
+        "asset_query": "fact check official cbdc documents",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "確認できたこと",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "設計検討と実証",
+                  "上限や銀行保護の議論"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "未確認なこと",
+                "titleColor": "#ef4444",
+                "items": [
+                  "思想スコアで凍結",
+                  "西側での実装確定"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここは混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 262
+          }
+        ],
+        "voiceFile": "cbdc_long_21_not_confirmed.wav"
+      },
+      {
+        "id": "cbdc_long_22_control_layer",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "それでも、懸念が空騒ぎとは言い切れません。理由は簡単で、議論の中心がすでに、どこまで見えるか、いくら持てるか、誰が仲介するかという制御層に移っているからです。現時点で思想スコアがなくても、設計の論点自体が、お金をどこまで条件付きにできるかへ近づいています。",
+        "speechText": "それでも、懸念が空騒ぎとは言い切れません。理由は簡単で、議論の中心がすでに、どこまで見えるか、いくら持てるか、誰が仲介するかという制御層に移っているからです。現時点で思想スコアがなくても、設計の論点自体が、お金をどこまで条件付きにできるかへ近づいています。",
+        "duration": 477,
+        "startTime": 11594,
+        "speedScale": 1.34,
+        "asset_query": "programmable money control layer CBDC",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "制御層の論点",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "誰が見えるか",
+                  "sub": "可視性"
+                },
+                {
+                  "label": "いくら持てるか",
+                  "sub": "上限"
+                },
+                {
+                  "label": "どう使えるか",
+                  "sub": "条件付け",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 254
+          }
+        ],
+        "voiceFile": "cbdc_long_22_control_layer.wav"
+      },
+      {
+        "id": "cbdc_long_23_if_cash_thins",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "だから、将来のリスクは単体の機能より組み合わせで見たほうがいいんです。本人確認、残高上限、仲介機関、支払いデータ、そして現金の弱体化。この五つが重なるほど、国家と大手金融機関が共有するルールの重みが増します。危ないのは、一発の独裁ボタンより、逃げ道が減った設計です。",
+        "speechText": "だから、将来のリスクは単体の機能より組み合わせで見たほうがいいんです。本人確認、残高上限、仲介機関、支払いデータ、そして現金の弱体化。この五つが重なるほど、国家と大手金融機関が共有するルールの重みが増します。危ないのは、一発の独裁ボタンより、逃げ道が減った設計です。",
+        "duration": 576,
+        "startTime": 12085,
+        "speedScale": 1.2,
+        "asset_query": "digital money design stack risk analysis",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "組み合わせで効くもの",
+              "bullets": [
+                "本人確認",
+                "上限とデータ",
+                "現金の弱体化"
+              ],
+              "tagline": "逃げ道が減るほど重い",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_23_if_cash_thins.wav"
+      },
+      {
+        "id": "cbdc_long_24_bank_vs_state",
+        "speaker": "tsumugi",
+        "sceneRole": "banking",
+        "text": "ここまで来ると、銀行がなぜ慎重になるかも分かります。CBDCが広がれば、預金の集まり方、決済手数料、顧客接点、さらには緊急時の資金移動の速度まで変わります。国家は公共のレールを残したい。銀行は民間の中核を守りたい。この綱引きが、水面下でずっと続いているわけです。",
+        "speechText": "ここまで来ると、銀行がなぜ慎重になるかも分かります。CBDCが広がれば、預金の集まり方、決済手数料、顧客接点、さらには緊急時の資金移動の速度まで変わります。国家は公共のレールを残したい。銀行は民間の中核を守りたい。この綱引きが、水面下でずっと続いているわけです。",
+        "duration": 517,
+        "startTime": 12675,
+        "speedScale": 1.34,
+        "asset_query": "banks government struggle digital money political economy",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "国家",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "公的レールを持ちたい",
+                  "主権を守りたい"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "銀行",
+                "titleColor": "#f97316",
+                "items": [
+                  "預金と顧客接点を守りたい",
+                  "民間の中核を残したい"
+                ],
+                "highlight": true
+              },
+              "tagline": "静かな綱引き"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 258
+          }
+        ],
+        "voiceFile": "cbdc_long_24_bank_vs_state.wav"
+      },
+      {
+        "id": "cbdc_long_24b_offline",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "一方で、CBDCを全部悪い方向だけで見るのも正確ではありません。中銀が強調するオフライン決済や災害時の強さには、確かに公共性があります。通信障害や民間サービス障害のときでも動くデジタル現金のような機能が作れれば、それは社会インフラとして意味がある。だから論点は導入か反対かだけではなく、どんな設計で導入するかなんです。",
+        "speechText": "一方で、CBDCを全部悪い方向だけで見るのも正確ではありません。中銀が強調するオフライン決済や災害時の強さには、確かに公共性があります。通信障害や民間サービス障害のときでも動くデジタル現金のような機能が作れれば、それは社会インフラとして意味がある。だから論点は導入か反対かだけではなく、どんな設計で導入するかなんです。",
+        "duration": 626,
+        "startTime": 13206,
+        "speedScale": 1.22,
+        "asset_query": "offline cbdc resilience emergency payments",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "推進側の強い論点",
+              "bullets": [
+                "オフライン決済",
+                "災害時の強さ",
+                "公共インフラとしての意味"
+              ],
+              "tagline": "全部が陰の話ではない",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_24b_offline.wav"
+      },
+      {
+        "id": "cbdc_long_24c_public_option",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "もう一つ大きいのは、公的な支払い手段を残すという発想です。もし民間ウォレットや巨大IT決済が生活の全部を飲み込めば、便利でも、ルールは完全に民間側へ寄ります。CBDCを支持する人の中には、それを防ぐ公共オプションだと見る人も多い。つまりこの争いは、自由と統制だけでなく、公と民の境界線の争いでもあります。",
+        "speechText": "もう一つ大きいのは、公的な支払い手段を残すという発想です。もし民間ウォレットや巨大IT決済が生活の全部を飲み込めば、便利でも、ルールは完全に民間側へ寄ります。CBDCを支持する人の中には、それを防ぐ公共オプションだと見る人も多い。つまりこの争いは、自由と統制だけでなく、公と民の境界線の争いでもあります。",
+        "duration": 570,
+        "startTime": 13846,
+        "speedScale": 1.34,
+        "asset_query": "public option payments cbdc big tech",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "民間だけの世界",
+                "titleColor": "#f97316",
+                "items": [
+                  "便利さは強い",
+                  "ルールも民間へ寄る"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "公的オプション",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "公共レールを残す",
+                  "完全依存を避ける"
+                ],
+                "highlight": true
+              },
+              "tagline": "公と民の境界線"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 258
+          }
+        ],
+        "voiceFile": "cbdc_long_24c_public_option.wav"
+      },
+      {
+        "id": "cbdc_long_24d_legal",
+        "speaker": "ryusei",
+        "sceneRole": "checklist",
+        "text": "だから本当は、技術より先に法的な歯止めを見たほうがいいんです。アクセスログは誰が監督するのか。情報開示や凍結に相当する措置には、裁判所や独立機関の関与が入るのか。あとから不服申し立てができるのか。怖さを減らすのは、善意の説明より、記録と手続きの厚さです。",
+        "speechText": "だから本当は、技術より先に法的な歯止めを見たほうがいいんです。アクセスログは誰が監督するのか。情報開示や凍結に相当する措置には、裁判所や独立機関の関与が入るのか。あとから不服申し立てができるのか。怖さを減らすのは、善意の説明より、記録と手続きの厚さです。",
+        "duration": 508,
+        "startTime": 14430,
+        "speedScale": 1.22,
+        "asset_query": "legal safeguards privacy oversight digital money",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "法的な歯止め",
+              "bullets": [
+                "アクセス監督",
+                "独立機関の関与",
+                "不服申し立て"
+              ],
+              "tagline": "善意より手続き",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_24d_legal.wav"
+      },
+      {
+        "id": "cbdc_long_24e_china_reference",
+        "speaker": "tsumugi",
+        "sceneRole": "clarifier",
+        "text": "中国の例も、使い方に注意が必要です。中国は、国家主導で早く大きく進めた先行例としては参考になります。でも中国の制度環境を、そのまま欧州や日本や英国へ直輸入して語るのは雑です。ここでも大切なのは、同じデジタル通貨でも、制度環境が違えば意味も違うということです。",
+        "speechText": "中国の例も、使い方に注意が必要です。中国は、国家主導で早く大きく進めた先行例としては参考になります。でも中国の制度環境を、そのまま欧州や日本や英国へ直輸入して語るのは雑です。ここでも大切なのは、同じデジタル通貨でも、制度環境が違えば意味も違うということです。",
+        "duration": 496,
+        "startTime": 14952,
+        "speedScale": 1.34,
+        "asset_query": "China CBDC reference point comparison",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "中国の見方",
+              "bullets": [
+                "先行例としては参考",
+                "そのまま輸入はできない",
+                "制度環境で意味が変わる"
+              ],
+              "tagline": "速さと制度は別",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_24e_china_reference.wav"
+      },
+      {
+        "id": "cbdc_long_24f_programmability",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "そして最後に出てくるのが、プログラマブルマネーという言葉です。お金そのものに条件を付ける設計をどこまで許すのか。期限付き、用途制限、特定支払いへの誘導。今すぐ全部が実装されると言うつもりはありません。でも、技術的にどこまで可能にするかという問い自体は、これからもっと重くなります。",
+        "speechText": "そして最後に出てくるのが、プログラマブルマネーという言葉です。お金そのものに条件を付ける設計をどこまで許すのか。期限付き、用途制限、特定支払いへの誘導。今すぐ全部が実装されると言うつもりはありません。でも、技術的にどこまで可能にするかという問い自体は、これからもっと重くなります。",
+        "duration": 544,
+        "startTime": 15462,
+        "speedScale": 1.22,
+        "asset_query": "programmable money CBDC conditions restrictions",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "プログラマブルマネー",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "期限",
+                  "sub": "いつまで使えるか"
+                },
+                {
+                  "label": "用途",
+                  "sub": "何に使えるか"
+                },
+                {
+                  "label": "誘導",
+                  "sub": "どこへ流すか",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 254
+          }
+        ],
+        "voiceFile": "cbdc_long_24f_programmability.wav"
+      },
+      {
+        "id": "cbdc_long_24g_bankrun_speed",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかもデジタルなお金は、危機のときに逃げる速度も上がります。昔の銀行取り付けなら、窓口に並ぶ時間がありました。でもスマホで一斉に動ける世界では、預金流出はもっと速くなり得る。だから当局も銀行も、上限や仲介設計にこだわる。監視の話だけでなく、危機管理の話でもあるわけです。",
+        "speechText": "しかもデジタルなお金は、危機のときに逃げる速度も上がります。昔の銀行取り付けなら、窓口に並ぶ時間がありました。でもスマホで一斉に動ける世界では、預金流出はもっと速くなり得る。だから当局も銀行も、上限や仲介設計にこだわる。監視の話だけでなく、危機管理の話でもあるわけです。",
+        "duration": 501,
+        "startTime": 16020,
+        "speedScale": 1.34,
+        "asset_query": "digital bank run speed mobile payments crisis",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "デジタル化で増すもの",
+              "bullets": [
+                "資金移動の速さ",
+                "預金流出の瞬発力",
+                "危機時の連鎖リスク"
+              ],
+              "tagline": "だから上限を気にする",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "cbdc_long_24g_bankrun_speed.wav"
+      },
+      {
+        "id": "cbdc_long_25_watchpoints",
+        "speaker": "ryusei",
+        "sceneRole": "checklist",
+        "text": "このテーマで本当に見るべき監視点は、僕は三つだと思っています。ひとつ、誰がどの粒度でデータへアクセスできるのか。ふたつ、保有上限や利用条件はどう決まるのか。みっつ、現金やオフライン決済の逃げ道を本当に残すのか。この三つが分かれば、かなり中身に近づけます。",
+        "speechText": "このテーマで本当に見るべき監視点は、僕は三つだと思っています。ひとつ、誰がどの粒度でデータへアクセスできるのか。ふたつ、保有上限や利用条件はどう決まるのか。みっつ、現金やオフライン決済の逃げ道を本当に残すのか。この三つが分かれば、かなり中身に近づけます。",
+        "duration": 523,
+        "startTime": 16535,
+        "speedScale": 1.2,
+        "asset_query": "CBDC watchpoints data limits cash privacy",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき3点",
+              "bullets": [
+                "データアクセス",
+                "上限と条件",
+                "現金とオフラインの逃げ道"
+              ],
+              "tagline": "ここを見れば雑音が減る",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 34,
+            "duration": 256
+          }
+        ],
+        "voiceFile": "cbdc_long_25_watchpoints.wav"
+      },
+      {
+        "id": "cbdc_long_26_fact_concern_spec",
+        "speaker": "tsumugi",
+        "sceneRole": "summary",
+        "text": "最後に整理します。事実として確認できるのは、各国中銀がCBDCを検討し、設計でプライバシー、保有上限、銀行保護を論じていること。懸念として強いのは、その設計が可視性と制御性を高めるかもしれないこと。まだ仮説なのは、西側主要国で思想スコアがもう実装されていると言い切ることです。",
+        "speechText": "最後に整理します。事実として確認できるのは、各国中銀がCBDCを検討し、設計でプライバシー、保有上限、銀行保護を論じていること。懸念として強いのは、その設計が可視性と制御性を高めるかもしれないこと。まだ仮説なのは、西側主要国で思想スコアがもう実装されていると言い切ることです。",
+        "duration": 528,
+        "startTime": 17072,
+        "speedScale": 1.34,
+        "asset_query": "fact concern speculation documentary explainer",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "事実 / 懸念 / 未確認",
+              "bullets": [
+                "事実: 設計検討と上限議論",
+                "懸念: 可視性と制御層の強化",
+                "未確認: 西側で思想スコア実装"
+              ],
+              "tagline": "ここを混ぜない",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "duration": 268
+          }
+        ],
+        "voiceFile": "cbdc_long_26_fact_concern_spec.wav"
+      },
+      {
+        "id": "cbdc_long_27_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "僕の結論はこうです。CBDCは、ただの便利な通貨アップデートとして見るには重すぎます。公式資料だけを見ても、論点はすでに、データ、上限、仲介、銀行保護、主権へ広がっている。つまり見えているのは、支払いの未来というより、お金の支配構造の再設計です。",
+        "speechText": "僕の結論はこうです。CBDCは、ただの便利な通貨アップデートとして見るには重すぎます。公式資料だけを見ても、論点はすでに、データ、上限、仲介、銀行保護、主権へ広がっている。つまり見えているのは、支払いの未来というより、お金の支配構造の再設計です。",
+        "duration": 540,
+        "startTime": 17614,
+        "speedScale": 1.2,
+        "asset_query": "CBDC political verdict money control",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "便利さではない",
+              "subline": "お金の支配構造が動く",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 236
+          }
+        ],
+        "voiceFile": "cbdc_long_27_verdict.wav"
+      },
+      {
+        "id": "cbdc_long_28_cta",
+        "speaker": "tsumugi",
+        "sceneRole": "cta",
+        "text": "あなたはどう見ますか。便利さと引き換えに、ある程度の可視性や制御は受け入れられると思いますか。それとも、お金だけは現金のような逃げ道を最後まで残すべきだと思いますか。便利さ、プライバシー、自由、この三つのうち何を一番守りたいか、コメントで教えてください。",
+        "speechText": "あなたはどう見ますか。便利さと引き換えに、ある程度の可視性や制御は受け入れられると思いますか。それとも、お金だけは現金のような逃げ道を最後まで残すべきだと思いますか。便利さ、プライバシー、自由、この三つのうち何を一番守りたいか、コメントで教えてください。",
+        "duration": 460,
+        "startTime": 18168,
+        "speedScale": 1.34,
+        "asset_query": "comment question privacy convenience freedom cbdc",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "あなたは何を守る?",
+              "bullets": [
+                "便利さ",
+                "プライバシー",
+                "自由"
+              ],
+              "tagline": "コメントで教えて",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 242
+          }
+        ],
+        "voiceFile": "cbdc_long_28_cta.wav"
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "cbdc_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "CBDCで本当に変わるのは、支払いの速さじゃありません。お金の主導権です。",
+        "speechText": "CBDCで本当に変わるのは、支払いの速さじゃありません。お金の主導権です。",
+        "duration": 128,
+        "startTime": 0,
+        "speedScale": 1.46,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "CBDC surveillance short documentary",
+        "bg_image": "assets/images/cbdc-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.04,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "CBDCの正体",
+              "headline": "主導権の話",
+              "subline": "便利さより お金のコントロール",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 150
+          }
+        ],
+        "voiceFile": "short_cbdc_short_00_hook.wav"
+      },
+      {
+        "id": "cbdc_short_01_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "BISでは、多くの中央銀行がCBDCを探索中。EUは準備を進め、日本はパイロット、英国も設計中です。",
+        "speechText": "BISでは、多くの中央銀行がCBDCを探索中。EUは準備を進め、日本はパイロット、英国も設計中です。",
+        "duration": 234,
+        "startTime": 136,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "global cbdc development short",
+        "bg_image": "assets/images/cbdc-global.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "世界は動いている",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "BIS",
+                  "value": "91%探索",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "EU",
+                  "value": "準備前進",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "JP / UK",
+                  "value": "試行と設計",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_cbdc_short_01_fact.wav"
+      },
+      {
+        "id": "cbdc_short_02_bank",
+        "speaker": "tsumugi",
+        "sceneRole": "banking",
+        "text": "しかも公式文書では、保有上限や預金流出まで議論されています。つまり争点は、銀行からどこまでお金が逃げるかです。",
+        "speechText": "しかも公式文書では、保有上限や預金流出まで議論されています。つまり争点は、銀行からどこまでお金が逃げるかです。",
+        "duration": 189,
+        "startTime": 378,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "CBDC bank deposits holding limits short",
+        "bg_image": "assets/images/cbdc-bank-fight.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.06
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "なぜ上限が出る?",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "CBDCが便利",
+                  "sub": "預金が動く"
+                },
+                {
+                  "label": "銀行が弱る",
+                  "sub": "信用に響く"
+                },
+                {
+                  "label": "上限を設計",
+                  "sub": "最初から入る",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "duration": 196
+          }
+        ],
+        "voiceFile": "short_cbdc_short_02_bank.wav"
+      },
+      {
+        "id": "cbdc_short_03_fear",
+        "speaker": "ryusei",
+        "sceneRole": "fear",
+        "text": "だから怖いのは、速い決済そのものじゃない。誰が見えるか、いくら持てるか、どう止められるかの設計です。",
+        "speechText": "だから怖いのは、速い決済そのものじゃない。誰が見えるか、いくら持てるか、どう止められるかの設計です。",
+        "duration": 183,
+        "startTime": 575,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "programmable money surveillance short",
+        "bg_image": "assets/images/cbdc-architecture.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "本当の論点",
+              "bullets": [
+                "誰が見えるか",
+                "いくら持てるか",
+                "どう止められるか"
+              ],
+              "tagline": "設計の話",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "duration": 198
+          }
+        ],
+        "voiceFile": "short_cbdc_short_03_fear.wav"
+      },
+      {
+        "id": "cbdc_short_04_clarifier",
+        "speaker": "tsumugi",
+        "sceneRole": "clarifier",
+        "text": "ただし、西側主要国で思想スコアによる凍結が確認されたわけではありません。そこは事実と懸念を分けるべきです。",
+        "speechText": "ただし、西側主要国で思想スコアによる凍結が確認されたわけではありません。そこは事実と懸念を分けるべきです。",
+        "duration": 173,
+        "startTime": 766,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "fact versus concern short documentary",
+        "bg_image": "assets/images/cbdc-privacy.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.04
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "事実",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "設計検討",
+                  "上限と銀行保護"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "未確認",
+                "titleColor": "#ef4444",
+                "items": [
+                  "思想スコア実装",
+                  "自動凍結の確定"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここは混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "duration": 204
+          }
+        ],
+        "voiceFile": "short_cbdc_short_04_clarifier.wav"
+      },
+      {
+        "id": "cbdc_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "CBDCは便利さの話に見えて、実はお金の主導権の話です。あなたは、便利さと自由、どちらを重く見ますか。",
+        "speechText": "CBDCは便利さの話に見えて、実はお金の主導権の話です。あなたは、便利さと自由、どちらを重く見ますか。",
+        "duration": 217,
+        "startTime": 947,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "CBDC political verdict short",
+        "bg_image": "assets/images/cbdc-final.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "主導権の話",
+              "subline": "便利さか 自由か",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 80,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "short_cbdc_short_05_verdict.wav"
+      }
+    ]
+  }
+}

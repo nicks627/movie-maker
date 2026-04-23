@@ -1,0 +1,132 @@
+[
+  {
+    "_comment": "Layer 2: ステートマシンルール。priority が高いほど先に評価されます。result は file ではなく SE intent を返せます。"
+  },
+  {
+    "id": "rule_deflation_after_anger",
+    "description": "怒りの後に落胆・諦め -> 脱力寄りのSE",
+    "priority": 20,
+    "conditions": {
+      "prevEmotion": "怒り",
+      "currentEmotionOneOf": ["落胆", "普通", "無"],
+      "keywordOneOf": ["嘘だろ", "そんな", "まじか", "マジか", "はぁ"]
+    },
+    "result": {
+      "role": "deflate",
+      "mood": ["fail", "awkward"],
+      "strength": "light",
+      "volume": 0.5,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_tsukkomi_metan",
+    "description": "めたんのツッコミ",
+    "priority": 18,
+    "conditions": {
+      "speaker": "metan",
+      "currentEmotionOneOf": ["驚き", "怒り"],
+      "keywordOneOf": ["！", "なんで", "どういうこと", "バカ"]
+    },
+    "result": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "snappy"],
+      "strength": "medium",
+      "volume": 0.85,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_tsukkomi_zundamon",
+    "description": "ずんだもんのツッコミ",
+    "priority": 18,
+    "conditions": {
+      "speaker": "zundamon",
+      "currentEmotionOneOf": ["驚き", "怒り"],
+      "keywordOneOf": ["！", "なのだ！", "だぞ！"]
+    },
+    "result": {
+      "role": "tsukkomi",
+      "mood": ["comedy", "snappy"],
+      "strength": "medium",
+      "volume": 0.8,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_panic_high_temp",
+    "description": "温度が高い状態 + 恐怖 -> 重めのドラマSE",
+    "priority": 15,
+    "conditions": {
+      "temperatureMin": 0.6,
+      "currentEmotionOneOf": ["恐怖", "驚き"],
+      "keywordOneOf": ["やばい", "まずい", "逃げ", "死ぬ"]
+    },
+    "result": {
+      "role": "impact-soft",
+      "mood": ["dramatic", "serious"],
+      "strength": "heavy",
+      "volume": 0.9,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_victory_peak",
+    "description": "温度ピーク時の勝利 -> 大きめの成功SE",
+    "priority": 15,
+    "conditions": {
+      "temperatureMin": 0.7,
+      "keywordOneOf": ["勝った", "勝利", "やった", "クリア", "倒した"]
+    },
+    "result": {
+      "role": "impact-soft",
+      "mood": ["positive", "dramatic"],
+      "strength": "heavy",
+      "volume": 0.92,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_kill_hype",
+    "description": "興奮状態でのキル -> 重めのヒットSE",
+    "priority": 14,
+    "conditions": {
+      "temperatureMin": 0.6,
+      "currentEmotionOneOf": ["興奮"],
+      "keywordOneOf": ["キル", "倒した", "やった"]
+    },
+    "result": {
+      "role": "impact-soft",
+      "mood": ["energetic", "serious"],
+      "strength": "heavy",
+      "volume": 0.88,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_kill_normal",
+    "description": "通常状態でのキル -> 中程度のヒットSE",
+    "priority": 13,
+    "conditions": {
+      "keywordOneOf": ["キル", "倒した"]
+    },
+    "result": {
+      "role": "impact-soft",
+      "mood": ["energetic"],
+      "strength": "medium",
+      "volume": 0.74,
+      "startOffset": 0
+    }
+  },
+  {
+    "id": "rule_calm_explanation",
+    "description": "低温度 + 通常感情 + 解説キーワード -> SEなし",
+    "priority": 5,
+    "conditions": {
+      "temperatureMax": 0.3,
+      "currentEmotionOneOf": ["通常", "普通", "無"],
+      "keywordOneOf": ["つまり", "要するに", "ということは", "まず"]
+    },
+    "result": null
+  }
+]

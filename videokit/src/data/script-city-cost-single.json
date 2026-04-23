@@ -1,0 +1,1693 @@
+{
+  "project": {
+    "id": "city-cost-single",
+    "title": "東京は稼げても余らない 単身の生活費を都市構造で見る",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.37,
+    "seVolume": 0.7,
+    "voiceDucking": 0.54,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 20,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "ccs_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "東京なら稼げるし、そのぶん生活も楽になる。そう思いがちです。でも、この資料を単身だけで読むと、見えてくるのはかなり違う景色です。残るお金を決めているのは、年収の見た目より、家賃と移動コストの構造でした。",
+        "duration": 354,
+        "asset_query": "tokyo skyline cost of living explainer",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "単身の生活費",
+              "headline": "東京は余らない",
+              "subline": "家賃と車で 可処分が決まる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 252
+          }
+        ],
+        "speechText": "東京なら稼げるし、そのぶん生活も楽になる。そう思いがちです。でも、この資料を単身だけで読むと、見えてくるのはかなり違う景色です。残るお金を決めているのは、年収の見た目より、家賃と移動コストの構造でした。",
+        "voiceFile": "ccs_long_00_hook.wav",
+        "startTime": 0
+      },
+      {
+        "id": "ccs_long_01_metric",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "この資料が見ているのは、年収の数字そのものではありません。家賃と、生活に必要な交通コストを引いたあとに、何が残るかです。つまり勝負は都会か地方かではなく、逃げられない固定費がどちらで重くなるかなんです。",
+        "duration": 384,
+        "asset_query": "budget formula rent transport disposable income",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "比べる順番",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "年収",
+                  "sub": "見た目の強さ"
+                },
+                {
+                  "label": "家賃",
+                  "sub": "最大固定費"
+                },
+                {
+                  "label": "必須交通費",
+                  "sub": "逃げにくい"
+                },
+                {
+                  "label": "残るお金",
+                  "sub": "ここが本体",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 270
+          }
+        ],
+        "speechText": "この資料が見ているのは、年収の数字そのものではありません。家賃と、生活に必要な交通コストを引いたあとに、何が残るかです。つまり勝負は都会か地方かではなく、逃げられない固定費がどちらで重くなるかなんです。",
+        "voiceFile": "ccs_long_01_metric.wav",
+        "startTime": 368
+      },
+      {
+        "id": "ccs_long_02_scope",
+        "speaker": "tsumugi",
+        "sceneRole": "setup",
+        "text": "資料で並ぶのは、東京都区部、大阪市、福岡市、札幌市、それと前橋市のような地方都市です。しかも今回は家族ではなく単身だけで考えます。単身だと、部屋の広さと車の必要性が、そのまま自由に使えるお金の形を変えるからです。",
+        "duration": 407,
+        "asset_query": "japan cities comparison single household",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "今回の見方",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "主要都市",
+                  "value": "東京 大阪 福岡 札幌",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "地方都市",
+                  "value": "前橋型",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "対象",
+                  "value": "単身",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 248
+          }
+        ],
+        "speechText": "資料で並ぶのは、東京都区部、大阪市、福岡市、札幌市、それと前橋市のような地方都市です。しかも今回は家族ではなく単身だけで考えます。単身だと、部屋の広さと車の必要性が、そのまま自由に使えるお金の形を変えるからです。",
+        "voiceFile": "ccs_long_02_scope.wav",
+        "startTime": 766
+      },
+      {
+        "id": "ccs_long_03_inflation",
+        "speaker": "ryusei",
+        "sceneRole": "explanation",
+        "text": "前提として、この資料はインフレと実質賃金の停滞をかなり重く見ています。年収が維持されても、食料品や保険料が上がれば、自由に動かせるお金は薄くなる。だから固定費の差が、以前よりずっと効くようになっているわけです。",
+        "duration": 399,
+        "asset_query": "inflation real wages household pressure",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "物価高で起きること",
+              "bullets": [
+                "手取りの実感が薄くなる",
+                "固定費の痛みが増す",
+                "節約余地がすぐ尽きる"
+              ],
+              "tagline": "だから構造差が効く",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "speechText": "前提として、この資料はインフレと実質賃金の停滞をかなり重く見ています。年収が維持されても、食料品や保険料が上がれば、自由に動かせるお金は薄くなる。だから固定費の差が、以前よりずっと効くようになっているわけです。",
+        "voiceFile": "ccs_long_03_inflation.wav",
+        "startTime": 1187
+      },
+      {
+        "id": "ccs_long_04_rent_rule",
+        "speaker": "tsumugi",
+        "sceneRole": "rent",
+        "text": "まず住居費です。資料は、家賃の目安としてよく言われる三割ルールが、主要都市ではかなり苦しくなっていると整理しています。単身向けの狭い部屋でも、利便性が高い場所だと、手取りの四割近くまで食い込みやすいんです。",
+        "duration": 329,
+        "asset_query": "rent burden rule city apartment",
+        "bg_image": "assets/images/city-cost-rent.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "家賃の壁",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "目安",
+                  "value": "3割",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "主要都市単身",
+                  "value": "4割近く",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "感覚",
+                  "value": "かなり重い",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 242
+          }
+        ],
+        "speechText": "まず住居費です。資料は、家賃の目安としてよく言われるさん割ルールが、主要都市ではかなり苦しくなっていると整理しています。単身向けの狭い部屋でも、利便性が高い場所だと、手取りのよん割近くまで食い込みやすいんです。",
+        "voiceFile": "ccs_long_04_rent_rule.wav",
+        "startTime": 1600
+      },
+      {
+        "id": "ccs_long_05_periphery",
+        "speaker": "ryusei",
+        "sceneRole": "rent",
+        "text": "しかも上がっているのは、都心ど真ん中だけではありません。資料では、都心周縁部への需要シフトが起きていて、少し外へずらしても楽になり切らない構図が示されています。広さを取りに行った結果、別の高止まりにぶつかるわけです。",
+        "duration": 388,
+        "asset_query": "city outskirts rent demand shift",
+        "bg_image": "assets/images/city-cost-rent.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "都心から周縁へ",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "都心が高すぎる",
+                  "sub": "まず弾かれる"
+                },
+                {
+                  "label": "周縁へ流れる",
+                  "sub": "広さを探す"
+                },
+                {
+                  "label": "周縁も高止まり",
+                  "sub": "楽になり切らない",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 254
+          }
+        ],
+        "speechText": "しかも上がっているのは、都心ど真ん中だけではありません。資料では、都心周縁部への需要シフトが起きていて、少し外へずらしても楽になり切らない構図が示されています。広さを取りに行った結果、別の高止まりにぶつかるわけです。",
+        "voiceFile": "ccs_long_05_periphery.wav",
+        "startTime": 1943
+      },
+      {
+        "id": "ccs_long_06_downgrade",
+        "speaker": "tsumugi",
+        "sceneRole": "rent",
+        "text": "その結果、借り手側は防衛的なダウングレードに入ります。より狭い部屋へ、より築年数の古い部屋へ、より駅から遠い部屋へ。家賃相場が上がっていることと、生活が楽になっていることは、まったく同じ意味ではないんです。",
+        "duration": 357,
+        "asset_query": "apartment downgrade smaller older farther",
+        "bg_image": "assets/images/city-cost-rent.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "借り手の防衛",
+              "bullets": [
+                "狭い部屋へ",
+                "築古へ",
+                "駅遠へ"
+              ],
+              "tagline": "相場上昇 = 生活向上 ではない",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 244
+          }
+        ],
+        "speechText": "その結果、借り手側は防衛的なダウングレードに入ります。より狭い部屋へ、より築年数の古い部屋へ、より駅から遠い部屋へ。家賃相場が上がっていることと、生活が楽になっていることは、まったく同じ意味ではないんです。",
+        "voiceFile": "ccs_long_06_downgrade.wav",
+        "startTime": 2345
+      },
+      {
+        "id": "ccs_long_07_fukuoka_gap",
+        "speaker": "ryusei",
+        "sceneRole": "data",
+        "text": "そこで資料が強く使っているのが福岡市の例です。供給側の掲載賃料の平均は十二万五千八百十四円。ところが実際に反響が入る賃料は九万五千六百十七円で、差は三万百九十七円あります。この差額が、家計の限界線をかなりはっきり見せています。",
+        "duration": 495,
+        "asset_query": "fukuoka rent gap data chart",
+        "bg_image": "assets/images/city-cost-rent.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "BarChart",
+            "props": {
+              "title": "福岡の賃料ギャップ",
+              "bars": [
+                {
+                  "label": "掲載",
+                  "value": 125814,
+                  "color": "#38bdf8",
+                  "valueLabel": "12万5814円"
+                },
+                {
+                  "label": "反響",
+                  "value": 95617,
+                  "color": "#f97316",
+                  "valueLabel": "9万5617円"
+                },
+                {
+                  "label": "差額",
+                  "value": 30197,
+                  "color": "#ef4444",
+                  "valueLabel": "3万197円"
+                }
+              ],
+              "tagline": "ここに予算の壁がある"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 286
+          }
+        ],
+        "speechText": "そこで資料が強く使っているのが福岡市の例です。供給側の掲載賃料の平均はじゅうにまんごせんはっぴゃくじゅうよん円。ところが実際に反響が入る賃料はきゅうまんごせんろっぴゃくじゅうなな円で、差はさんまんひゃくきゅうじゅうなな円あります。この差額が、家計の限界線をかなりはっきり見せています。",
+        "voiceFile": "ccs_long_07_fukuoka_gap.wav",
+        "startTime": 2716
+      },
+      {
+        "id": "ccs_long_08_gap_meaning",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "この三万円差は、ただの数字じゃありません。貸し手が出したい金額と、借り手が本当に出せる金額のあいだに、はっきり断層があるということです。つまり主要都市では、住む場所を選ぶ前から、すでに生活全体の防衛モードが始まっているんです。",
+        "duration": 363,
+        "asset_query": "housing market supply demand gap explainer",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "供給側",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "12.6万円で出したい",
+                  "コスト上昇を転嫁したい"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "借り手側",
+                "titleColor": "#ef4444",
+                "items": [
+                  "9.6万円が上限",
+                  "条件を下げて探す"
+                ],
+                "highlight": true
+              },
+              "tagline": "三万円の断層"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 258
+          }
+        ],
+        "speechText": "このさんまん円差は、ただの数字じゃありません。貸し手が出したい金額と、借り手が本当に出せる金額のあいだに、はっきり断層があるということです。つまり主要都市では、住む場所を選ぶ前から、すでに生活全体の防衛モードが始まっているんです。",
+        "voiceFile": "ccs_long_08_gap_meaning.wav",
+        "startTime": 3225
+      },
+      {
+        "id": "ccs_long_09_hidden_cost",
+        "speaker": "ryusei",
+        "sceneRole": "reveal",
+        "text": "ただ、この話を家賃だけで終えると、地方が必ず有利に見えてしまいます。資料がそこへ待ったをかけているのが、車の維持コストです。地方の安さを食い潰すのは、見落としやすいこの固定費だと、かなり明確に言っています。",
+        "duration": 385,
+        "asset_query": "car ownership hidden fixed cost explainer",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "隠れた本丸",
+              "headline": "車コスト",
+              "subline": "地方の安さを 食っていく",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 238
+          }
+        ],
+        "speechText": "ただ、この話を家賃だけで終えると、地方が必ず有利に見えてしまいます。資料がそこへ待ったをかけているのが、車の維持コストです。地方の安さを食い潰すのは、見落としやすいこの固定費だと、かなり明確に言っています。",
+        "voiceFile": "ccs_long_09_hidden_cost.wav",
+        "startTime": 3602
+      },
+      {
+        "id": "ccs_long_10_car_numbers",
+        "speaker": "tsumugi",
+        "sceneRole": "data",
+        "text": "資料のシミュレーションでは、東京で車を持たない場合の年間交通費は十八万円です。地方で車一台を持つと四十八万円。さらに東京で一台持つと八十七万円まで跳ねます。ここまで差があると、家賃だけ見て判断するのは危険です。",
+        "duration": 362,
+        "asset_query": "annual transport cost car ownership chart",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "年間交通コスト",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "東京 車なし",
+                  "value": "18万円",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "地方 1台",
+                  "value": "48万円",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "東京 1台",
+                  "value": "87万円",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 252
+          }
+        ],
+        "speechText": "資料のシミュレーションでは、東京で車を持たない場合の年間交通費はじゅうはちまん円です。地方で車一台を持つとよんじゅうはちまん円。さらに東京で一台持つとはちじゅうななまん円まで跳ねます。ここまで差があると、家賃だけ見て判断するのは危険です。",
+        "voiceFile": "ccs_long_10_car_numbers.wav",
+        "startTime": 4001
+      },
+      {
+        "id": "ccs_long_11_urban_premium",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで効くのが、資料の言うアーバン・プレミアムです。東京で車を持たないだけで、東京で一台持つ場合と比べて、年間六十九万円、月にすると約五万七千円の支出を回避できます。これは高い家賃を支える原資にもなるし、貯蓄にも回せます。",
+        "duration": 455,
+        "asset_query": "urban premium no car benefit chart",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BarChart",
+            "props": {
+              "title": "車なしで避けられる支出",
+              "bars": [
+                {
+                  "label": "東京 車なし",
+                  "value": 18,
+                  "color": "#38bdf8",
+                  "valueLabel": "18万円"
+                },
+                {
+                  "label": "東京 1台",
+                  "value": 87,
+                  "color": "#ef4444",
+                  "valueLabel": "87万円"
+                },
+                {
+                  "label": "回避額",
+                  "value": 69,
+                  "color": "#facc15",
+                  "valueLabel": "69万円"
+                }
+              ],
+              "unit": "万円",
+              "tagline": "月約5.7万円の差"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 286
+          }
+        ],
+        "speechText": "ここで効くのが、資料の言うアーバン・プレミアムです。東京で車を持たないだけで、東京で一台持つ場合と比べて、年間ろくじゅうきゅうまん円、月にすると約ごまんななせん円の支出を回避できます。これは高い家賃を支える原資にもなるし、貯蓄にも回せます。",
+        "voiceFile": "ccs_long_11_urban_premium.wav",
+        "startTime": 4377
+      },
+      {
+        "id": "ccs_long_12_tokyo_model",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "だから主要都市の単身モデルは、狭い部屋を受け入れる代わりに、車を持たず、外にある機能を使い倒す形になります。住居の快適性は削る。でも移動と選択肢では取り返す。資料はこの構図を、単身の生活設計としてかなりはっきり描いています。",
+        "duration": 390,
+        "asset_query": "tokyo single lifestyle compact apartment no car",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "東京単身の負担",
+                "titleColor": "#ef4444",
+                "items": [
+                  "部屋は狭くなりやすい",
+                  "家賃割合は重い"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "東京単身の回収",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "車を持たずに回せる",
+                  "外の選択肢が多い"
+                ],
+                "highlight": true
+              },
+              "tagline": "空間を削って利便性を買う"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 264
+          }
+        ],
+        "speechText": "だから主要都市の単身モデルは、狭い部屋を受け入れる代わりに、車を持たず、外にある機能を使い倒す形になります。住居の快適性は削る。でも移動と選択肢では取り返す。資料はこの構図を、単身の生活設計としてかなりはっきり描いています。",
+        "voiceFile": "ccs_long_12_tokyo_model.wav",
+        "startTime": 4846
+      },
+      {
+        "id": "ccs_long_13_tokyo_strength",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "資料が東京側の利点として挙げるのは、外食産業の多様さや文化施設だけではありません。車検、保険、駐車場代、ガソリン代のような大きな突発費から、そもそも距離を置けることです。固定費の爆発を避けやすいのは、単身ではかなり大きいです。",
+        "duration": 453,
+        "asset_query": "city convenience no car savings time urban services",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "東京単身の強み",
+              "bullets": [
+                "車検がない",
+                "駐車場代がない",
+                "必要時だけ交通を買える"
+              ],
+              "tagline": "固定費の爆発を避けやすい",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 248
+          }
+        ],
+        "speechText": "資料が東京側の利点として挙げるのは、外食産業の多様さや文化施設だけではありません。車検、保険、駐車場代、ガソリン代のような大きな突発費から、そもそも距離を置けることです。固定費の爆発を避けやすいのは、単身ではかなり大きいです。",
+        "voiceFile": "ccs_long_13_tokyo_strength.wav",
+        "startTime": 5250
+      },
+      {
+        "id": "ccs_long_14_local_model",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "一方で地方都市の単身モデルはかなり魅力的です。同じ家賃負担でも、もっと広く、設備の整った部屋を取りやすい。在宅勤務の快適性も上がりやすいし、生活空間そのものの満足度は高くなりやすい。ここだけ見ると、地方がかなり有利に見えます。",
+        "duration": 398,
+        "asset_query": "local city apartment larger room single household",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "地方単身で得るもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "広い部屋",
+                  "設備の余裕",
+                  "在宅の快適性"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "まだ見えていないもの",
+                "titleColor": "#f97316",
+                "items": [
+                  "車の固定費",
+                  "移動の前提"
+                ],
+                "highlight": true
+              },
+              "tagline": "家賃だけだと地方が強く見える"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 268
+          }
+        ],
+        "speechText": "一方で地方都市の単身モデルはかなり魅力的です。同じ家賃負担でも、もっと広く、設備の整った部屋を取りやすい。在宅勤務の快適性も上がりやすいし、生活空間そのものの満足度は高くなりやすい。ここだけ見ると、地方がかなり有利に見えます。",
+        "voiceFile": "ccs_long_14_local_model.wav",
+        "startTime": 5717
+      },
+      {
+        "id": "ccs_long_15_local_car",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "でも資料は、地方単身で車一台がほぼ必須になることを重く見ています。通勤、買い物、通院、その全部に足がいるからです。年間四十八万円、月なら約四万円。この金額は、家賃が軽いぶんをかなり食いに来る重さがあります。",
+        "duration": 459,
+        "asset_query": "local city car dependence commuting shopping clinic",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "地方単身の固定費",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "年間",
+                  "value": "48万円",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "月額感覚",
+                  "value": "約4万円",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "性質",
+                  "value": "かなり逃げにくい",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 90,
+            "imageHeight": 26,
+            "duration": 252
+          }
+        ],
+        "speechText": "でも資料は、地方単身で車一台がほぼ必須になることを重く見ています。通勤、買い物、通院、その全部に足がいるからです。年間よんじゅうはちまん円、月なら約よんまん円。この金額は、家賃が軽いぶんをかなり食いに来る重さがあります。",
+        "voiceFile": "ccs_long_15_local_car.wav",
+        "startTime": 6129
+      },
+      {
+        "id": "ccs_long_16_balance_point",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "ここで資料が出す中間結論が重要です。地方で広い部屋に住んで車を持つ単身の総コストと、主要都市で狭い部屋に住んで車を持たない単身の総コストは、驚くほど寄ることがある。つまり自動的な圧勝は、どちらにもないんです。",
+        "duration": 344,
+        "asset_query": "balance scale city vs local single life",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "意外な中間結論",
+              "headline": "総コストは寄る",
+              "subline": "東京も地方も 自動勝利はない",
+              "accentColor": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで資料が出す中間結論が重要です。地方で広い部屋に住んで車を持つ単身の総コストと、主要都市で狭い部屋に住んで車を持たない単身の総コストは、驚くほど寄ることがある。つまり自動的な圧勝は、どちらにもないんです。",
+        "voiceFile": "ccs_long_16_balance_point.wav",
+        "startTime": 6602
+      },
+      {
+        "id": "ccs_long_17_income_is_not_enough",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "だからこの資料は、年収の数字だけでは生活水準を判定できないと言っています。見るべきなのは、額面ではなく、固定費を引いたあとに残る厚みです。東京は高くても車なしが効く。地方は安くても車が削る。この差し引きが本体です。",
+        "duration": 430,
+        "asset_query": "disposable income after fixed costs explainer",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.68,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "見るべきなのは",
+              "headline": "額面より固定費",
+              "subline": "残る厚みで比べる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 242
+          }
+        ],
+        "speechText": "だからこの資料は、年収の数字だけでは生活水準を判定できないと言っています。見るべきなのは、額面ではなく、固定費を引いたあとに残る厚みです。東京は高くても車なしが効く。地方は安くても車が削る。この差し引きが本体です。",
+        "voiceFile": "ccs_long_17_income_is_not_enough.wav",
+        "startTime": 6960
+      },
+      {
+        "id": "ccs_long_18_city_buffer",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "もう一つ、資料が面白いのは、インフレ下での調整余地の違いです。主要都市では、外食回数を減らすとか、カーシェアの使い方を変えるとか、削れる項目がまだ残りやすい。つまり苦しくても、微調整できるレバーが比較的多いんです。",
+        "duration": 368,
+        "asset_query": "urban flexibility spending choices explainer",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "主要都市の調整余地",
+              "bullets": [
+                "外食頻度を下げる",
+                "移動手段を細かく選ぶ",
+                "無料の選択肢を使う"
+              ],
+              "tagline": "まだレバーが残りやすい",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 248
+          }
+        ],
+        "speechText": "もう一つ、資料が面白いのは、インフレ下での調整余地の違いです。主要都市では、外食回数を減らすとか、カーシェアの使い方を変えるとか、削れる項目がまだ残りやすい。つまり苦しくても、微調整できるレバーが比較的多いんです。",
+        "voiceFile": "ccs_long_18_city_buffer.wav",
+        "startTime": 7404
+      },
+      {
+        "id": "ccs_long_19_local_rigidity",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "逆に地方では、車がインフラそのものなので、そこを削る選択肢がほぼありません。通勤も買い物も通院も、まず車が前提になる。だからガソリン価格や保険料が上がっても、そのまま食費か貯蓄で受け止めるしかない。この硬さがかなり効きます。",
+        "duration": 427,
+        "asset_query": "local city car is infrastructure fixed cost",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "地方の硬い固定費",
+              "bullets": [
+                "通勤の足",
+                "買い物の足",
+                "通院の足"
+              ],
+              "tagline": "車は削りにくい",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 246
+          }
+        ],
+        "speechText": "逆に地方では、車がインフラそのものなので、そこを削る選択肢がほぼありません。通勤も買い物も通院も、まず車が前提になる。だからガソリン価格や保険料が上がっても、そのまま食費か貯蓄で受け止めるしかない。この硬さがかなり効きます。",
+        "voiceFile": "ccs_long_19_local_rigidity.wav",
+        "startTime": 7786
+      },
+      {
+        "id": "ccs_long_20_two_debts",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "言い換えると、単身の都市比較は、どちらの負債を背負うかの比較でもあります。主要都市では高い家賃。地方都市では重い車コスト。前者は住空間を削って逃げやすいけれど、後者は生活の足そのものだから逃げにくい。この違いはかなり大きいです。",
+        "duration": 385,
+        "asset_query": "rent vs car fixed cost comparison",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "主要都市の負債",
+                "titleColor": "#ef4444",
+                "items": [
+                  "家賃が高い",
+                  "空間で妥協しやすい"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "地方都市の負債",
+                "titleColor": "#f97316",
+                "items": [
+                  "車が重い",
+                  "生活の足で逃げにくい"
+                ],
+                "highlight": true
+              },
+              "tagline": "どちらの固定費を背負うか"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 262
+          }
+        ],
+        "speechText": "言い換えると、単身の都市比較は、どちらの負債を背負うかの比較でもあります。主要都市では高い家賃。地方都市では重い車コスト。前者は住空間を削って逃げやすいけれど、後者は生活の足そのものだから逃げにくい。この違いはかなり大きいです。",
+        "voiceFile": "ccs_long_20_two_debts.wav",
+        "startTime": 8227
+      },
+      {
+        "id": "ccs_long_21_real_formula",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "だから順番としては、まず家賃を見る。次に、必須の交通費を見る。そのあとにようやく、残ったお金で何を選べるかを考える。この式で見ると、地方の安さも東京の強さも、かなり違う輪郭で見えてきます。名目の印象だけで決めると外しやすいです。",
+        "duration": 463,
+        "asset_query": "household formula disposable income steps",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.68,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "本当に見る順番",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "家賃",
+                  "sub": "まず最大固定費"
+                },
+                {
+                  "label": "必須交通費",
+                  "sub": "次に逃げにくさ"
+                },
+                {
+                  "label": "残るお金",
+                  "sub": "最後に自由度",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 254
+          }
+        ],
+        "speechText": "だから順番としては、まず家賃を見る。次に、必須の交通費を見る。そのあとにようやく、残ったお金で何を選べるかを考える。この式で見ると、地方の安さも東京の強さも、かなり違う輪郭で見えてきます。名目の印象だけで決めると外しやすいです。",
+        "voiceFile": "ccs_long_21_real_formula.wav",
+        "startTime": 8626
+      },
+      {
+        "id": "ccs_long_22_for_space",
+        "speaker": "tsumugi",
+        "sceneRole": "lifestyle",
+        "text": "もし単身で、広い部屋、静かな住環境、在宅の快適さを最優先するなら、地方都市の魅力はかなり強いです。資料もそこは否定していません。ただし、その快適さは車一台を維持する前提で成り立つ。そこまで含めて払う価値があるかで判断すべきです。",
+        "duration": 407,
+        "asset_query": "large room quiet local single lifestyle",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "地方が向く単身",
+              "bullets": [
+                "広さを最優先したい",
+                "在宅快適性を重視したい",
+                "車コストを受け入れられる"
+              ],
+              "tagline": "快適さは車込みで考える",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 248
+          }
+        ],
+        "speechText": "もし単身で、広い部屋、静かな住環境、在宅の快適さを最優先するなら、地方都市の魅力はかなり強いです。資料もそこは否定していません。ただし、その快適さは車一台を維持する前提で成り立つ。そこまで含めて払う価値があるかで判断すべきです。",
+        "voiceFile": "ccs_long_22_for_space.wav",
+        "startTime": 9103
+      },
+      {
+        "id": "ccs_long_23_for_time",
+        "speaker": "ryusei",
+        "sceneRole": "lifestyle",
+        "text": "逆に、狭くてもいいから車を持たずに回したい、移動時間を短くしたい、外のサービスを使いながら暮らしたいなら、主要都市の単身モデルが合います。資料が言う生活水準は、部屋の広さだけではなく、時間効率や体験の厚みも含めて見ています。",
+        "duration": 432,
+        "asset_query": "urban single life time efficiency convenience",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "主要都市が向く単身",
+              "bullets": [
+                "車を持たずに暮らしたい",
+                "時間効率を重視したい",
+                "外の選択肢を使いたい"
+              ],
+              "tagline": "空間より利便性と体験",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 248
+          }
+        ],
+        "speechText": "逆に、狭くてもいいから車を持たずに回したい、移動時間を短くしたい、外のサービスを使いながら暮らしたいなら、主要都市の単身モデルが合います。資料が言う生活水準は、部屋の広さだけではなく、時間効率や体験の厚みも含めて見ています。",
+        "voiceFile": "ccs_long_23_for_time.wav",
+        "startTime": 9524
+      },
+      {
+        "id": "ccs_long_24_not_tokyo_win",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "だから、東京は給料が強そうだから勝ち、とはなりません。主要都市は、家賃の高さが本当に重い。資料が示しているのは、その重さを車なしの利得と外部サービスで何とか支えるモデルです。放っておいて楽な場所だとは、まったく読めません。",
+        "duration": 379,
+        "asset_query": "tokyo not automatic winner cost of living",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "ここが大事",
+              "headline": "東京=勝ち ではない",
+              "subline": "家賃の重さは 消えない",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 244
+          }
+        ],
+        "speechText": "だから、東京は給料が強そうだから勝ち、とはなりません。主要都市は、家賃の高さが本当に重い。資料が示しているのは、その重さを車なしの利得と外部サービスで何とか支えるモデルです。放っておいて楽な場所だとは、まったく読めません。",
+        "voiceFile": "ccs_long_24_not_tokyo_win.wav",
+        "startTime": 9970
+      },
+      {
+        "id": "ccs_long_25_not_local_easy",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "同時に、地方は家賃が安いから楽、ともなりません。資料はそこをかなり強く否定しています。単身でも車一台がほぼインフラになった瞬間、月四万円級の固定費が乗る。見かけの家賃差だけで地方を選ぶと、かなりズレる可能性があります。",
+        "duration": 426,
+        "asset_query": "local city not automatically easy car cost",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "逆も同じ",
+              "headline": "地方=楽 でもない",
+              "subline": "車が毎月 削っていく",
+              "accentColor": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 244
+          }
+        ],
+        "speechText": "同時に、地方は家賃が安いから楽、ともなりません。資料はそこをかなり強く否定しています。単身でも車一台がほぼインフラになった瞬間、月よんまん円級の固定費が乗る。見かけの家賃差だけで地方を選ぶと、かなりズレる可能性があります。",
+        "voiceFile": "ccs_long_25_not_local_easy.wav",
+        "startTime": 10363
+      },
+      {
+        "id": "ccs_long_26_pdf_takeaway",
+        "speaker": "tsumugi",
+        "sceneRole": "summary",
+        "text": "この資料の単身パートを一言でまとめるならこうです。地方は家賃が軽い。でも車が重い。主要都市は家賃が重い。でも車なしが効く。だから最後に問われるのは、どこで働くかより、どの固定費を背負って、どの価値にお金を置くかなんです。",
+        "duration": 377,
+        "asset_query": "summary fixed cost tradeoff city local",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.68,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "このPDFの単身結論",
+              "accent": "#facc15",
+              "steps": [
+                {
+                  "label": "地方",
+                  "sub": "家賃は軽い"
+                },
+                {
+                  "label": "でも",
+                  "sub": "車が重い"
+                },
+                {
+                  "label": "主要都市",
+                  "sub": "家賃は重い"
+                },
+                {
+                  "label": "でも",
+                  "sub": "車なしが効く",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "speechText": "この資料の単身パートを一言でまとめるならこうです。地方は家賃が軽い。でも車が重い。主要都市は家賃が重い。でも車なしが効く。だから最後に問われるのは、どこで働くかより、どの固定費を背負って、どの価値にお金を置くかなんです。",
+        "voiceFile": "ccs_long_26_pdf_takeaway.wav",
+        "startTime": 10803
+      },
+      {
+        "id": "ccs_long_27_strategy",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "生活防衛策も、変動費の細かい節約より、構造的な固定費の小ささをどう作るかに寄ります。資料の言い方を借りれば、居住地の選択そのものが家計を支配している。だから住みたい街より先に、逃げられないコストの形を見る必要があります。",
+        "duration": 423,
+        "asset_query": "household defense strategy fixed cost residence",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "生活防衛の軸",
+              "bullets": [
+                "固定費を小さくする",
+                "逃げられない負担を見抜く",
+                "居住地の構造で考える"
+              ],
+              "tagline": "細かい節約より先に構造",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "speechText": "生活防衛策も、変動費の細かい節約より、構造的な固定費の小ささをどう作るかに寄ります。資料の言い方を借りれば、居住地の選択そのものが家計を支配している。だから住みたい街より先に、逃げられないコストの形を見る必要があります。",
+        "voiceFile": "ccs_long_27_strategy.wav",
+        "startTime": 11194
+      },
+      {
+        "id": "ccs_long_28_final",
+        "speaker": "tsumugi",
+        "sceneRole": "finale",
+        "text": "最終的な結論ははっきりしています。東京は稼げても、単身の生活が自動で楽になる場所ではない。地方も、家賃が安いだけで自動的に得になる場所ではない。本当に見るべきなのは、家賃と車で削られたあと、どれだけ暮らしの自由が残るかです。",
+        "duration": 384,
+        "asset_query": "final verdict disposable income city living",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "額面より固定費",
+              "subline": "残る自由で比べる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 248
+          }
+        ],
+        "speechText": "最終的な結論ははっきりしています。東京は稼げても、単身の生活が自動で楽になる場所ではない。地方も、家賃が安いだけで自動的に得になる場所ではない。本当に見るべきなのは、家賃と車で削られたあと、どれだけ暮らしの自由が残るかです。",
+        "voiceFile": "ccs_long_28_final.wav",
+        "startTime": 11631
+      },
+      {
+        "id": "ccs_long_29_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたが単身で住むなら、狭くても車なしを選びますか。それとも、広い部屋と引き換えに車ありを選びますか。今回の資料の数字だけで考えると、答えはかなり価値観に寄ります。どこにお金を置きたいか、コメントで教えてください。",
+        "duration": 398,
+        "asset_query": "comment question city versus local single life",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "あなたならどっち?",
+              "bullets": [
+                "狭くても車なし",
+                "広くても車あり",
+                "どこにお金を置くか"
+              ],
+              "tagline": "コメントで教えて",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 244
+          }
+        ],
+        "speechText": "あなたが単身で住むなら、狭くても車なしを選びますか。それとも、広い部屋と引き換えに車ありを選びますか。今回の資料の数字だけで考えると、答えはかなり価値観に寄ります。どこにお金を置きたいか、コメントで教えてください。",
+        "voiceFile": "ccs_long_29_cta.wav",
+        "startTime": 12029
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "ccs_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "東京なら稼げるし楽。そう思いがちです。でも単身の生活費をこの資料の数字だけで見ると、東京は余りやすい場所とは言い切れません。",
+        "duration": 219,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "tokyo skyline cost of living short",
+        "bg_image": "assets/images/city-cost-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.04,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "単身の結論",
+              "headline": "東京は余らない",
+              "subline": "額面より 家賃と車",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 168
+          }
+        ],
+        "speechText": "東京なら稼げるし楽。そう思いがちです。でも単身の生活費をこの資料の数字だけで見ると、東京は余りやすい場所とは言い切れません。",
+        "voiceFile": "short_ccs_short_00_hook.wav",
+        "startTime": 0
+      },
+      {
+        "id": "ccs_short_01_rent",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "理由の一つは家賃です。主要都市では三割ルールが崩れて、単身でも手取りの四割近くまで食い込みやすいと資料は見ています。",
+        "duration": 225,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "rent burden city apartment short",
+        "bg_image": "assets/images/city-cost-rent.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "家賃の壁",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "目安",
+                  "value": "3割",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "実感",
+                  "value": "4割近く",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "単身でも",
+                  "value": "重い",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 188
+          }
+        ],
+        "speechText": "理由の一つは家賃です。主要都市ではさん割ルールが崩れて、単身でも手取りのよん割近くまで食い込みやすいと資料は見ています。",
+        "voiceFile": "short_ccs_short_01_rent.wav",
+        "startTime": 227
+      },
+      {
+        "id": "ccs_short_02_car",
+        "speaker": "tsumugi",
+        "sceneRole": "data",
+        "text": "でも地方も家賃だけでは勝てません。資料では、東京で車なしは年間十八万円。地方で車一台は四十八万円。車の固定費が安さをかなり削ります。",
+        "duration": 267,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "car ownership cost short chart",
+        "bg_image": "assets/images/city-cost-mobility.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.06
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "年間交通コスト",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "東京 車なし",
+                  "value": "18万円",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "地方 1台",
+                  "value": "48万円",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "差",
+                  "value": "30万円",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 188
+          }
+        ],
+        "speechText": "でも地方も家賃だけでは勝てません。資料では、東京で車なしは年間じゅうはちまん円。地方で車一台はよんじゅうはちまん円。車の固定費が安さをかなり削ります。",
+        "voiceFile": "short_ccs_short_02_car.wav",
+        "startTime": 460
+      },
+      {
+        "id": "ccs_short_03_premium",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "むしろ東京側には、車を持たないだけで年間六十九万円を回避できる利得があります。資料はこれを都市の利便性による支出回避利益として捉えています。",
+        "duration": 271,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "urban premium no car benefit short",
+        "bg_image": "assets/images/city-cost-balance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "BarChart",
+            "props": {
+              "title": "車なしで避ける支出",
+              "bars": [
+                {
+                  "label": "東京 車なし",
+                  "value": 18,
+                  "color": "#38bdf8",
+                  "valueLabel": "18万円"
+                },
+                {
+                  "label": "東京 1台",
+                  "value": 87,
+                  "color": "#ef4444",
+                  "valueLabel": "87万円"
+                },
+                {
+                  "label": "回避額",
+                  "value": 69,
+                  "color": "#facc15",
+                  "valueLabel": "69万円"
+                }
+              ],
+              "unit": "万円",
+              "tagline": "月約5.7万円"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "duration": 198
+          }
+        ],
+        "speechText": "むしろ東京側には、車を持たないだけで年間ろくじゅうきゅうまん円を回避できる利得があります。資料はこれを都市の利便性による支出回避利益として捉えています。",
+        "voiceFile": "short_ccs_short_03_premium.wav",
+        "startTime": 735
+      },
+      {
+        "id": "ccs_short_04_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "つまり単身では、東京は家賃が重い。でも地方は車が重い。資料の数字だけで見ると、どちらも自動で楽とは言えません。",
+        "duration": 212,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "city versus local verdict short",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "単身の見え方",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "東京",
+                  "sub": "家賃が重い"
+                },
+                {
+                  "label": "地方",
+                  "sub": "車が重い"
+                },
+                {
+                  "label": "結論",
+                  "sub": "自動勝利なし",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "duration": 196
+          }
+        ],
+        "speechText": "つまり単身では、東京は家賃が重い。でも地方は車が重い。資料の数字だけで見ると、どちらも自動で楽とは言えません。",
+        "voiceFile": "short_ccs_short_04_verdict.wav",
+        "startTime": 1014
+      },
+      {
+        "id": "ccs_short_05_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたなら、狭くても車なしを取りますか。それとも、広くても車ありを取りますか。固定費の置き方で答えは変わります。",
+        "duration": 223,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "asset_query": "comment question single life short",
+        "bg_image": "assets/images/city-cost-final.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.02,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "どっちを取る?",
+              "subline": "狭くて車なし / 広くて車あり",
+              "accentColor": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 80,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 180
+          }
+        ],
+        "speechText": "あなたなら、狭くても車なしを取りますか。それとも、広くても車ありを取りますか。固定費の置き方で答えは変わります。",
+        "voiceFile": "short_ccs_short_05_cta.wav",
+        "startTime": 1234
+      }
+    ]
+  }
+}

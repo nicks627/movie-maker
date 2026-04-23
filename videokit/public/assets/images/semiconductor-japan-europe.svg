@@ -1,0 +1,18 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0A1120"/>
+  <text x="160" y="128" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="64" font-weight="800">日本と欧州は「全部を作る」ためではなく、急所を握るために動く</text>
+  <text x="160" y="184" fill="#94A3B8" font-family="Arial, sans-serif" font-size="28" font-weight="600">日本は素材・装置・再誘致、欧州は露光装置と設計資産で存在感を保つ</text>
+  <rect x="160" y="280" width="700" height="560" rx="36" fill="#0F172A" stroke="#22C55E" stroke-width="3"/>
+  <rect x="1060" y="280" width="700" height="560" rx="36" fill="#111827" stroke="#38BDF8" stroke-width="3"/>
+  <text x="220" y="362" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="800">日本の狙い</text>
+  <text x="220" y="434" fill="#86EFAC" font-family="Arial, sans-serif" font-size="30" font-weight="700">素材 / 装置 / 誘致 / ラピダス</text>
+  <text x="220" y="520" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">JASM 熊本で冗長化</text>
+  <text x="220" y="580" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">補助金で supply chain を国内へ</text>
+  <text x="220" y="640" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">Rapidus は 2nm 国産化の賭け</text>
+  <text x="1120" y="362" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="800">欧州の狙い</text>
+  <text x="1120" y="434" fill="#7DD3FC" font-family="Arial, sans-serif" font-size="30" font-weight="700">ASML / imec / ESMC / 規制の板挟み</text>
+  <text x="1120" y="520" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">EUV は替えが効きにくい</text>
+  <text x="1120" y="580" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">中国市場も完全には切れない</text>
+  <text x="1120" y="640" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="30" font-weight="600">同盟と商売の綱渡り</text>
+  <text x="160" y="934" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="34" font-weight="700">勝者総取りではない。米中の間で、どの choke point を持てるかが各国の生存戦略になる。</text>
+</svg>

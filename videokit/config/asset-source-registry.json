@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "defaultSourceOrder": [
+    "official-press",
+    "wikimedia-commons",
+    "pixabay",
+    "pexels",
+    "unsplash"
+  ],
+  "sources": [
+    {
+      "id": "official-press",
+      "label": "Official Press / Media Kits",
+      "category": "official",
+      "automationLevel": "manual-review-first",
+      "downloadPolicy": "manual-only",
+      "attributionPolicy": "follow-source-terms",
+      "recommendedFor": [
+        "company and product photos",
+        "IR deck visuals",
+        "factory and facility photos",
+        "official logos or brand materials when allowed"
+      ],
+      "reviewChecklist": [
+        "Read the source page terms before reuse",
+        "Check whether logos, people, or third-party media are restricted",
+        "Record the source URL in the asset manifest"
+      ],
+      "docs": [
+        {
+          "label": "U.S. Copyright Office overview",
+          "url": "https://copyright.gov/what-is-copyright/"
+        },
+        {
+          "label": "U.S. Copyright Office fair use FAQ",
+          "url": "https://www.copyright.gov/help/faq/faq-fairuse.html"
+        }
+      ]
+    },
+    {
+      "id": "wikimedia-commons",
+      "label": "Wikimedia Commons",
+      "category": "commons",
+      "automationLevel": "search-and-download-with-review",
+      "downloadPolicy": "local-download-allowed",
+      "attributionPolicy": "per-file-license",
+      "recommendedFor": [
+        "maps",
+        "historical photos",
+        "public domain images",
+        "encyclopedic topic coverage"
+      ],
+      "reviewChecklist": [
+        "Review each file license individually",
+        "Store author, license, and file page URL",
+        "Do not assume every file is public domain"
+      ],
+      "api": {
+        "baseUrl": "https://commons.wikimedia.org/w/api.php",
+        "docs": [
+          "https://www.mediawiki.org/wiki/API:Search",
+          "https://www.mediawiki.org/wiki/API:Imageinfo"
+        ]
+      }
+    },
+    {
+      "id": "pixabay",
+      "label": "Pixabay",
+      "category": "stock",
+      "automationLevel": "search-and-download",
+      "downloadPolicy": "local-download-recommended",
+      "attributionPolicy": "not-required-but-store-source",
+      "recommendedFor": [
+        "generic B-roll",
+        "background videos",
+        "topic-adjacent illustrative imagery"
+      ],
+      "reviewChecklist": [
+        "Prefer for generic stock support shots",
+        "Avoid implying endorsement by depicted brands or people",
+        "Store the original Pixabay page URL"
+      ],
+      "api": {
+        "baseUrl": "https://pixabay.com/api/",
+        "videoBaseUrl": "https://pixabay.com/api/videos/",
+        "authEnv": "PIXABAY_API_KEY",
+        "docs": [
+          "https://pixabay.com/api/docs/",
+          "https://pixabay.com/service/license-summary/"
+        ]
+      }
+    },
+    {
+      "id": "pexels",
+      "label": "Pexels",
+      "category": "stock",
+      "automationLevel": "search-and-download-with-attribution",
+      "downloadPolicy": "local-download-allowed",
+      "attributionPolicy": "store-credit-and-linkback",
+      "recommendedFor": [
+        "high-quality B-roll",
+        "tech lifestyle footage",
+        "abstract backgrounds"
+      ],
+      "reviewChecklist": [
+        "Store photographer or creator credit",
+        "Keep the Pexels page URL for attribution",
+        "Use for supplemental stock, not official claims"
+      ],
+      "api": {
+        "baseUrl": "https://api.pexels.com/v1",
+        "authEnv": "PEXELS_API_KEY",
+        "docs": [
+          "https://www.pexels.com/api/documentation/",
+          "https://www.pexels.com/license/"
+        ]
+      }
+    },
+    {
+      "id": "unsplash",
+      "label": "Unsplash",
+      "category": "stock",
+      "automationLevel": "search-metadata-review-first",
+      "downloadPolicy": "api-hotlink-required",
+      "attributionPolicy": "required-for-api-usage",
+      "recommendedFor": [
+        "editorial-quality still images",
+        "technology concept photography",
+        "environment and city images"
+      ],
+      "reviewChecklist": [
+        "Use as candidate discovery unless your workflow supports the API rules",
+        "Preserve photographer credit and source link",
+        "Do not default to local auto-download in this project"
+      ],
+      "api": {
+        "baseUrl": "https://api.unsplash.com",
+        "authEnv": "UNSPLASH_ACCESS_KEY",
+        "docs": [
+          "https://unsplash.com/documentation",
+          "https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines",
+          "https://unsplash.com/license"
+        ]
+      }
+    }
+  ]
+}

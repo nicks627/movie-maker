@@ -1,0 +1,188 @@
+{
+  "project": {
+    "id": "sample-gameplay-commentary",
+    "title": "ボス戦実況サンプル",
+    "version": 2,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "game-play-commentary"
+  },
+  "output": {
+    "preset": "landscape-fhd",
+    "fps": 30
+  },
+  "audio": {
+    "bgmVolume": 0.12
+  },
+  "timeline": {
+    "bgm": [
+      { "atScene": 0, "file": "mystery_01.mp3" },
+      { "atScene": 2, "file": "tech_loop.mp3" }
+    ],
+    "gameplay": {
+      "title": "深夜のボス戦チャレンジ",
+      "series": "Episode 07",
+      "video": "assets/video/sample_gameplay.mp4",
+      "streamerName": "四国めたん",
+      "streamerHandle": "@metan_play",
+      "accentColor": "#fb7185",
+      "secondaryColor": "#0f172a",
+      "facecamImage": "metan.png",
+      "playGameplayAudio": false,
+      "showProgress": true,
+      "showTimer": true,
+      "segments": [
+        {
+          "id": "intro",
+          "chapter": "OPENING",
+          "title": "準備フェーズ",
+          "speaker": "metan",
+          "text": "ここまでは順調ね。まずは回復を確保して、開幕の広範囲攻撃に備えるわ。",
+          "speechText": "ここまでは順調ね。まずは回復を確保して、開幕の広範囲攻撃に備えるわ。",
+          "subtitleBeats": [
+            "ここまでは順調ね。",
+            "まずは回復を確保して、開幕の広範囲攻撃に備えるわ。"
+          ],
+          "startTime": 0,
+          "duration": 150,
+          "trimBefore": 1800,
+          "sourceDuration": 150,
+          "voiceFile": "scene_5.wav",
+          "emphasis": "calm",
+          "sceneRole": "context",
+          "draftLayer": "explanation",
+          "se": [
+            {
+              "file": "シャキーン1.mp3",
+              "startOffset": 6,
+              "volume": 0.56,
+              "duration": 24
+            }
+          ],
+          "zoom": 1.08,
+          "focusX": 54,
+          "focusY": 42
+        },
+        {
+          "id": "phase1",
+          "chapter": "BOSS PHASE 1",
+          "title": "開幕パターン確認",
+          "speaker": "zundamon",
+          "text": "初手の突進が来るのだ。右に避けてからすぐ反撃するのが安全なのだ！",
+          "speechText": "初手の突進が来るのだ。右に避けてからすぐ反撃するのが安全なのだ。",
+          "subtitleBeats": [
+            "初手の突進が来るのだ。",
+            "右に避けてから",
+            "すぐ反撃するのが安全なのだ！"
+          ],
+          "duration": 132,
+          "trimBefore": 1980,
+          "sourceDuration": 132,
+          "voiceFile": "scene_6.wav",
+          "emphasis": "hype",
+          "sceneRole": "escalation",
+          "draftLayer": "banter",
+          "se": [
+            {
+              "file": "ビシッとツッコミ1.mp3",
+              "startOffset": 8,
+              "volume": 0.72,
+              "duration": 22
+            }
+          ],
+          "zoom": 1.14,
+          "focusX": 61,
+          "focusY": 49,
+          "popups": [
+            {
+              "image": "diagram_thermal_1773506214500.png",
+              "startOffset": 20,
+              "duration": 64,
+              "imageX": 79,
+              "imageY": 78,
+              "imageWidth": 18,
+              "imageHeight": 22
+            },
+            {
+              "component": "GameplayTextBadge",
+              "props": {
+                "label": "CHECK",
+                "text": "突進後に反撃",
+                "tone": "accent"
+              },
+              "startOffset": 10,
+              "duration": 56,
+              "imageX": 76,
+              "imageY": 24,
+              "imageWidth": 20,
+              "imageHeight": 10
+            }
+          ]
+        },
+        {
+          "id": "phase2",
+          "chapter": "BOSS PHASE 2",
+          "title": "危険パターン",
+          "speaker": "metan",
+          "text": "危ない！ 第二形態は攻撃範囲が広いから、欲張らずに立て直し優先で行くわよ。",
+          "speechText": "危ない。第二形態は攻撃範囲が広いから、欲張らずに立て直し優先で行くわよ。",
+          "subtitleBeats": [
+            "危ない！",
+            "第二形態は攻撃範囲が広いから、",
+            "欲張らずに立て直し優先で行くわよ。"
+          ],
+          "duration": 168,
+          "trimBefore": 2140,
+          "sourceDuration": 168,
+          "voiceFile": "scene_7.wav",
+          "emphasis": "panic",
+          "sceneRole": "risk",
+          "draftLayer": "explanation",
+          "se": [
+            {
+              "file": "和太鼓でドドン.mp3",
+              "startOffset": 4,
+              "volume": 0.7,
+              "duration": 34
+            }
+          ],
+          "zoom": 1.18,
+          "focusX": 47,
+          "focusY": 46
+        },
+        {
+          "id": "finish",
+          "chapter": "FINISH",
+          "title": "撃破シーン",
+          "speaker": "zundamon",
+          "text": "倒したのだ！ ラストはしっかり無敵時間を使って押し切れたのが大きかったのだ。",
+          "speechText": "倒したのだ。ラストはしっかり無敵時間を使って押し切れたのが大きかったのだ。",
+          "subtitleBeats": [
+            "倒したのだ！",
+            "ラストはしっかり無敵時間を使って",
+            "押し切れたのが大きかったのだ。"
+          ],
+          "duration": 144,
+          "trimBefore": 2350,
+          "sourceDuration": 144,
+          "voiceFile": "scene_8.wav",
+          "emphasis": "victory",
+          "sceneRole": "victory",
+          "draftLayer": "banter",
+          "se": [
+            {
+              "file": "きらきら輝く3.mp3",
+              "startOffset": 6,
+              "volume": 0.6,
+              "duration": 42
+            }
+          ],
+          "zoom": 1.1,
+          "focusX": 50,
+          "focusY": 40
+        }
+      ]
+    }
+  }
+}

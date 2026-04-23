@@ -1,0 +1,3293 @@
+{
+  "project": {
+    "id": "trump-iran-coercive-diplomacy",
+    "title": "トランプの対イラン発信はなぜ続くのか 停戦後も終わらない海上強制外交",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.28,
+    "seVolume": 0.58,
+    "voiceDucking": 0.44,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      },
+      {
+        "at_scene": 10,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 22,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 18,
+        "id": "trump_iran_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "停戦で終わったように見えても、対イラン圧力は止まっていません。主戦場が海へ移ったからです。",
+        "subtitleText": "停戦で終わらず、主戦場は海へ移った。",
+        "asset_query": "trump iran ceasefire not over maritime coercion documentary",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "対イラン発信",
+              "headline": "停戦で終わらない",
+              "subline": "海上 coercion の第二局面",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 92,
+            "imageHeight": 22,
+            "duration": 168,
+            "effect": {
+              "type": "none",
+              "duration": 1
+            }
+          }
+        ],
+        "se": [
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 0,
+            "volume": 0.34,
+            "duration": 42
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.96,
+            "speed": 1.02
+          }
+        },
+        "speedScale": 1.08,
+        "duration": 210,
+        "transition": {
+          "type": "flash",
+          "duration": 18
+        },
+        "startTime": 0,
+        "voiceFile": "trump_iran_long_00_hook.wav",
+        "bg_image": "assets/images/iran-war-hook-board.svg"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_01_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "hook",
+        "text": "流れは一本です。2025年2月の最大圧力再始動、2026年3月のエピック・フューリー、4月の停戦、そしてホルムズの条件付き通航へ続きます。",
+        "subtitleText": "最大圧力 軍事局面 停戦 条件付き通航へつながる。",
+        "asset_query": "iran coercive diplomacy chain explainer",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "一本の圧力線",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "最大圧力",
+                  "sub": "2025年2月"
+                },
+                {
+                  "label": "エピック・フューリー",
+                  "sub": "2026年3月"
+                },
+                {
+                  "label": "4月停戦",
+                  "sub": "二週間"
+                },
+                {
+                  "label": "条件付き通航",
+                  "sub": "ホルムズ",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 186,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.32,
+            "duration": 34
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "speedScale": 0.98,
+        "duration": 418,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        },
+        "startTime": 224,
+        "voiceFile": "trump_iran_long_01_boundary.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_02_timeline",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "だから見るべきは、誰が勝ったかではありません。誰が海のルールを握るかです。",
+        "subtitleText": "勝敗より、海のルール争いを見る。",
+        "asset_query": "hormuz maritime rules geopolitical documentary",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "bgVideoTrimBefore": 380,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "勝敗",
+              "connector": "→",
+              "line2": "海のルール",
+              "sub": "論点は maritime coercion",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 86,
+            "imageHeight": 20,
+            "duration": 152,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 10,
+            "volume": 0.26,
+            "duration": 28
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "speedScale": 1.08,
+        "duration": 180,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        },
+        "startTime": 656,
+        "voiceFile": "trump_iran_long_02_timeline.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_03_second_phase",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "ここから先は、ユーザー資料を骨格にしつつ、主要日付と公式声明だけを一次ソースで重ねます。",
+        "subtitleText": "資料を骨格にしつつ、主要日付と公式声明を重ねる。",
+        "asset_query": "source boundary primary source geopolitical",
+        "bg_image": "assets/images/iran-war-source-board.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "一次ソース",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "主要日付",
+                  "公式声明"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "別管理",
+                "titleColor": "#ef4444",
+                "items": [
+                  "戦果主張",
+                  "被害主張"
+                ],
+                "highlight": true
+              },
+              "tagline": "レイヤーを混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 170,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 0.98,
+        "duration": 240,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        },
+        "startTime": 850,
+        "voiceFile": "trump_iran_long_03_second_phase.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_03a_claim_layers",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "軍事被害や戦果は、当事者発表と独立確認を分けます。市場数字も四月二十二日時点の現在値として扱います。",
+        "subtitleText": "戦果と市場の現在値は、レイヤーを分けて読む。",
+        "asset_query": "claims and market layer explainer",
+        "bg_image": "assets/images/iran-war-source-board.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "読む順番",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "一次",
+                  "value": "日付と声明",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "主張",
+                  "value": "戦果と被害",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "市場",
+                  "value": "4月22日時点",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 184,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.08,
+        "duration": 263,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        },
+        "startTime": 1104,
+        "voiceFile": "trump_iran_long_03a_claim_layers.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_03b_nspm_bridge",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "出発点は2025年2月4日。最大圧力は核だけでなく、ミサイル、革命防衛隊、代理勢力、収入源まで最初から一体で縛りました。",
+        "subtitleText": "出発点は、核以外も一体で縛る最大圧力。",
+        "asset_query": "maximum pressure integrated targets explainer",
+        "bg_image": "assets/images/iran-war-objectives-board.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "最大圧力の束ね方",
+              "bullets": [
+                "核",
+                "ミサイルと IRGC",
+                "代理勢力と収入源"
+              ],
+              "tagline": "最初から一体化",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 186,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 0.98,
+        "duration": 386,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        },
+        "startTime": 1381,
+        "voiceFile": "trump_iran_long_03b_nspm_bridge.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_03c_epic_bridge",
+        "speaker": "tsumugi",
+        "sceneRole": "setup",
+        "text": "その政策線は2026年3月1日のエピック・フューリーで軍事局面に入り、四月一日にも広い目標を維持しました。",
+        "subtitleText": "政策線は、軍事局面でも広い目標を保った。",
+        "asset_query": "epic fury broad objectives documentary",
+        "bg_image": "assets/images/iran-war-objectives-board.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "軍事局面でも一貫",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "3月1日",
+                  "value": "軍事局面へ",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "4月1日",
+                  "value": "広い目標維持",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "核心",
+                  "value": "方針は継続",
+                  "color": "#38bdf8"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 184,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.08,
+        "duration": 291,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        },
+        "startTime": 1781,
+        "voiceFile": "trump_iran_long_03c_epic_bridge.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 22,
+        "id": "trump_iran_long_03d_ceasefire_pivot",
+        "speaker": "ryusei",
+        "sceneRole": "hook",
+        "text": "だから四月の停戦は終点ではありません。停戦後に残ったのは、封鎖、検査、保険、通航をめぐる海上圧力の第二局面でした。",
+        "subtitleText": "停戦後に残ったのは、海上圧力の第二局面。",
+        "asset_query": "ceasefire pivot maritime pressure documentary",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "停戦後に残る圧力",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "封鎖",
+                  "sub": "still there"
+                },
+                {
+                  "label": "検査と保険",
+                  "sub": "economic pressure"
+                },
+                {
+                  "label": "条件付き通航",
+                  "sub": "new bargaining phase",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 186,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.3,
+            "duration": 34
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 0.98,
+        "duration": 345,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        },
+        "startTime": 2086,
+        "voiceFile": "trump_iran_long_03d_ceasefire_pivot.wav"
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_04_nspm",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "2025年2月4日、ホワイトハウスは最大圧力を再始動しました。そこでは核だけでなく、ミサイル、革命防衛隊、代理勢力、そして収入源の遮断までが一体で書き込まれています。つまり後に軍事行動へ接続される論理は、戦争が始まるずっと前から政策文書の中に置かれていたわけです。",
+        "subtitleText": "最大圧力は、戦争前から核以外も一体で圧迫していた。",
+        "asset_query": "white house iran maximum pressure memorandum",
+        "bg_image": "assets/images/iran-war-objectives-board.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "2025年2月4日 覚書の要点",
+              "bullets": [
+                "核だけでなくミサイルも対象",
+                "IRGCと代理勢力も圧迫",
+                "収入源の遮断を明記"
+              ],
+              "tagline": "戦争前に論理は書かれていた",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.08,
+        "voiceFile": "trump_iran_long_04_nspm.wav",
+        "duration": 659,
+        "startTime": 2445,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_05_policy_line",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "この覚書の本当の重さは、制裁圧力と軍事圧力の境目をあいまいにした点です。原油収入、港湾活動、海運、保険までが圧力の道具になるなら、後のホルムズ争いは偶発ではありません。制裁の延長線で海上が争点になった。そう読むほうが、全体のつながりは自然です。",
+        "subtitleText": "制裁圧力と軍事圧力は、最初から同じ政策線に乗っていた。",
+        "asset_query": "sanctions military pressure shipping insurance iran",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "bg_video": "assets/imported/wikimedia-commons/freight-ship-danube.mp4",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "同じ政策線",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "制裁",
+                  "sub": "収入を絞る"
+                },
+                {
+                  "label": "軍事圧力",
+                  "sub": "能力を削る"
+                },
+                {
+                  "label": "海上圧迫",
+                  "sub": "航路を交渉材料化",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1,
+        "voiceFile": "trump_iran_long_05_policy_line.wav",
+        "duration": 689,
+        "startTime": 3118,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_06_epic_fury",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "そして2026年3月1日、エピック・フューリーが公表されました。ホワイトハウスは、それを核脅威の排除として語りつつ、ミサイル能力、代理勢力、海軍力の打撃まで含めて説明しています。つまり戦争局面は、新しい 新方針 ではありません。事前に宣言されていた圧力線を、軍事で実行した段階でした。",
+        "subtitleText": "エピック・フューリーは、新方針ではなく既存圧力線の軍事実行だった。",
+        "asset_query": "operation epic fury white house iran naval missile proxy",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2026年3月1日 エピック・フューリー",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "名目",
+                  "value": "核脅威の排除",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "実際",
+                  "value": "ミサイルと代理勢力",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "海上",
+                  "value": "海軍力も標的",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 26,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.08,
+        "voiceFile": "trump_iran_long_06_epic_fury.wav",
+        "duration": 775,
+        "startTime": 3821,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_07_april_one",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "4月1日の演説でも、目的はぶれていません。海軍力の破壊、ミサイル能力の削減、核武装の阻止、代理勢力支援の遮断。言い換えれば、空爆の途中で急に目的が変わったわけではなかった。戦争の途中でも、最初から広く設計された目標群がそのまま維持されていたのです。",
+        "subtitleText": "4月1日も、海軍 ミサイル 代理勢力まで含む広い目標が維持された。",
+        "asset_query": "trump april 1 address iran operation epic fury",
+        "bg_image": "assets/images/iran-war-objectives-board.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "4月1日の再確認",
+              "bullets": [
+                "海軍力の破壊",
+                "ミサイル能力の削減",
+                "代理勢力支援の遮断"
+              ],
+              "tagline": "戦争中も方針は一貫",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_07_april_one.wav",
+        "duration": 680,
+        "startTime": 4610,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_08_peak_pressure",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "転換点は4月5日から7日にありました。トランプは圧力を極限まで高め、インフラにまで触れる脅しを示した直後に、ほとんど間を置かず二週間停戦へ移ります。これは平和への素直な旋回というより、典型的な 強制交渉 の型です。崩壊寸前まで押し上げ、条件付き停止に持ち込む。その流れです。",
+        "subtitleText": "4月上旬は、極限まで押してから条件付き停止へ移す強制交渉だった。",
+        "asset_query": "pressure escalation ceasefire bargaining iran april 2026",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "典型的な強制交渉",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "圧力を極大化",
+                  "sub": "崩壊寸前まで押す"
+                },
+                {
+                  "label": "インフラまで示唆",
+                  "sub": "退路を狭める"
+                },
+                {
+                  "label": "条件付き停止",
+                  "sub": "停戦を取引化",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_08_peak_pressure.wav",
+        "duration": 720,
+        "startTime": 5304,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_09_policy_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここまでをまとめると、対イラン発信は怒りの即興ではありません。最大圧力、軍事圧力、停戦圧力が、同じ戦略目的の上に積み重なっていた。だから自然な読みは 連続性 です。発言がバラバラだったのではなく、発言と行動が一つの線でつながっていたと見るほうが、むしろ無理がありません。",
+        "subtitleText": "自然な読みは偶発ではなく連続性だ。",
+        "asset_query": "policy continuity iran trump documentary",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "偶発",
+              "connector": "×",
+              "line2": "連続",
+              "sub": "制裁 軍事 停戦圧力が一体化",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 20,
+            "duration": 220,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "単発発言",
+              "connector": "×",
+              "line2": "一本の圧力線",
+              "sub": "continuity, not accident",
+              "accent": "#ef4444"
+            },
+            "startOffset": 176,
+            "duration": 124,
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 18,
+            "effect": {
+              "type": "fadeIn",
+              "direction": "up",
+              "duration": 16
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_09_policy_verdict.wav",
+        "duration": 733,
+        "startTime": 6038,
+        "transition": {
+          "type": "lightLeak",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_10_iran_legal",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "イランの反応は二層に分かれます。第一層は法的非難です。外務省は米国とイスラエルを侵略者として位置づけ、学校や病院、研究施設への攻撃を 戦争犯罪 として打ち出しました。被害数字そのものは当事者発表として見る必要があります。ですが、テヘランが最初に戦ったのは、軍事だけでなく法と外交のフレームでもあったのです。",
+        "subtitleText": "イランはまず法と外交のフレームで反撃した。",
+        "asset_query": "iran foreign ministry legal condemnation war crimes",
+        "bg_image": "assets/imported/wikimedia-commons/tehran-clean-day.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "イランの第一反応",
+              "bullets": [
+                "米イスラエルを侵略者と非難",
+                "学校 病院 研究施設への攻撃を問題化",
+                "※被害数字は当事者発表"
+              ],
+              "tagline": "法と外交のフレーム",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_10_iran_legal.wav",
+        "duration": 781,
+        "startTime": 6785,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_11_iran_hormuz",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "第二層はもっと実務的でした。3月22日から23日にかけて、イランはホルムズ海峡を法的には閉じていないと言いつつ、敵対国や敵対勢力に結びつく船舶は普通の通航として扱わないと示します。全面閉鎖は避ける。しかし通航そのものは選別圧力に変える。この曖昧さが、むしろ強い交渉力になりました。",
+        "subtitleText": "全面閉鎖ではなく、通航の選別圧力に切り替えた。",
+        "asset_query": "iran hormuz transit conditional access march 2026",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "bg_video": "assets/imported/wikimedia-commons/freight-ship-danube.mp4",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "閉鎖せず",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "法的には全面封鎖しない",
+                  "一般通航は否定しない"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "ただし条件",
+                "titleColor": "#ef4444",
+                "items": [
+                  "敵対国関連は別扱い",
+                  "通航を選別圧力に使う"
+                ],
+                "highlight": true
+              },
+              "tagline": "全面閉鎖より選別圧力"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_11_iran_hormuz.wav",
+        "duration": 715,
+        "startTime": 7580,
+        "transition": {
+          "type": "push",
+          "duration": 18,
+          "direction": "left"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_12_iran_conditional",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "この 論理 は、4月8日の国家安全保障最高評議会名義の声明でさらに明確になります。攻撃が止まるなら、自衛行動も止める。そしてホルムズの安全通航は二週間認める。つまり停戦と海上通航は、完全に別の話ではありませんでした。同じ 取引 の両側に置かれていたのです。",
+        "subtitleText": "停戦とホルムズ通航は、同じ 取引 の両側に置かれた。",
+        "asset_query": "iran supreme national security council hormuz ceasefire",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "停戦と通航は連動",
+              "accent": "#f97316",
+              "steps": [
+                {
+                  "label": "攻撃停止",
+                  "sub": "条件が満たされる"
+                },
+                {
+                  "label": "自衛行動停止",
+                  "sub": "軍事圧力が一時停止"
+                },
+                {
+                  "label": "二週間の安全通航",
+                  "sub": "海上でも取引が成立",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_12_iran_conditional.wav",
+        "duration": 725,
+        "startTime": 8309,
+        "transition": {
+          "type": "push",
+          "duration": 18,
+          "direction": "left"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_13_iran_card",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここが重要です。イランは海峡を、単なる威嚇としてではなく交渉カードとして使っていました。完全封鎖は外部アクターを一気に敵に回しやすい。けれど条件付き通航なら、エネルギー市場と保険を揺らしながら、交渉余地を残せる。この差は大きい。海峡は破壊よりも、条件付き正常化の交渉カードとして使われたのです。",
+        "subtitleText": "ホルムズは脅しではなく交渉カードとして使われた。",
+        "asset_query": "hormuz bargaining chip energy insurance negotiation",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ホルムズの使い方",
+              "bullets": [
+                "完全封鎖は外部支持を失う",
+                "条件付き通航なら市場を揺らせる",
+                "交渉余地を残したまま圧力"
+              ],
+              "tagline": "脅しではなく交渉カード",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_13_iran_card.wav",
+        "duration": 738,
+        "startTime": 9048,
+        "bg_video": "assets/imported/wikimedia-commons/freight-ship-danube.mp4",
+        "bgVideoTrimBefore": 96,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_14_israel_operational",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "イスラエル側の運用も、米国の圧力線とずれていません。3月28日、イスラエル軍はイランとレバノンにまたがる250超の目標を攻撃したと述べ、米空軍の空中給油支援映像も出しました。実際の戦果は当事者発表として見る必要があります。ですが、イラン正面とレバノン正面をつないだ多正面圧力の演出は、極めて明確でした。",
+        "subtitleText": "イスラエルはイランとレバノンをつなぐ圧力線を見せた。",
+        "asset_query": "idf iran lebanon live updates march 2026",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "bg_video": "assets/imported/wikimedia-commons/valparaiso-port-dusk.webm",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "イスラエル側の運用",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "3月28日",
+                  "value": "両正面を攻撃",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "250超",
+                  "value": "目標打撃を主張",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "米支援",
+                  "value": "空中給油映像",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 26,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_14_israel_operational.wav",
+        "duration": 768,
+        "startTime": 9800,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_15_israel_political",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "政治線でも、イスラエルは別回路を残しました。ネタニヤフは米イラン停戦がレバノンに自動適用しないと繰り返し述べ、4月16日にはヒズボラ武装解除と北部住民の帰還を条件として明示します。つまりイラン正面が止まっても、別の圧力回路は生かしておく。その設計です。",
+        "subtitleText": "停戦があっても、レバノン正面の圧力回路は残された。",
+        "asset_query": "netanyahu lebanon ceasefire april 2026",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "政治線は別建て",
+              "bullets": [
+                "米イラン停戦はレバノンに自動適用しない",
+                "4月16日にヒズボラ武装解除を要求",
+                "北部住民帰還を条件化"
+              ],
+              "tagline": "圧力回路を残した",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_15_israel_political.wav",
+        "duration": 626,
+        "startTime": 10582,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_16_reaction_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だから4月停戦は、とても不完全でした。イランはホルムズを条件付きの交渉カードにし、イスラエルはレバノン正面を別建ての圧力線として残した。地域全体が一斉に緩んだわけではありません。一つの正面を一時停止しながら、別の正面と海上ルールでてこを持ち続けた。それが実態です。",
+        "subtitleText": "4月停戦は、地域全体の正常化ではなく一部 正面 の一時停止だった。",
+        "asset_query": "ceasefire incomplete lebanon hormuz regional pressure",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "停戦",
+              "connector": "≠",
+              "line2": "正常化",
+              "sub": "ホルムズとレバノンが火種",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 20,
+            "duration": 220,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "地域停戦",
+              "connector": "→",
+              "line2": "不完全",
+              "sub": "ホルムズとレバノンは継続",
+              "accent": "#f97316"
+            },
+            "startOffset": 156,
+            "duration": 118,
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 18,
+            "effect": {
+              "type": "fadeIn",
+              "direction": "up",
+              "duration": 16
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_16_reaction_verdict.wav",
+        "duration": 655,
+        "startTime": 11222,
+        "transition": {
+          "type": "lightLeak",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_17_g7",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "外部アクターの反応も示唆的です。3月末の主要七か国外相声明は、民間人、重要インフラ、そしてホルムズの安全航行に焦点を置きました。理念の勝敗より、どこまで海運とエネルギー流通が傷つくかを気にしていた。つまり外の世界は、この危機を純粋な戦争物語ではなく海上要衝危機として見始めていたわけです。",
+        "subtitleText": "主要七か国の主関心は、勝敗より航行とエネルギーの安定だった。",
+        "asset_query": "g7 iran statement hormuz navigation march 2026",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bgVideoTrimBefore": 24,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "G7外相声明の焦点",
+              "bullets": [
+                "民間人と重要インフラ",
+                "ホルムズの安全航行",
+                "エネルギー供給の安定"
+              ],
+              "tagline": "理念より実務",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 28,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_17_g7.wav",
+        "duration": 722,
+        "startTime": 11891,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_18_joint_statement",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "4月8日の共同声明では、その 論理 がさらに明確でした。日本を含む各国は二週間停戦を歓迎し、レバノンを含む実施を求め、同時にホルムズの航行自由を強調します。ここで重要なのは順番です。停戦を歓迎するだけでなく、海上 アクセス の回復までを一体の政策 パッケージ として扱っていることです。",
+        "subtitleText": "共同声明は、停戦維持と航行自由を一体の パッケージ として扱った。",
+        "asset_query": "joint statement april 8 middle east conflict japan hormuz",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "歓迎したもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "二週間停戦",
+                  "レバノンを含む実施"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "強調したもの",
+                "titleColor": "#f97316",
+                "items": [
+                  "ホルムズの航行自由",
+                  "地域安定の維持"
+                ],
+                "highlight": true
+              },
+              "tagline": "停戦と海上秩序を一体で扱う"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_18_joint_statement.wav",
+        "duration": 812,
+        "startTime": 12627,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_19_china_pakistan",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "中国とパキスタンは、より露骨に 仲介 側へ寄りました。中国外務省は停戦を歓迎し、パキスタンによる仲介努力も含めて外交チャネルを支持しています。北京のメッセージは単純です。戦闘を止め、外交空間を戻し、海上輸送路 と エネルギー安定 を守れ。ここでも中心は 体制転換 ではありません。",
+        "subtitleText": "中国とパキスタンは、戦闘停止と外交空間の回復を優先した。",
+        "asset_query": "china pakistan mediation iran ceasefire april 2026",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "中国",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "停戦歓迎",
+                  "仲介努力を支持"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "パキスタン",
+                "titleColor": "#22c55e",
+                "items": [
+                  "調停チャネルの維持",
+                  "外交空間の確保"
+                ],
+                "highlight": true
+              },
+              "tagline": "戦争の固定化を避ける"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_19_china_pakistan.wav",
+        "duration": 811,
+        "startTime": 13453,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_20_uae_eu",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "アラブ首長国連邦と欧州連合はやや硬い線ですが、それでも軸は同じです。停戦を支持しつつ、ホルムズの無条件再開を要求し、航行妨害には制裁を結びつける。つまり政策手段は違っても、海上秩序を戻すことが共通目標になっている。ここでの国際社会は、空爆の勝敗より海上秩序の復元に関心を集中させています。",
+        "subtitleText": "アラブ首長国連邦と欧州連合も、海上秩序の復元を中心目標に置いた。",
+        "asset_query": "uae eu hormuz sanctions navigation april 2026",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "UAEとEUの共通点",
+              "bullets": [
+                "停戦支持",
+                "ホルムズの全面再開を要求",
+                "航行妨害には制裁も視野"
+              ],
+              "tagline": "制度で海上秩序を戻す",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_20_uae_eu.wav",
+        "duration": 779,
+        "startTime": 14278,
+        "bg_video": "assets/imported/wikimedia-commons/valparaiso-port-dusk.webm",
+        "bgVideoTrimBefore": 140,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_21_external_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここはかなり重要な結論です。立場の差はあっても、外部アクターの現実的な関心は、停戦崩壊を防ぐことと航行自由を戻すことにほぼ収束しています。要するに世界は、この危機を純粋な戦争物語としてではなく、世界経済を直撃しうる海上輸送路の緊急事態として読んでいる。そこに大きな一致があります。",
+        "subtitleText": "各国の 現実的な関心 は、停戦維持と航行自由へ収束した。",
+        "asset_query": "global convergence ceasefire freedom of navigation",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "戦争",
+              "connector": "→",
+              "line2": "海峡危機",
+              "sub": "各国の関心は航行自由へ収束",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 20,
+            "duration": 220,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "世界の焦点",
+              "connector": "→",
+              "line2": "航行自由",
+              "sub": "ideology is not the core operational concern",
+              "accent": "#38bdf8"
+            },
+            "startOffset": 168,
+            "duration": 126,
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 86,
+            "imageHeight": 18,
+            "effect": {
+              "type": "fadeIn",
+              "direction": "up",
+              "duration": 16
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_21_external_verdict.wav",
+        "duration": 726,
+        "startTime": 15071,
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bgVideoTrimBefore": 30,
+        "transition": {
+          "type": "lightLeak",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_22_market_shift",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "予測市場も、ほぼ同じ読みをしています。停戦前は、そもそも停戦が来るのかが焦点でした。停戦後は論点が変わる。いつ延長されるのか。恒久和平はどれほど遠いのか。ホルムズの通航はいつ通常に戻るのか。市場が見ている戦場も、戦争の有無から正常化の速度へ移ったのです。",
+        "subtitleText": "市場の論点も、戦争の有無から正常化の速度へ移った。",
+        "asset_query": "prediction market ceasefire hormuz normalization",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "市場の論点が移動",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "停戦は来るか",
+                  "sub": "前半の論点"
+                },
+                {
+                  "label": "延長されるか",
+                  "sub": "次の焦点"
+                },
+                {
+                  "label": "正常化はいつか",
+                  "sub": "海上回復の速度",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 54,
+            "imageWidth": 86,
+            "imageHeight": 22,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.86
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_22_market_shift.wav",
+        "duration": 658,
+        "startTime": 15811,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_23_polymarket",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "2026年4月22日時点のポリマーケットを見ると、停戦延長の本命は4月22日で51パーセント、次が4月21日で25パーセントです。恒久和平の市場では、4月22日が4パーセント、4月30日が32パーセント、6月30日が66パーセント。要するに市場は、すぐの最終和平より脆い延長をはるかに本線に置いています。",
+        "subtitleText": "市場は即時の恒久和平ではなく、脆い延長を本線に置いた。",
+        "asset_query": "polymarket ceasefire extension permanent peace iran april 22 2026",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2026年4月22日時点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "延長本命",
+                  "value": "4月22日 51%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "即時和平",
+                  "value": "4%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "6月末和平",
+                  "value": "66%",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 54,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "即時和平",
+              "connector": "→",
+              "line2": "本線ではない",
+              "sub": "extension beats final settlement",
+              "accent": "#ef4444"
+            },
+            "startOffset": 210,
+            "duration": 132,
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 86,
+            "imageHeight": 18,
+            "effect": {
+              "type": "fadeIn",
+              "direction": "up",
+              "duration": 16
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.68,
+            "speed": 0.84
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_23_polymarket.wav",
+        "duration": 856,
+        "startTime": 16483,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_24_hormuz_market",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ホルムズの値付けも同じ慎重さを示します。ポリマーケットは4月末までの全面正常化を13パーセントと見ている。一方カルシは、6月前の正常化を67パーセント、5月15日までを50パーセント、5月前を32パーセントと値付けしています。つまり改善は見ている。しかし早くきれいな正常化は見ていない。その読みが市場の中心です。",
+        "subtitleText": "ホルムズは改善見込みこそあるが、速い完全正常化は本線ではない。",
+        "asset_query": "kalshi polymarket hormuz traffic normalization april 2026",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "ホルムズ正常化の値付け",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "4月末",
+                  "value": "13%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "5月15日まで",
+                  "value": "50%",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "6月前",
+                  "value": "67%",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 54,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.68,
+            "speed": 0.84
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_24_hormuz_market.wav",
+        "duration": 770,
+        "startTime": 17353,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_25_scenarios",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここまでを重ねると、真ん中のシナリオが最も強く見えます。停戦は延長される。だが封鎖、検査、制裁、条件付き通航、レバノン圧力は並行して続く。もっと明るい道は、海上緩和と協議再開が同時に進む場合。もっと暗い道は、拿捕や誤算から再エスカレーションが始まる場合です。いま一番筋が通るのは中間シナリオです。",
+        "subtitleText": "今の本線は、脆い延長と遅い正常化が並走する 中間シナリオ だ。",
+        "asset_query": "iran scenarios fragile ceasefire hormuz lebanon",
+        "bg_image": "assets/images/iran-war-scenario.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "三つのシナリオ",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "楽観",
+                  "value": "海上緩和と協議再開",
+                  "color": "#22c55e"
+                },
+                {
+                  "icon": "02",
+                  "label": "本線",
+                  "value": "脆い延長",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "悲観",
+                  "value": "拿捕から再拡大",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 54,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.68,
+            "speed": 0.84
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_25_scenarios.wav",
+        "duration": 834,
+        "startTime": 18137,
+        "transition": {
+          "type": "wipe",
+          "duration": 18,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_26_sea_rules",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だから第二局面の本質は海上ルールです。誰が通るのか。誰が検査されるのか。保険はどう再計算されるのか。どの主体が制裁対象になるのか。爆発の回数が減っても、海上支配の局面へ移れば、経済と外交への圧力はむしろ長引きやすい。地味でも、そのほうが世界には重いんです。",
+        "subtitleText": "第二局面の本質は、誰が通れて誰が止められるかという海上ルールだ。",
+        "asset_query": "maritime rules inspection sanctions insurance hormuz",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "第二局面の戦場",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "誰が通る",
+                  "sub": "通航許可の線引き"
+                },
+                {
+                  "label": "誰を検査する",
+                  "sub": "保険と遅延が増える"
+                },
+                {
+                  "label": "誰を制裁する",
+                  "sub": "海上秩序を政治化",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_26_sea_rules.wav",
+        "duration": 687,
+        "startTime": 18985,
+        "transition": {
+          "type": "push",
+          "duration": 18,
+          "direction": "left"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_27_japan",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "日本目線でも、この読みが現実的です。日本の4月8日声明が強調したのは、ホルムズの航行自由でした。抽象的な体制物語ではなく、エネルギー安全保障、海運安定、そして企業と家計への波及が本題だからです。東京が見ているのは、正義の物語より供給ショックの現実です。",
+        "subtitleText": "日本にとっての本題は、正義論ではなくエネルギーと海運の安定だ。",
+        "asset_query": "japan hormuz navigation energy security april 8",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "日本にとっての本題",
+              "bullets": [
+                "エネルギー安全保障",
+                "海運安定",
+                "企業と家計への波及"
+              ],
+              "tagline": "抽象論より実務",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 250,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_27_japan.wav",
+        "duration": 710,
+        "startTime": 19686,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_28_watchpoints",
+        "speaker": "tsumugi",
+        "sceneRole": "watchpoints",
+        "text": "この先の注視点はかなり具体的です。停戦延長の条件はどう積み上がるのか。ホルムズの実務回復は本当に進むのか。レバノン正面は再拡大するのか。そして検査と封鎖が半恒久的なルール体系になってしまうのか。ここを追えば、この第二局面が短い例外なのか、新しい平時なのかが見えてきます。",
+        "subtitleText": "見るべきは停戦条件 ホルムズ回復 レバノン再拡大 封鎖の常態化だ。",
+        "asset_query": "watchpoints hormuz lebanon inspections blockades",
+        "bg_image": "assets/images/iran-war-scenario.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "次の観察点",
+              "bullets": [
+                "停戦延長の条件",
+                "ホルムズ実務回復",
+                "レバノン正面の再拡大",
+                "検査と封鎖の常態化"
+              ],
+              "tagline": "第二局面が一時的かを見る",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "duration": 260,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.86
+          }
+        },
+        "speedScale": 1.06,
+        "voiceFile": "trump_iran_long_28_watchpoints.wav",
+        "duration": 683,
+        "startTime": 20410,
+        "transition": {
+          "type": "blur",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_29_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "close",
+        "text": "結論はかなり明瞭です。トランプの対イラン発信は、見出しだけのノイズ ではありませんでした。最大圧力の再始動、軍事行動、停戦交渉、そして海上圧迫までを一本につなぐ連続シーケンスだった。危機は停戦で終わっていない。海上 強制圧力 と条件付き正常化をめぐる第二局面へ移った。そう読むのが、いちばん整合的です。",
+        "subtitleText": "危機は停戦で終わらず、海上 強制圧力 の第二局面へ移った。",
+        "asset_query": "final verdict trump iran maritime coercion",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "停戦で終わらない",
+              "subline": "海上強制外交の第二局面",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 92,
+            "imageHeight": 22,
+            "duration": 240,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          },
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "停戦",
+              "connector": "→",
+              "line2": "第二局面",
+              "sub": "maritime coercion remains",
+              "accent": "#ef4444"
+            },
+            "startOffset": 192,
+            "duration": 124,
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 84,
+            "imageHeight": 18,
+            "effect": {
+              "type": "fadeIn",
+              "direction": "up",
+              "duration": 16
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "voiceFile": "trump_iran_long_29_verdict.wav",
+        "duration": 829,
+        "startTime": 21107,
+        "transition": {
+          "type": "lightLeak",
+          "duration": 18
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.82)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 14,
+        "subtitleY": 4,
+        "subtitleWidth": 72,
+        "subtitleHeight": 20,
+        "tailFrames": 28,
+        "id": "trump_iran_long_30_cta",
+        "speaker": "tsumugi",
+        "sceneRole": "cta",
+        "text": "あなたは、この第二局面の最大リスクをどこに見るでしょうか。ホルムズ海峡の通航か。レバノン正面の再拡大か。それとも封鎖と検査が新しい常態になってしまうことか。気になる論点を、ぜひコメントで聞かせてください。",
+        "subtitleText": "最大の火種はどこか。ホルムズ レバノン 封鎖の常態化。",
+        "asset_query": "call to action geopolitical comments hormuz lebanon",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bgVideoTrimBefore": 48,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "最大の火種はどこか",
+              "subline": "ホルムズ レバノン 封鎖の常態化",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 92,
+            "imageHeight": 22,
+            "duration": 220,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 18
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.08,
+        "voiceFile": "trump_iran_long_30_cta.wav",
+        "duration": 488,
+        "startTime": 21950,
+        "transition": {
+          "type": "flash",
+          "duration": 18
+        }
+      }
+    ]
+  },
+  "short": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "停戦で終わったように見えても、対イラン圧力は止まっていません。主戦場が海へ移ったからです。",
+        "subtitleText": "停戦で終わらず、主戦場は海へ。",
+        "asset_query": "trump iran short hook documentary",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "対イラン発信",
+              "headline": "停戦で終わらない",
+              "subline": "主戦場は海へ移った",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 52,
+            "imageWidth": 90,
+            "imageHeight": 20,
+            "duration": 160,
+            "effect": {
+              "type": "none",
+              "duration": 1
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          }
+        },
+        "speedScale": 1.02,
+        "voiceFile": "short_trump_iran_short_00_hook.wav",
+        "duration": 206,
+        "startTime": 0,
+        "transition": {
+          "type": "flash",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_01_max_pressure",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "流れは、最大圧力再始動、エピック・フューリー、停戦、条件付き通航です。",
+        "subtitleText": "最大圧力から条件付き通航まで一本線。",
+        "asset_query": "maximum pressure iran memorandum short",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "一本の流れ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "最大圧力"
+                },
+                {
+                  "label": "軍事局面"
+                },
+                {
+                  "label": "停戦"
+                },
+                {
+                  "label": "条件付き通航",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 156,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.84,
+            "speed": 1
+          }
+        },
+        "speedScale": 0.94,
+        "voiceFile": "short_trump_iran_short_01_max_pressure.wav",
+        "duration": 244,
+        "startTime": 214,
+        "transition": {
+          "type": "blur",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_02_policy_to_war",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "その政策線は、3月1日のエピック・フューリーで軍事局面に入ります。",
+        "subtitleText": "3月1日、その政策線は軍事局面へ。",
+        "asset_query": "epic fury short explainer",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "政策から戦争へ",
+              "accent": "#f97316",
+              "steps": [
+                {
+                  "label": "最大圧力"
+                },
+                {
+                  "label": "3月1日"
+                },
+                {
+                  "label": "4月1日も継続",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.82,
+            "speed": 0.98
+          }
+        },
+        "speedScale": 1.02,
+        "voiceFile": "short_trump_iran_short_02_policy_to_war.wav",
+        "duration": 168,
+        "startTime": 466,
+        "transition": {
+          "type": "blur",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_03_ceasefire",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "停戦後も、イランはホルムズ通航を条件付きカードにしました。",
+        "subtitleText": "停戦後も、ホルムズは条件付きカード。",
+        "asset_query": "ceasefire hormuz short documentary",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "停戦",
+              "connector": "→",
+              "line2": "海上圧迫",
+              "sub": "ホルムズが交渉カード化",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 176,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.96
+          }
+        },
+        "speedScale": 0.94,
+        "voiceFile": "short_trump_iran_short_03_ceasefire.wav",
+        "duration": 137,
+        "startTime": 642,
+        "transition": {
+          "type": "blur",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_04_lebanon",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "イスラエルは、停戦がレバノンに自動適用しないと明言しました。",
+        "subtitleText": "レバノン正面は、なお別建て。",
+        "asset_query": "lebanon front short geopolitical",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "まだ残る front",
+              "bullets": [
+                "レバノンは別建て",
+                "圧力回路は維持"
+              ],
+              "tagline": "完全停戦ではない",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.82,
+            "speed": 0.98
+          }
+        },
+        "speedScale": 1.02,
+        "voiceFile": "short_trump_iran_short_04_lebanon.wav",
+        "duration": 137,
+        "startTime": 787,
+        "transition": {
+          "type": "blur",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_05_reactions",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "各国の主関心は、体制転換より航行の自由とエネルギー安定でした。",
+        "subtitleText": "各国の主関心は、航行自由とエネルギー安定。",
+        "asset_query": "global reactions freedom of navigation short",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "重視したもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "航行自由",
+                  "エネルギー安定"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "脇に置かれたもの",
+                "titleColor": "#64748b",
+                "items": [
+                  "抽象的な勝敗",
+                  "政権交代物語"
+                ],
+                "highlight": true
+              },
+              "tagline": "関心は実務へ"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 26,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.8,
+            "speed": 0.96
+          }
+        },
+        "speedScale": 0.94,
+        "voiceFile": "short_trump_iran_short_05_reactions.wav",
+        "duration": 168,
+        "startTime": 932,
+        "transition": {
+          "type": "blur",
+          "duration": 12
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_06_market",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "市場も、即時和平より脆い延長を本線に置いています。市場はすぐの正常化を見ていません。",
+        "subtitleText": "市場も、即時和平より脆い延長。",
+        "asset_query": "prediction market short iran april 22",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "市場の読み",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "延長本命",
+                  "value": "51%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "即時和平",
+                  "value": "4%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "6月末和平",
+                  "value": "66%",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.02,
+        "voiceFile": "short_trump_iran_short_06_market.wav",
+        "duration": 204,
+        "startTime": 1108,
+        "transition": {
+          "type": "wipe",
+          "duration": 12,
+          "direction": "right"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_07_hormuz",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ホルムズの4月末完全正常化は13パーセント。改善期待はあっても、まだ通常ではありません。",
+        "subtitleText": "4月末完全正常化は13パーセント。まだ通常ではない。",
+        "asset_query": "hormuz normalization odds short",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "ホルムズの値付け",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "4月末",
+                  "value": "13%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "5月15日まで",
+                  "value": "50%",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "6月前",
+                  "value": "67%",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 0.94,
+        "voiceFile": "short_trump_iran_short_07_hormuz.wav",
+        "duration": 226,
+        "startTime": 1320,
+        "transition": {
+          "type": "push",
+          "duration": 12,
+          "direction": "left"
+        }
+      },
+      {
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 10,
+          "backgroundColor": "rgba(2, 6, 23, 0.84)",
+          "borderRadius": 28,
+          "padding": 16,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "subtitleX": 5,
+        "subtitleY": 7,
+        "subtitleWidth": 90,
+        "subtitleHeight": 18,
+        "tailFrames": 0,
+        "id": "trump_iran_short_08_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "close",
+        "text": "つまり今は、海上強制圧力と条件付き正常化の第二局面です。本当の戦場は海のルールです。",
+        "subtitleText": "今は、海上強制圧力の第二局面。",
+        "asset_query": "verdict maritime coercion short documentary",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "停戦で終わらない",
+              "subline": "海上 coercion の第二局面",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 180,
+            "effect": {
+              "type": "slideIn",
+              "direction": "up",
+              "duration": 12
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.84,
+            "speed": 1
+          }
+        },
+        "speedScale": 1.02,
+        "voiceFile": "short_trump_iran_short_08_verdict.wav",
+        "duration": 229,
+        "startTime": 1554,
+        "transition": {
+          "type": "lightLeak",
+          "duration": 12
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111a"/>
+      <stop offset="100%" stop-color="#161f2f"/>
+    </linearGradient>
+    <linearGradient id="chartRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="chartBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <rect x="120" y="110" width="1680" height="390" rx="36" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+  <rect x="180" y="180" width="690" height="250" rx="28" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <rect x="1010" y="180" width="690" height="250" rx="28" fill="#111827" stroke="#334155" stroke-width="3"/>
+
+  <path d="M226 382L326 336L426 344L526 292L626 312L726 250L824 222" fill="none" stroke="url(#chartRed)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1056 392L1156 364L1256 316L1356 304L1456 268L1556 244L1654 230" fill="none" stroke="url(#chartBlue)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="326" cy="336" r="14" fill="#ef4444"/>
+  <circle cx="526" cy="292" r="14" fill="#ef4444"/>
+  <circle cx="726" cy="250" r="14" fill="#ef4444"/>
+  <circle cx="1156" cy="364" r="14" fill="#38bdf8"/>
+  <circle cx="1456" cy="268" r="14" fill="#38bdf8"/>
+  <circle cx="1654" cy="230" r="14" fill="#38bdf8"/>
+
+  <rect x="190" y="560" width="480" height="340" rx="30" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+  <rect x="720" y="560" width="480" height="340" rx="30" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+  <rect x="1250" y="560" width="480" height="340" rx="30" fill="#0b1220" stroke="#334155" stroke-width="3"/>
+
+  <circle cx="270" cy="648" r="28" fill="#ef4444"/>
+  <circle cx="800" cy="648" r="28" fill="#f59e0b"/>
+  <circle cx="1330" cy="648" r="28" fill="#38bdf8"/>
+
+  <rect x="330" y="622" width="266" height="42" rx="16" fill="#132130"/>
+  <rect x="330" y="700" width="216" height="30" rx="12" fill="#132130"/>
+  <rect x="330" y="746" width="232" height="30" rx="12" fill="#132130"/>
+
+  <rect x="860" y="622" width="266" height="42" rx="16" fill="#132130"/>
+  <rect x="860" y="700" width="216" height="30" rx="12" fill="#132130"/>
+  <rect x="860" y="746" width="232" height="30" rx="12" fill="#132130"/>
+
+  <rect x="1390" y="622" width="266" height="42" rx="16" fill="#132130"/>
+  <rect x="1390" y="700" width="216" height="30" rx="12" fill="#132130"/>
+  <rect x="1390" y="746" width="232" height="30" rx="12" fill="#132130"/>
+</svg>

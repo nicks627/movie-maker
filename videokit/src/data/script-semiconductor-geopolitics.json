@@ -1,0 +1,3440 @@
+{
+  "project": {
+    "id": "semiconductor-geopolitics",
+    "title": "半導体地政学と技術覇権 世界はなぜシリコンを奪い合うのか",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.072,
+    "voiceVolume": 1.32,
+    "seVolume": 0.58,
+    "voiceDucking": 0.46,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      },
+      {
+        "at_scene": 10,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 20,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "semi_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "二〇二六年、世界の富と権力は、たった一つの石に依存しています。シリコンです。半導体はもうスマホやパソコンの部品ではありません。戦争を抑止し、補助金を動かし、同盟を縛り、国家の優先順位そのものを書き換えるインフラになりました。だから今、米中対立の本丸は、台湾海峡と工場のクリーンルームの両方にあるんです。",
+        "subtitleText": "世界の富と権力は、今やシリコンに依存している。",
+        "bg_image": "assets/images/semiconductor-hero.svg",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bgVideoTrimBefore": 12,
+        "asset_query": "semiconductor geopolitics silicon chip world map",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "半導体地政学",
+              "headline": "技術覇権の本題",
+              "subline": "国家を縛るシリコン",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.96
+          }
+        },
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_00_hook.wav",
+        "speechText": "二〇二六年、世界の富と権力は、たった一つの石に依存しています。シリコンです。半導体はもうスマホやパソコンの部品ではありません。戦争を抑止し、補助金を動かし、同盟を縛り、国家の優先順位そのものを書き換えるインフラになりました。だから今、米中対立の本丸は、台湾海峡と工場のクリーンルームの両方にあるんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 750,
+        "startTime": 0,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.22,
+            "duration": 22
+          },
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 14,
+            "volume": 0.18,
+            "duration": 34
+          }
+        ]
+      },
+      {
+        "id": "semi_long_01_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "最初に注意点を置きます。この動画は、一つひとつの数字を絶対値として断定するための動画ではありません。とくに、MATCH法案の条文の動きや、台湾が先端チップの何割を握るかという表現は、時点や定義でぶれます。ここでは、最新報道と公表資料で確認できる範囲をベースにしつつ、世界がなぜ半導体を安全保障のど真ん中に置き始めたのかを構造で見ます。",
+        "subtitleText": "※ 数字と法案の細部は動く。ここでは構造を追う。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-white-house-lawn-jpg.jpg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "確認事実",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "輸出規制の強化",
+                  "TSMC の集中",
+                  "日本と欧州の再編"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "注意が要る点",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "MATCH 法案の細目",
+                  "先端シェアの定義",
+                  "生産開始時期の表現"
+                ],
+                "highlight": true
+              },
+              "tagline": "断定ではなく、時点つきで見る"
+            },
+            "imageX": 50,
+            "imageY": 53,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_01_boundary.wav",
+        "speechText": "最初に注意点を置きます。この動画は、一つひとつの数字を絶対値として断定するための動画ではありません。とくに、MATCH法案の条文の動きや、台湾が先端チップの何割を握るかという表現は、時点や定義でぶれます。ここでは、最新報道と公表資料で確認できる範囲をベースにしつつ、世界がなぜ半導体を安全保障のど真ん中に置き始めたのかを構造で見ます。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 860,
+        "startTime": 758,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.18,
+            "duration": 24
+          },
+          {
+            "file": "パッ.mp3",
+            "startOffset": 14,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_02_why_chip",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "なぜここまで半導体が重くなったのか。答えは単純で、いまの産業は、半導体を失うと同時に止まるからです。AIサーバーだけではありません。自動車、通信、医療機器、兵器、送電網、決済システムまで、全部がチップを前提に動いている。つまり半導体は、利益の源泉であると同時に、国家のボトルネックでもあるんです。",
+        "subtitleText": "半導体は、利益の源泉であり国家のボトルネックでもある。",
+        "bg_image": "assets/images/semiconductor-blocks.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "半導体が止まると止まるもの",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "産業",
+                  "value": "自動車 / 家電 / 工場",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "国家",
+                  "value": "通信 / 電力 / 軍事",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "市場",
+                  "value": "AI と資本市場",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.08,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_02_why_chip.wav",
+        "speechText": "なぜここまで半導体が重くなったのか。答えは単純で、いまの産業は、半導体を失うと同時に止まるからです。AIサーバーだけではありません。自動車、通信、医療機器、兵器、送電網、決済システムまで、全部がチップを前提に動いている。つまり半導体は、利益の源泉であると同時に、国家のボトルネックでもあるんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 779,
+        "startTime": 1626,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 10,
+            "volume": 0.22,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_03_global_to_bloc",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "昔の半導体産業は、最適地生産の典型でした。設計はアメリカ、最先端量産は台湾、装置はアメリカとオランダ、日本は素材と部材、組み立てや中間工程は東アジアに分散する。この多国籍の寄せ集めが、コストを下げて世界経済を回してきた。でも安全保障の目線に立つと、それはそのまま脆弱性の地図でもありました。",
+        "subtitleText": "最適地生産の地図は、そのまま脆弱性の地図でもあった。",
+        "bg_image": "assets/images/semiconductor-blocks.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "かつての半導体 supply chain",
+              "steps": [
+                {
+                  "label": "設計",
+                  "sub": "米国"
+                },
+                {
+                  "label": "量産",
+                  "sub": "台湾"
+                },
+                {
+                  "label": "装置と素材",
+                  "sub": "日本 / 欧州"
+                },
+                {
+                  "label": "世界出荷",
+                  "sub": "全産業が依存",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_03_global_to_bloc.wav",
+        "speechText": "昔の半導体産業は、最適地生産の典型でした。設計はアメリカ、最先端量産は台湾、装置はアメリカとオランダ、日本は素材と部材、組み立てや中間工程は東アジアに分散する。この多国籍の寄せ集めが、コストを下げて世界経済を回してきた。でも安全保障の目線に立つと、それはそのまま脆弱性の地図でもありました。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 773,
+        "startTime": 2413,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_04_blockification",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "そこで起きているのが、供給網のブロック化です。もう最安であればどこで作ってもいい、ではなくなった。どの陣営の法律で守られるのか。どの国に止められるのか。どの海峡が閉じたら死ぬのか。そういう問いでサプライチェーンを組み直す時代に入っています。半導体は、そのブロック化を最も早く、最も激しく受けている産業です。",
+        "subtitleText": "最安より、止められないことが優先され始めた。",
+        "bg_image": "assets/images/semiconductor-blocks.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ブロック化で問われること",
+              "bullets": [
+                "最安か、止まらないか",
+                "効率か、同盟か",
+                "売上か、安全保障か"
+              ],
+              "tagline": "コスト最適化から安全保障へ",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.05,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_04_blockification.wav",
+        "speechText": "そこで起きているのが、供給網のブロック化です。もう最安であればどこで作ってもいい、ではなくなった。どの陣営の法律で守られるのか。どの国に止められるのか。どの海峡が閉じたら死ぬのか。そういう問いでサプライチェーンを組み直す時代に入っています。半導体は、そのブロック化を最も早く、最も激しく受けている産業です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 728,
+        "startTime": 3194,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_05_match_setup",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "この流れを象徴するのが、二〇二六年春に再び話題化した MATCH法案です。報道ベースでは、中国など懸念国向けの半導体装置規制をさらに広げる狙いがあり、業界の反発で条文の表現調整も入ったとされています。ここで重要なのは、法案の最終行数ではありません。アメリカ議会が、装置そのものを地政学の兵器として扱い始めたという方向性です。",
+        "subtitleText": "MATCH 法案の核心は、装置を地政学の兵器に変えること。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-donald-trump-official-portrait-jpg.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "MATCH 法案をどう見るか",
+              "bullets": [
+                "条文の細部は動く",
+                "方向性は装置規制の強化",
+                "同盟国企業も巻き込まれる"
+              ],
+              "tagline": "※ 報道ベースの動きも含む",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 0.97,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_05_match_setup.wav",
+        "speechText": "この流れを象徴するのが、二〇二六年春に再び話題化した MATCH法案です。報道ベースでは、中国など懸念国向けの半導体装置規制をさらに広げる狙いがあり、業界の反発で条文の表現調整も入ったとされています。ここで重要なのは、法案の最終行数ではありません。アメリカ議会が、装置そのものを地政学の兵器として扱い始めたという方向性です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 844,
+        "startTime": 3930,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_06_us_goal",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "アメリカの狙いは明快です。中国に最先端の計算能力を渡さない。もっと言えば、軍事にもAIにも効く計算基盤を、時間ごと奪うことです。だから対象は完成品だけではない。製造装置、設計ソフト、先端パッケージング、そして人材移転まで、丸ごと押さえにいく。チップは目立つけれど、本当に絞める場所は、その前段の生産能力なんです。",
+        "subtitleText": "米国が絞めたいのは、完成品ではなく生産能力そのもの。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-white-house-lawn-jpg.jpg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "米国の絞め方",
+              "steps": [
+                {
+                  "label": "設計",
+                  "sub": "EDA と知財"
+                },
+                {
+                  "label": "装置",
+                  "sub": "露光 / エッチング / 検査"
+                },
+                {
+                  "label": "後工程",
+                  "sub": "先端パッケージ"
+                },
+                {
+                  "label": "結果",
+                  "sub": "時間を奪う",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.04,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_06_us_goal.wav",
+        "speechText": "アメリカの狙いは明快です。中国に最先端の計算能力を渡さない。もっと言えば、軍事にもAIにも効く計算基盤を、時間ごと奪うことです。だから対象は完成品だけではない。製造装置、設計ソフト、先端パッケージング、そして人材移転まで、丸ごと押さえにいく。チップは目立つけれど、本当に絞める場所は、その前段の生産能力なんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 846,
+        "startTime": 4782,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_07_trump_subsidy",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "そして規制だけでは足りないから、国内回帰の補助金も続きます。トランプ政権が再び強めたのは、輸入を締めながら国内投資を太らせる二正面作戦です。外に出すな、中で作れ、そのコスト差は政府が埋める。安全保障を理由にすると、かつてなら産業保護と批判された政策が、同盟の常識として通りやすくなる。ここに今の時代の空気があります。",
+        "subtitleText": "外に出すな。中で作れ。差額は国家が埋める。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-donald-trump-official-portrait-jpg.jpg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "外向き",
+                "titleColor": "#ef4444",
+                "items": [
+                  "輸出規制",
+                  "装置制限",
+                  "対中封じ込め"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "内向き",
+                "titleColor": "#22c55e",
+                "items": [
+                  "国内補助金",
+                  "工場回帰",
+                  "サプライチェーン再配置"
+                ],
+                "highlight": true
+              },
+              "tagline": "規制と補助金はセット"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_07_trump_subsidy.wav",
+        "speechText": "そして規制だけでは足りないから、国内回帰の補助金も続きます。トランプ政権が再び強めたのは、輸入を締めながら国内投資を太らせる二正面作戦です。外に出すな、中で作れ、そのコスト差は政府が埋める。安全保障を理由にすると、かつてなら産業保護と批判された政策が、同盟の常識として通りやすくなる。ここに今の時代の空気があります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 794,
+        "startTime": 5636,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_08_china_response",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "では中国は詰んだのか。そうではありません。最先端を止められた中国が選んだのは、成熟ノードで世界を包囲する戦略です。二十八ナノ以降のレガシー半導体は、AIの主役ではない。でも車、家電、工場、電力装置には大量に必要です。ここで数量と価格を握れば、世界の製造業全体に圧力をかけられる。中国の反撃は、派手な最先端よりも、むしろその地味な領域にあります。",
+        "subtitleText": "中国の反撃は、最先端ではなくレガシーの数量支配にある。",
+        "bg_image": "assets/images/semiconductor-legacy.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "中国の反撃",
+              "headline": "レガシー半導体",
+              "subline": "数量と価格で押す",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_08_china_response.wav",
+        "speechText": "では中国は詰んだのか。そうではありません。最先端を止められた中国が選んだのは、成熟ノードで世界を包囲する戦略です。二十八ナノ以降のレガシー半導体は、AIの主役ではない。でも車、家電、工場、電力装置には大量に必要です。ここで数量と価格を握れば、世界の製造業全体に圧力をかけられる。中国の反撃は、派手な最先端よりも、むしろその地味な領域にあります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 916,
+        "startTime": 6438,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_08a_china_domestic_tools",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "しかも中国は、完成したチップだけでなく、装置の内製比率まで押し上げようとしています。二〇二五年末には、新設や増設ラインの設備投資の半分を中国製で埋めるよう求める動きが報じられました。露光で完全自立していなくても、洗浄、検査、成膜、エッチング周辺から国産比率を上げれば、制裁の効き方は徐々に鈍る。中国の怖さは、一発逆転より、周辺から囲い込む粘り強さです。",
+        "subtitleText": "中国はチップだけでなく、装置の国産比率まで引き上げに動く。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-xi-jinping-2022-cropped-jpg.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "中国の内製化が意味するもの",
+              "bullets": [
+                "新増設ラインで国産装置比率を上げる動き",
+                "露光だけでなく周辺装置を固める",
+                "制裁の効き方を徐々に鈍らせる"
+              ],
+              "tagline": "一発逆転ではなく周辺から埋める",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.97,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_08a_china_domestic_tools.wav",
+        "speechText": "しかも中国は、完成したチップだけでなく、装置の内製比率まで押し上げようとしています。二〇二五年末には、新設や増設ラインの設備投資の半分を中国製で埋めるよう求める動きが報じられました。露光で完全自立していなくても、洗浄、検査、成膜、エッチング周辺から国産比率を上げれば、制裁の効き方は徐々に鈍る。中国の怖さは、一発逆転より、周辺から囲い込む粘り強さです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 922,
+        "startTime": 7362,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_09_legacy_meaning",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "レガシーという言葉が誤解を生みます。古い、だから重要ではない、ではないんです。成熟ノードは、大量に、安定して、安く供給できることに価値がある。自動車向けのマイコン、センサー、電源制御、産業機械、基地局、送配電設備。これらは最先端三ナノである必要はないが、数が止まれば工場が止まる。だから中国がここを埋めに来ると、西側企業は価格競争でも供給依存でも苦しくなる。",
+        "subtitleText": "レガシーは古いから弱いのではない。止めにくいから強い。",
+        "bg_image": "assets/images/semiconductor-legacy.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "レガシー半導体が刺さる領域",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "自動車",
+                  "value": "MCU / センサー",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "02",
+                  "label": "家電",
+                  "value": "制御と電源",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "03",
+                  "label": "インフラ",
+                  "value": "通信 / 電力",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_09_legacy_meaning.wav",
+        "speechText": "レガシーという言葉が誤解を生みます。古い、だから重要ではない、ではないんです。成熟ノードは、大量に、安定して、安く供給できることに価値がある。自動車向けのマイコン、センサー、電源制御、産業機械、基地局、送配電設備。これらは最先端三ナノである必要はないが、数が止まれば工場が止まる。だから中国がここを埋めに来ると、西側企業は価格競争でも供給依存でも苦しくなる。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 990,
+        "startTime": 8292,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_10_legacy_numbers_note",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ここでも数字の扱いには注意が必要です。中国の成熟ノード生産が世界の二八パーセント規模に達するといった推計は、主に業界団体や報道ベースで広がりました。重要なのは、その数字が二七か二九かではなく、西側の企業が本気で生存不安を訴え始めたことです。つまりこれは、誇張されたネット言説ではなく、現実の産業政策のテーマになっているということです。",
+        "subtitleText": "※ 28% などの数字は推計。重要なのは業界が本気で警戒していること。",
+        "bg_image": "assets/images/semiconductor-legacy.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ここで大事な読み方",
+              "bullets": [
+                "比率は推計値として扱う",
+                "しかし警戒は現実の政策論点",
+                "価格攻勢と過剰能力が問題"
+              ],
+              "tagline": "数字より、政策反応を見る",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.02,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_10_legacy_numbers_note.wav",
+        "speechText": "ここでも数字の扱いには注意が必要です。中国の成熟ノード生産が世界の二八パーセント規模に達するといった推計は、主に業界団体や報道ベースで広がりました。重要なのは、その数字が二七か二九かではなく、西側の企業が本気で生存不安を訴え始めたことです。つまりこれは、誇張されたネット言説ではなく、現実の産業政策のテーマになっているということです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 852,
+        "startTime": 9290,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.18,
+            "duration": 24
+          },
+          {
+            "file": "パッ.mp3",
+            "startOffset": 14,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_10a_price_war",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "さらに厄介なのは、数量がそのまま価格破壊になることです。成熟ノードで過剰能力が積み上がれば、西側企業は利益を削られ、工場の更新投資も難しくなる。すると最先端に集中したかった企業まで、土台の部品供給で中国を無視できなくなる。半導体地政学の怖さは、最先端の派手な戦いより、地味な価格競争が産業の足腰を削っていくことにもあります。",
+        "subtitleText": "価格破壊が進めば、西側の産業基盤そのものが削られる。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/silicon-wafer-researcher.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "成熟ノードの価格戦で起きること",
+              "bullets": [
+                "利益率の悪化",
+                "更新投資の先送り",
+                "土台の部品供給で依存が残る"
+              ],
+              "tagline": "派手ではないが、じわじわ効く",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1.03,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_10a_price_war.wav",
+        "speechText": "さらに厄介なのは、数量がそのまま価格破壊になることです。成熟ノードで過剰能力が積み上がれば、西側企業は利益を削られ、工場の更新投資も難しくなる。すると最先端に集中したかった企業まで、土台の部品供給で中国を無視できなくなる。半導体地政学の怖さは、最先端の派手な戦いより、地味な価格競争が産業の足腰を削っていくことにもあります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 865,
+        "startTime": 10150,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_11_us_china_not_symmetric",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ここで面白いのは、米中の戦いが左右対称ではないことです。アメリカは先端で絞める。中国は成熟ノードで薄く広く浸透する。片方は chokepoint を狙い、もう片方は底辺の量を狙う。だから西側の政策が先端だけを見ていると、中国の反撃は後から効いてきます。半導体冷戦は、先端ノードのニュースだけ見ていても全体像を外すんです。",
+        "subtitleText": "米国は chokepoint、中国は底辺の量。戦い方が違う。",
+        "bg_image": "assets/images/semiconductor-blocks.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "米国",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "先端を止める",
+                  "装置を握る",
+                  "時間を奪う"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "中国",
+                "titleColor": "#ef4444",
+                "items": [
+                  "成熟ノード",
+                  "数量と価格",
+                  "世界の工場を囲う"
+                ],
+                "highlight": true
+              },
+              "tagline": "非対称の半導体冷戦"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.96,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_11_us_china_not_symmetric.wav",
+        "speechText": "ここで面白いのは、米中の戦いが左右対称ではないことです。アメリカは先端で絞める。中国は成熟ノードで薄く広く浸透する。片方は chokepoint を狙い、もう片方は底辺の量を狙う。だから西側の政策が先端だけを見ていると、中国の反撃は後から効いてきます。半導体冷戦は、先端ノードのニュースだけ見ていても全体像を外すんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 888,
+        "startTime": 11023,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_12_chapter_taiwan",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "そしてこの対立の中心にいるのが台湾です。ここから話は一気に重くなります。なぜなら台湾は、ただの生産拠点ではなく、戦争をためらわせる装置そのものになっているからです。",
+        "subtitleText": "台湾は、生産拠点ではなく抑止装置になった。",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "第2章",
+              "headline": "台湾とシリコンの盾",
+              "subline": "なぜ世界は放置できないのか",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 1.06,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_12_chapter_taiwan.wav",
+        "speechText": "そしてこの対立の中心にいるのが台湾です。ここから話は一気に重くなります。なぜなら台湾は、ただの生産拠点ではなく、戦争をためらわせる装置そのものになっているからです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 412,
+        "startTime": 11919,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 10,
+            "volume": 0.22,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_13_tsmc_concentration",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "TSMC は世界最大のファウンドリです。全体のファウンドリ市場で見ても七割前後という圧倒的な存在感を持ちますが、本当に恐ろしいのはそこではありません。より重要なのは、AIや高性能計算に直結する最先端ノードの量産能力が、極端に台湾、とりわけTSMCに寄っていることです。この集中があるから、台湾有事は即、世界経済ショックになります。",
+        "subtitleText": "TSMC の怖さは、市場シェアより最先端量産の集中にある。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-tsmc-logo-on-taichung-factory-building-jpg.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "TSMC 集中の見方",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "Foundry 全体",
+                  "value": "約7割前後",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "先端ノード",
+                  "value": "台湾集中",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "意味",
+                  "value": "AI と軍事の急所",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.96,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_13_tsmc_concentration.wav",
+        "speechText": "TSMC は世界最大のファウンドリです。全体のファウンドリ市場で見ても七割前後という圧倒的な存在感を持ちますが、本当に恐ろしいのはそこではありません。より重要なのは、AIや高性能計算に直結する最先端ノードの量産能力が、極端に台湾、とりわけTSMCに寄っていることです。この集中があるから、台湾有事は即、世界経済ショックになります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 861,
+        "startTime": 12339,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_14_advanced_note",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ここでよく出る、最先端チップの九割以上を台湾が握るという言い方にも注釈を入れます。これは一般に、最先端の受託生産や、三ナノから五ナノ級の特定領域を指して使われることが多い表現です。半導体全体の数量の九割という意味ではありません。ただし、AI時代にいちばん効く部分が台湾へ偏っている、という趣旨は大きく外れていません。",
+        "subtitleText": "※「9割」は半導体全体ではなく、主に先端受託生産の文脈。",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "9割表現の読み方",
+              "bullets": [
+                "半導体全体の数量ではない",
+                "主に先端の受託生産を指す",
+                "ただし集中の重さは本物"
+              ],
+              "tagline": "定義をずらさず見る",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_14_advanced_note.wav",
+        "speechText": "ここでよく出る、最先端チップの九割以上を台湾が握るという言い方にも注釈を入れます。これは一般に、最先端の受託生産や、三ナノから五ナノ級の特定領域を指して使われることが多い表現です。半導体全体の数量の九割という意味ではありません。ただし、AI時代にいちばん効く部分が台湾へ偏っている、という趣旨は大きく外れていません。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 817,
+        "startTime": 13208,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 8,
+            "volume": 0.2,
+            "duration": 28
+          }
+        ]
+      },
+      {
+        "id": "semi_long_15_orbital_taiwan",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "地図で見ると、台湾はさらに意味が変わります。中国本土の目の前にある島でありながら、世界の計算能力の要所を抱えている。ここが地政学と産業が直結する場所です。もしここで大規模な混乱が起きれば、船が止まるだけでは済まない。データセンター、自動車、スマホ、防衛産業まで、同時に供給不安へ入ります。",
+        "subtitleText": "台湾海峡の緊張は、そのまま世界の supply chain の緊張になる。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+        "popups": [
+          {
+            "component": "OrbitalMapZoom",
+            "props": {
+              "title": "宇宙から台湾へ",
+              "subtitle": "台湾海峡が supply chain の急所になる",
+              "locationLabel": "East Asia",
+              "focusLabel": "Taiwan",
+              "mapLabel": "台湾",
+              "note": "広域から台湾へ。供給網の中心が、抑止の中心にもなる。",
+              "outlinePath": "M632 78 C664 70 696 79 717 96 C737 112 744 140 742 170 C740 203 744 231 752 266 C762 307 759 346 749 384 C741 414 730 449 731 483 C732 516 721 546 706 571 C692 594 673 611 651 604 C627 596 614 569 609 539 C603 506 590 480 575 451 C558 416 547 381 548 343 C549 306 562 273 572 239 C582 205 590 172 593 139 C597 109 608 86 632 78 Z",
+              "regions": [
+                {
+                  "label": "北部",
+                  "color": "#38bdf8",
+                  "description": "Hsinchu / 設計と先端量産",
+                  "path": "M626 130 C664 128 695 145 708 174 C721 203 710 235 680 252 C653 268 620 262 603 240 C587 218 587 186 601 160 C607 149 616 138 626 130 Z"
+                },
+                {
+                  "label": "中部",
+                  "color": "#22c55e",
+                  "description": "量産と後工程のつなぎ",
+                  "path": "M612 252 C649 248 685 261 700 294 C715 328 703 365 671 388 C640 410 606 398 588 366 C571 336 575 298 592 273 C597 265 604 257 612 252 Z"
+                },
+                {
+                  "label": "南部",
+                  "color": "#ef4444",
+                  "description": "Tainan / 先端ノードの集積",
+                  "path": "M624 396 C661 390 696 404 709 434 C723 467 713 511 687 540 C665 563 638 565 621 544 C602 521 596 490 592 459 C589 433 598 408 624 396 Z"
+                }
+              ],
+              "callouts": [
+                {
+                  "label": "Hsinchu",
+                  "description": "先端設計と研究",
+                  "x": 682,
+                  "y": 194,
+                  "color": "#38bdf8",
+                  "align": "right"
+                },
+                {
+                  "label": "Taichung",
+                  "description": "量産と物流",
+                  "x": 717,
+                  "y": 332,
+                  "color": "#22c55e",
+                  "align": "right"
+                },
+                {
+                  "label": "Tainan",
+                  "description": "最先端生産の核",
+                  "x": 708,
+                  "y": 504,
+                  "color": "#ef4444",
+                  "align": "right"
+                }
+              ],
+              "backgroundImage": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+              "accentColor": "#38bdf8",
+              "secondaryColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 44,
+            "imageWidth": 94,
+            "imageHeight": 48,
+            "duration": 300,
+            "effect": {
+              "type": "ripple",
+              "duration": 30,
+              "intensity": 1,
+              "frequency": 0.9,
+              "color": "#38bdf8"
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "full",
+        "voiceFile": "semi_long_15_orbital_taiwan.wav",
+        "speechText": "地図で見ると、台湾はさらに意味が変わります。中国本土の目の前にある島でありながら、世界の計算能力の要所を抱えている。ここが地政学と産業が直結する場所です。もしここで大規模な混乱が起きれば、船が止まるだけでは済まない。データセンター、自動車、スマホ、防衛産業まで、同時に供給不安へ入ります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 750,
+        "startTime": 14033,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_16_geo_taiwan",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "しかも台湾の強さは、島全体が均一に重要なのではなく、北から南まで機能が重なっていることです。研究開発、量産、後工程、輸送、周辺の素材と人材供給が、ひとつの面としてつながっている。だから単純に他国へコピーしにくい。一つの工場をアリゾナや熊本へ作っても、台湾の生態系そのものを数年で移せるわけではないんです。",
+        "subtitleText": "台湾の強さは、工場一つではなく生態系が面でつながっていること。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+        "popups": [
+          {
+            "component": "GeoPoliticalMap",
+            "props": {
+              "title": "台湾の半導体集積",
+              "subtitle": "北から南まで、機能が連なっている",
+              "legendTitle": "台湾の要所",
+              "mapLabel": "台湾",
+              "note": "一つの工場ではなく、生態系の面としての強さ",
+              "outlinePath": "M632 78 C664 70 696 79 717 96 C737 112 744 140 742 170 C740 203 744 231 752 266 C762 307 759 346 749 384 C741 414 730 449 731 483 C732 516 721 546 706 571 C692 594 673 611 651 604 C627 596 614 569 609 539 C603 506 590 480 575 451 C558 416 547 381 548 343 C549 306 562 273 572 239 C582 205 590 172 593 139 C597 109 608 86 632 78 Z",
+              "regions": [
+                {
+                  "label": "北部",
+                  "color": "#38bdf8",
+                  "description": "Hsinchu / 設計と先端量産",
+                  "path": "M626 130 C664 128 695 145 708 174 C721 203 710 235 680 252 C653 268 620 262 603 240 C587 218 587 186 601 160 C607 149 616 138 626 130 Z"
+                },
+                {
+                  "label": "中部",
+                  "color": "#22c55e",
+                  "description": "量産と後工程のつなぎ",
+                  "path": "M612 252 C649 248 685 261 700 294 C715 328 703 365 671 388 C640 410 606 398 588 366 C571 336 575 298 592 273 C597 265 604 257 612 252 Z"
+                },
+                {
+                  "label": "南部",
+                  "color": "#ef4444",
+                  "description": "Tainan / 先端ノードの集積",
+                  "path": "M624 396 C661 390 696 404 709 434 C723 467 713 511 687 540 C665 563 638 565 621 544 C602 521 596 490 592 459 C589 433 598 408 624 396 Z"
+                }
+              ],
+              "legendItems": [
+                {
+                  "label": "北部",
+                  "color": "#38bdf8",
+                  "description": "Hsinchu / 設計・先端"
+                },
+                {
+                  "label": "中部",
+                  "color": "#22c55e",
+                  "description": "量産の接続部"
+                },
+                {
+                  "label": "南部",
+                  "color": "#ef4444",
+                  "description": "Tainan / 先端集中"
+                }
+              ],
+              "callouts": [
+                {
+                  "label": "Hsinchu",
+                  "description": "先端設計と研究",
+                  "x": 682,
+                  "y": 194,
+                  "color": "#38bdf8",
+                  "align": "right"
+                },
+                {
+                  "label": "Taichung",
+                  "description": "量産と物流",
+                  "x": 717,
+                  "y": 332,
+                  "color": "#22c55e",
+                  "align": "right"
+                },
+                {
+                  "label": "Tainan",
+                  "description": "最先端生産の核",
+                  "x": 708,
+                  "y": 504,
+                  "color": "#ef4444",
+                  "align": "right"
+                }
+              ],
+              "backgroundImage": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 44,
+            "imageWidth": 94,
+            "imageHeight": 47,
+            "duration": 300,
+            "effect": {
+              "type": "spotlight",
+              "duration": 28,
+              "intensity": 1.1,
+              "color": "#38bdf8"
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "full",
+        "voiceFile": "semi_long_16_geo_taiwan.wav",
+        "speechText": "しかも台湾の強さは、島全体が均一に重要なのではなく、北から南まで機能が重なっていることです。研究開発、量産、後工程、輸送、周辺の素材と人材供給が、ひとつの面としてつながっている。だから単純に他国へコピーしにくい。一つの工場をアリゾナや熊本へ作っても、台湾の生態系そのものを数年で移せるわけではないんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 834,
+        "startTime": 14791,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_17_shield_logic",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ここで出てくる言葉が、シリコンの盾です。台湾を守る理由が、理念や友情だけではなく、守らなければ自分たちの産業も死ぬから、という抑止構造です。アメリカも日本も欧州も、台湾を失った瞬間に自国の先端産業が深く傷つく。だから台湾は、軍事基地以上に経済的な人質としても機能している。そこがこの概念の冷たさであり、強さでもあります。",
+        "subtitleText": "守るのは善意ではない。失うと自分も死ぬからだ。",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "Silicon Shield",
+              "headline": "失うと自分も死ぬ",
+              "subline": "だから各国が放置できない",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 1.02,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_17_shield_logic.wav",
+        "speechText": "ここで出てくる言葉が、シリコンの盾です。台湾を守る理由が、理念や友情だけではなく、守らなければ自分たちの産業も死ぬから、という抑止構造です。アメリカも日本も欧州も、台湾を失った瞬間に自国の先端産業が深く傷つく。だから台湾は、軍事基地以上に経済的な人質としても機能している。そこがこの概念の冷たさであり、強さでもあります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 844,
+        "startTime": 15633,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_18_if_crisis",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "台湾有事がなぜ世界経済の致命傷なのか。答えは連鎖です。まず先端チップの供給が詰まる。するとAI投資の計画が狂い、サーバーもネットワーク装置も遅れ、スマホも車も後ろ倒しになる。そこへ海上物流、保険、金融市場の不安が重なる。つまり台湾問題は、軍事と産業と金融が同時に揺れる稀有な危機なんです。",
+        "subtitleText": "台湾有事は、軍事・産業・金融が同時に揺れる危機。",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "台湾危機の連鎖",
+              "steps": [
+                {
+                  "label": "先端チップ停滞",
+                  "sub": "AI / サーバーが詰まる"
+                },
+                {
+                  "label": "製造業へ波及",
+                  "sub": "車 / 通信 / スマホ"
+                },
+                {
+                  "label": "物流と金融",
+                  "sub": "保険 / 市場が揺れる"
+                },
+                {
+                  "label": "世界経済ショック",
+                  "sub": "同時不況リスク",
+                  "highlight": true
+                }
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.04,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_18_if_crisis.wav",
+        "speechText": "台湾有事がなぜ世界経済の致命傷なのか。答えは連鎖です。まず先端チップの供給が詰まる。するとAI投資の計画が狂い、サーバーもネットワーク装置も遅れ、スマホも車も後ろ倒しになる。そこへ海上物流、保険、金融市場の不安が重なる。つまり台湾問題は、軍事と産業と金融が同時に揺れる稀有な危機なんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 780,
+        "startTime": 16485,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_18a_strait_insurance",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "しかも台湾危機は、工場停止だけでは終わりません。海峡の緊張が上がれば、船会社はルートを変え、保険料は跳ね、納期は読めなくなる。いまの製造業は在庫を薄く持つので、たとえ一部のラインが無傷でも、部材が数週間遅れるだけで全体が止まる。台湾有事が怖いのは、壊れる量より、読めなくなることそのものなんです。",
+        "subtitleText": "台湾有事の怖さは、壊れる量より読めなくなること。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "海峡緊張の連鎖",
+              "steps": [
+                {
+                  "label": "海運",
+                  "sub": "ルート変更"
+                },
+                {
+                  "label": "保険",
+                  "sub": "コスト上昇"
+                },
+                {
+                  "label": "納期",
+                  "sub": "just-in-time が崩れる"
+                },
+                {
+                  "label": "結果",
+                  "sub": "無傷の工場も止まる",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-down",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_18a_strait_insurance.wav",
+        "speechText": "しかも台湾危機は、工場停止だけでは終わりません。海峡の緊張が上がれば、船会社はルートを変え、保険料は跳ね、納期は読めなくなる。いまの製造業は在庫を薄く持つので、たとえ一部のラインが無傷でも、部材が数週間遅れるだけで全体が止まる。台湾有事が怖いのは、壊れる量より、読めなくなることそのものなんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 751,
+        "startTime": 17273,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_19_diversification_not_enough",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "もちろん各国も手を打っています。アリゾナ、熊本、欧州、それぞれ新工場の話が進んでいる。でもここで勘違いしてはいけない。分散は始まっているが、代替はまだ遠い。台湾の生産を完全に置き換えるほどの冗長性は、二〇二六年四月時点ではまだできていません。だからいまの分散投資は、台湾の重要性を下げるというより、台湾依存がどれほど危険かを逆に証明しているんです。",
+        "subtitleText": "分散は始まった。しかし台湾代替にはまだ遠い。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/jasm-kumamoto.jpg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "進んでいること",
+                "titleColor": "#22c55e",
+                "items": [
+                  "アリゾナ",
+                  "熊本",
+                  "欧州",
+                  "各国補助金"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "まだ足りないこと",
+                "titleColor": "#ef4444",
+                "items": [
+                  "先端量産の代替",
+                  "生態系の移植",
+                  "即応できる冗長性"
+                ],
+                "highlight": true
+              },
+              "tagline": "分散は代替ではない"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.96,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_19_diversification_not_enough.wav",
+        "speechText": "もちろん各国も手を打っています。アリゾナ、熊本、欧州、それぞれ新工場の話が進んでいる。でもここで勘違いしてはいけない。分散は始まっているが、代替はまだ遠い。台湾の生産を完全に置き換えるほどの冗長性は、二〇二六年四月時点ではまだできていません。だからいまの分散投資は、台湾の重要性を下げるというより、台湾依存がどれほど危険かを逆に証明しているんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 890,
+        "startTime": 18032,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_19a_redundancy_gap",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "だから各国は冗長性を買っています。アリゾナ、熊本、ドレスデン、北海道。これらは台湾の代替というより、止まった時に全部が死なないようにする保険です。ただし保険は保険でしかない。装置、人材、周辺工程、顧客の認証まで含めた生態系を移すには時間がかかる。いまの分散投資は、安心の証拠ではなく、危険認識の大きさの証拠です。",
+        "subtitleText": "各国の新工場は代替そのものより、まず保険として置かれている。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/jasm-kumamoto-2024.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "冗長性の拠点",
+              "stats": [
+                {
+                  "icon": "US",
+                  "label": "Arizona",
+                  "value": "国内回帰の象徴",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "JP",
+                  "label": "Kumamoto",
+                  "value": "近接供給の保険",
+                  "color": "#22c55e"
+                },
+                {
+                  "icon": "EU",
+                  "label": "Dresden",
+                  "value": "欧州の底上げ",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_19a_redundancy_gap.wav",
+        "speechText": "だから各国は冗長性を買っています。アリゾナ、熊本、ドレスデン、北海道。これらは台湾の代替というより、止まった時に全部が死なないようにする保険です。ただし保険は保険でしかない。装置、人材、周辺工程、顧客の認証まで含めた生態系を移すには時間がかかる。いまの分散投資は、安心の証拠ではなく、危険認識の大きさの証拠です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 868,
+        "startTime": 18930,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_20_chapter_japan_europe",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "では、日本と欧州はこの地図の中でどう動くのか。ここからは、表で目立ちにくいけれど、半導体地政学の急所を握る側の話です。",
+        "subtitleText": "第3章 日本と欧州。急所を握る側の話へ。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "第3章",
+              "headline": "日本と欧州",
+              "subline": "急所を握る側の再編",
+              "accentColor": "#22c55e"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "speedScale": 1.08,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_20_chapter_japan_europe.wav",
+        "speechText": "では、日本と欧州はこの地図の中でどう動くのか。ここからは、表で目立ちにくいけれど、半導体地政学の急所を握る側の話です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 331,
+        "startTime": 19806,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 10,
+            "volume": 0.22,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_21_japan_strength",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "日本は、半導体をゼロからやり直す国ではありません。もともと素材、部材、製造装置の多くで深い強みを持ってきた。フォトレジスト、シリコンウエハー、洗浄、検査、露光周辺。つまり日本の真価は、完成品ブランドではなく、ライン全体を動かす基礎技術にある。だから世界が supply chain を見直すほど、日本の存在感は逆に戻ってきます。",
+        "subtitleText": "日本の強みは、ライン全体を支える基礎技術にある。",
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "日本が持つ急所",
+              "bullets": [
+                "素材",
+                "部材",
+                "洗浄 / 検査 / 装置周辺"
+              ],
+              "tagline": "完成品より基盤技術",
+              "accent": "#22c55e"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_21_japan_strength.wav",
+        "speechText": "日本は、半導体をゼロからやり直す国ではありません。もともと素材、部材、製造装置の多くで深い強みを持ってきた。フォトレジスト、シリコンウエハー、洗浄、検査、露光周辺。つまり日本の真価は、完成品ブランドではなく、ライン全体を動かす基礎技術にある。だから世界が supply chain を見直すほど、日本の存在感は逆に戻ってきます。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 897,
+        "startTime": 20145,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_22_jasm",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "その日本で象徴的なのが熊本です。TSMC系の JASM 工場は、単なる地方誘致ではありません。台湾依存を丸ごと減らせなくても、自動車と産業向けの安定供給を日本国内へ近づける。さらに、周辺の部材企業や人材育成を束ねて、次の工場を呼び込みやすくする。半導体工場は、一棟建てて終わりではなく、周辺の産業地図ごと書き換える装置なんです。",
+        "subtitleText": "熊本の意味は工場一棟ではなく、産業地図の書き換えにある。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/jasm-kumamoto.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "熊本が持つ意味",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "供給",
+                  "value": "自動車 / 産業の安定化",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "地場",
+                  "value": "部材と人材の集積",
+                  "color": "#22c55e"
+                },
+                {
+                  "icon": "03",
+                  "label": "戦略",
+                  "value": "台湾依存の保険",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_22_jasm.wav",
+        "speechText": "その日本で象徴的なのが熊本です。TSMC系の JASM 工場は、単なる地方誘致ではありません。台湾依存を丸ごと減らせなくても、自動車と産業向けの安定供給を日本国内へ近づける。さらに、周辺の部材企業や人材育成を束ねて、次の工場を呼び込みやすくする。半導体工場は、一棟建てて終わりではなく、周辺の産業地図ごと書き換える装置なんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 902,
+        "startTime": 21050,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_22a_japan_stack",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "日本の強みは、工場一棟よりスタックの厚さです。シリコンウエハー、レジスト、洗浄、計測、搬送、実装。どこか一社が王者というより、多数の強い部材企業がライン全体を支えている。これは地味ですが強い。なぜなら半導体の再編は、最終組立だけで勝てないからです。 supply chain を細かく見れば見るほど、日本は裏方ではなく基盤そのものだと分かります。",
+        "subtitleText": "日本の強みは工場一棟ではなく、ライン全体を支える厚い基盤。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/silicon-wafer-researcher.jpg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "日本の厚いスタック",
+              "steps": [
+                {
+                  "label": "素材",
+                  "sub": "wafer / resist"
+                },
+                {
+                  "label": "装置",
+                  "sub": "洗浄 / 計測 / 搬送"
+                },
+                {
+                  "label": "実装",
+                  "sub": "後工程の接続"
+                },
+                {
+                  "label": "意味",
+                  "sub": "ライン全体を支える",
+                  "highlight": true
+                }
+              ],
+              "accent": "#22c55e"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.99,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_22a_japan_stack.wav",
+        "speechText": "日本の強みは、工場一棟よりスタックの厚さです。シリコンウエハー、レジスト、洗浄、計測、搬送、実装。どこか一社が王者というより、多数の強い部材企業がライン全体を支えている。これは地味ですが強い。なぜなら半導体の再編は、最終組立だけで勝てないからです。 supply chain を細かく見れば見るほど、日本は裏方ではなく基盤そのものだと分かります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 918,
+        "startTime": 21960,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_23_jasm_3nm_note",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "ただし、熊本第二工場の三ナノ量産時期は表現に注意が要ります。二〇二六年春には、三ナノを日本で生産するという計画報道が強く出ましたが、実際の立ち上がり時期は二〇二八年開始とする報道もあります。ここでは、三ナノが日本へ来る方向は強まっているが、足元で既に全面稼働しているわけではない、と押さえるのが安全です。",
+        "subtitleText": "※ 熊本の 3nm は方向性は強いが、時期表現には注意。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/jasm-kumamoto-2024.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "熊本 3nm の見方",
+              "bullets": [
+                "報道では計画前進",
+                "量産時期は 2028 とする報道もある",
+                "現時点では「方向性」が確定点"
+              ],
+              "tagline": "時点をずらして断定しない",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_23_jasm_3nm_note.wav",
+        "speechText": "ただし、熊本第二工場の三ナノ量産時期は表現に注意が要ります。二〇二六年春には、三ナノを日本で生産するという計画報道が強く出ましたが、実際の立ち上がり時期は二〇二八年開始とする報道もあります。ここでは、三ナノが日本へ来る方向は強まっているが、足元で既に全面稼働しているわけではない、と押さえるのが安全です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 743,
+        "startTime": 22886,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 8,
+            "volume": 0.2,
+            "duration": 28
+          }
+        ]
+      },
+      {
+        "id": "semi_long_24_rapidus",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "もう一つがラピダスです。二ナノ国産化の旗を掲げ、北海道で量産化を目指す。ここを笑い話で終わらせるのは簡単ですが、国家戦略として見ると意味があります。日本は、全部を台湾の代わりに作りたいわけではない。万一に備えて、自国に最先端の技術軸を一本戻したい。その挑戦が成功するかは別として、国家がそこに資本と制度を入れること自体が、時代の変化なんです。",
+        "subtitleText": "Rapidus の意味は、成功確定ではなく「国家が軸を戻しに来た」こと。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "楽観しすぎない点",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "量産は未達",
+                  "顧客獲得はこれから",
+                  "技術難度は高い"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "それでも重い点",
+                "titleColor": "#22c55e",
+                "items": [
+                  "国家支援",
+                  "2nm を国内へ",
+                  "供給網の保険"
+                ],
+                "highlight": true
+              },
+              "tagline": "ラピダスは賭けだが、賭ける意味がある"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.02,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_24_rapidus.wav",
+        "speechText": "もう一つがラピダスです。二ナノ国産化の旗を掲げ、北海道で量産化を目指す。ここを笑い話で終わらせるのは簡単ですが、国家戦略として見ると意味があります。日本は、全部を台湾の代わりに作りたいわけではない。万一に備えて、自国に最先端の技術軸を一本戻したい。その挑戦が成功するかは別として、国家がそこに資本と制度を入れること自体が、時代の変化なんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 890,
+        "startTime": 23637,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_24a_rapidus_note",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ただしラピダスも、成果が確定した話として語るのは早い。公式にはパイロットラインは二〇二五年に動き出し、量産開始は二〇二七年目標です。つまり今は、実績より計画が先行するフェーズにある。ここを誇張すると動画が弱くなる。正しく言えば、ラピダスは完成した成功例ではなく、日本が最先端へ戻るために巨額のコストを払っている最中の国家プロジェクトです。",
+        "subtitleText": "※ ラピダスは進行中の国家プロジェクト。成功はまだ結果ではない。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "※ 注意",
+              "headline": "Rapidus は進行中",
+              "subline": "量産目標は 2027",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_24a_rapidus_note.wav",
+        "speechText": "ただしラピダスも、成果が確定した話として語るのは早い。公式にはパイロットラインは二〇二五年に動き出し、量産開始は二〇二七年目標です。つまり今は、実績より計画が先行するフェーズにある。ここを誇張すると動画が弱くなる。正しく言えば、ラピダスは完成した成功例ではなく、日本が最先端へ戻るために巨額のコストを払っている最中の国家プロジェクトです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 845,
+        "startTime": 24535,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 8,
+            "volume": 0.2,
+            "duration": 28
+          }
+        ]
+      },
+      {
+        "id": "semi_long_25_europe_asml",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "欧州の象徴は ASML です。EUV 露光装置という、代替しにくい chokepoint を握る企業がいる。つまり欧州は、半導体覇権争いの外野ではなく、首根っこを押さえる側なんです。ただしその分、板挟みも深い。アメリカの規制に歩調を合わせれば、中国市場を失う。中国へ売れば同盟の圧力が強まる。技術の中心にいるほど、政治から逃げられなくなります。",
+        "subtitleText": "ASML は外野ではない。覇権争いの首根っこを握る側だ。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-asml-headquarters-veldhoven-jpg.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "ASML が意味するもの",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "技術",
+                  "value": "EUV chokepoint",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "政治",
+                  "value": "米中双方の圧力",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "欧州",
+                  "value": "商売と同盟の板挟み",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_25_europe_asml.wav",
+        "speechText": "欧州の象徴は ASML です。EUV 露光装置という、代替しにくい chokepoint を握る企業がいる。つまり欧州は、半導体覇権争いの外野ではなく、首根っこを押さえる側なんです。ただしその分、板挟みも深い。アメリカの規制に歩調を合わせれば、中国市場を失う。中国へ売れば同盟の圧力が強まる。技術の中心にいるほど、政治から逃げられなくなります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 998,
+        "startTime": 25388,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_25a_asml_service",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ASML をめぐる本当の緊張は、売るか売らないかだけではありません。すでに入った装置を誰が保守し、どこまで service を続けるのか、そこまで政治問題になってきた。装置産業は、一度売って終わりではなく、保守と部品供給で長く縛るビジネスです。だから service 規制が入ると、同盟国企業も中国市場から静かに引き剥がされる。ここが MATCH 法案のような議論が刺さる理由です。",
+        "subtitleText": "売買だけでなく保守まで政治化したのが、いまの装置戦争。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-asml-headquarters-veldhoven-jpg.jpg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ASML を巡る緊張",
+              "bullets": [
+                "販売規制",
+                "保守と部品供給の制限",
+                "同盟国企業も巻き込む"
+              ],
+              "tagline": "装置ビジネスは service までが本体",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 0.99,
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "voiceFile": "semi_long_25a_asml_service.wav",
+        "speechText": "ASML をめぐる本当の緊張は、売るか売らないかだけではありません。すでに入った装置を誰が保守し、どこまで service を続けるのか、そこまで政治問題になってきた。装置産業は、一度売って終わりではなく、保守と部品供給で長く縛るビジネスです。だから service 規制が入ると、同盟国企業も中国市場から静かに引き剥がされる。ここが MATCH 法案のような議論が刺さる理由です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 1047,
+        "startTime": 26394,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_26_europe_dilemma",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "この欧州のジレンマは、日本とも少し重なります。みんな脱中国を叫ぶが、中国市場は大きい。みんな同盟を重視するが、補助金競争には消耗もある。半導体地政学とは、きれいな善悪の話ではありません。誰もが安全保障を口実にしながら、同時に自国企業の市場も守ろうとしている。その生々しい折り合いの場所に、欧州は立っています。",
+        "subtitleText": "半導体地政学は善悪ではなく、同盟と市場の生々しい折り合いだ。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "欧州のジレンマ",
+              "bullets": [
+                "同盟に合わせる",
+                "でも中国市場は大きい",
+                "補助金競争にも巻き込まれる"
+              ],
+              "tagline": "商売と安全保障の綱渡り",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1.02,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_26_europe_dilemma.wav",
+        "speechText": "この欧州のジレンマは、日本とも少し重なります。みんな脱中国を叫ぶが、中国市場は大きい。みんな同盟を重視するが、補助金競争には消耗もある。半導体地政学とは、きれいな善悪の話ではありません。誰もが安全保障を口実にしながら、同時に自国企業の市場も守ろうとしている。その生々しい折り合いの場所に、欧州は立っています。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 827,
+        "startTime": 27449,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_26a_europe_no_sovereignty",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ただ、chokepoint を持つことと、主導権を持つことは同じではありません。欧州は装置で重要でも、市場と同盟の圧力から自由ではない。中国を切りすぎれば売上が傷み、アメリカと距離を取れば安全保障で孤立する。つまり欧州は、強いから自由なのではなく、強いからこそ選ばされる立場にある。半導体地政学は、強者にも逃げ場を与えません。",
+        "subtitleText": "欧州は強いから自由なのではなく、強いから選ばされる。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "欧州の強み",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "装置の chokepoint",
+                  "技術標準への影響"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "欧州の制約",
+                "titleColor": "#ef4444",
+                "items": [
+                  "中国市場",
+                  "対米同盟圧力"
+                ],
+                "highlight": true
+              },
+              "tagline": "強いほど、板挟みになる"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 1,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_26a_europe_no_sovereignty.wav",
+        "speechText": "ただ、chokepoint を持つことと、主導権を持つことは同じではありません。欧州は装置で重要でも、市場と同盟の圧力から自由ではない。中国を切りすぎれば売上が傷み、アメリカと距離を取れば安全保障で孤立する。つまり欧州は、強いから自由なのではなく、強いからこそ選ばされる立場にある。半導体地政学は、強者にも逃げ場を与えません。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 880,
+        "startTime": 28284,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_27_chokepoints",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ここまで来ると見えてきます。勝つ国が全部を持つわけではない。設計の chokepoint、量産の chokepoint、装置の chokepoint、成熟ノードの chokepoint。それぞれ違う場所にあり、各国はその一部分を握ることで交渉力を作る。だから半導体覇権戦争は、一社独占の物語というより、急所の奪い合いなんです。",
+        "subtitleText": "覇権戦争の本質は、全部取りではなく chokepoint の奪い合い。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "どこが急所になるか",
+              "steps": [
+                {
+                  "label": "設計",
+                  "sub": "米国"
+                },
+                {
+                  "label": "量産",
+                  "sub": "台湾"
+                },
+                {
+                  "label": "装置",
+                  "sub": "欧州 / 日本"
+                },
+                {
+                  "label": "成熟ノード",
+                  "sub": "中国",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "speedScale": 0.96,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_27_chokepoints.wav",
+        "speechText": "ここまで来ると見えてきます。勝つ国が全部を持つわけではない。設計の chokepoint、量産の chokepoint、装置の chokepoint、成熟ノードの chokepoint。それぞれ違う場所にあり、各国はその一部分を握ることで交渉力を作る。だから半導体覇権戦争は、一社独占の物語というより、急所の奪い合いなんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 978,
+        "startTime": 29172,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_27a_middle_powers",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "この構図をもっと広く見ると、日本、台湾、オランダのような中規模プレイヤーの意味が変わります。昔は global supply chain の優秀な分業相手だった。いまは違う。急所を握る前線国家です。彼らがどちらへ寄るか、どこまで規制に協力するか、どこへ補助金を落とすかで、世界の技術地図が変わる。半導体覇権とは、超大国だけの殴り合いではありません。",
+        "subtitleText": "前線にいるのは超大国だけではない。急所を握る中規模国家だ。",
+        "bg_image": "assets/images/semiconductor-japan-europe.svg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "前線にいる中規模国家",
+              "stats": [
+                {
+                  "icon": "JP",
+                  "label": "日本",
+                  "value": "素材と装置",
+                  "color": "#22c55e"
+                },
+                {
+                  "icon": "TW",
+                  "label": "台湾",
+                  "value": "量産の中心",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "NL",
+                  "label": "オランダ",
+                  "value": "EUV chokepoint",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.99,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_27a_middle_powers.wav",
+        "speechText": "この構図をもっと広く見ると、日本、台湾、オランダのような中規模プレイヤーの意味が変わります。昔は global supply chain の優秀な分業相手だった。いまは違う。急所を握る前線国家です。彼らがどちらへ寄るか、どこまで規制に協力するか、どこへ補助金を落とすかで、世界の技術地図が変わる。半導体覇権とは、超大国だけの殴り合いではありません。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 922,
+        "startTime": 30158,
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 16
+          }
+        ]
+      },
+      {
+        "id": "semi_long_28_summary_transition",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "つまり世界は、もう一番安いところで全部を作る時代へ戻れません。台湾を守る理由は理想ではなく依存です。中国の反撃は最先端ではなく底辺の量です。日本と欧州は全部を作るのではなく、急所を握ることで存在感を保つ。これが、いま見えている半導体地政学の骨格です。",
+        "subtitleText": "台湾依存、中国の量、日本と欧州の chokepoint。これが骨格。",
+        "bg_image": "assets/images/semiconductor-final.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "見えてきた骨格",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "台湾依存",
+                  "中国の量",
+                  "米国の規制"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "次の時代",
+                "titleColor": "#22c55e",
+                "items": [
+                  "日本と欧州の再編",
+                  "補助金競争",
+                  "冗長化の時代"
+                ],
+                "highlight": true
+              },
+              "tagline": "コストの世界から保険の世界へ"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "speedScale": 1.04,
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_28_summary_transition.wav",
+        "speechText": "つまり世界は、もう一番安いところで全部を作る時代へ戻れません。台湾を守る理由は理想ではなく依存です。中国の反撃は最先端ではなく底辺の量です。日本と欧州は全部を作るのではなく、急所を握ることで存在感を保つ。これが、いま見えている半導体地政学の骨格です。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 662,
+        "startTime": 31088,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ]
+      },
+      {
+        "id": "semi_long_28a_security_cost",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "そして最後に忘れてはいけないのは、誰がそのコストを払うのかです。工場を国内へ戻せば高くなる。補助金を積めば財政負担が増える。規制を強めれば市場も狭くなる。それでも各国が進むのは、安さだけを追った世界が、あまりに危険だと分かってしまったからです。これからの半導体は、価格だけではなく、止まらなさと、誰の陣営で作るかで値段が決まるようになります。",
+        "subtitleText": "これからの半導体は、安さより止まらなさで値段が決まる。",
+        "bg_image": "assets/images/semiconductor-final.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "誰が払うか",
+              "headline": "安全保障コストの時代",
+              "subline": "安さだけでは決まらない",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_28a_security_cost.wav",
+        "speechText": "そして最後に忘れてはいけないのは、誰がそのコストを払うのかです。工場を国内へ戻せば高くなる。補助金を積めば財政負担が増える。規制を強めれば市場も狭くなる。それでも各国が進むのは、安さだけを追った世界が、あまりに危険だと分かってしまったからです。これからの半導体は、価格だけではなく、止まらなさと、誰の陣営で作るかで値段が決まるようになります。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 845,
+        "startTime": 31758,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ]
+      },
+      {
+        "id": "semi_long_29_final",
+        "speaker": "ryusei",
+        "sceneRole": "chapter",
+        "text": "総括します。半導体は、いまや景気敏感株ではありません。国家の生存線そのものです。グローバル化は効率を極限まで高めたが、同時に致命的な偏在を作った。だから次の時代は、高くても近くで作る、遅くても止まらない方を選ぶ、そういう経済安全保障の論理が強くなる。半導体冷戦とは、世界がその論理へ移った瞬間の名前なんです。",
+        "subtitleText": "半導体冷戦とは、世界が安全保障の論理へ移った瞬間の名前だ。",
+        "bg_image": "assets/images/semiconductor-final.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "総括",
+              "headline": "グローバル化の終焉",
+              "subline": "経済安全保障最優先の時代へ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "speedScale": 0.98,
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_long_29_final.wav",
+        "speechText": "総括します。半導体は、いまや景気敏感株ではありません。国家の生存線そのものです。グローバル化は効率を極限まで高めたが、同時に致命的な偏在を作った。だから次の時代は、高くても近くで作る、遅くても止まらない方を選ぶ、そういう経済安全保障の論理が強くなる。半導体冷戦とは、世界がその論理へ移った瞬間の名前なんです。",
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.76)",
+          "borderRadius": 28,
+          "padding": 18,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)"
+        },
+        "duration": 836,
+        "startTime": 32611,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 14
+          },
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 16,
+            "volume": 0.16,
+            "duration": 26
+          }
+        ]
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "semi_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "なぜ中国が台湾を獲れば、世界は終わるのか。",
+        "subtitleText": "なぜ中国が台湾を獲れば、世界は終わるのか？",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bgVideoTrimBefore": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "半導体冷戦",
+              "headline": "台湾を失うと世界が揺れる",
+              "subline": "シリコンの盾",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.06
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.12,
+        "duration": 110,
+        "se": [
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 6,
+            "volume": 0.18,
+            "duration": 34
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 20,
+            "volume": 0.2,
+            "duration": 18
+          }
+        ],
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_short_00_hook.wav",
+        "speechText": "なぜ中国が台湾を獲れば、世界は終わるのか。",
+        "startTime": 0
+      },
+      {
+        "id": "semi_short_01_tsmc",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "答えは半導体です。AI と高性能計算に効く先端の受託生産は、いまも台湾の TSMC へ極端に集中しています。",
+        "subtitleText": "AI に効く先端生産は、いまも台湾へ極端に集中。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/01-commons-file-tsmc-logo-on-taichung-factory-building-jpg.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "核心",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "TSMC",
+                  "value": "先端の中心",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "意味",
+                  "value": "AI と軍事の急所",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 0.98
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.05,
+        "duration": 336,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.16,
+            "duration": 14
+          }
+        ],
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "voiceFile": "semi_short_01_tsmc.wav",
+        "speechText": "答えは半導体です。AI と高性能計算に効く先端の受託生産は、いまも台湾の TSMC へ極端に集中しています。",
+        "startTime": 114
+      },
+      {
+        "id": "semi_short_02_note",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "※ ただし「九割」という言い方は、半導体全部ではなく、主に先端受託生産を指す文脈です。",
+        "subtitleText": "※「9割」は全半導体ではなく、主に先端受託生産の文脈。",
+        "bg_image": "assets/images/semiconductor-silicon-shield.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "※ 注意",
+              "headline": "「9割」は全半導体ではない",
+              "subline": "主に先端受託生産の話",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.92,
+            "speed": 1
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.04,
+        "duration": 254,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 0,
+            "volume": 0.18,
+            "duration": 22
+          },
+          {
+            "file": "パッ.mp3",
+            "startOffset": 12,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ],
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_short_02_note.wav",
+        "speechText": "※ ただし「九割」という言い方は、半導体全部ではなく、主に先端受託生産を指す文脈です。",
+        "startTime": 454
+      },
+      {
+        "id": "semi_short_03_shield",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "これをシリコンの盾と呼びます。台湾が揺れれば、アメリカも日本も自分の産業と AI 投資が止まる。だから放置できない。",
+        "subtitleText": "台湾が揺れれば、アメリカも日本も放置できない。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+        "popups": [
+          {
+            "component": "GeoPoliticalMap",
+            "props": {
+              "title": "台湾は supply chain の盾",
+              "subtitle": "守る理由は理念より依存",
+              "legendTitle": "台湾の要所",
+              "mapLabel": "台湾",
+              "note": "北から南まで先端機能がつながる",
+              "outlinePath": "M632 78 C664 70 696 79 717 96 C737 112 744 140 742 170 C740 203 744 231 752 266 C762 307 759 346 749 384 C741 414 730 449 731 483 C732 516 721 546 706 571 C692 594 673 611 651 604 C627 596 614 569 609 539 C603 506 590 480 575 451 C558 416 547 381 548 343 C549 306 562 273 572 239 C582 205 590 172 593 139 C597 109 608 86 632 78 Z",
+              "regions": [
+                {
+                  "label": "北部",
+                  "color": "#38bdf8",
+                  "description": "Hsinchu / 設計と先端量産",
+                  "path": "M626 130 C664 128 695 145 708 174 C721 203 710 235 680 252 C653 268 620 262 603 240 C587 218 587 186 601 160 C607 149 616 138 626 130 Z"
+                },
+                {
+                  "label": "中部",
+                  "color": "#22c55e",
+                  "description": "量産と後工程のつなぎ",
+                  "path": "M612 252 C649 248 685 261 700 294 C715 328 703 365 671 388 C640 410 606 398 588 366 C571 336 575 298 592 273 C597 265 604 257 612 252 Z"
+                },
+                {
+                  "label": "南部",
+                  "color": "#ef4444",
+                  "description": "Tainan / 先端ノードの集積",
+                  "path": "M624 396 C661 390 696 404 709 434 C723 467 713 511 687 540 C665 563 638 565 621 544 C602 521 596 490 592 459 C589 433 598 408 624 396 Z"
+                }
+              ],
+              "legendItems": [
+                {
+                  "label": "北部",
+                  "color": "#38bdf8",
+                  "description": "Hsinchu / 設計・先端"
+                },
+                {
+                  "label": "中部",
+                  "color": "#22c55e",
+                  "description": "量産の接続部"
+                },
+                {
+                  "label": "南部",
+                  "color": "#ef4444",
+                  "description": "Tainan / 先端集中"
+                }
+              ],
+              "callouts": [
+                {
+                  "label": "Hsinchu",
+                  "description": "先端設計と研究",
+                  "x": 682,
+                  "y": 194,
+                  "color": "#38bdf8",
+                  "align": "right"
+                },
+                {
+                  "label": "Taichung",
+                  "description": "量産と物流",
+                  "x": 717,
+                  "y": 332,
+                  "color": "#22c55e",
+                  "align": "right"
+                },
+                {
+                  "label": "Tainan",
+                  "description": "最先端生産の核",
+                  "x": 708,
+                  "y": 504,
+                  "color": "#ef4444",
+                  "align": "right"
+                }
+              ],
+              "backgroundImage": "assets/imported/semiconductor-geopolitics/wikimedia-commons/taiwan-locator-map.svg",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 44,
+            "imageWidth": 94,
+            "imageHeight": 47,
+            "duration": 300,
+            "effect": {
+              "type": "spotlight",
+              "duration": 28,
+              "intensity": 1.1,
+              "color": "#38bdf8"
+            }
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "pan-down",
+            "intensity": 0.78,
+            "speed": 0.96
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.08,
+        "duration": 300,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.16,
+            "duration": 20
+          }
+        ],
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "voiceFile": "semi_short_03_shield.wav",
+        "speechText": "これをシリコンの盾と呼びます。台湾が揺れれば、アメリカも日本も自分の産業と AI 投資が止まる。だから放置できない。",
+        "startTime": 712
+      },
+      {
+        "id": "semi_short_04_diversify",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "だから各国はアリゾナや熊本に工場を分散させる。でもそれは安心の証拠ではなく、台湾依存が本物だという証拠です。",
+        "subtitleText": "分散投資が急がれるのは、台湾依存が本物だから。",
+        "bg_image": "assets/imported/semiconductor-geopolitics/wikimedia-commons/jasm-kumamoto-2024.jpg",
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "分散投資の意味",
+              "stats": [
+                {
+                  "icon": "US",
+                  "label": "米国",
+                  "value": "国内回帰",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "JP",
+                  "label": "日本",
+                  "value": "熊本と保険",
+                  "color": "#22c55e"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 31,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 1
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.03,
+        "duration": 276,
+        "se": [
+          {
+            "file": "ニュッ3.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ],
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "voiceFile": "semi_short_04_diversify.wav",
+        "speechText": "だから各国はアリゾナや熊本に工場を分散させる。でもそれは安心の証拠ではなく、台湾依存が本物だという証拠です。",
+        "startTime": 1016
+      },
+      {
+        "id": "semi_short_05_counter",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "しかも中国はレガシー半導体で逆襲し、アメリカは装置規制を強める。先端と数量、二つの戦線が同時に動いています。",
+        "subtitleText": "中国はレガシーで逆襲。米国は装置規制を強化。",
+        "bg_image": "assets/images/semiconductor-legacy.svg",
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "中国",
+                "titleColor": "#ef4444",
+                "items": [
+                  "成熟ノード",
+                  "数量と価格"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "米国",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "装置規制",
+                  "補助金"
+                ],
+                "highlight": true
+              },
+              "tagline": "半導体冷戦は同時進行"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.02
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.02,
+        "duration": 302,
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 2,
+            "volume": 0.14,
+            "duration": 14
+          },
+          {
+            "file": "拍子木1.mp3",
+            "startOffset": 26,
+            "volume": 0.14,
+            "duration": 16
+          }
+        ],
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "voiceFile": "semi_short_05_counter.wav",
+        "speechText": "しかも中国はレガシー半導体で逆襲し、アメリカは装置規制を強める。先端と数量、二つの戦線が同時に動いています。",
+        "startTime": 1296
+      },
+      {
+        "id": "semi_short_06_takeaway",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "経済効率の時代は死にました。今始まっているのは、一つの国家の生存を懸けた半導体冷戦です。安い場所より、止まらない場所が選ばれる時代です。",
+        "subtitleText": "経済効率の時代は死んだ。半導体冷戦が始まっている。",
+        "bg_image": "assets/images/semiconductor-final.svg",
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "Takeaway",
+              "headline": "グローバル化の終焉",
+              "subline": "半導体冷戦の時代へ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 71,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 1
+          }
+        },
+        "subtitleStyle": {
+          "textColor": "#F8FAFC",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(2, 6, 23, 0.88)",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontWeight": "800",
+          "boxShadow": "0 18px 34px rgba(2,6,23,0.55)",
+          "fontSize": 76,
+          "animation": "bounce"
+        },
+        "speedScale": 1.08,
+        "duration": 334,
+        "se": [
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 10,
+            "volume": 0.2,
+            "duration": 22
+          },
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 54,
+            "volume": 0.16,
+            "duration": 30
+          }
+        ],
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "voiceFile": "semi_short_06_takeaway.wav",
+        "speechText": "経済効率の時代は死にました。今始まっているのは、一つの国家の生存を懸けた半導体冷戦です。安い場所より、止まらない場所が選ばれる時代です。",
+        "startTime": 1602
+      }
+    ]
+  }
+}

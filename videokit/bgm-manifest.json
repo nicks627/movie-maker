@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "file": "2_23_AM.mp3",
+      "roles": ["hook-tech", "comedy-light"],
+      "moods": ["playful", "modern", "light"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Useful for light hooks and playful contrast."
+    },
+    {
+      "file": "Chilled_Cow.mp3",
+      "roles": ["calm-explainer", "documentary-ambient"],
+      "moods": ["neutral", "calm", "clean"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Safe under explanation-heavy scenes."
+    },
+    {
+      "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3",
+      "roles": ["battle-tension", "corporate-tension"],
+      "moods": ["tense", "danger", "suspense"],
+      "licenseLabel": "YouTube Audio Library",
+      "sourceUrl": "https://www.youtube.com/audiolibrary",
+      "reusable": true,
+      "notes": "Strong for risk or surveillance-heavy explainers."
+    },
+    {
+      "file": "Demon_Rush.mp3",
+      "roles": ["battle-tension", "market-momentum"],
+      "moods": ["urgent", "fast", "energetic"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Use sparingly in intense sections."
+    },
+    {
+      "file": "Eraser.mp3",
+      "roles": ["corporate-tension", "documentary-ambient"],
+      "moods": ["serious", "minimal", "clean"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Works under sober institutional topics."
+    },
+    {
+      "file": "Gravity.mp3",
+      "roles": ["corporate-tension", "calm-explainer"],
+      "moods": ["serious", "strategic", "measured"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Current-affairs bed with moderate tension."
+    },
+    {
+      "file": "Indomitable.mp3",
+      "roles": ["victory-resolve", "market-momentum"],
+      "moods": ["upward", "resolute", "reward"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Good for conclusion and payoff scenes."
+    },
+    {
+      "file": "MusMus-BGM-088.mp3",
+      "roles": ["comedy-light", "calm-explainer"],
+      "moods": ["light", "casual", "warm"],
+      "licenseLabel": "MusMus free BGM license",
+      "sourceUrl": "https://musmus.main.jp/",
+      "reusable": true,
+      "notes": "Friendly explainer or softer commentary tone."
+    },
+    {
+      "file": "MusMus-BGM-107.mp3",
+      "roles": ["victory-resolve", "documentary-ambient"],
+      "moods": ["warm", "resolution", "reflective"],
+      "licenseLabel": "MusMus free BGM license",
+      "sourceUrl": "https://musmus.main.jp/",
+      "reusable": true,
+      "notes": "Useful for summary and soft closing beats."
+    },
+    {
+      "file": "Sparkling.mp3",
+      "roles": ["hook-tech", "market-momentum"],
+      "moods": ["bright", "upward", "modern"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Fast opener or reveal accent bed."
+    },
+    {
+      "file": "Walk_lakeside.mp3",
+      "roles": ["documentary-ambient", "calm-explainer"],
+      "moods": ["reflective", "clean", "neutral"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Good for slower long-form explanation."
+    },
+    {
+      "file": "energetic_01.wav",
+      "roles": ["market-momentum", "battle-tension"],
+      "moods": ["energetic", "fast", "urgent"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Reserve for brief high-energy sections."
+    },
+    {
+      "file": "他愛のない話.mp3",
+      "roles": ["comedy-light", "calm-explainer"],
+      "moods": ["casual", "light", "warm"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Soft banter-friendly background."
+    },
+    {
+      "file": "夕暮れアベニュー.mp3",
+      "roles": ["victory-resolve", "documentary-ambient"],
+      "moods": ["warm", "relief", "resolution"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Best for calm endings and recap sections."
+    },
+    {
+      "file": "少年達の夏休み的なBGM.mp3",
+      "roles": ["comedy-light", "victory-resolve"],
+      "moods": ["playful", "nostalgic", "warm"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Use only when the topic can tolerate a lighter tone."
+    },
+    {
+      "file": "掘り起こされし晩餐会.mp3",
+      "roles": ["corporate-tension", "documentary-ambient"],
+      "moods": ["mysterious", "serious", "reflective"],
+      "licenseLabel": "local-library-needs-verification",
+      "sourceUrl": null,
+      "reusable": true,
+      "notes": "Fits investigative or institutional explainers."
+    }
+  ]
+}

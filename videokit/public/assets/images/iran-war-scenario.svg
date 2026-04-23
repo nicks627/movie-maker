@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#24161c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <rect x="120" y="120" width="1680" height="200" rx="34" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+  <rect x="180" y="182" width="1560" height="78" rx="24" fill="#132130"/>
+
+  <rect x="170" y="390" width="500" height="520" rx="34" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+  <rect x="710" y="390" width="500" height="520" rx="34" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+  <rect x="1250" y="390" width="500" height="520" rx="34" fill="#0b1220" stroke="#334155" stroke-width="4"/>
+
+  <circle cx="278" cy="494" r="34" fill="#38bdf8"/>
+  <circle cx="818" cy="494" r="34" fill="#f59e0b"/>
+  <circle cx="1358" cy="494" r="34" fill="#ef4444"/>
+
+  <rect x="350" y="462" width="220" height="48" rx="18" fill="#132130"/>
+  <rect x="890" y="462" width="220" height="48" rx="18" fill="#132130"/>
+  <rect x="1430" y="462" width="220" height="48" rx="18" fill="#132130"/>
+
+  <rect x="240" y="590" width="360" height="30" rx="12" fill="#132130"/>
+  <rect x="240" y="646" width="316" height="30" rx="12" fill="#132130"/>
+  <rect x="240" y="702" width="338" height="30" rx="12" fill="#132130"/>
+  <rect x="240" y="758" width="284" height="30" rx="12" fill="#132130"/>
+
+  <rect x="780" y="590" width="360" height="30" rx="12" fill="#132130"/>
+  <rect x="780" y="646" width="316" height="30" rx="12" fill="#132130"/>
+  <rect x="780" y="702" width="338" height="30" rx="12" fill="#132130"/>
+  <rect x="780" y="758" width="284" height="30" rx="12" fill="#132130"/>
+
+  <rect x="1320" y="590" width="360" height="30" rx="12" fill="#132130"/>
+  <rect x="1320" y="646" width="316" height="30" rx="12" fill="#132130"/>
+  <rect x="1320" y="702" width="338" height="30" rx="12" fill="#132130"/>
+  <rect x="1320" y="758" width="284" height="30" rx="12" fill="#132130"/>
+</svg>

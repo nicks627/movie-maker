@@ -1,0 +1,47 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#07111F"/>
+  <rect width="1920" height="1080" fill="url(#paint0_radial)"/>
+  <path d="M0 890L180 760L320 820L520 640L740 790L930 600L1090 720L1290 560L1540 760L1740 640L1920 770V1080H0V890Z" fill="#0D2037"/>
+  <path d="M0 960L210 860L380 920L570 740L760 850L960 700L1120 780L1340 660L1600 860L1820 770L1920 820V1080H0V960Z" fill="#132B46"/>
+  <g opacity="0.9">
+    <rect x="180" y="450" width="120" height="350" rx="10" fill="#1D3F67"/>
+    <rect x="330" y="370" width="160" height="430" rx="10" fill="#22486F"/>
+    <rect x="530" y="300" width="140" height="500" rx="10" fill="#173654"/>
+    <rect x="710" y="220" width="190" height="580" rx="10" fill="#29547F"/>
+    <rect x="950" y="280" width="150" height="520" rx="10" fill="#183958"/>
+    <rect x="1130" y="160" width="200" height="640" rx="10" fill="#21486D"/>
+    <rect x="1380" y="330" width="160" height="470" rx="10" fill="#173654"/>
+    <rect x="1570" y="260" width="140" height="540" rx="10" fill="#244F77"/>
+  </g>
+  <g opacity="0.35">
+    <rect x="205" y="495" width="12" height="12" fill="#8BE6FF"/>
+    <rect x="228" y="495" width="12" height="12" fill="#8BE6FF"/>
+    <rect x="352" y="410" width="14" height="14" fill="#9EE7FF"/>
+    <rect x="378" y="410" width="14" height="14" fill="#9EE7FF"/>
+    <rect x="404" y="410" width="14" height="14" fill="#9EE7FF"/>
+    <rect x="562" y="340" width="14" height="14" fill="#FFE082"/>
+    <rect x="588" y="340" width="14" height="14" fill="#FFE082"/>
+    <rect x="614" y="340" width="14" height="14" fill="#FFE082"/>
+    <rect x="748" y="270" width="16" height="16" fill="#9EE7FF"/>
+    <rect x="778" y="270" width="16" height="16" fill="#9EE7FF"/>
+    <rect x="808" y="270" width="16" height="16" fill="#9EE7FF"/>
+    <rect x="1174" y="216" width="16" height="16" fill="#FFE082"/>
+    <rect x="1204" y="216" width="16" height="16" fill="#FFE082"/>
+    <rect x="1234" y="216" width="16" height="16" fill="#FFE082"/>
+    <rect x="1598" y="310" width="14" height="14" fill="#9EE7FF"/>
+    <rect x="1624" y="310" width="14" height="14" fill="#9EE7FF"/>
+  </g>
+  <rect y="832" width="1920" height="248" fill="url(#paint1_linear)"/>
+  <circle cx="1490" cy="172" r="96" fill="#FF8A65" fill-opacity="0.15"/>
+  <circle cx="1490" cy="172" r="52" fill="#FF8A65" fill-opacity="0.2"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 320) rotate(90) scale(520 980)">
+      <stop stop-color="#12345A"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="960" y1="832" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+  </defs>
+</svg>

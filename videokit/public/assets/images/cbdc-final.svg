@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1f1116"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg6)"/>
+  <rect x="190" y="180" width="1540" height="720" rx="46" fill="#0f172a" stroke="#334155" stroke-width="4"/>
+  <rect x="290" y="290" width="390" height="500" rx="34" fill="#111827" stroke="#38bdf8" stroke-width="4"/>
+  <rect x="765" y="290" width="390" height="500" rx="34" fill="#111827" stroke="#facc15" stroke-width="4"/>
+  <rect x="1240" y="290" width="390" height="500" rx="34" fill="#111827" stroke="#ef4444" stroke-width="4"/>
+  <path d="M680 540h70M1155 540h70" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M730 540l-24-18v36zM1205 540l24-18v36z" fill="#94a3b8"/>
+  <g opacity="0.17">
+    <circle cx="330" cy="250" r="120" fill="#38bdf8"/>
+    <circle cx="1610" cy="250" r="140" fill="#ef4444"/>
+    <circle cx="960" cy="870" r="160" fill="#facc15"/>
+  </g>
+</svg>

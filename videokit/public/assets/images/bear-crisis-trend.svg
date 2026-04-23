@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#0f172a" />
+  <rect x="84" y="84" width="1752" height="912" rx="28" fill="#111827" stroke="#334155" stroke-width="2" />
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="68" font-weight="700">Injuries did not normalize.</text>
+  <text x="126" y="228" fill="#94a3b8" font-family="Arial, sans-serif" font-size="34">Official reports show a volatile but elevated risk profile.</text>
+  <line x1="182" y1="822" x2="1700" y2="822" stroke="#475569" stroke-width="3" />
+  <line x1="182" y1="346" x2="182" y2="822" stroke="#475569" stroke-width="3" />
+  <text x="142" y="356" fill="#64748b" font-family="Arial, sans-serif" font-size="22">250</text>
+  <text x="142" y="472" fill="#64748b" font-family="Arial, sans-serif" font-size="22">200</text>
+  <text x="142" y="588" fill="#64748b" font-family="Arial, sans-serif" font-size="22">150</text>
+  <text x="142" y="704" fill="#64748b" font-family="Arial, sans-serif" font-size="22">100</text>
+  <text x="142" y="820" fill="#64748b" font-family="Arial, sans-serif" font-size="22">50</text>
+  <polyline fill="none" stroke="#fb7185" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="290,520 610,402 930,666 1250,336 1570,248" />
+  <circle cx="290" cy="520" r="16" fill="#f8fafc" />
+  <circle cx="610" cy="402" r="16" fill="#f8fafc" />
+  <circle cx="930" cy="666" r="16" fill="#f8fafc" />
+  <circle cx="1250" cy="336" r="16" fill="#f8fafc" />
+  <circle cx="1570" cy="248" r="16" fill="#f8fafc" />
+  <text x="246" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2021</text>
+  <text x="566" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2022</text>
+  <text x="886" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2024</text>
+  <text x="1206" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2023</text>
+  <text x="1526" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2025</text>
+  <rect x="120" y="282" width="266" height="112" rx="18" fill="#1e293b" />
+  <text x="150" y="334" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">2023: 219 injured</text>
+  <text x="150" y="372" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">6 deaths</text>
+  <rect x="1510" y="122" width="260" height="112" rx="18" fill="#7f1d1d" />
+  <text x="1540" y="174" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">2025: 238 injured</text>
+  <text x="1540" y="212" fill="#fecaca" font-family="Arial, sans-serif" font-size="24">13 deaths</text>
+  <rect x="1108" y="614" width="632" height="240" rx="22" fill="#0b1220" stroke="#334155" />
+  <text x="1144" y="678" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Interpretation</text>
+  <text x="1144" y="734" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">A low year did not solve the structure.</text>
+  <text x="1144" y="784" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">The system bounced back to crisis scale.</text>
+  <text x="1144" y="836" fill="#fb7185" font-family="Arial, sans-serif" font-size="34" font-weight="700">Capacity lag + ecological shocks</text>
+</svg>

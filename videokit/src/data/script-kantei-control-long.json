@@ -1,0 +1,2035 @@
+{
+  "project": {
+    "id": "kantei-control-long",
+    "title": "官邸主導の正体 人事で支配する仕組み",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.05,
+    "voiceVolume": 1.2,
+    "seVolume": 0.72,
+    "voiceDucking": 0.54,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 13,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "kcl_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "官邸主導って聞くと、会議で強く押し切る政治を想像しがちです。でも本当に怖いのは、そういう目に見える強さじゃありません。人事を握ることで、まだ命令されていない段階から、現場の空気まで変えられることです。",
+        "speechText": "官邸主導って聞くと、会議で強く押し切る政治を想像しがちです。でも本当に怖いのは、そういう目に見える強さじゃありません。人事を握ることで、まだ命令されていない段階から、現場の空気まで変えられることです。",
+        "subtitleText": "本当に怖いのは、命令より人事で空気が変わること。",
+        "asset_query": "japan prime minister office political power documentary",
+        "startTime": 0,
+        "duration": 342,
+        "speedScale": 1.42,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "官邸主導の正体",
+              "headline": "人事で支配",
+              "subline": "命令より先に 空気が変わる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 73,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 0,
+            "duration": 210,
+            "effect": {
+              "type": "popIn",
+              "duration": 16,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_00_hook.wav"
+      },
+      {
+        "id": "kcl_long_01_2014_change",
+        "speaker": "ryusei",
+        "sceneRole": "history",
+        "text": "転機としてよく挙げられるのが、2014年の内閣人事局発足です。ここで幹部職員人事の一元管理が制度化され、各省の上位人事に、総理と官房長官が協議で深く関わる形が強まりました。表現は地味でも、政治と官僚の距離を縮めるには十分大きな変更でした。",
+        "speechText": "転機としてよく挙げられるのが、2014年の内閣人事局発足です。ここで幹部職員人事の一元管理が制度化され、各省の上位人事に、総理と官房長官が協議で深く関わる形が強まりました。表現は地味でも、政治と官僚の距離を縮めるには十分大きな変更でした。",
+        "subtitleText": "2014年、内閣人事局で幹部人事の重心が動いた。",
+        "asset_query": "japan cabinet bureau personnel affairs reform 2014",
+        "startTime": 356,
+        "duration": 440,
+        "speedScale": 1.34,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "制度の転機",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "発足",
+                  "value": "2014",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "02",
+                  "label": "本丸",
+                  "value": "幹部人事",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "03",
+                  "label": "関与",
+                  "value": "総理・官房長官",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 86,
+            "imageHeight": 26,
+            "startOffset": 18,
+            "duration": 220,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_01_2014_change.wav"
+      },
+      {
+        "id": "kcl_long_02_mechanism",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "法律の概要を見ると、幹部候補者名簿、適格性審査、そして任免を行う前の協議という流れが並んでいます。つまり各省が完全に自前で決める形ではなく、上位の人事判断に中央の視線が入る仕組みです。ここを押さえると、なぜ人事が政治の力になるのかが見えやすくなります。",
+        "speechText": "法律の概要を見ると、幹部候補者名簿、適格性審査、そして任免を行う前の協議という流れが並んでいます。つまり各省が完全に自前で決める形ではなく、上位の人事判断に中央の視線が入る仕組みです。ここを押さえると、なぜ人事が政治の力になるのかが見えやすくなります。",
+        "subtitleText": "名簿、審査、任免協議。人事判断に中央の視線が入る。",
+        "asset_query": "japan government personnel process policy chart",
+        "startTime": 810,
+        "duration": 472,
+        "speedScale": 1.38,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "幹部人事の流れ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "候補者名簿",
+                  "sub": "誰が乗るか"
+                },
+                {
+                  "label": "適格性審査",
+                  "sub": "能力確認"
+                },
+                {
+                  "label": "任免協議",
+                  "sub": "総理・官房長官",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "startOffset": 20,
+            "duration": 230,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_02_mechanism.wav"
+      },
+      {
+        "id": "kcl_long_03_guidelines",
+        "speaker": "ryusei",
+        "sceneRole": "explanation",
+        "text": "しかも話は幹部人事だけで終わりません。内閣人事局は、各府省を通じた人事管理運営方針の総合調整も担います。毎年度の方針が総理決定で回ること自体が、現場にとっては、何が今の政治の優先順位かを読むシグナルになります。制度文が穏やかでも、受け止め方は穏やかとは限りません。",
+        "speechText": "しかも話は幹部人事だけで終わりません。内閣人事局は、各府省を通じた人事管理運営方針の総合調整も担います。毎年度の方針が総理決定で回ること自体が、現場にとっては、何が今の政治の優先順位かを読むシグナルになります。制度文が穏やかでも、受け止め方は穏やかとは限りません。",
+        "subtitleText": "毎年度の人事方針も、政治の優先順位を示すシグナルになる。",
+        "asset_query": "japan bureaucracy annual personnel management policy",
+        "startTime": 1296,
+        "duration": 520,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "毎年効くルート",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "対象",
+                  "value": "各府省",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "調整",
+                  "value": "内閣人事局",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "決定",
+                  "value": "総理",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 86,
+            "imageHeight": 26,
+            "startOffset": 18,
+            "duration": 220,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_03_guidelines.wav"
+      },
+      {
+        "id": "kcl_long_04_official_case",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "もちろん建前だけ見れば、この制度には合理性があります。縦割りを越えて人材を動かしやすくする。重要政策に必要な人を、各省の都合より先に配置しやすくする。危機対応や横断課題では、確かにそういう発想が必要な場面もあります。だからこそ、批判する側も建前を無視してはいけません。",
+        "speechText": "もちろん建前だけ見れば、この制度には合理性があります。縦割りを越えて人材を動かしやすくする。重要政策に必要な人を、各省の都合より先に配置しやすくする。危機対応や横断課題では、確かにそういう発想が必要な場面もあります。だからこそ、批判する側も建前を無視してはいけません。",
+        "subtitleText": "表向きの狙いは、縦割り打破と政策に合わせた人材配置。",
+        "asset_query": "japan government policy coordination cabinet",
+        "startTime": 1830,
+        "duration": 485,
+        "speedScale": 1.38,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.68,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "表向きの目的",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "縦割りを越える",
+                  "重要政策へ人を寄せる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "現場で効く",
+                "titleColor": "#f97316",
+                "items": [
+                  "評価を意識する",
+                  "空気を先読みする"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここから差が出る"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "startOffset": 18,
+            "duration": 230,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_04_official_case.wav"
+      },
+      {
+        "id": "kcl_long_05_pressure_point",
+        "speaker": "ryusei",
+        "sceneRole": "risk",
+        "text": "でも、人が制度をどう感じるかは別の話です。局長や次官に近いポストを目指す人ほど、評価、異動、将来の配置に敏感になります。中央がそのラインへ関わると分かっていれば、明確な指示がなくても、先に空気を読み始めるのは自然な反応です。圧力の入り口は、言葉より将来不安なんです。",
+        "speechText": "でも、人が制度をどう感じるかは別の話です。局長や次官に近いポストを目指す人ほど、評価、異動、将来の配置に敏感になります。中央がそのラインへ関わると分かっていれば、明確な指示がなくても、先に空気を読み始めるのは自然な反応です。圧力の入り口は、言葉より将来不安なんです。",
+        "subtitleText": "圧力の入り口は、言葉より評価と将来不安。",
+        "asset_query": "bureaucrat promotion evaluation personnel pressure japan",
+        "startTime": 2329,
+        "duration": 525,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "圧力の入り口",
+              "bullets": [
+                "評価を意識する",
+                "異動を意識する",
+                "将来の配置を読む"
+              ],
+              "tagline": "指示の前に始まる",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 228,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_05_pressure_point.wav"
+      },
+      {
+        "id": "kcl_long_06_orders_vs_air",
+        "speaker": "tsumugi",
+        "sceneRole": "reveal",
+        "text": "ここが大事です。官邸主導の怖さは、毎回電話で指示が飛ぶことではありません。むしろ、言われる前に、これは嫌がられそうだ、これは歓迎されそうだと想像して、案の作り方そのものが変わっていくことです。強い言葉がなくても、構造だけで十分効くんです。",
+        "speechText": "ここが大事です。官邸主導の怖さは、毎回電話で指示が飛ぶことではありません。むしろ、言われる前に、これは嫌がられそうだ、これは歓迎されそうだと想像して、案の作り方そのものが変わっていくことです。強い言葉がなくても、構造だけで十分効くんです。",
+        "subtitleText": "怖いのは命令そのものより、案の作り方が先に変わること。",
+        "asset_query": "political pressure unseen institutional control japan",
+        "startTime": 2868,
+        "duration": 420,
+        "speedScale": 1.4,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "ここが本丸",
+              "headline": "命令前に変わる",
+              "subline": "案の作り方が先に寄る",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 20,
+            "duration": 210,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.86,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_06_orders_vs_air.wav"
+      },
+      {
+        "id": "kcl_long_07_flow",
+        "speaker": "ryusei",
+        "sceneRole": "explanation",
+        "text": "流れを単純化するとこうです。人事を握る。すると逆らいにくくなる。逆らいにくくなると、上へ持っていく情報や結論の形が整い始める。最後に官邸へ届くころには、最初の現場で見えていたはずの選択肢が、かなり薄くなっているかもしれないんです。",
+        "speechText": "流れを単純化するとこうです。人事を握る。すると逆らいにくくなる。逆らいにくくなると、上へ持っていく情報や結論の形が整い始める。最後に官邸へ届くころには、最初の現場で見えていたはずの選択肢が、かなり薄くなっているかもしれないんです。",
+        "subtitleText": "人事を握る。逆らいにくくなる。情報の形まで整う。",
+        "asset_query": "information flow bureaucracy japan cabinet",
+        "startTime": 3302,
+        "duration": 424,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "見えない流れ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "人事を握る",
+                  "sub": "評価と異動"
+                },
+                {
+                  "label": "逆らいにくい",
+                  "sub": "先回りが始まる"
+                },
+                {
+                  "label": "情報が整う",
+                  "sub": "官邸向きに寄る",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "startOffset": 20,
+            "duration": 226,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_07_flow.wav"
+      },
+      {
+        "id": "kcl_long_08_supporter_case",
+        "speaker": "tsumugi",
+        "sceneRole": "balance",
+        "text": "ここで一度、賛成側の理屈も正面から見ておきます。巨大な行政を動かすなら、総理が必要な人材をある程度動かせなければ責任だけ重くて実行できない。危機が続く時代に、指揮系統を太くしたいという感覚は、決して特殊な考えではありません。横断課題では、その理屈には強さがあります。",
+        "speechText": "ここで一度、賛成側の理屈も正面から見ておきます。巨大な行政を動かすなら、総理が必要な人材をある程度動かせなければ責任だけ重くて実行できない。危機が続く時代に、指揮系統を太くしたいという感覚は、決して特殊な考えではありません。横断課題では、その理屈には強さがあります。",
+        "subtitleText": "賛成側の理屈は、責任を負うなら動かす権限も必要だということ。",
+        "asset_query": "leadership crisis response government coordination japan",
+        "startTime": 3740,
+        "duration": 489,
+        "speedScale": 1.36,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "支持される理由",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "横断課題",
+                  "value": "複数省庁",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "課題",
+                  "value": "調整の遅さ",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "狙い",
+                  "value": "指揮系統を太く",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 86,
+            "imageHeight": 26,
+            "startOffset": 18,
+            "duration": 220,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_08_supporter_case.wav"
+      },
+      {
+        "id": "kcl_long_09_blackbox",
+        "speaker": "ryusei",
+        "sceneRole": "reveal",
+        "text": "ただし、速く動けることと、正しく監督されることは別です。中央集権が必要な場面はある。でも、その中央集権の中で、誰が何を見て、なぜその配置や判断になったのかが追えなければ、スピードの代わりにブラックボックスを買うことになります。そこが最大の分かれ目です。",
+        "speechText": "ただし、速く動けることと、正しく監督されることは別です。中央集権が必要な場面はある。でも、その中央集権の中で、誰が何を見て、なぜその配置や判断になったのかが追えなければ、スピードの代わりにブラックボックスを買うことになります。そこが最大の分かれ目です。",
+        "subtitleText": "スピードと監督は別。速さの代わりにブラックボックスを買ってはいけない。",
+        "asset_query": "black box government decision making oversight japan",
+        "startTime": 4243,
+        "duration": 485,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最大の論点",
+              "headline": "速さと監督は別",
+              "subline": "ブラックボックス化するな",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 18,
+            "duration": 210,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_09_blackbox.wav"
+      },
+      {
+        "id": "kcl_long_10_personnel_data",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "さらに見逃せないのが、人事に関する情報の集まり方です。法律概要では、各機関から人事に関する情報の提供を求める仕組みも示されています。誰がどの能力を持ち、どこでどう評価され、次にどこへ回せるか。そうした情報が中央へ集まるほど、人事はただの配置ではなく、組織全体を読むレバーになります。",
+        "speechText": "さらに見逃せないのが、人事に関する情報の集まり方です。法律概要では、各機関から人事に関する情報の提供を求める仕組みも示されています。誰がどの能力を持ち、どこでどう評価され、次にどこへ回せるか。そうした情報が中央へ集まるほど、人事はただの配置ではなく、組織全体を読むレバーになります。",
+        "subtitleText": "人事情報が中央へ集まるほど、配置は組織全体を読むレバーになる。",
+        "asset_query": "government personnel data management japan policy",
+        "startTime": 4742,
+        "duration": 521,
+        "speedScale": 1.38,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "中央に集まるもの",
+              "bullets": [
+                "能力の見立て",
+                "評価の履歴",
+                "次の配置候補"
+              ],
+              "tagline": "配置以上の意味を持つ",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 20,
+            "duration": 228,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_10_personnel_data.wav"
+      },
+      {
+        "id": "kcl_long_11_signal",
+        "speaker": "ryusei",
+        "sceneRole": "risk",
+        "text": "だから実際に効くのは、命令書よりシグナルです。今年はこの方向が評価されるらしい。ここは官邸案件だから慎重に扱った方がいいらしい。そういう共有感覚が広がると、個々の官僚が悪意で動かなくても、全体の出力は自然と一方向へ寄っていきます。構造の怖さは、ここにあります。",
+        "speechText": "だから実際に効くのは、命令書よりシグナルです。今年はこの方向が評価されるらしい。ここは官邸案件だから慎重に扱った方がいいらしい。そういう共有感覚が広がると、個々の官僚が悪意で動かなくても、全体の出力は自然と一方向へ寄っていきます。構造の怖さは、ここにあります。",
+        "subtitleText": "命令書よりシグナル。共有感覚が広がると出力が寄っていく。",
+        "asset_query": "institutional signal bureaucracy evaluation japan",
+        "startTime": 5277,
+        "duration": 500,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [],
+        "voiceFile": "long_kcl_11_signal.wav"
+      },
+      {
+        "id": "kcl_long_12_democracy",
+        "speaker": "tsumugi",
+        "sceneRole": "balance",
+        "text": "ここでよく出る反論が、総理は選挙で選ばれた政治のトップなんだから、行政を動かす力を持つのは当然だというものです。たしかに、国民に責任を負う側が、幹部人事へ一定の影響力を持つこと自体は、民主主義と矛盾しません。問題は、その力がどう記録され、どう制御されるかです。",
+        "speechText": "ここでよく出る反論が、総理は選挙で選ばれた政治のトップなんだから、行政を動かす力を持つのは当然だというものです。たしかに、国民に責任を負う側が、幹部人事へ一定の影響力を持つこと自体は、民主主義と矛盾しません。問題は、その力がどう記録され、どう制御されるかです。",
+        "subtitleText": "政治主導そのものではなく、力の記録と制御の設計が問題。",
+        "asset_query": "democratic leadership accountability government japan",
+        "startTime": 5791,
+        "duration": 489,
+        "speedScale": 1.38,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.68,
+            "speed": 0.94
+          }
+        },
+        "popups": [],
+        "voiceFile": "long_kcl_12_democracy.wav"
+      },
+      {
+        "id": "kcl_long_13_logs",
+        "speaker": "ryusei",
+        "sceneRole": "comparison",
+        "text": "強い政治主導でも、後から点検できるなら意味が変わります。どの理由でその人事になったのか。誰が関わったのか。異なる案があったのか。そういうログと説明が残るなら、中央集権はまだ監督可能です。逆にそれが薄いままなら、見えない権力だけが太くなります。",
+        "speechText": "強い政治主導でも、後から点検できるなら意味が変わります。どの理由でその人事になったのか。誰が関わったのか。異なる案があったのか。そういうログと説明が残るなら、中央集権はまだ監督可能です。逆にそれが薄いままなら、見えない権力だけが太くなります。",
+        "subtitleText": "ログと理由が残るかどうかで、同じ中央集権でも意味が変わる。",
+        "asset_query": "government audit logs accountability personnel appointments japan",
+        "startTime": 6294,
+        "duration": 452,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "監督可能",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "理由が残る",
+                  "関与者が追える"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "監督不能",
+                "titleColor": "#f97316",
+                "items": [
+                  "ログが薄い",
+                  "説明が曖昧"
+                ],
+                "highlight": true
+              },
+              "tagline": "この差が大きい"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "startOffset": 18,
+            "duration": 228,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_13_logs.wav"
+      },
+      {
+        "id": "kcl_long_14_when_it_bites",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "この仕組みが一番怖く見えるのは、政権にとって都合の悪い数字や、重い副作用を伴う政策判断が出てきたときです。真正面から隠さなくても、出し方を工夫するだけで、政治の受け取り方はかなり変わる。だから焦点は不正の証拠探しより、情報の通り道がどこまで偏り得るかを見ることなんです。",
+        "speechText": "この仕組みが一番怖く見えるのは、政権にとって都合の悪い数字や、重い副作用を伴う政策判断が出てきたときです。真正面から隠さなくても、出し方を工夫するだけで、政治の受け取り方はかなり変わる。だから焦点は不正の証拠探しより、情報の通り道がどこまで偏り得るかを見ることなんです。",
+        "subtitleText": "見るべきは不正の証拠探しより、情報の通り道がどこまで偏るか。",
+        "asset_query": "policy risk numbers government communication japan",
+        "startTime": 6760,
+        "duration": 476,
+        "speedScale": 1.42,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき瞬間",
+              "bullets": [
+                "都合の悪い数字",
+                "副作用の大きい政策",
+                "説明が割れる局面"
+              ],
+              "tagline": "情報の通り道を見る",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 228,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_14_when_it_bites.wav"
+      },
+      {
+        "id": "kcl_long_15_core_formula",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "ここまでを式にすると、とても単純です。人事を握る。空気が変わる。空気が変わると、情報の流れが変わる。つまり官邸主導の正体は、命令系統の強さだけではなく、判断の土台になる情報の形を先に整えられることです。そこまで届いて初めて、この話の怖さが見えてきます。",
+        "speechText": "ここまでを式にすると、とても単純です。人事を握る。空気が変わる。空気が変わると、情報の流れが変わる。つまり官邸主導の正体は、命令系統の強さだけではなく、判断の土台になる情報の形を先に整えられることです。そこまで届いて初めて、この話の怖さが見えてきます。",
+        "subtitleText": "人事を握る。空気が変わる。情報の流れが変わる。",
+        "asset_query": "information pipeline political control japan",
+        "startTime": 7250,
+        "duration": 501,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "核心の式",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "人事を握る",
+                  "sub": "重心が動く"
+                },
+                {
+                  "label": "空気が変わる",
+                  "sub": "先回りが始まる"
+                },
+                {
+                  "label": "情報の流れが変わる",
+                  "sub": "判断の土台が変わる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "startOffset": 18,
+            "duration": 228,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_15_core_formula.wav"
+      },
+      {
+        "id": "kcl_long_16_watchpoints",
+        "speaker": "tsumugi",
+        "sceneRole": "checklist",
+        "text": "だから、今後このテーマを見るときに確認すべき点は絞れます。ひとつ、人事判断の理由と記録がどこまで残るのか。ふたつ、国会や第三者が後から検証できるのか。みっつ、各省から上がる異論や不利な材料が、途中で細らずに届く設計になっているのか。この三つです。",
+        "speechText": "だから、今後このテーマを見るときに確認すべき点は絞れます。ひとつ、人事判断の理由と記録がどこまで残るのか。ふたつ、国会や第三者が後から検証できるのか。みっつ、各省から上がる異論や不利な材料が、途中で細らずに届く設計になっているのか。この三つです。",
+        "subtitleText": "確認点は3つ。理由と記録、外部検証、異論が細らない設計。",
+        "asset_query": "oversight checklist government appointments japan",
+        "startTime": 7765,
+        "duration": 454,
+        "speedScale": 1.38,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき3点",
+              "bullets": [
+                "理由と記録が残るか",
+                "外部検証ができるか",
+                "異論が細らず届くか"
+              ],
+              "tagline": "ここを見れば軸を失いにくい",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 230,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_16_watchpoints.wav"
+      },
+      {
+        "id": "kcl_long_17_verdict_cta",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "このテーマを一言でまとめるなら、官邸主導の正体は、命令が強いことではなく、人事を通じて判断の前提を整えられることです。だから怖いのは、独裁っぽい言葉ではありません。見えないまま空気が寄り、情報が寄り、最後の判断まで寄っていく構造です。",
+        "speechText": "このテーマを一言でまとめるなら、官邸主導の正体は、命令が強いことではなく、人事を通じて判断の前提を整えられることです。だから怖いのは、独裁っぽい言葉ではありません。見えないまま空気が寄り、情報が寄り、最後の判断まで寄っていく構造です。",
+        "subtitleText": "怖いのは言葉ではない。空気と情報が寄る構造だ。",
+        "asset_query": "japan parliament public debate political commentary",
+        "startTime": 8233,
+        "duration": 461,
+        "speedScale": 1.24,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "空気と情報が寄る",
+              "subline": "これが官邸主導の怖さ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 18,
+            "duration": 214,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_17_verdict_cta.wav"
+      },
+      {
+        "id": "kcl_long_18_not_conspiracy",
+        "speaker": "tsumugi",
+        "sceneRole": "balance",
+        "text": "ここで一つ、誤解しない方がいい点もあります。人事が効くからといって、すべてが裏で完全に操られていると決めつける必要はありません。実際の行政はもっと複雑で、現場には抵抗も修正もあります。ただ、その複雑さの中でも、重心がどこにあるかで全体の傾きは変わる。それが今見ている話です。",
+        "speechText": "ここで一つ、誤解しない方がいい点もあります。人事が効くからといって、すべてが裏で完全に操られていると決めつける必要はありません。実際の行政はもっと複雑で、現場には抵抗も修正もあります。ただ、その複雑さの中でも、重心がどこにあるかで全体の傾きは変わる。それが今見ている話です。",
+        "subtitleText": "陰謀論にしなくても、重心が変われば全体の傾きは変わる。",
+        "asset_query": "bureaucracy complexity institutional power japan",
+        "startTime": 8708,
+        "duration": 568,
+        "speedScale": 1.22,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.92
+          }
+        },
+        "popups": [],
+        "voiceFile": "long_kcl_18_not_conspiracy.wav"
+      },
+      {
+        "id": "kcl_long_19_merit_tension",
+        "speaker": "ryusei",
+        "sceneRole": "comparison",
+        "text": "しかも制度は、能力・実績主義と正面からぶつかるわけではありません。むしろ、能力や実績をどう見るか、その評価の重みづけを誰が読むかが問題になります。建前の merit と、実際に感じる signal がずれた瞬間、現場は公式の基準より空気の方を信じやすくなります。",
+        "speechText": "しかも制度は、能力・実績主義と正面からぶつかるわけではありません。むしろ、能力や実績をどう見るか、その評価の重みづけを誰が読むかが問題になります。建前の merit と、実際に感じる signal がずれた瞬間、現場は公式の基準より空気の方を信じやすくなります。",
+        "subtitleText": "能力主義の建前と、現場が感じるシグナルがずれると空気が勝ちやすい。",
+        "asset_query": "merit system bureaucracy signal japan",
+        "startTime": 9290,
+        "duration": 615,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "公式の基準",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "能力を見る",
+                  "実績で評価する"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "現場が感じるもの",
+                "titleColor": "#f97316",
+                "items": [
+                  "今年の空気",
+                  "どこへ寄せるべきか"
+                ],
+                "highlight": true
+              },
+              "tagline": "ずれた瞬間に傾く"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_19_merit_tension.wav"
+      },
+      {
+        "id": "kcl_long_20_memo_path",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "実務をイメージすると分かりやすいです。最初の担当が資料を作る。課長が直す。局長が通す。さらに上へ行く。各段階で、これは通りやすい言い方か、これは避けた方がいい論点か、少しずつ整えられる。その途中に人事の圧力がにじむほど、最後に届く文書は最初とは違う顔になります。",
+        "speechText": "実務をイメージすると分かりやすいです。最初の担当が資料を作る。課長が直す。局長が通す。さらに上へ行く。各段階で、これは通りやすい言い方か、これは避けた方がいい論点か、少しずつ整えられる。その途中に人事の圧力がにじむほど、最後に届く文書は最初とは違う顔になります。",
+        "subtitleText": "資料は上へ行くたびに整えられる。そこへ人事の圧力がにじむ。",
+        "asset_query": "policy memo workflow bureaucracy japan",
+        "startTime": 9919,
+        "duration": 573,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "文書が上がる途中",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "担当が作る",
+                  "sub": "現場の事実"
+                },
+                {
+                  "label": "管理職が整える",
+                  "sub": "通りやすい形へ"
+                },
+                {
+                  "label": "上へ届く",
+                  "sub": "別の顔になる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "startOffset": 18,
+            "duration": 246,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_20_memo_path.wav"
+      },
+      {
+        "id": "kcl_long_21_bad_news",
+        "speaker": "ryusei",
+        "sceneRole": "risk",
+        "text": "特に危ういのは、悪い知らせをどう上げるかです。数字が想定より悪い、政策の副作用が重い、現場の反発が強い。そういう話ほど、本来は率直に上がらないといけない。でも出世や配置を意識する組織では、悪い知らせほど表現を柔らかくして出したくなる。そこが民主主義にとってかなり危険なポイントです。",
+        "speechText": "特に危ういのは、悪い知らせをどう上げるかです。数字が想定より悪い、政策の副作用が重い、現場の反発が強い。そういう話ほど、本来は率直に上がらないといけない。でも出世や配置を意識する組織では、悪い知らせほど表現を柔らかくして出したくなる。そこが民主主義にとってかなり危険なポイントです。",
+        "subtitleText": "悪い知らせほど、柔らかくして上げたくなる。ここが危ない。",
+        "asset_query": "bad news reporting government bureaucracy japan",
+        "startTime": 10506,
+        "duration": 579,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "悪い知らせ",
+              "bullets": [
+                "悪い数字",
+                "重い副作用",
+                "強い現場反発"
+              ],
+              "tagline": "本来は率直に上げるべき",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_21_bad_news.wav"
+      },
+      {
+        "id": "kcl_long_22_policy_signals",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "もう一つ大事なのは、毎年度の人事方針の読み方です。能力・実績主義、中途採用、配置の柔軟化、研修重点。文章だけを見れば普通です。でも現場は、その普通の文章を、その年に何が評価されるかという signal として読む。だから制度文と運用感覚の間に、静かなズレが生まれます。",
+        "speechText": "もう一つ大事なのは、毎年度の人事方針の読み方です。能力・実績主義、中途採用、配置の柔軟化、研修重点。文章だけを見れば普通です。でも現場は、その普通の文章を、その年に何が評価されるかという signal として読む。だから制度文と運用感覚の間に、静かなズレが生まれます。",
+        "subtitleText": "普通の制度文でも、現場はその年の signal として読む。",
+        "asset_query": "annual policy signal bureaucrats japan",
+        "startTime": 11099,
+        "duration": 638,
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "制度文の読み方",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "能力実績",
+                  "value": "評価軸",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "配置柔軟化",
+                  "value": "優先順位",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "研修重点",
+                  "value": "育成方向",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 86,
+            "imageHeight": 26,
+            "startOffset": 18,
+            "duration": 222,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_22_policy_signals.wav"
+      },
+      {
+        "id": "kcl_long_23_independent_audit",
+        "speaker": "ryusei",
+        "sceneRole": "checklist",
+        "text": "だから安全装置としてまず必要なのは、独立した監督です。官邸や各省の内部だけで完結する自己点検では足りません。誰が関与し、なぜその人事や判断になったのかを、後から外部が検証できる仕組みがいる。ログが残り、アクセス権があり、結果を報告できる。そこまであって初めて歯止めになります。",
+        "speechText": "だから安全装置としてまず必要なのは、独立した監督です。官邸や各省の内部だけで完結する自己点検では足りません。誰が関与し、なぜその人事や判断になったのかを、後から外部が検証できる仕組みがいる。ログが残り、アクセス権があり、結果を報告できる。そこまであって初めて歯止めになります。",
+        "subtitleText": "内部点検だけでは足りない。外部が検証できる仕組みが必要。",
+        "asset_query": "independent oversight audit government japan",
+        "startTime": 11751,
+        "duration": 569,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "独立監督に必要なもの",
+              "bullets": [
+                "ログが残る",
+                "外部が見られる",
+                "結果を報告できる"
+              ],
+              "tagline": "ここまであって歯止めになる",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_23_independent_audit.wav"
+      },
+      {
+        "id": "kcl_long_24_diet_review",
+        "speaker": "tsumugi",
+        "sceneRole": "checklist",
+        "text": "次に必要なのは、国会による継続監視です。大きな問題が起きた時だけ騒ぐのでは遅い。どんな基準で幹部人事が動き、どんな方針が毎年出て、どこで異論が処理されたのかを、定期的に問い続ける回路が必要です。政治主導を認めるなら、同じだけ政治の場で説明させないと釣り合いません。",
+        "speechText": "次に必要なのは、国会による継続監視です。大きな問題が起きた時だけ騒ぐのでは遅い。どんな基準で幹部人事が動き、どんな方針が毎年出て、どこで異論が処理されたのかを、定期的に問い続ける回路が必要です。政治主導を認めるなら、同じだけ政治の場で説明させないと釣り合いません。",
+        "subtitleText": "国会は事件の時だけでなく、平時から問い続ける必要がある。",
+        "asset_query": "diet oversight political accountability japan",
+        "startTime": 12334,
+        "duration": 551,
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [],
+        "voiceFile": "long_kcl_24_diet_review.wav"
+      },
+      {
+        "id": "kcl_long_25_written_reasons",
+        "speaker": "ryusei",
+        "sceneRole": "checklist",
+        "text": "そして、理由の書面化です。誰を選び、誰を外し、なぜその配置が必要だと判断したのか。全部を公開できなくても、少なくとも後から検証できる程度には残しておかないと、説明責任は空文化します。記録が薄い組織では、最後に残るのは、みんなそう思っていたという曖昧な空気だけです。",
+        "speechText": "そして、理由の書面化です。誰を選び、誰を外し、なぜその配置が必要だと判断したのか。全部を公開できなくても、少なくとも後から検証できる程度には残しておかないと、説明責任は空文化します。記録が薄い組織では、最後に残るのは、みんなそう思っていたという曖昧な空気だけです。",
+        "subtitleText": "理由が書面で残らなければ、最後に残るのは曖昧な空気だけ。",
+        "asset_query": "written reasons accountability appointments japan",
+        "startTime": 12899,
+        "duration": 564,
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "記録がある",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "後から検証できる",
+                  "説明責任が残る"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "記録が薄い",
+                "titleColor": "#f97316",
+                "items": [
+                  "空気だけが残る",
+                  "誰も追えない"
+                ],
+                "highlight": true
+              },
+              "tagline": "理由の書面化が必要"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_25_written_reasons.wav"
+      },
+      {
+        "id": "kcl_long_26_conditions",
+        "speaker": "tsumugi",
+        "sceneRole": "summary",
+        "text": "結局、官邸主導を全面否定するか全面肯定するかより、どんな条件なら許せるのかを詰める方が重要です。独立監督、国会監視、理由の記録、異論が届く回路。この条件が弱いままなら危ない。逆に条件を強く置けるなら、政治主導と歯止めを両立させる余地はあります。",
+        "speechText": "結局、官邸主導を全面否定するか全面肯定するかより、どんな条件なら許せるのかを詰める方が重要です。独立監督、国会監視、理由の記録、異論が届く回路。この条件が弱いままなら危ない。逆に条件を強く置けるなら、政治主導と歯止めを両立させる余地はあります。",
+        "subtitleText": "全面賛成か反対かより、許せる条件を詰める方が重要。",
+        "asset_query": "political safeguards conditions accountability japan",
+        "startTime": 13477,
+        "duration": 550,
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "許せる条件",
+              "bullets": [
+                "独立監督",
+                "国会監視",
+                "理由の記録"
+              ],
+              "tagline": "異論が届く回路も必要",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_26_conditions.wav"
+      },
+      {
+        "id": "kcl_long_27_final_cta",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "ここまで見てきた通り、官邸主導の論点は単なる印象論ではありません。人事、空気、情報、監督、この四つがどう組み合わさるかで、政治主導は必要な統制にも危ない集中にもなります。だから判断するときは、言葉の強さより、制度の条件を見る必要があります。",
+        "speechText": "ここまで見てきた通り、官邸主導の論点は単なる印象論ではありません。人事、空気、情報、監督、この四つがどう組み合わさるかで、政治主導は必要な統制にも危ない集中にもなります。だから判断するときは、言葉の強さより、制度の条件を見る必要があります。",
+        "subtitleText": "人事、空気、情報、監督。この条件の組み合わせで意味が変わる。",
+        "asset_query": "public debate comments politics japan",
+        "startTime": 14041,
+        "duration": 521,
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "あなたはどう見る",
+              "headline": "必要か 危ないか",
+              "subline": "3つの軸で考える",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 18,
+            "duration": 214,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_27_final_cta.wav"
+      },
+      {
+        "id": "kcl_long_28_special_cases",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "実は制度設計の中でも、全部を完全に一元化しているわけではありません。法律概要では、人事院、検察庁、会計検査院、警察庁、外局として置かれる委員会など、職務の特殊性に配慮した例外や調整の考え方も置かれています。ここは重要で、政府自身も政治の力をそのまま全面適用できない領域があると分かっているんです。",
+        "speechText": "実は制度設計の中でも、全部を完全に一元化しているわけではありません。法律概要では、人事院、検察庁、会計検査院、警察庁、外局として置かれる委員会など、職務の特殊性に配慮した例外や調整の考え方も置かれています。ここは重要で、政府自身も政治の力をそのまま全面適用できない領域があると分かっているんです。",
+        "subtitleText": "全部を一元化していない。例外があること自体が論点の重さを示す。",
+        "asset_query": "japan government special exceptions personnel system",
+        "startTime": 14576,
+        "duration": 681,
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "例外が示すもの",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "人事院",
+                  "value": "独立性",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "検察・会計検査",
+                  "value": "特殊性",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "警察庁等",
+                  "value": "配慮",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 86,
+            "imageHeight": 26,
+            "startOffset": 18,
+            "duration": 230,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_28_special_cases.wav"
+      },
+      {
+        "id": "kcl_long_29_not_uniform",
+        "speaker": "ryusei",
+        "sceneRole": "balance",
+        "text": "逆に言えば、全部が同じ強さで官邸に吸い寄せられるわけでもありません。省庁ごとに文化も職務も違うし、法的な独立性や専門性が強い領域ほど、単純な号令だけでは動きにくい。だからこそ、実際に起きるのは一気に全面支配ではなく、重心がじわじわ動いて、効きやすい領域から先に傾くという形なんです。",
+        "speechText": "逆に言えば、全部が同じ強さで官邸に吸い寄せられるわけでもありません。省庁ごとに文化も職務も違うし、法的な独立性や専門性が強い領域ほど、単純な号令だけでは動きにくい。だからこそ、実際に起きるのは一気に全面支配ではなく、重心がじわじわ動いて、効きやすい領域から先に傾くという形なんです。",
+        "subtitleText": "全部が一気に同じではない。効きやすい領域から先に傾く。",
+        "asset_query": "ministry culture institutional differences japan politics",
+        "startTime": 15271,
+        "duration": 591,
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "効きやすい領域",
+                "titleColor": "#f97316",
+                "items": [
+                  "重心が動きやすい",
+                  "空気が先に広がる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "効きにくい領域",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "独立性が強い",
+                  "専門性の壁がある"
+                ],
+                "highlight": true
+              },
+              "tagline": "全部が同じではない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_29_not_uniform.wav"
+      },
+      {
+        "id": "kcl_long_30_future_watch",
+        "speaker": "tsumugi",
+        "sceneRole": "checklist",
+        "text": "今後ニュースを追うなら、見る場所はかなりはっきりしています。誰の人事が動いたか。毎年の方針で何が強調されたか。都合の悪い数字や異論がどう処理されたか。そこを追えば、官邸主導がただのリーダーシップなのか、それとも情報の流れまで変えているのかが、少しずつ見えてきます。",
+        "speechText": "今後ニュースを追うなら、見る場所はかなりはっきりしています。誰の人事が動いたか。毎年の方針で何が強調されたか。都合の悪い数字や異論がどう処理されたか。そこを追えば、官邸主導がただのリーダーシップなのか、それとも情報の流れまで変えているのかが、少しずつ見えてきます。",
+        "subtitleText": "人事、毎年の方針、悪い知らせの処理。この3つを追えば見えてくる。",
+        "asset_query": "news watch political personnel policy japan",
+        "startTime": 15876,
+        "duration": 522,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "追うべき3点",
+              "bullets": [
+                "誰の人事が動いたか",
+                "何が方針で強調されたか",
+                "悪い知らせがどう処理されたか"
+              ],
+              "tagline": "ここを見ると見えてくる",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_30_future_watch.wav"
+      },
+      {
+        "id": "kcl_long_30b_condition_test",
+        "speaker": "ryusei",
+        "sceneRole": "checklist",
+        "text": "今後もし、もっと強い官邸主導が必要だという話が出たら、同時に何を要求するかが大切です。独立監督は付くのか。理由の記録は残るのか。悪い知らせを上げても不利になりにくい回路はあるのか。この三つを一緒に聞かないと、議論はすぐに強いか弱いかだけの話に戻ってしまいます。",
+        "speechText": "今後もし、もっと強い官邸主導が必要だという話が出たら、同時に何を要求するかが大切です。独立監督は付くのか。理由の記録は残るのか。悪い知らせを上げても不利になりにくい回路はあるのか。この三つを一緒に聞かないと、議論はすぐに強いか弱いかだけの話に戻ってしまいます。",
+        "subtitleText": "強い官邸主導を言うなら、同時に何を要求するかまで聞く。",
+        "asset_query": "political conditions oversight questions japan",
+        "startTime": 16412,
+        "duration": 528,
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "同時に聞くこと",
+              "bullets": [
+                "独立監督は付くか",
+                "理由の記録は残るか",
+                "悪い知らせが上がるか"
+              ],
+              "tagline": "強いか弱いかだけで終わらせない",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "startOffset": 18,
+            "duration": 240,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_30b_condition_test.wav"
+      },
+      {
+        "id": "kcl_long_30c_translate_rule",
+        "speaker": "tsumugi",
+        "sceneRole": "summary",
+        "text": "ニュースで官邸主導という言葉が出たら、私はいつも三つに翻訳して考えるようにしています。誰が人事を握るのか。誰が情報の見せ方を整えるのか。誰があとからそれを監督できるのか。この翻訳さえ持っていれば、派手な言葉に振り回されずに中身を見られます。",
+        "speechText": "ニュースで官邸主導という言葉が出たら、私はいつも三つに翻訳して考えるようにしています。誰が人事を握るのか。誰が情報の見せ方を整えるのか。誰があとからそれを監督できるのか。この翻訳さえ持っていれば、派手な言葉に振り回されずに中身を見られます。",
+        "subtitleText": "官邸主導を見たら、人事、情報、監督の三つへ翻訳して考える。",
+        "asset_query": "news translation political literacy japan",
+        "startTime": 16954,
+        "duration": 480,
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "官邸主導の翻訳",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "誰が人事を握るか",
+                  "sub": "重心"
+                },
+                {
+                  "label": "誰が情報を整えるか",
+                  "sub": "見せ方"
+                },
+                {
+                  "label": "誰が監督するか",
+                  "sub": "歯止め",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 90,
+            "imageHeight": 30,
+            "startOffset": 18,
+            "duration": 236,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_30c_translate_rule.wav"
+      },
+      {
+        "id": "kcl_long_31_final_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたはどう見ますか。強い政治主導は必要だけれど、その代わり監督をもっと厚くすべきだと思いますか。それとも、人事へここまで中央が入る時点で危ないと思いますか。賛成でも反対でも、理由を記録、外部検証、異論が届くかの三点に沿ってコメントで教えてください。",
+        "speechText": "あなたはどう見ますか。強い政治主導は必要だけれど、その代わり監督をもっと厚くすべきだと思いますか。それとも、人事へここまで中央が入る時点で危ないと思いますか。賛成でも反対でも、理由を記録、外部検証、異論が届くかの三点に沿ってコメントで教えてください。",
+        "subtitleText": "必要か危ないか。理由を3つの軸でコメントで教えて。",
+        "asset_query": "public debate comments politics japan",
+        "startTime": 17448,
+        "duration": 507,
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "あなたはどう見る",
+              "headline": "必要か 危ないか",
+              "subline": "3つの軸で考える",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "startOffset": 18,
+            "duration": 214,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "long_kcl_31_final_cta.wav"
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "kantei_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "官邸主導。本当に怖いのは、強い言葉じゃない。人事で、逆らいにくい空気を作れることです。",
+        "speechText": "官邸主導。本当に怖いのは、強い言葉じゃない。人事で、逆らいにくい空気を作れることです。",
+        "subtitleText": "命令より怖い\n人事で支配",
+        "asset_query": "japan prime minister office political power",
+        "startTime": 0,
+        "duration": 161,
+        "speedScale": 1.46,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.04,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "官邸主導の正体",
+              "headline": "人事で支配",
+              "subline": "命令より怖い 空気の支配",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "startOffset": 0,
+            "duration": 126,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.82,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_00_hook.wav"
+      },
+      {
+        "id": "kantei_short_01_system",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "2014年に内閣人事局ができて、幹部人事は一元管理。さらに、各省庁をまたぐ人事方針も総理決定で回ります。",
+        "speechText": "にせんじゅうよん年に内閣人事局ができて、幹部人事は一元管理。さらに、各省庁をまたぐ人事方針も総理決定で回ります。",
+        "subtitleText": "2014年 幹部人事を一元管理",
+        "asset_query": "japan cabinet bureau personnel affairs government structure",
+        "startTime": 169,
+        "duration": 221,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.96
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "制度の芯",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "発足",
+                  "value": "2014",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "02",
+                  "label": "対象",
+                  "value": "幹部人事",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "03",
+                  "label": "毎年",
+                  "value": "総理方針",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "startOffset": 8,
+            "duration": 190,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_01_system.wav"
+      },
+      {
+        "id": "kantei_short_02_front_vs_back",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "表向きは、縦割りを壊して、重要政策に合わせて人を動かす仕組みです。でも握られる側には、出世と異動の空気が先に効きます。",
+        "speechText": "表向きは、縦割りを壊して、重要政策に合わせて人を動かす仕組みです。でも握られる側には、出世と異動の空気が先に効きます。",
+        "subtitleText": "表向きは 政策重視\nでも現場は 空気を読む",
+        "asset_query": "japan bureaucracy personnel control political explainer",
+        "startTime": 398,
+        "duration": 210,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.03
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "表向き",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "縦割り打破",
+                  "政策で配置"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "現場で効く",
+                "titleColor": "#f97316",
+                "items": [
+                  "出世を意識",
+                  "先に空気を読む"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここが裏側"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "startOffset": 8,
+            "duration": 196,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_02_front_vs_back.wav"
+      },
+      {
+        "id": "kantei_short_03_flow",
+        "speaker": "ryusei",
+        "sceneRole": "reveal",
+        "text": "すると命令が来る前から、官邸が嫌がる案は出しにくくなる。逆に、欲しい説明は上がりやすくなります。",
+        "speechText": "すると命令が来る前から、官邸が嫌がる案は出しにくくなる。逆に、欲しい説明は上がりやすくなります。",
+        "subtitleText": "命令前に\n情報が整う",
+        "asset_query": "japan cabinet information flow bureaucracy",
+        "startTime": 616,
+        "duration": 181,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "見えない流れ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "人事を握る",
+                  "sub": "幹部ポスト"
+                },
+                {
+                  "label": "逆らいにくい",
+                  "sub": "先回り"
+                },
+                {
+                  "label": "情報が整う",
+                  "sub": "官邸向き",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "startOffset": 8,
+            "duration": 192,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_03_flow.wav"
+      },
+      {
+        "id": "kantei_short_04_hidden_control",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "だから怖いと言われます。会議で怒鳴らなくても回る。独裁っぽい言葉より、情報の流れまで上向きに整うことが問題です。",
+        "speechText": "だから怖いと言われます。会議で怒鳴らなくても回る。独裁っぽい言葉より、情報の流れまで上向きに整うことが問題です。",
+        "subtitleText": "見えない支配は\n情報で効く",
+        "asset_query": "political documentary hidden control japan government",
+        "startTime": 805,
+        "duration": 188,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.04
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "何が起きる?",
+              "bullets": [
+                "先に空気を読む",
+                "嫌な案が出にくい",
+                "上向き情報が増える"
+              ],
+              "tagline": "だから怖いと言われる",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "startOffset": 10,
+            "duration": 204,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_04_hidden_control.wav"
+      },
+      {
+        "id": "kantei_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "官邸主導の正体は、会議の強さじゃない。人事で空気を作り、情報の流れまで変える構造です。",
+        "speechText": "官邸主導の正体は、会議の強さじゃない。人事で空気を作り、情報の流れまで変える構造です。",
+        "subtitleText": "人事が\n情報の流れを変える",
+        "asset_query": "japan prime minister office political system documentary",
+        "startTime": 1001,
+        "duration": 176,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "官邸主導の正体",
+              "headline": "人事で支配",
+              "subline": "空気と情報の流れが変わる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "startOffset": 0,
+            "duration": 170,
+            "effect": {
+              "type": "popIn",
+              "duration": 12,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_05_verdict.wav"
+      }
+    ]
+  }
+}

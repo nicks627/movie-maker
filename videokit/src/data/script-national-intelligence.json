@@ -1,0 +1,670 @@
+{
+  "project": {
+    "id": "national-intelligence",
+    "title": "国家情報局は何が危ないのか",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.2,
+    "seVolume": 0.78,
+    "voiceDucking": 0.5,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "short",
+  "long": {
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Gravity.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "ni_long_00_hook",
+        "speaker": "tsumugi",
+        "text": "国家情報局って聞くと、日本版CIAみたいな強い名前に目が行きますよね。でも今本当に進んでいるのは、誰が総理に情報を上げて、誰が国の判断を握るのかという制度の話です。",
+        "speechText": "国家情報局って聞くと、日本版CIAみたいな強い名前に目が行きますよね。でも今本当に進んでいるのは、誰が総理に情報を上げて、誰が国の判断を握るのかという制度の話です。",
+        "subtitleText": "日本版CIAより先に、誰が情報を握るのかを見よう。",
+        "startTime": 0,
+        "duration": 180,
+        "speedScale": 1.45,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.75,
+            "speed": 0.95
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_01_status",
+        "speaker": "ryusei",
+        "text": "政府は2026年3月13日に国家情報会議と国家情報局を新設する法案を閣議決定しました。そして2026年4月2日には国会審議入りです。もう見出しだけの観測じゃなく、法案として走り始めている段階なんです。",
+        "speechText": "政府は2026年3月13日に国家情報会議と国家情報局を新設する法案を閣議決定しました。そして2026年4月2日には国会審議入りです。もう見出しだけの観測じゃなく、法案として走り始めている段階なんです。",
+        "subtitleText": "2026年3月13日 閣議決定。4月2日 国会審議入り。",
+        "startTime": 180,
+        "duration": 180,
+        "speedScale": 1.28,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.7,
+            "speed": 0.9
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_02_name_vs_reality",
+        "speaker": "tsumugi",
+        "text": "だから大事なのは、日本版CIAという派手な呼び方に飲まれないことです。法案が何を狙っていて、何がまだ曖昧で、どこに歯止めが入るのか。そこを順番に分解していけば、名前の印象に振り回されにくくなります。",
+        "speechText": "だから大事なのは、日本版CIAという派手な呼び方に飲まれないことです。法案が何を狙っていて、何がまだ曖昧で、どこに歯止めが入るのか。そこを順番に分解していけば、名前の印象に振り回されにくくなります。",
+        "subtitleText": "危ないのは名前より、中身と歯止めの設計。",
+        "startTime": 360,
+        "duration": 180,
+        "speedScale": 1.44,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.92
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_03_purpose",
+        "speaker": "ryusei",
+        "text": "表向きの目的は分かりやすいです。バラバラに集まる情報をつないで、外交、安全保障、テロ、経済安保の判断を早くしたい。危機が同時多発する時に、官邸が一枚絵をすぐ作れる体制が欲しいという発想です。",
+        "speechText": "表向きの目的は分かりやすいです。バラバラに集まる情報をつないで、外交、安全保障、テロ、経済安保の判断を早くしたい。危機が同時多発する時に、官邸が一枚絵をすぐ作れる体制が欲しいという発想です。",
+        "subtitleText": "表向きの目的は、情報をつないで判断を早くすること。",
+        "startTime": 540,
+        "duration": 180,
+        "speedScale": 1.26,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.64,
+            "speed": 0.88
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_04_structure",
+        "speaker": "tsumugi",
+        "text": "法案のイメージでは、総理を議長とする国家情報会議が大きな方針を決め、その下で国家情報局が分析、収集、総合調整を回します。今の内閣情報調査室では各省庁を束ねる司令塔として中途半端だ、という不満を埋めたいわけです。",
+        "speechText": "法案のイメージでは、総理を議長とする国家情報会議が大きな方針を決め、その下で国家情報局が分析、収集、総合調整を回します。今の内閣情報調査室では各省庁を束ねる司令塔として中途半端だ、という不満を埋めたいわけです。",
+        "subtitleText": "会議が方針。局が分析・収集・総合調整。",
+        "startTime": 720,
+        "duration": 180,
+        "speedScale": 1.42,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_05_not_copy",
+        "speaker": "ryusei",
+        "text": "ここが日本版CIAと呼ばれる理由ですが、アメリカのCIAをそのままコピーする話ではありません。国外工作の派手さより、日本政府の中で誰がどの情報を握って、どんな整理で政治判断に届けるのか。そこが本当の焦点です。",
+        "speechText": "ここが日本版CIAと呼ばれる理由ですが、アメリカのCIAをそのままコピーする話ではありません。国外工作の派手さより、日本政府の中で誰がどの情報を握って、どんな整理で政治判断に届けるのか。そこが本当の焦点です。",
+        "subtitleText": "CIAのコピーではなく、政府内の情報支配が焦点。",
+        "startTime": 900,
+        "duration": 180,
+        "speedScale": 1.25,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.92
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_06_turf_war",
+        "speaker": "tsumugi",
+        "text": "複数報道で共通して出るのが、警察庁、外務省、防衛省、それに経済安保や予算を握る側まで含めた主導権の綱引きです。誰が中核に入るかで、この組織が治安寄りになるのか、外交寄りになるのか、経済安保寄りになるのか、性格が変わってしまいます。",
+        "speechText": "複数報道で共通して出るのが、警察庁、外務省、防衛省、それに経済安保や予算を握る側まで含めた主導権の綱引きです。誰が中核に入るかで、この組織が治安寄りになるのか、外交寄りになるのか、経済安保寄りになるのか、性格が変わってしまいます。",
+        "subtitleText": "本丸は、どの省庁が主導権を持つか。",
+        "startTime": 1080,
+        "duration": 180,
+        "speedScale": 1.43,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_07_police_foreign_defense",
+        "speaker": "ryusei",
+        "text": "警察系は国内の治安やカウンターインテリジェンスに強い。でも国内寄りに傾きすぎれば監視色が強まる不安も出ます。外務省系は海外情報と同盟国との連携に強い。防衛省系は軍事情報と安全保障判断に強い。ただ、どこを中心に据えるかで、市民感覚からの距離も変わってしまうんです。",
+        "speechText": "警察系は国内の治安やカウンターインテリジェンスに強い。でも国内寄りに傾きすぎれば監視色が強まる不安も出ます。外務省系は海外情報と同盟国との連携に強い。防衛省系は軍事情報と安全保障判断に強い。ただ、どこを中心に据えるかで、市民感覚からの距離も変わってしまうんです。",
+        "subtitleText": "警察・外務・防衛、どこ中心でも副作用がある。",
+        "startTime": 1260,
+        "duration": 180,
+        "speedScale": 1.24,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_08_three_risks",
+        "speaker": "tsumugi",
+        "text": "不安は大きく3つです。1つ目は権限の集中。どの情報を上げるか、その入口が一つによるほど、政治判断の土台がブラックボックス化しやすい。2つ目は監視範囲の線引き。3つ目は透明性と監督が弱いまま先に組織だけ走り出すことです。",
+        "speechText": "不安は大きく3つです。1つ目は権限の集中。どの情報を上げるか、その入口が一つによるほど、政治判断の土台がブラックボックス化しやすい。2つ目は監視範囲の線引き。3つ目は透明性と監督が弱いまま先に組織だけ走り出すことです。",
+        "subtitleText": "不安は3つ。権限集中、監視範囲、透明性不足。",
+        "startTime": 1440,
+        "duration": 180,
+        "speedScale": 1.42,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.96
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_09_sns_boundary",
+        "speaker": "ryusei",
+        "text": "政府はプライバシーを無用に侵害しないと説明します。でも実務で効いてくるのは、何を個人情報として扱い、何を参考情報として広く集めるのかという線引きです。公開情報だけを見ると言っても、SNS投稿、公開プロフィール、つながり方、過去発言を重ねれば、個人の輪郭はかなり具体的に見えてしまいます。",
+        "speechText": "政府はプライバシーを無用に侵害しないと説明します。でも実務で効いてくるのは、何を個人情報として扱い、何を参考情報として広く集めるのかという線引きです。公開情報だけを見ると言っても、SNS投稿、公開プロフィール、つながり方、過去発言を重ねれば、個人の輪郭はかなり具体的に見えてしまいます。",
+        "subtitleText": "捜査権の有無より、公開情報の蓄積ルールが論点。",
+        "startTime": 1620,
+        "duration": 180,
+        "speedScale": 1.24,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.9
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_10_oversight",
+        "speaker": "tsumugi",
+        "text": "だから本当に必要なのは、組織を作ることより、誰が後から検証できるのか、どこでブレーキを踏めるのかという設計です。独立機関がログを見て事後検証できるか。国会が継続的にチェックできるか。監督が後回しなら、現場は回しながら考えるになりやすいんです。",
+        "speechText": "だから本当に必要なのは、組織を作ることより、誰が後から検証できるのか、どこでブレーキを踏めるのかという設計です。独立機関がログを見て事後検証できるか。国会が継続的にチェックできるか。監督が後回しなら、現場は回しながら考えるになりやすいんです。",
+        "subtitleText": "先に作るより先に監督。ここが一番大事。",
+        "startTime": 1800,
+        "duration": 180,
+        "speedScale": 1.42,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_11_checks",
+        "speaker": "ryusei",
+        "text": "見るべきポイントを絞るなら3つです。1つ、対象となる情報の範囲。2つ、独立した監督と検証。3つ、国会と国民への説明責任。この3点が条文、運用、監督のどこに書かれているのかまで見て、初めて賛成か反対かを判断できます。",
+        "speechText": "見るべきポイントを絞るなら3つです。1つ、対象となる情報の範囲。2つ、独立した監督と検証。3つ、国会と国民への説明責任。この3点が条文、運用、監督のどこに書かれているのかまで見て、初めて賛成か反対かを判断できます。",
+        "subtitleText": "確認すべきは3つ。情報範囲、独立監督、説明責任。",
+        "startTime": 1980,
+        "duration": 180,
+        "speedScale": 1.24,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.94
+          }
+        },
+        "popups": []
+      },
+      {
+        "id": "ni_long_12_cta",
+        "speaker": "tsumugi",
+        "text": "2026年3月13日の閣議決定から4月2日の審議入りまで、一気に制度が動き始めました。だから今は賛成か反対かだけじゃなく、どんな条件なら許せるのかまで考えるタイミングです。あなたは必要だと思いますか。それとも危ないと思いますか。理由までコメントで教えてください。",
+        "speechText": "2026年3月13日の閣議決定から4月2日の審議入りまで、一気に制度が動き始めました。だから今は賛成か反対かだけじゃなく、どんな条件なら許せるのかまで考えるタイミングです。あなたは必要だと思いますか。それとも危ないと思いますか。理由までコメントで教えてください。",
+        "subtitleText": "必要か危ないか。理由までコメントで教えて。",
+        "startTime": 2160,
+        "duration": 180,
+        "speedScale": 1.43,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": []
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Indomitable.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "ni_short_00_hook",
+        "speaker": "tsumugi",
+        "text": "国家情報局。本当に危ないのは、日本版CIAって名前じゃない。",
+        "speechText": "国家情報局。本当に危ないのは、日本版CIAって名前じゃない。",
+        "subtitleText": "名前より 中身を見る。",
+        "asset_query": "japan national intelligence agency controversy",
+        "startTime": 0,
+        "duration": 114,
+        "speedScale": 1.47,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.05,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "危ないのは名前じゃない",
+              "headline": "日本版CIAの危険性",
+              "subline": "本丸は 情報集中と歯止め",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "startOffset": 0,
+            "duration": 110,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.82,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_00_hook.wav"
+      },
+      {
+        "id": "ni_short_01_now",
+        "speaker": "ryusei",
+        "text": "政府は2026年3月13日に法案を閣議決定。4月2日には国会審議入り。もう見出しの話ではなく、制度として動き始めています。",
+        "speechText": "政府は2026年3月13日に法案を閣議決定。4月2日には国会審議入り。もう見出しの話ではなく、制度として動き始めています。",
+        "subtitleText": "3月13日 閣議決定。4月2日 審議入り。",
+        "asset_query": "japan prime minister office government bill night",
+        "startTime": 122,
+        "duration": 261,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.96
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "もう動いている",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "閣議決定",
+                  "value": "3/13",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "02",
+                  "label": "審議入り",
+                  "value": "4/2",
+                  "color": "#38bdf8"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "startOffset": 8,
+            "duration": 170,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_01_now.wav"
+      },
+      {
+        "id": "ni_short_02_core",
+        "speaker": "tsumugi",
+        "text": "本当の争点は、誰が総理に情報を上げ、誰が主導権を握るかです。名前が強いほど、ここが見えにくくなります。",
+        "speechText": "本当の争点は、誰が総理に情報を上げ、誰が主導権を握るかです。名前が強いほど、ここが見えにくくなります。",
+        "subtitleText": "争点は 誰が握るか。",
+        "asset_query": "japan national diet political power structure",
+        "startTime": 391,
+        "duration": 184,
+        "speedScale": 1.46,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.96,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "見出し",
+                "titleColor": "#f97316",
+                "items": [
+                  "日本版CIA",
+                  "強い名前"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "争点",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "誰が情報を握るか",
+                  "誰が主導権を持つか"
+                ],
+                "highlight": true
+              },
+              "tagline": "印象より制度を見る"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "startOffset": 10,
+            "duration": 180,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_02_core.wav"
+      },
+      {
+        "id": "ni_short_03_surveillance",
+        "speaker": "ryusei",
+        "text": "もし警察寄りに傾けば、監視色への不安は一気に強くなる。だから捜査権の有無より、何を集めてどう使うかが問題なんです。",
+        "speechText": "もし警察寄りに傾けば、監視色への不安は一気に強くなる。だから捜査権の有無より、何を集めてどう使うかが問題なんです。",
+        "subtitleText": "警察寄りなら 監視色。",
+        "asset_query": "surveillance camera privacy monitoring risk",
+        "startTime": 583,
+        "duration": 221,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-pole-with-surveillance-camera-and-kill-switch-jpg-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 1
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "一番の不安",
+              "headline": "警察寄りなら 監視色",
+              "subline": "捜査権の有無より 集め方と使い方",
+              "accentColor": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 78,
+            "imageWidth": 94,
+            "imageHeight": 28,
+            "startOffset": 4,
+            "duration": 170,
+            "effect": {
+              "type": "popIn",
+              "duration": 12,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_03_surveillance.wav"
+      },
+      {
+        "id": "ni_short_04_sns",
+        "speaker": "tsumugi",
+        "text": "しかも公開情報だけでも安心とは言えません。SNS投稿、プロフィール、過去発言を重ねれば、個人の輪郭はかなり見えてしまうからです。",
+        "speechText": "しかも公開情報だけでも安心とは言えません。エスエヌエス投稿、プロフィール、過去発言を重ねれば、個人の輪郭はかなり見えてしまうからです。",
+        "subtitleText": "公開情報でも 輪郭は出る。",
+        "asset_query": "social media public information profile network",
+        "startTime": 812,
+        "duration": 218,
+        "speedScale": 1.46,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/01-commons-file-social-media-image01-jpg-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.05
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "公開情報でも見える",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "投稿",
+                  "sub": "一言でも"
+                },
+                {
+                  "label": "蓄積",
+                  "sub": "プロフィールと結合"
+                },
+                {
+                  "label": "輪郭",
+                  "sub": "行動や傾向が見える",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 63,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "startOffset": 8,
+            "duration": 176,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_04_sns.wav"
+      },
+      {
+        "id": "ni_short_05_checks",
+        "speaker": "ryusei",
+        "text": "確認すべきは3つです。対象となる情報の範囲、独立した監督と検証、そして国会と国民への説明責任。この3つが曖昧なままなら危ないです。",
+        "speechText": "確認すべきは3つです。対象となる情報の範囲、独立した監督と検証、そして国会と国民への説明責任。この3つが曖昧なままなら危ないです。",
+        "subtitleText": "見るべきは 3つ。",
+        "asset_query": "japan parliament oversight accountability",
+        "startTime": 1038,
+        "duration": 273,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.82,
+            "speed": 0.95
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき3つ",
+              "bullets": [
+                "情報の範囲",
+                "独立監督",
+                "説明責任"
+              ],
+              "tagline": "ここが曖昧なら危ない",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "startOffset": 8,
+            "duration": 196,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_05_checks.wav"
+      },
+      {
+        "id": "ni_short_06_cta",
+        "speaker": "tsumugi",
+        "text": "国家情報局構想、あなたは必要だと思いますか。それとも危ないと思いますか。賛成でも反対でも、理由までコメントで教えてください。",
+        "speechText": "国家情報局構想、あなたは必要だと思いますか。それとも危ないと思いますか。賛成でも反対でも、理由までコメントで教えてください。",
+        "subtitleText": "必要か 危ないか。",
+        "asset_query": "japan national diet public opinion political debate",
+        "startTime": 1319,
+        "duration": 216,
+        "speedScale": 1.47,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "必要か 危ないか",
+              "subline": "理由まで書いてください",
+              "accentColor": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "startOffset": 0,
+            "duration": 150,
+            "effect": {
+              "type": "popIn",
+              "duration": 12,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_ni_short_06_cta.wav"
+      }
+    ]
+  }
+}

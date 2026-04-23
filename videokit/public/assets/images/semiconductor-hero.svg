@@ -1,0 +1,40 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="120" x2="1680" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.45" stop-color="#0A1F3C"/>
+      <stop offset="1" stop-color="#081021"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17D0FF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="1560" cy="180" r="220" fill="#0EA5E9" fill-opacity="0.08"/>
+  <circle cx="360" cy="860" r="320" fill="#2563EB" fill-opacity="0.12"/>
+  <rect x="420" y="210" width="1080" height="660" rx="42" fill="#08162C" stroke="#1D4ED8" stroke-opacity="0.35" stroke-width="3"/>
+  <rect x="520" y="300" width="880" height="480" rx="28" fill="#0D1F39" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="2"/>
+  <rect x="640" y="400" width="640" height="280" rx="24" fill="#081327" stroke="url(#chip)" stroke-width="4"/>
+  <rect x="720" y="480" width="480" height="120" rx="18" fill="#0A2443"/>
+  <g opacity="0.9">
+    <rect x="180" y="156" width="240" height="108" rx="22" fill="#0F172A" stroke="#EF4444" stroke-width="2"/>
+    <text x="210" y="205" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="32" font-weight="700">米国</text>
+    <text x="210" y="240" fill="#F87171" font-family="Arial, sans-serif" font-size="22" font-weight="700">規制と補助金</text>
+  </g>
+  <g opacity="0.9">
+    <rect x="1500" y="156" width="240" height="108" rx="22" fill="#0F172A" stroke="#F59E0B" stroke-width="2"/>
+    <text x="1530" y="205" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="32" font-weight="700">中国</text>
+    <text x="1530" y="240" fill="#FBBF24" font-family="Arial, sans-serif" font-size="22" font-weight="700">レガシーで反撃</text>
+  </g>
+  <g opacity="0.94">
+    <rect x="168" y="820" width="280" height="120" rx="22" fill="#0F172A" stroke="#A855F7" stroke-width="2"/>
+    <text x="198" y="870" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="32" font-weight="700">台湾 / TSMC</text>
+    <text x="198" y="905" fill="#C084FC" font-family="Arial, sans-serif" font-size="22" font-weight="700">シリコンの盾</text>
+  </g>
+  <g opacity="0.94">
+    <rect x="1472" y="820" width="280" height="120" rx="22" fill="#0F172A" stroke="#22C55E" stroke-width="2"/>
+    <text x="1502" y="870" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="32" font-weight="700">日本 / 欧州</text>
+    <text x="1502" y="905" fill="#4ADE80" font-family="Arial, sans-serif" font-size="22" font-weight="700">装置と再編</text>
+  </g>
+</svg>

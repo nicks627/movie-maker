@@ -1,0 +1,365 @@
+{
+  "project": {
+    "id": "kantei-control-short",
+    "title": "官邸主導の正体 人事で支配する仕組み",
+    "version": 1,
+    "defaultVariant": "short"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.2,
+    "seVolume": 0.76,
+    "voiceDucking": 0.52,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "short",
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "kantei_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "官邸主導。本当に怖いのは、強い言葉じゃない。人事で、逆らいにくい空気を作れることです。",
+        "speechText": "官邸主導。本当に怖いのは、強い言葉じゃない。人事で、逆らいにくい空気を作れることです。",
+        "subtitleText": "命令より怖い\n人事で支配",
+        "asset_query": "japan prime minister office political power",
+        "startTime": 0,
+        "duration": 161,
+        "speedScale": 1.46,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.04,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "官邸主導の正体",
+              "headline": "人事で支配",
+              "subline": "命令より怖い 空気の支配",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "startOffset": 0,
+            "duration": 126,
+            "effect": {
+              "type": "popIn",
+              "duration": 14,
+              "startScale": 0.82,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_00_hook.wav"
+      },
+      {
+        "id": "kantei_short_01_system",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "2014年に内閣人事局ができて、幹部人事は一元管理。さらに、各省庁をまたぐ人事方針も総理決定で回ります。",
+        "speechText": "にせんじゅうよん年に内閣人事局ができて、幹部人事は一元管理。さらに、各省庁をまたぐ人事方針も総理決定で回ります。",
+        "subtitleText": "2014年 幹部人事を一元管理",
+        "asset_query": "japan cabinet bureau personnel affairs government structure",
+        "startTime": 169,
+        "duration": 221,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.96
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "制度の芯",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "発足",
+                  "value": "2014",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "02",
+                  "label": "対象",
+                  "value": "幹部人事",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "03",
+                  "label": "毎年",
+                  "value": "総理方針",
+                  "color": "#facc15"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "startOffset": 8,
+            "duration": 190,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_01_system.wav"
+      },
+      {
+        "id": "kantei_short_02_front_vs_back",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "表向きは、縦割りを壊して、重要政策に合わせて人を動かす仕組みです。でも握られる側には、出世と異動の空気が先に効きます。",
+        "speechText": "表向きは、縦割りを壊して、重要政策に合わせて人を動かす仕組みです。でも握られる側には、出世と異動の空気が先に効きます。",
+        "subtitleText": "表向きは 政策重視\nでも現場は 空気を読む",
+        "asset_query": "japan bureaucracy personnel control political explainer",
+        "startTime": 398,
+        "duration": 210,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.03
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "表向き",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "縦割り打破",
+                  "政策で配置"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "現場で効く",
+                "titleColor": "#f97316",
+                "items": [
+                  "出世を意識",
+                  "先に空気を読む"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここが裏側"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "startOffset": 8,
+            "duration": 196,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_02_front_vs_back.wav"
+      },
+      {
+        "id": "kantei_short_03_flow",
+        "speaker": "ryusei",
+        "sceneRole": "reveal",
+        "text": "すると命令が来る前から、官邸が嫌がる案は出しにくくなる。逆に、欲しい説明は上がりやすくなります。",
+        "speechText": "すると命令が来る前から、官邸が嫌がる案は出しにくくなる。逆に、欲しい説明は上がりやすくなります。",
+        "subtitleText": "命令前に\n情報が整う",
+        "asset_query": "japan cabinet information flow bureaucracy",
+        "startTime": 616,
+        "duration": 181,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "見えない流れ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "人事を握る",
+                  "sub": "幹部ポスト"
+                },
+                {
+                  "label": "逆らいにくい",
+                  "sub": "先回り"
+                },
+                {
+                  "label": "情報が整う",
+                  "sub": "官邸向き",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 30,
+            "startOffset": 8,
+            "duration": 192,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 12
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_03_flow.wav"
+      },
+      {
+        "id": "kantei_short_04_hidden_control",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "だから怖いと言われます。会議で怒鳴らなくても回る。独裁っぽい言葉より、情報の流れまで上向きに整うことが問題です。",
+        "speechText": "だから怖いと言われます。会議で怒鳴らなくても回る。独裁っぽい言葉より、情報の流れまで上向きに整うことが問題です。",
+        "subtitleText": "見えない支配は\n情報で効く",
+        "asset_query": "political documentary hidden control japan government",
+        "startTime": 805,
+        "duration": 188,
+        "speedScale": 1.45,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.04
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "何が起きる?",
+              "bullets": [
+                "先に空気を読む",
+                "嫌な案が出にくい",
+                "上向き情報が増える"
+              ],
+              "tagline": "だから怖いと言われる",
+              "accent": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "startOffset": 10,
+            "duration": 204,
+            "effect": {
+              "type": "fadeIn",
+              "duration": 14
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_04_hidden_control.wav"
+      },
+      {
+        "id": "kantei_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "官邸主導の正体は、会議の強さじゃない。人事で空気を作り、情報の流れまで変える構造です。",
+        "speechText": "官邸主導の正体は、会議の強さじゃない。人事で空気を作り、情報の流れまで変える構造です。",
+        "subtitleText": "人事が\n情報の流れを変える",
+        "asset_query": "japan prime minister office political system documentary",
+        "startTime": 1001,
+        "duration": 176,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736-portrait.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.08
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "官邸主導の正体",
+              "headline": "人事で支配",
+              "subline": "空気と情報の流れが変わる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "startOffset": 0,
+            "duration": 170,
+            "effect": {
+              "type": "popIn",
+              "duration": 12,
+              "startScale": 0.84,
+              "endScale": 1
+            }
+          }
+        ],
+        "voiceFile": "short_kantei_short_05_verdict.wav"
+      }
+    ]
+  }
+}

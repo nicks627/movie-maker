@@ -1,0 +1,18 @@
+# System Requirements
+# Ensure these tools are installed on the OS
+ffmpeg # For video processing and frame extraction
+ffprobe # For video metadata analysis
+
+# Node.js Dependencies (Install via npm)
+remotion # Core video rendering engine
+@remotion/cli # CLI tools for Remotion
+@remotion/renderer # For programmatic rendering
+axios # For API interactions (VOICEVOX, etc.)
+node-fetch # For asset fetching
+get-audio-duration # To sync voice timing
+zod # For data validation (script.json)
+lucide-react # For editor icons
+
+# Optional: Voice Synthesis (Environment Specific)
+# node-ffi-napi # If using AquesTalk DLL directly from Node.js
+# ref-napi # Required for node-ffi-napi

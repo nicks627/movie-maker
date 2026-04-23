@@ -1,0 +1,1709 @@
+{
+  "project": {
+    "id": "epstein-japan-silence",
+    "title": "なぜ日本はエプスタイン事件に静かだったのか 伊藤穰一と人脈再接続の構造",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.32,
+    "seVolume": 0.68,
+    "voiceDucking": 0.5,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 8,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 17,
+        "file": "Indomitable.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "epstein_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "エプスタイン事件は、世界では巨大な権力スキャンダルとして記憶されました。なのに日本では、長く主役級の国内政治スキャンダルとしては燃えにくかった。日本に接点がなかったからなのか。それとも、見えていても大きくならなかったのか。今回の本題はそこです。",
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.96,
+            "speed": 1.04
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.4,
+            "color": "#ef4444",
+            "secondaryColor": "#38bdf8"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "日本はなぜ静か?",
+              "headline": "エプスタインと日本",
+              "subline": "MIT から官邸周辺へ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "epstein_long_00_hook.wav",
+        "duration": 476,
+        "startTime": 0,
+        "asset_query": "japan government building night policy documentary",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.34,
+            "duration": 24
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 18,
+            "volume": 0.46,
+            "duration": 24
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_0.mp4"
+      },
+      {
+        "id": "epstein_long_01_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "最初に境界を置きます。この動画は、ネットで広がる秘密リスト説を既成事実として扱う動画でも、その言説を笑う動画でもありません。ここでは、広がっている話と確認できる事実を分けて見ます。本当に見るべきなのは、国際的に重大な説明責任問題で失脚した人物が、その後も日本の学術、起業、政府周辺ネットワークへ再接続できていたことです。",
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/epstein-remake/mit-faq.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "広がった言説",
+                "titleColor": "#ef4444",
+                "items": [
+                  "秘密リスト説",
+                  "名前探し"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "確認できる論点",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "再接続の構造",
+                  "制度の鈍さ"
+                ],
+                "highlight": true
+              },
+              "tagline": "混ぜずに追う"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 264
+          }
+        ],
+        "voiceFile": "epstein_long_01_boundary.wav",
+        "duration": 682,
+        "startTime": 490,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 4,
+            "volume": 0.24,
+            "duration": 48
+          },
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 42,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_02_japan_node",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "確認できる日本接点の中心にいるのが、伊藤穰一氏です。日本のネット文化やスタートアップ界では象徴的な存在で、MITメディアラボの元所長としても知られてきました。だからこそ、この人物の軌跡は、日本がこの問題をどう受け止めたかを見るうえで、いちばん分かりやすい観測点になります。",
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/epstein-remake/mit-faq.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.88
+          },
+          "overlay": {
+            "type": "archive-frame",
+            "intensity": 0.78,
+            "color": "#f8fafc",
+            "secondaryColor": "#38bdf8"
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "日本側で確認しやすい接点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "人物",
+                  "value": "伊藤穰一",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "舞台",
+                  "value": "MIT Media Lab",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "論点",
+                  "value": "その後の日本側役割",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "epstein_long_02_japan_node.wav",
+        "duration": 560,
+        "startTime": 1186,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 12,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_03_2019_2020",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "時系列を押さえます。2019年8月15日、MITメディアラボ公式サイトに伊藤氏本人の謝罪文が出ます。9月7日には MIT News の学長書簡で辞任が明記される。さらに2020年1月10日、MIT はファクトファインディングの結果を公表しました。つまりこの問題は、単なるゴシップではなく、大学側の正式な検証案件になっていたわけです。",
+        "speechText": "時系列を押さえます。にせんじゅうきゅう年はちがつじゅうご日、ミット メディアラボ公式サイトに伊藤氏本人の謝罪文が出ます。くがつなのかには ミット ニュース の学長書簡で辞任が明記される。さらににせんにじゅう年いちがつとおか、ミット はファクトファインディングの結果を公表しました。つまりこの問題は、単なるゴシップではなく、大学側の正式な検証案件になっていたわけです。",
+        "speedScale": 1.12,
+        "bg_image": "assets/imported/epstein-remake/mit-factfinding.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          },
+          "overlay": {
+            "type": "archive-frame",
+            "intensity": 0.82,
+            "color": "#f8fafc",
+            "secondaryColor": "#ef4444"
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "確認できる節目",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "2019-08-15",
+                  "value": "謝罪文",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "2019-09-07",
+                  "value": "MIT辞任",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "2020-01-10",
+                  "value": "報告公表",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "epstein_long_03_2019_2020.wav",
+        "duration": 752,
+        "startTime": 1760,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 14,
+            "volume": 0.36,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_04_mit_meaning",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "しかも報告の意味は重い。MIT News の要約では、有罪判決後にも資金受け入れが続いたこと、複数年にまたがって関係が継続していたこと、訪問も複数回あったことが整理されています。さらに大学側は、寄付を小さく非公開に保つことで、エプスタインの評判洗浄や影響力拡大を避けようとした、とされる。逆に言えば、資金とネットワークが評判回復の道具になる危険を、大学自身が自覚していたということです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/epstein-remake/mit-factfinding.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.86
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "表面",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "寄付",
+                  "訪問"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "核心",
+                "titleColor": "#ef4444",
+                "items": [
+                  "評判洗浄",
+                  "影響力の再獲得"
+                ],
+                "highlight": true
+              },
+              "tagline": "日本側でもここを見る"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "epstein_long_04_mit_meaning.wav",
+        "duration": 915,
+        "startTime": 2526,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 10,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_05_japan_reentry",
+        "speaker": "ryusei",
+        "sceneRole": "transition",
+        "text": "ここまでがアメリカ側です。でも日本にとっての本題は、その後です。重大な説明責任問題で国際的に失脚した人物が、日本ではその後どう扱われたのか。まず2024年11月11日の内閣官房 GSC ワークショップ公式資料では、伊藤氏がエグゼクティブ・アドバイザーとして記載されます。さらに2025年6月4日の第2回ワークショップでも、同じ肩書きで前面に出ていました。",
+        "speechText": "ここまでがアメリカ側です。でも日本にとっての本題は、その後です。重大な説明責任問題で国際的に失脚した人物が、日本ではその後どう扱われたのか。まずにせんにじゅうよ年じゅういちがつじゅういち日の内閣官房 ジーエスシー ワークショップ公式資料では、伊藤氏がエグゼクティブ アドバイザーとして記載されます。さらににせんにじゅうご年ろくがつよっかの第二回ワークショップでも、同じ肩書きで前面に出ていました。",
+        "speedScale": 1.1,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "日本側の公的記載",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "2024-11-11",
+                  "value": "GSC 公式記載",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "2025-06-04",
+                  "value": "第2回でも継続",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "役職",
+                  "value": "Executive Advisor",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "epstein_long_05_japan_reentry.wav",
+        "duration": 803,
+        "startTime": 3455,
+        "asset_query": "cabinet meeting policy workshop japan documentary",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.3,
+            "duration": 24
+          },
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 34,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_5.mp4"
+      },
+      {
+        "id": "epstein_long_06_gsc_weight",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "しかも GSC は小さな勉強会ではありません。内閣官房の特設ページでは、国際研究プログラム210億円程度、事業化支援30億円程度、人材育成30億円程度という大きな枠組みが並びます。つまりここは、国のディープテック戦略と人材戦略が交差する政策空間です。だから論点は、ある著名人が民間イベントに顔を出したことではなく、政府周辺の重いプロジェクトで有用な専門家として扱われ続けていたことにあります。",
+        "speechText": "しかも ジーエスシー は小さな勉強会ではありません。内閣官房の特設ページでは、国際研究プログラムにひゃくじゅう億円程度、事業化支援さんじゅう億円程度、人材育成さんじゅう億円程度という大きな枠組みが並びます。つまりここは、国のディープテック戦略と人材戦略が交差する政策空間です。だから論点は、ある著名人が民間イベントに顔を出したことではなく、政府周辺の重いプロジェクトで有用な専門家として扱われ続けていたことにあります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "GSC の重さ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "210億円",
+                  "sub": "国際研究"
+                },
+                {
+                  "label": "30億円",
+                  "sub": "事業化支援"
+                },
+                {
+                  "label": "30億円",
+                  "sub": "人材育成",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "epstein_long_06_gsc_weight.wav",
+        "duration": 952,
+        "startTime": 4272,
+        "asset_query": "innovation policy government meeting deeptech documentary",
+        "se": [
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 18,
+            "volume": 0.42,
+            "duration": 24
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_6.mp4"
+      },
+      {
+        "id": "epstein_long_07_2026_scrutiny",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "そこへ2026年に再び火がつきます。アメリカで新しい文書群が出回り、海外報道が伊藤氏の過去の関係と日本での現在の役割をまとめて再照射した。3月2日にロイター配信として伝えられた記事では、政府側が GSC の次期メンバーとして伊藤氏を再任するか未定だと報じられました。しかも担当者は、現在の起用自体には問題がない、彼の専門性は重要だという趣旨まで語っています。つまり、批判が強まっても制度側の反応はすぐには切れなかった。",
+        "speechText": "そこへにせんにじゅうろく年に再び火がつきます。アメリカで新しい文書群が出回り、海外報道が伊藤氏の過去の関係と日本での現在の役割をまとめて再照射した。さんがつふつかにロイター配信として伝えられた記事では、政府側が ジーエスシー の次期メンバーとして伊藤氏を再任するか未定だと報じられました。しかも担当者は、現在の起用自体には問題がない、彼の専門性は重要だという趣旨まで語っています。つまり、批判が強まっても制度側の反応はすぐには切れなかった。",
+        "speedScale": 1.06,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.9
+          },
+          "overlay": {
+            "type": "archive-frame",
+            "intensity": 0.74,
+            "color": "#f8fafc",
+            "secondaryColor": "#ef4444"
+          }
+        },
+        "popups": [
+          {
+            "component": "Typewriter",
+            "props": {
+              "text": "2026-03-02  Reuters  government role under renewed scrutiny",
+              "style": "terminal",
+              "framesPerChar": 2,
+              "fontSize": 34,
+              "align": "left",
+              "maxWidth": "92%"
+            },
+            "imageX": 50,
+            "imageY": 78,
+            "imageWidth": 92,
+            "imageHeight": 14,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "epstein_long_07_2026_scrutiny.wav",
+        "duration": 984,
+        "startTime": 5238,
+        "asset_query": "japan prime minister office documents scrutiny documentary",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.32,
+            "duration": 24
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_7.mp4"
+      },
+      {
+        "id": "epstein_long_08_not_proof_of_list",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ただし、ここで確認できたのは、日本の政財界に巨大な犯罪リストがあったということではありません。ネットで拡散した名簿や物語は現象として追えますが、確認済み事実と同じ重さでは置けない。ここで見えているのは、国際的に重大な説明責任問題を起こした人物が、日本の政府関連プロジェクトへ再び関われていたことです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/epstein-remake/mit-faq.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "言説",
+              "connector": "≠",
+              "line2": "確認事実",
+              "sub": "同じ重さで置かない",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 61,
+            "imageWidth": 92,
+            "imageHeight": 26,
+            "duration": 248
+          }
+        ],
+        "voiceFile": "epstein_long_08_not_proof_of_list.wav",
+        "duration": 678,
+        "startTime": 6236,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 0,
+            "volume": 0.24,
+            "duration": 48
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_09_why_quiet_1",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "では、なぜ日本は相対的に静かだったのか。ひとつ目は、これが長くアメリカのスキャンダルとして処理されやすかったことです。舞台はニューヨーク、フロリダ、バージン諸島。だから日本では、世界の権力汚職の話として消費されても、日本の制度問題としては掘られにくかった。国外の事件として眺めているあいだに、日本側の役職や起用の問題は後景へ退きやすかったんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/epstein-japan-quiet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "静かだった理由 1",
+              "bullets": [
+                "海外スキャンダル扱い",
+                "国内制度問題へ接続されにくい",
+                "日本側の役職論点が後景化"
+              ],
+              "tagline": "外の事件で終わりやすい",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 288
+          }
+        ],
+        "voiceFile": "epstein_long_09_why_quiet_1.wav",
+        "duration": 767,
+        "startTime": 6928,
+        "asset_query": "foreign scandal press conference newsroom documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_9.mp4"
+      },
+      {
+        "id": "epstein_long_10_why_quiet_2",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "二つ目は、報道の断片化です。エプスタイン本体、MIT 問題、伊藤氏の説明責任、日本の官邸周辺プロジェクト。これらが一本の線として報じられず、別々のトピックに分かれていた。視聴者も読者も、つながりを自分で組み立てないと構造が見えない。だから、個別のニュースは見えていても、全体像としての危うさが共有されにくかったんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/epstein-japan-quiet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "静かだった理由 2",
+              "bullets": [
+                "事件本体",
+                "MIT 問題",
+                "日本側の役職",
+                "それぞれ別トピック化"
+              ],
+              "tagline": "線がつながらない",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 292
+          }
+        ],
+        "voiceFile": "epstein_long_10_why_quiet_2.wav",
+        "duration": 762,
+        "startTime": 7709,
+        "asset_query": "newsroom breaking news fragmented coverage documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_10.mp4"
+      },
+      {
+        "id": "epstein_long_11_why_quiet_3",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "三つ目は、イノベーションの光です。日本では、危機のたびに海外で通用した人材や象徴的な起業家へ期待が集まりやすい。すると、倫理問題の重さより先に、実績、発信力、ネットワークが評価される。そこへ大学の肩書き、VC の人脈、政策会議の必要性が重なると、人物は別の物語として再包装される。これが再正当化です。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/epstein-japan-gsc.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.94
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.28,
+            "color": "#ef4444",
+            "secondaryColor": "#f59e0b"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "ここが核心",
+              "headline": "再正当化",
+              "subline": "役に立つ人は戻される",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "epstein_long_11_why_quiet_3.wav",
+        "duration": 744,
+        "startTime": 8485,
+        "asset_query": "startup conference entrepreneur stage documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_11.mp4"
+      },
+      {
+        "id": "epstein_long_12_ap_boundary",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ここでもう一度、事実の境界を置きます。AP の2026年2月8日の整理では、世間で語られる形の正式なマスターリストが確認されたわけではないとされています。つまり、ネットで広がる話そのものは紹介できても、それを確認済み事実として積み上げることはできない。日本側の論点は、そこから先の再接続と審査の甘さにあります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/epstein-remake/mit-faq.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "Typewriter",
+            "props": {
+              "text": "AP  2026-02-08  no verified master client list in the popular sense",
+              "style": "redacted",
+              "framesPerChar": 2,
+              "fontSize": 30,
+              "align": "left",
+              "maxWidth": "94%"
+            },
+            "imageX": 50,
+            "imageY": 78,
+            "imageWidth": 92,
+            "imageHeight": 14,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "epstein_long_12_ap_boundary.wav",
+        "duration": 732,
+        "startTime": 9243,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 0,
+            "volume": 0.24,
+            "duration": 48
+          }
+        ]
+      },
+      {
+        "id": "epstein_long_13_myths_and_concern",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "だから、ネットで広がる日本の大物名簿の話を、そのまま既成事実にするのは危ういです。ただ、その言説が広がったこと自体は無視できません。なぜなら、それだけ日本側の再接続と説明責任に不信が集まっていたからです。大事なのは、話の勢いではなく、どこまで確認できて、どこから先が疑念なのかを分けることです。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/epstein-japan-network.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "ズレやすい関心",
+                "titleColor": "#ef4444",
+                "items": [
+                  "秘密名簿探し",
+                  "陰謀の一点読み"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本当に見る先",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "再接続の経路",
+                  "再正当化の仕組み"
+                ],
+                "highlight": true
+              },
+              "tagline": "不安の向きが違う"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "epstein_long_13_myths_and_concern.wav",
+        "duration": 713,
+        "startTime": 9989,
+        "asset_query": "social media investigation documents documentary",
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 18,
+            "volume": 0.32,
+            "duration": 22
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_13.mp4"
+      },
+      {
+        "id": "epstein_long_14_real_risk",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "本当に怖いのは、倫理爆弾を抱えた人物でも、大学、起業家コミュニティ、政策プロジェクトの交点に立つと、便利な専門家として再包装されてしまうことです。しかも一つひとつの組織から見ると、自分たちは犯罪を容認していない、ただ知見を借りているだけだ、と言えてしまう。だから全員が少しずつ責任を薄めながら、全体として再正当化が起きるんです。",
+        "speedScale": 1.04,
+        "bg_image": "assets/images/epstein-japan-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "再正当化の回路",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "大学",
+                  "sub": "知見を借りる"
+                },
+                {
+                  "label": "VC/起業圏",
+                  "sub": "人脈価値を見る"
+                },
+                {
+                  "label": "政策空間",
+                  "sub": "役に立つで通す",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "epstein_long_14_real_risk.wav",
+        "duration": 811,
+        "startTime": 10716,
+        "asset_query": "institutional network conference documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_14.mp4"
+      },
+      {
+        "id": "epstein_long_15_standard_question",
+        "speaker": "ryusei",
+        "sceneRole": "question",
+        "text": "ここで突きつけたいのは、標準の問題です。もし無名の研究者や若手官僚が、これほど重い説明責任問題を背負っていたら、同じように政府関連プロジェクトの前面へ立てたでしょうか。多くの人はたぶん無理だと感じるはずです。だとしたら差を生んだのは、能力だけではなく、名前、人脈、象徴性だった可能性が高い。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/epstein-japan-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "問うべき標準",
+              "bullets": [
+                "無名でも通ったか",
+                "肩書きが効いていないか",
+                "例外扱いが常態化していないか"
+              ],
+              "tagline": "公平な基準だったのか",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 278
+          }
+        ],
+        "voiceFile": "epstein_long_15_standard_question.wav",
+        "duration": 665,
+        "startTime": 11541
+      },
+      {
+        "id": "epstein_long_16_media_question",
+        "speaker": "tsumugi",
+        "sceneRole": "question",
+        "text": "次に報道の問題です。日本のメディアが完全に黙っていた、とまでは言えません。けれど、海外不祥事、テック界、大学不祥事、官邸プロジェクトという縦割りのままでは、視聴者が構造をつかみにくい。だから必要だったのは、誰かを吊るす見出しではなく、日本側で何が続いていたのかを一本で見せる編集でした。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/epstein-japan-quiet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "報道の分断",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "海外事件",
+                  "sub": "国際面"
+                },
+                {
+                  "label": "大学/テック",
+                  "sub": "別トピック化"
+                },
+                {
+                  "label": "日本側役職",
+                  "sub": "つながらない",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "epstein_long_16_media_question.wav",
+        "duration": 666,
+        "startTime": 12220
+      },
+      {
+        "id": "epstein_long_17_gov_question",
+        "speaker": "ryusei",
+        "sceneRole": "question",
+        "text": "さらに政府側にも問いが残ります。大規模な国家プロジェクトで、起用する人物の説明責任リスクをどこまで審査していたのか。公的な肩書きを与え続けるなら、その妥当性を国民に説明できる準備が必要です。ここが曖昧だと、制度は、実績のある人には甘いという不信を自分で育ててしまいます。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.92
+          },
+          "overlay": {
+            "type": "archive-frame",
+            "intensity": 0.7,
+            "color": "#f8fafc",
+            "secondaryColor": "#f59e0b"
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "政府側の宿題",
+              "bullets": [
+                "リスク審査は十分だったか",
+                "起用理由を説明できるか",
+                "例外扱いをどう防ぐか"
+              ],
+              "tagline": "制度の説明責任",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 276
+          }
+        ],
+        "voiceFile": "epstein_long_17_gov_question.wav",
+        "duration": 609,
+        "startTime": 12900,
+        "asset_query": "government vetting documents meeting documentary",
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 22,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_17.mp4"
+      },
+      {
+        "id": "epstein_long_18_partner_question",
+        "speaker": "tsumugi",
+        "sceneRole": "question",
+        "text": "そして最後は、周辺の大学、企業、投資家です。公的プロジェクトに名前があると、それだけで一種の信頼シグナルになります。だから一つの起用判断は、その人物を取り巻く多くの関係先の判断にも影響する。もし起点での審査が甘ければ、その甘さはネットワーク全体に波及していくんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/epstein-japan-network.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.86
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "起用判断の波及",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "政府関連起用",
+                  "sub": "公的シグナル"
+                },
+                {
+                  "label": "大学/企業/投資家",
+                  "sub": "安心材料になる"
+                },
+                {
+                  "label": "再接続が拡大",
+                  "sub": "全体へ広がる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 278
+          }
+        ],
+        "voiceFile": "epstein_long_18_partner_question.wav",
+        "duration": 616,
+        "startTime": 13523
+      },
+      {
+        "id": "epstein_long_18a_title_signal",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで見逃せないのが、肩書の効果です。日本では、一度でも政府関連や大型プロジェクトの肩書が付くと、その肩書自体が説明責任より先に信用の代用品として流通しやすい。すると本来は、なぜこの人なのかを問い直す場面で、もう公的に起用されているから大丈夫だろう、という逆向きの安心が生まれる。この回路が、再接続を一気に楽にしてしまいます。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "肩書が信用に化ける回路",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "公的肩書",
+                  "sub": "政府関連・大型PJ"
+                },
+                {
+                  "label": "逆向きの安心",
+                  "sub": "もう大丈夫だろう"
+                },
+                {
+                  "label": "再接続",
+                  "sub": "人脈へ戻りやすい",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 300
+          }
+        ],
+        "voiceFile": "epstein_long_18a_title_signal.wav",
+        "duration": 750,
+        "startTime": 14153,
+        "asset_query": "official title conference networking documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_19.mp4"
+      },
+      {
+        "id": "epstein_long_18b_due_diligence",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "本来なら必要なのは、人物の華やかさではなく、審査の記録です。どの時点でリスクを確認したのか。海外で起きた問題を誰がどう評価したのか。起用後に社会的批判が再燃したとき、役割を見直すルールがあったのか。こうしたログが見えないと、国民から見ると判断ではなく空気で決まっているように映ってしまいます。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "本来見えるべき審査ログ",
+              "bullets": [
+                "いつリスク確認したか",
+                "誰がどう評価したか",
+                "再燃時に見直したか"
+              ],
+              "tagline": "空気ではなく記録",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 292
+          }
+        ],
+        "voiceFile": "epstein_long_18b_due_diligence.wav",
+        "duration": 650,
+        "startTime": 14917,
+        "asset_query": "policy vetting checklist documents documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_20.mp4"
+      },
+      {
+        "id": "epstein_long_18c_public_trust",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかもこれは、一人の評判話で終わりません。国家プロジェクト、大学、投資家コミュニティが同じ人物を介して結び直されると、公的信頼と私的ネットワークの境界が曖昧になる。そこで削られるのは、説明責任を通した公平さです。要するに、日本で問われるべきはゴシップではなく、公的信頼がどう再配分されたのかという政治の問題なんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "見え方",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "人脈の話に見える",
+                  "個人の評判に見える"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本質",
+                "titleColor": "#ef4444",
+                "items": [
+                  "公的信頼の再配分",
+                  "説明責任の政治問題"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここが政治テーマ"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 300
+          }
+        ],
+        "voiceFile": "epstein_long_18c_public_trust.wav",
+        "duration": 718,
+        "startTime": 15581,
+        "asset_query": "university investor policy network documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_21.mp4"
+      },
+      {
+        "id": "epstein_long_19_synthesis",
+        "speaker": "ryusei",
+        "sceneRole": "synthesis",
+        "text": "ここまでを整理します。事実として確認しやすいのは、伊藤氏の謝罪、辞任、MIT の報告、そして日本側の公式資料に残る役割です。そこから言える解釈は、日本ではこの問題が制度スキャンダルとして結び切られず、再接続が起きやすかったということ。逆に、言ってはいけないのは、接点だけで犯罪参加を断定することです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/epstein-japan-boundary.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "確認事実",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "謝罪・辞任・MIT 報告",
+                  "日本側公式資料の役割"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "越えてはいけない線",
+                "titleColor": "#ef4444",
+                "items": [
+                  "接点だけで共犯断定",
+                  "秘密名簿を既成事実化"
+                ],
+                "highlight": true
+              },
+              "tagline": "この線を守る"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "epstein_long_19_synthesis.wav",
+        "duration": 715,
+        "startTime": 16313
+      },
+      {
+        "id": "epstein_long_20_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "結論です。日本が問われるべきなのは、ネットで広がる名簿の勢いを消費することではありません。国際的に大きな倫理問題で失脚した人物を、なぜ国内の学術、起業、政府周辺ネットワークが再び受け止められたのか。その再接続の構造こそが、日本版の本題です。",
+        "speedScale": 1.12,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.96
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.3,
+            "color": "#ef4444",
+            "secondaryColor": "#f8fafc"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "本題は再接続",
+              "subline": "日本側の制度と人脈が問われる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "epstein_long_20_verdict.wav",
+        "duration": 559,
+        "startTime": 17042,
+        "asset_query": "government building public trust documentary",
+        "se": [
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 0,
+            "volume": 0.54,
+            "duration": 32
+          }
+        ],
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_23.mp4"
+      },
+      {
+        "id": "epstein_long_21_quiet_means",
+        "speaker": "ryusei",
+        "sceneRole": "close",
+        "text": "つまり、日本が静かだったというのは、接点がゼロだったという意味ではありません。接点があっても、それを国内の構造問題として結び、広く共有する回路が弱かったという意味です。静かだったこと自体が、実は日本の制度感覚を映しているのかもしれません。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/epstein-japan-quiet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.68,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "静かだったことの意味",
+              "bullets": [
+                "接点ゼロではない",
+                "構造問題として結びにくかった",
+                "制度感覚の弱さが映る"
+              ],
+              "tagline": "沈黙もまた情報",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "epstein_long_21_quiet_means.wav",
+        "duration": 498,
+        "startTime": 17615,
+        "asset_query": "quiet media political structure documentary",
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_24.mp4"
+      },
+      {
+        "id": "epstein_long_22_cta",
+        "speaker": "tsumugi",
+        "sceneRole": "cta",
+        "text": "あなたは、この問題で日本が一番問い直すべきなのは何だと思いますか。報道のつなぎ方なのか。政府の起用基準なのか。それとも、役に立つ人には甘くなる人脈構造そのものなのか。コメントで、いちばん重要だと思う論点を聞かせてください。",
+        "speedScale": 1.14,
+        "bg_image": "assets/images/epstein-japan-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.34,
+            "color": "#38bdf8",
+            "secondaryColor": "#ef4444"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "何を問うべきか",
+              "subline": "報道? 起用基準? 人脈構造?",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "epstein_long_22_cta.wav",
+        "duration": 482,
+        "startTime": 18127
+      }
+    ]
+  },
+  "short": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "epstein_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "エプスタイン事件、なぜ日本だけこんなに静かだったのか。",
+        "speedScale": 1.26,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.06
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.44,
+            "color": "#ef4444",
+            "secondaryColor": "#38bdf8"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "日本はなぜ静か?",
+              "headline": "エプスタインと日本",
+              "subline": "MIT から官邸周辺へ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_epstein_short_00_hook.wav",
+        "duration": 99,
+        "startTime": 0,
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_0.mp4",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.32,
+            "duration": 24
+          },
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 16,
+            "volume": 0.42,
+            "duration": 24
+          }
+        ]
+      },
+      {
+        "id": "epstein_short_01_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "日本接点の中心には伊藤穰一氏がいて、2019年8月15日の謝罪、9月7日の MIT 辞任、2020年1月10日の公式報告まで事実で確認できます。",
+        "speechText": "日本接点の中心には伊藤穰一氏がいて、にせんじゅうきゅう年はちがつじゅうご日の謝罪、くがつなのかの ミット 辞任、にせんにじゅう年いちがつとおかの公式報告まで事実で確認できます。",
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/epstein-remake/mit-factfinding.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          },
+          "overlay": {
+            "type": "archive-frame",
+            "intensity": 0.8,
+            "color": "#f8fafc",
+            "secondaryColor": "#ef4444"
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "確認できる節目",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "2019-08-15",
+                  "value": "謝罪",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "2019-09-07",
+                  "value": "辞任",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "2020-01-10",
+                  "value": "MIT 報告",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 196
+          }
+        ],
+        "voiceFile": "short_epstein_short_01_fact.wav",
+        "duration": 346,
+        "startTime": 107,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 8,
+            "volume": 0.34,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_short_02_reentry",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "それなのに2024年と2025年の内閣官房 GSC 公式資料では、伊藤氏がエグゼクティブ・アドバイザーとして前面に出ていた。",
+        "speechText": "それなのに、にせんにじゅうよ年とにせんにじゅうご年の内閣官房 ジーエスシー 公式資料では、伊藤氏がエグゼクティブ アドバイザーとして前面に出ていた。",
+        "speedScale": 1.18,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "日本側の本題",
+              "headline": "役割は続いていた",
+              "subline": "GSC 公式資料に残る",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_epstein_short_02_reentry.wav",
+        "duration": 288,
+        "startTime": 461,
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_5.mp4",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.3,
+            "duration": 22
+          }
+        ]
+      },
+      {
+        "id": "epstein_short_03_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "でもこれは、日本人の秘密名簿を既成事実化する動画じゃない。AP は2026年2月8日、世間で語られる形のクライアントリストは確認されなかったと伝えています。",
+        "speedScale": 1.16,
+        "bg_image": "assets/imported/epstein-remake/mit-faq.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "広がった話",
+                "titleColor": "#ef4444",
+                "items": [
+                  "秘密名簿説"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本題",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "日本側の再接続"
+                ],
+                "highlight": true
+              },
+              "tagline": "事実境界を守る"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 194
+          }
+        ],
+        "voiceFile": "short_epstein_short_03_boundary.wav",
+        "duration": 327,
+        "startTime": 757,
+        "se": [
+          {
+            "file": "紙を捲る.mp3",
+            "startOffset": 0,
+            "volume": 0.22,
+            "duration": 44
+          }
+        ]
+      },
+      {
+        "id": "epstein_short_04_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "本当に怖いのは、国際的に失脚した人物でも、学術と起業と政策の人脈が重なると、日本では戻れてしまう構造です。",
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.94,
+            "speed": 1
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.34,
+            "color": "#ef4444",
+            "secondaryColor": "#f8fafc"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "芯はここ",
+              "headline": "再接続の構造",
+              "subline": "人脈は倫理を上書きするか",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_epstein_short_04_verdict.wav",
+        "duration": 247,
+        "startTime": 1092,
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_23.mp4",
+        "se": [
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 0,
+            "volume": 0.5,
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "id": "epstein_short_05_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "日本で一番問うべきなのは、報道姿勢か、審査基準か、それとも人脈構造そのものか。",
+        "speedScale": 1.2,
+        "bg_image": "assets/imported/wikimedia-commons/03-kantei-pm-japan-residence.jpg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.86,
+            "speed": 1.02
+          },
+          "overlay": {
+            "type": "variety-glow",
+            "intensity": 0.3,
+            "color": "#38bdf8",
+            "secondaryColor": "#ef4444"
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "あなたはどれ?",
+              "headline": "何を問うべきか",
+              "subline": "報道? 審査? 人脈?",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 188
+          }
+        ],
+        "voiceFile": "short_epstein_short_05_cta.wav",
+        "duration": 170,
+        "startTime": 1347,
+        "bg_video": "assets/imported/epstein-remake/epstein-scene_24.mp4",
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.28,
+            "duration": 22
+          }
+        ]
+      }
+    ]
+  }
+}

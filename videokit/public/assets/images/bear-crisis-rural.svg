@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#0f172a" />
+  <rect x="84" y="84" width="1752" height="912" rx="28" fill="#101926" stroke="#334155" stroke-width="2" />
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">Depopulation erased the buffer.</text>
+  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">Empty fields and unmanaged edges turned living areas into easy corridors.</text>
+  <path d="M120 760 C340 644 512 650 690 736 C852 814 982 830 1140 788 C1316 742 1498 650 1800 722 L1800 960 L120 960 Z" fill="#1f2937" />
+  <path d="M120 842 C302 742 440 728 598 788 C742 842 900 852 1080 818 C1278 780 1468 726 1800 798 L1800 960 L120 960 Z" fill="#334155" opacity="0.72" />
+  <rect x="188" y="430" width="260" height="236" rx="20" fill="#1e293b" />
+  <text x="224" y="502" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Past buffer</text>
+  <text x="224" y="556" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Managed fields</text>
+  <text x="224" y="598" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Frequent patrol</text>
+  <text x="224" y="640" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Village labor</text>
+  <rect x="528" y="430" width="320" height="236" rx="20" fill="#3f6212" opacity="0.22" stroke="#84cc16" stroke-width="3" stroke-dasharray="12 12" />
+  <text x="564" y="502" fill="#d9f99d" font-family="Arial, sans-serif" font-size="34" font-weight="700">Buffer zone</text>
+  <text x="564" y="556" fill="#d9f99d" font-family="Arial, sans-serif" font-size="28">satoyama edge</text>
+  <rect x="954" y="430" width="690" height="236" rx="20" fill="#111827" stroke="#475569" />
+  <text x="996" y="502" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Current pattern</text>
+  <text x="996" y="556" fill="#fca5a5" font-family="Arial, sans-serif" font-size="30">Abandoned plots + fewer eyes + delayed action</text>
+  <text x="996" y="606" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Forest edge now reaches roads, sheds, orchards, homes.</text>
+  <path d="M728 550 H938" stroke="#fb7185" stroke-width="10" stroke-linecap="round" />
+  <polygon points="938,550 898,526 898,574" fill="#fb7185" />
+  <rect x="1110" y="744" width="596" height="156" rx="22" fill="#0b1220" />
+  <text x="1150" y="806" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Political implication</text>
+  <text x="1150" y="858" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">Less state capacity at the local edge means more risk in daily life.</text>
+</svg>

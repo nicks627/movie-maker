@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "global": {
+    "policy": {
+      "goal": "Keep voice intelligible first, then use BGM and SE to shape pacing, emphasis, and emotional contrast.",
+      "referenceAnalysis": {
+        "allowed": true,
+        "rule": "Analyze timing, structure, genre feel, intensity, and cue roles. Do not reuse extracted YouTube audio or copyrighted music in project outputs, but it is allowed to choose free tracks with a similar genre, tempo, and emotional role.",
+        "captureFields": [
+          "sceneRole",
+          "bgmEntryTiming",
+          "bgmExitTiming",
+          "cutTempo",
+          "duckingMoments",
+          "seMoments",
+          "silenceMoments",
+          "summaryStyle",
+          "genreFeel",
+          "energyLevel",
+          "tensionColor"
+        ]
+      }
+    },
+    "mix": {
+      "voicePriority": "voice-over-music",
+      "defaultBgmVolumeRange": [0.08, 0.18],
+      "defaultSeVolumeRange": [0.3, 0.85],
+      "ducking": {
+        "voiceDbReduction": -8,
+        "impactSeDbReduction": -12,
+        "chartExplainDbReduction": -6
+      },
+      "fadeDefaultsFrames": {
+        "bgmFadeIn": 18,
+        "bgmFadeOut": 24,
+        "seFadeOut": 8
+      }
+    },
+    "sceneRoles": [
+      "hook",
+      "setup",
+      "context",
+      "comparison",
+      "chart-read",
+      "map-explain",
+      "reveal",
+      "escalation",
+      "comedy-beat",
+      "reaction",
+      "risk",
+      "victory",
+      "summary",
+      "cta",
+      "silence"
+    ],
+    "bgmRoles": [
+      {
+        "id": "none",
+        "label": "No BGM",
+        "useFor": ["dense explanation", "serious quote", "hard contrast", "dialogue focus"]
+      },
+      {
+        "id": "hook-tech",
+        "label": "Hook / Tech intrigue",
+        "mood": ["curious", "modern", "forward"],
+        "tempo": "medium"
+      },
+      {
+        "id": "calm-explainer",
+        "label": "Calm explainer bed",
+        "mood": ["neutral", "confident", "clean"],
+        "tempo": "slow-medium"
+      },
+      {
+        "id": "corporate-tension",
+        "label": "Corporate tension",
+        "mood": ["serious", "strategic", "tense"],
+        "tempo": "slow"
+      },
+      {
+        "id": "market-momentum",
+        "label": "Momentum / growth",
+        "mood": ["upward", "positive", "energetic"],
+        "tempo": "medium-fast"
+      },
+      {
+        "id": "documentary-ambient",
+        "label": "Documentary ambient",
+        "mood": ["wide", "reflective", "factual"],
+        "tempo": "slow"
+      },
+      {
+        "id": "comedy-light",
+        "label": "Light comedy",
+        "mood": ["playful", "bouncy", "casual"],
+        "tempo": "medium"
+      },
+      {
+        "id": "battle-tension",
+        "label": "Battle tension",
+        "mood": ["urgent", "danger", "focus"],
+        "tempo": "fast"
+      },
+      {
+        "id": "victory-resolve",
+        "label": "Victory / closure",
+        "mood": ["relief", "reward", "resolution"],
+        "tempo": "medium"
+      },
+      {
+        "id": "chat-emotion",
+        "label": "Chat emotional underscore",
+        "mood": ["intimate", "awkward", "dramatic"],
+        "tempo": "slow-medium"
+      }
+    ],
+    "seRoles": [
+      {
+        "id": "accent-ping",
+        "label": "Accent ping",
+        "useFor": ["key point", "bullet point", "light emphasis"]
+      },
+      {
+        "id": "whoosh",
+        "label": "Whoosh",
+        "useFor": ["transition", "panel move", "map zoom", "text wipe"]
+      },
+      {
+        "id": "impact-soft",
+        "label": "Soft impact",
+        "useFor": ["important claim", "chart reveal", "reaction beat"]
+      },
+      {
+        "id": "glitch-hit",
+        "label": "Glitch hit",
+        "useFor": ["cyber", "tech anomaly", "warning"]
+      },
+      {
+        "id": "tension-rise",
+        "label": "Tension rise",
+        "useFor": ["risk setup", "pre-reveal", "boss phase"]
+      },
+      {
+        "id": "laugh-tap",
+        "label": "Laugh tap",
+        "useFor": ["joke", "light embarrassment", "comedy beat"]
+      },
+      {
+        "id": "success-sting",
+        "label": "Success sting",
+        "useFor": ["victory", "positive reveal", "conclusion"]
+      },
+      {
+        "id": "message-pop",
+        "label": "Message pop",
+        "useFor": ["chat bubble reveal", "read receipt", "typing end"]
+      }
+    ]
+  },
+  "templates": {
+    "yukkuri-explainer": {
+      "principles": [
+        "Use BGM as a pacing bed, not as a lead melody.",
+        "Reduce SE density while reading charts or tables.",
+        "Use silence strategically before major reveals or quotes."
+      ],
+      "sceneRoleRules": [
+        {
+          "sceneRole": "hook",
+          "preferredBgmRole": "hook-tech",
+          "allowedSeRoles": ["impact-soft", "whoosh", "accent-ping"],
+          "notes": "Start quickly. First cue should land within 1 to 2 seconds."
+        },
+        {
+          "sceneRole": "setup",
+          "preferredBgmRole": "calm-explainer",
+          "allowedSeRoles": ["accent-ping"],
+          "notes": "Keep the bed unobtrusive while definitions are introduced."
+        },
+        {
+          "sceneRole": "chart-read",
+          "preferredBgmRole": "calm-explainer",
+          "allowedSeRoles": ["accent-ping"],
+          "notes": "Do not stack repeated hits on every bar or label."
+        },
+        {
+          "sceneRole": "map-explain",
+          "preferredBgmRole": "documentary-ambient",
+          "allowedSeRoles": ["whoosh", "accent-ping"],
+          "notes": "Use one whoosh for a zoom or sweep, then let the narration breathe."
+        },
+        {
+          "sceneRole": "reveal",
+          "preferredBgmRole": "market-momentum",
+          "allowedSeRoles": ["impact-soft", "success-sting"],
+          "notes": "One strong accent is enough. Avoid fireworks every sentence."
+        },
+        {
+          "sceneRole": "risk",
+          "preferredBgmRole": "corporate-tension",
+          "allowedSeRoles": ["tension-rise", "glitch-hit"],
+          "notes": "Use low-frequency tension, not jump-scare style hits."
+        },
+        {
+          "sceneRole": "summary",
+          "preferredBgmRole": "victory-resolve",
+          "allowedSeRoles": ["accent-ping", "success-sting"],
+          "notes": "Support the takeaway. Avoid comedy sounds in the final wrap."
+        },
+        {
+          "sceneRole": "silence",
+          "preferredBgmRole": "none",
+          "allowedSeRoles": [],
+          "notes": "Use around dense quotes, financial figures, or strong contrast moments."
+        }
+      ]
+    },
+    "game-play-commentary": {
+      "principles": [
+        "Follow gameplay state changes, not only scene count.",
+        "Use SE to support reactions and UI events, but do not mask game audio if present.",
+        "Keep stronger ducking during callouts and clutch moments."
+      ],
+      "sceneRoleRules": [
+        {
+          "sceneRole": "hook",
+          "preferredBgmRole": "battle-tension",
+          "allowedSeRoles": ["impact-soft", "whoosh", "tension-rise"],
+          "notes": "Start with immediate energy or a surprising fail/success."
+        },
+        {
+          "sceneRole": "context",
+          "preferredBgmRole": "calm-explainer",
+          "allowedSeRoles": ["accent-ping"],
+          "notes": "Use lighter beds for setup, loadout, or route explanation."
+        },
+        {
+          "sceneRole": "escalation",
+          "preferredBgmRole": "battle-tension",
+          "allowedSeRoles": ["tension-rise", "impact-soft"],
+          "notes": "Raise energy before boss phases or clutch plays."
+        },
+        {
+          "sceneRole": "reaction",
+          "preferredBgmRole": "comedy-light",
+          "allowedSeRoles": ["laugh-tap", "impact-soft", "whoosh"],
+          "notes": "Reserve joke sounds for clear reactions, not every line."
+        },
+        {
+          "sceneRole": "victory",
+          "preferredBgmRole": "victory-resolve",
+          "allowedSeRoles": ["success-sting"],
+          "notes": "Let the win breathe. Do not overcut away from the payoff."
+        },
+        {
+          "sceneRole": "risk",
+          "preferredBgmRole": "battle-tension",
+          "allowedSeRoles": ["tension-rise", "glitch-hit"],
+          "notes": "Useful for low HP, last stock, or final phase pressure."
+        }
+      ]
+    },
+    "line-chat": {
+      "principles": [
+        "The chat interface itself already carries rhythm, so keep BGM minimal.",
+        "Message pops and typing cues should be more prominent than wide cinematic effects.",
+        "Use silence or very light underscore for emotionally sharp exchanges."
+      ],
+      "sceneRoleRules": [
+        {
+          "sceneRole": "hook",
+          "preferredBgmRole": "chat-emotion",
+          "allowedSeRoles": ["message-pop", "accent-ping"],
+          "notes": "The first message or reveal should grab attention quickly."
+        },
+        {
+          "sceneRole": "context",
+          "preferredBgmRole": "none",
+          "allowedSeRoles": ["message-pop"],
+          "notes": "Plain conversation often works better with almost no music."
+        },
+        {
+          "sceneRole": "reveal",
+          "preferredBgmRole": "chat-emotion",
+          "allowedSeRoles": ["impact-soft", "message-pop"],
+          "notes": "Use one clear reveal accent when the emotional turn lands."
+        },
+        {
+          "sceneRole": "comedy-beat",
+          "preferredBgmRole": "comedy-light",
+          "allowedSeRoles": ["laugh-tap", "message-pop"],
+          "notes": "Keep it dry. Too many comedy cues cheapen the joke."
+        },
+        {
+          "sceneRole": "summary",
+          "preferredBgmRole": "victory-resolve",
+          "allowedSeRoles": ["accent-ping"],
+          "notes": "Final emotional tone should match the ending, not the middle."
+        }
+      ]
+    }
+  }
+}

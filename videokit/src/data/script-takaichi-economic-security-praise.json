@@ -1,0 +1,1411 @@
+{
+  "project": {
+    "id": "takaichi-economic-security-praise",
+    "title": "高市早苗はなぜ経済安保で評価されるのか 制度化した政治の実務",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.28,
+    "seVolume": 0.68,
+    "voiceDucking": 0.52,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 8,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 16,
+        "file": "Indomitable.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "takaichi_econ_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "高市早苗の本当の評価点は、テレビで強く見えることではありません。経済安全保障みたいに、見えにくくて説明も地味で、でも国家の骨組みを左右する分野を制度に落としていく。そこにこの人の重さがあります。表の論争より、裏側の実務で評価される政治家として見ると、印象がかなり変わります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.94,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "実務家評価",
+              "headline": "実は経済安保の人",
+              "subline": "高市早苗の本当の強み",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_00_hook.wav",
+        "duration": 635,
+        "startTime": 0
+      },
+      {
+        "id": "takaichi_econ_long_01_invisible",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "そもそも経済安保は、政治家にとって得点化しにくい分野です。半導体、重要鉱物、通信、医療、港湾、情報保全。どれも重要なのに、平時は危機が見えにくい。だから視聴率を取りやすい発言より、制度の条文、運用基準、官民の連携設計みたいな地味な仕事が中心になる。ここに張りつく政治家は、派手さではなく持久力で見ないと本質を外します。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-law.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "経済安保が地味に見える理由",
+              "bullets": [
+                "危機が起きる前の備え",
+                "制度と運用が中心",
+                "成果が数字で見えにくい"
+              ],
+              "tagline": "でも国家には重い",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_01_invisible.wav",
+        "duration": 820,
+        "startTime": 649
+      },
+      {
+        "id": "takaichi_econ_long_02_role_2022",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "事実の背骨を置きます。二〇二二年九月十二日、内閣官房の経済安全保障法制に関する有識者会議では、法成立後の基本方針や基本指針の詰めに入っていました。ここで見えるのは、経済安保がスローガンの段階から、実装の段階へ移っていたことです。高市氏はその局面で担当大臣として前面にいて、制度の骨格を運用に接続する側に立っていました。",
+        "speechText": "事実の背骨を置きます。にせんにじゅうに年くがつじゅうに日、内閣官房の経済安全保障法制に関する有識者会議では、法成立後の基本方針や基本指針の詰めに入っていました。ここで見えるのは、経済安保がスローガンの段階から、実装の段階へ移っていたことです。高市氏はその局面で担当大臣として前面にいて、制度の骨格を運用に接続する側に立っていました。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-econ-law.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "実装フェーズの起点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "2022-09-12",
+                  "value": "有識者会議",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "論点",
+                  "value": "基本方針・基本指針",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "役割",
+                  "value": "担当大臣",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_02_role_2022.wav",
+        "duration": 806,
+        "startTime": 1483
+      },
+      {
+        "id": "takaichi_econ_long_03_law_meaning",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "この法律の意味は四つに分けて見ると分かりやすいです。第一に、重要物資の供給網を切られにくくすること。第二に、重要技術を育てながら流出も防ぐこと。第三に、基幹インフラを止められにくくすること。第四に、公開すれば危ない特許や情報の扱いを変えること。つまり、経済と安全保障を別々に考える時代ではないと、国家の運営ルールを書き換える試みなんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-law.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "経済安保の4本柱",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "供給網",
+                  "sub": "重要物資"
+                },
+                {
+                  "label": "重要技術",
+                  "sub": "育成と保全"
+                },
+                {
+                  "label": "基幹インフラ",
+                  "sub": "停止を防ぐ"
+                },
+                {
+                  "label": "情報保全",
+                  "sub": "公開の線引き",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 290
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_03_law_meaning.wav",
+        "duration": 770,
+        "startTime": 2303
+      },
+      {
+        "id": "takaichi_econ_long_04_implementation",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかも本当に重いのは、法律を通した後です。対象物資をどう決めるのか。どの業種をどこまで守るのか。官民協議会をどう回すのか。企業の負担を増やしすぎず、でも安全保障上の穴は残さない。そのバランスを作るのは、演説よりずっと難しい。ここで踏ん張れる政治家は、霞が関や産業界の内側では評価が上がりやすい。高市氏が見られているのも、この実装側の粘りです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "法律の後に残る実務",
+              "bullets": [
+                "対象をどう指定するか",
+                "官民の役割をどう分けるか",
+                "安全と負担をどう両立するか"
+              ],
+              "tagline": "ここが制度化の本番",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 290
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_04_implementation.wav",
+        "duration": 830,
+        "startTime": 3087
+      },
+      {
+        "id": "takaichi_econ_long_05_supply_chain",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "供給網の話も、単なる産業政策ではありません。半導体、蓄電池、医薬品、重要鉱物みたいに、一度詰まると国全体が止まりかねない分野を、経済安保の目線で見直す。平時には過剰に見える備えでも、有事には国家の自律性そのものになる。高市氏の評価点は、ここを景気対策の言葉だけで済ませず、国家運営のインフラ問題として扱い続けたところにあります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "古い見方",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "景気対策",
+                  "業界支援"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "経済安保の見方",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "国家の自律性",
+                  "止まらない供給網"
+                ],
+                "highlight": true
+              },
+              "tagline": "視点の置き方が違う"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_05_supply_chain.wav",
+        "duration": 788,
+        "startTime": 3931
+      },
+      {
+        "id": "takaichi_econ_long_06_tech_lane",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "重要技術の扱いも同じです。経済安保は、技術を閉じるだけの政策ではありません。育てる、守る、共同研究する、でも流出の線は切る。この難しい両立が必要になる。しかも先端技術は、軍民の境界があいまいなものも多い。だから高市氏のように、研究開発、知財、経済安保を一つの文脈で話せる政治家は、裏方ではかなり使い勝手が良い存在として見られやすいんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "重要技術の扱い方",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "育てる",
+                  "sub": "研究開発"
+                },
+                {
+                  "label": "守る",
+                  "sub": "流出防止"
+                },
+                {
+                  "label": "つなぐ",
+                  "sub": "官民と同盟国",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 276
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_06_tech_lane.wav",
+        "duration": 871,
+        "startTime": 4733
+      },
+      {
+        "id": "takaichi_econ_long_07_2024_clearance_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "次の大きな節目が二〇二四年一月三十日です。内閣官房の経済安全保障推進会議第六回では、議題としてセキュリティ・クリアランス制度の整備と、基幹インフラ制度の今後の対応が並びました。ここで分かるのは、高市氏が法の理念だけでなく、情報保全とインフラ運用という、かなり現実的な執行領域まで持ち込んでいたことです。",
+        "speechText": "次の大きな節目がにせんにじゅうよ年いちがつさんじゅう日です。内閣官房の経済安全保障推進会議第六回では、議題としてセキュリティ クリアランス制度の整備と、基幹インフラ制度の今後の対応が並びました。ここで分かるのは、高市氏が法の理念だけでなく、情報保全とインフラ運用という、かなり現実的な執行領域まで持ち込んでいたことです。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2024-01-30 の論点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "議題1",
+                  "value": "セキュリティ・クリアランス",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "議題2",
+                  "value": "基幹インフラ対応",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "意味",
+                  "value": "理念から運用へ",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 290
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_07_2024_clearance_fact.wav",
+        "duration": 719,
+        "startTime": 5618
+      },
+      {
+        "id": "takaichi_econ_long_08_clearance_meaning",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "セキュリティ・クリアランスという言葉は、ただ厳しく情報を囲う制度だと誤解されがちです。でも本質は逆で、信頼できる相手どうしが必要な情報を共有できるようにすることです。企業、研究者、同盟国、政府。この間の情報連携の質が上がらないと、共同研究も国際調達も進みにくい。つまりこれは、閉鎖ではなく国家の信頼回路を作る制度なんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "誤解",
+                "titleColor": "#ef4444",
+                "items": [
+                  "情報を閉じる制度"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本質",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "信頼ある共有回路",
+                  "連携を可能にする"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここが裏方評価の核"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_08_clearance_meaning.wav",
+        "duration": 798,
+        "startTime": 6351
+      },
+      {
+        "id": "takaichi_econ_long_09_allies",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "だから裏側では、このテーマの価値が高い。日米や同志国との連携を深めるとき、企業や研究者が安心して組める情報保全の枠組みがあるかどうかはかなり重要です。ここが弱い国は、技術も案件も深いところまで入れてもらいにくい。高市氏がこの論点を政治の前面に上げたこと自体が、国家の参加資格を整える作業として見られているわけです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "なぜ内側で評価が高いか",
+              "bullets": [
+                "国際連携の前提になる",
+                "企業の信頼性を底上げする",
+                "深い共同研究に入りやすくなる"
+              ],
+              "tagline": "国家の参加資格を整える",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_09_allies.wav",
+        "duration": 680,
+        "startTime": 7163
+      },
+      {
+        "id": "takaichi_econ_long_09b_trust_infrastructure",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "もう一つ重要なのは、セキュリティ・クリアランスが、企業をただ縛る制度ではなく、信用を流通させる制度だという点です。審査の水準が揃えば、官民の共同案件も、同盟国との研究も、どこまで情報を共有できるかの線が見えやすくなる。逆にここが曖昧だと、日本企業は深い案件の入口で止まりやすい。高市氏がこの論点を押し上げた意味は、産業政策の裏で信用インフラを整えたことにもあります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "信用インフラの回り方",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "審査水準",
+                  "sub": "線引きを揃える"
+                },
+                {
+                  "label": "情報共有",
+                  "sub": "深い案件が動く"
+                },
+                {
+                  "label": "共同研究",
+                  "sub": "参加資格になる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_09b_trust_infrastructure.wav",
+        "duration": 879,
+        "startTime": 7857
+      },
+      {
+        "id": "takaichi_econ_long_10_infra_examples",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "基幹インフラ制度の論点も、生活から遠いようで実は近いです。港が止まる、医療が止まる、通信が止まる、電力や物流に穴が開く。そうなると、経済だけでなく日常そのものが傷みます。高市氏の評価点は、こういう止まってはいけない機能を、危機が起きてから騒ぐのではなく、制度の対象として先に見にいったことです。目立たないけれど、国家運営ではかなり正統派の仕事です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "止まると困るもの",
+              "bullets": [
+                "港湾と物流",
+                "医療と通信",
+                "電力とデータ基盤"
+              ],
+              "tagline": "平時に見にいくのが政治の役割",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_10_infra_examples.wav",
+        "duration": 827,
+        "startTime": 8750
+      },
+      {
+        "id": "takaichi_econ_long_11_not_showy",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここまでを見れば分かる通り、この分野は派手な名言が残る仕事ではありません。むしろ条文、会議、ガイドライン、関係省庁の調整、産業界との折衝。地味なレイヤーが延々と続く。だから一般の視聴者には見えにくい一方で、実務を知る人ほど、その人がどの論点を持ち込み、どこまで押し込んだかを見ています。高市氏が実務家として評価されるのは、まさにこの見えにくい蓄積です。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "Typewriter",
+            "props": {
+              "text": "law -> guideline -> coordination -> implementation",
+              "style": "terminal",
+              "framesPerChar": 2,
+              "fontSize": 34,
+              "align": "left",
+              "maxWidth": "92%"
+            },
+            "imageX": 50,
+            "imageY": 78,
+            "imageWidth": 92,
+            "imageHeight": 14,
+            "duration": 270
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_11_not_showy.wav",
+        "duration": 816,
+        "startTime": 9591
+      },
+      {
+        "id": "takaichi_econ_long_12_ip_intro",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "さらに重要なのが、二〇二四年六月四日の知的財産戦略本部会合です。議事要旨では、高市知的財産戦略担当大臣が、知的財産推進計画二〇二四を説明したことが確認できます。ここで面白いのは、知財が単独の話ではなく、生成エーアイ、国家標準戦略、博士人材まで含めた国家競争力の話として整理されている点です。",
+        "speechText": "さらに重要なのが、にせんにじゅうよ年ろくがつよっかの知的財産戦略本部会合です。議事要旨では、高市知的財産戦略担当大臣が、知的財産推進計画にせんにじゅうよんを説明したことが確認できます。ここで面白いのは、知財が単独の話ではなく、生成エーアイ、国家標準戦略、博士人材まで含めた国家競争力の話として整理されている点です。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2024-06-04 の焦点",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "会合",
+                  "value": "知財戦略本部",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "説明",
+                  "value": "推進計画2024",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "含意",
+                  "value": "競争力の制度設計",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 288
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_12_ip_intro.wav",
+        "duration": 803,
+        "startTime": 10421
+      },
+      {
+        "id": "takaichi_econ_long_13_ai_ip",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "生成エーアイへの向き合い方にも、実務家らしさが出ています。片方だけに振ると壊れます。技術の進歩だけを優先すれば権利保護が弱くなる。逆に保護だけを強めれば、日本の開発や活用が遅れる。だから必要なのは、進歩と保護が両立する設計です。こういうややこしい論点を、文化論や感情論ではなく制度の言葉で処理するところが、裏方評価につながっています。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "極端1",
+                "titleColor": "#ef4444",
+                "items": [
+                  "進歩だけで押す"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "極端2",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "保護だけで縛る"
+                ],
+                "highlight": true
+              },
+              "tagline": "必要なのは両立設計"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_13_ai_ip.wav",
+        "duration": 768,
+        "startTime": 11238
+      },
+      {
+        "id": "takaichi_econ_long_14_standards",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "国際標準の話も地味に見えて、ものすごく政治的です。標準を握る側は市場のルールを握りやすい。採用される仕様、評価される品質、通りやすい調達。そうした実利が標準の裏にある。知的財産推進計画二〇二四では、国家標準戦略を二〇二五年春めどに整備すると整理されました。つまり高市氏は、技術立国を叫ぶだけでなく、ルール形成の側まで政治テーマとして押し上げていたわけです。",
+        "speechText": "国際標準の話も地味に見えて、ものすごく政治的です。標準を握る側は市場のルールを握りやすい。採用される仕様、評価される品質、通りやすい調達。そうした実利が標準の裏にある。知的財産推進計画にせんにじゅうよんでは、国家標準戦略をにせんにじゅうご年春めどに整備すると整理されました。つまり高市氏は、技術立国を叫ぶだけでなく、ルール形成の側まで政治テーマとして押し上げていたわけです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "標準が持つ実利",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "仕様",
+                  "sub": "採用される"
+                },
+                {
+                  "label": "調達",
+                  "sub": "通りやすくなる"
+                },
+                {
+                  "label": "市場",
+                  "sub": "ルールを握る",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 282
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_14_standards.wav",
+        "duration": 880,
+        "startTime": 12020
+      },
+      {
+        "id": "takaichi_econ_long_15_doctoral",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "博士人材の話まで入ってくるのも重要です。安全保障や産業競争力を本気で積むなら、装置や予算だけでなく、人を育て続ける基盤が要る。研究者が国内でキャリアの見通しを持てるか。産業界や政府との接点をどう作るか。ここを放置すると、制度だけあっても中身が育たない。高市氏の強みは、経済安保を物だけの話にせず、人材と知財の回路まで一緒に見ているところです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "制度だけでは足りないもの",
+              "bullets": [
+                "博士人材の見通し",
+                "研究と産業の接続",
+                "知財と技術の蓄積"
+              ],
+              "tagline": "人材まで見ているか",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_15_doctoral.wav",
+        "duration": 794,
+        "startTime": 12914
+      },
+      {
+        "id": "takaichi_econ_long_16_budget_2026",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "そして二〇二六年四月七日の官邸会見では、予算編成改革として、政府予算の予見可能性を確保し、必要な予算は可能な限り当初予算で措置するという発信がありました。これは単なる財政技法の話に見えて、実は経済安保や成長投資と相性がいい。民間企業や大学は、続くかどうか分からない支援より、複数年で読める環境のほうが動きやすいからです。",
+        "speechText": "そしてにせんにじゅうろく年しがつなのかの官邸会見では、予算編成改革として、政府予算の予見可能性を確保し、必要な予算は可能な限り当初予算で措置するという発信がありました。これは単なる財政技法の話に見えて、実は経済安保や成長投資と相性がいい。民間企業や大学は、続くかどうか分からない支援より、複数年で読める環境のほうが動きやすいからです。",
+        "speedScale": 1.06,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "予見可能性が持つ意味",
+              "bullets": [
+                "民間投資が動きやすい",
+                "大学や研究計画を組みやすい",
+                "長期の制度運用と相性が良い"
+              ],
+              "tagline": "制度化を支える予算の読みやすさ",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_16_budget_2026.wav",
+        "duration": 813,
+        "startTime": 13722
+      },
+      {
+        "id": "takaichi_econ_long_16b_predictability_human",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "この予見可能性が効くのは、企業会計だけではありません。大学の研究室も、博士課程の人材も、装置投資も、複数年で続く見通しがないと腰を据えられない。経済安保は危機のたびに予算を積み増すだけでは回らず、平時から読みやすい土台が必要です。高市氏が制度と予算の読みやすさを同じ地図で見ているなら、それは裏側ではかなり実務的な強みとして映ります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "予見可能性が効く相手",
+              "bullets": [
+                "企業の設備投資",
+                "大学の研究計画",
+                "博士人材の進路"
+              ],
+              "tagline": "制度は続く見通しがあって強くなる",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_16b_predictability_human.wav",
+        "duration": 751,
+        "startTime": 14549
+      },
+      {
+        "id": "takaichi_econ_long_17_inner_view",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここまでをつなぐと、裏側での評価軸が見えてきます。高市氏は、保守的な発信で目立つ人としてだけではなく、制度の対象を広げ、運用論を進め、情報保全や標準、人材まで一つの地図に置ける政治家として見られている。こういうタイプは、テレビ討論より会議体や実務の現場で存在感が増す。だから表の印象と裏の評価がずれやすいんです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "裏側の評価軸",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "制度化",
+                  "sub": "対象を決める"
+                },
+                {
+                  "label": "実装",
+                  "sub": "運用を押し込む"
+                },
+                {
+                  "label": "接続",
+                  "sub": "知財・人材・情報",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 284
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_17_inner_view.wav",
+        "duration": 724,
+        "startTime": 15314
+      },
+      {
+        "id": "takaichi_econ_long_18_growth_bridge",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "この人の面白いところは、防衛寄りの話だけで終わらないことです。経済安保、知財、研究、人材、標準。これらを全部つなぐと、守りの政策がそのまま成長の土台にもなる。国家が自律性を持ちながら、企業や大学が前に出られる条件を整える。高市氏がやっているのは、その接続づくりです。だから裏方から見ると、単なるタカ派より実務家という評価が出やすいわけです。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "雑な見方",
+                "titleColor": "#ef4444",
+                "items": [
+                  "安全保障だけの人"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "実際の強み",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "守りと成長を接続",
+                  "制度で条件を整える"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここが実務家評価"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_18_growth_bridge.wav",
+        "duration": 841,
+        "startTime": 16052
+      },
+      {
+        "id": "takaichi_econ_long_19_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "もちろん、何でもこの人一人の手柄だと言うつもりはありません。制度は官僚、与党、関係省庁、産業界、研究現場の積み重ねで動きますし、成果も長い時間でしか出ません。ただ、それでも評価できるのは、取り組むと決めた論点の選び方と、実装段階まで付き合う持久力です。そこを褒めるなら、過剰な礼賛ではなく、かなり筋の良い評価になります。",
+        "speedScale": 1.08,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "やらない",
+                "titleColor": "#ef4444",
+                "items": [
+                  "一人で全部やったとは言わない"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "評価する点",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "論点の選び方",
+                  "実装まで付き合う粘り"
+                ],
+                "highlight": true
+              },
+              "tagline": "境界を守って褒める"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 286
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_19_boundary.wav",
+        "duration": 772,
+        "startTime": 16907
+      },
+      {
+        "id": "takaichi_econ_long_20_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "高市早苗が経済安保で評価される理由は、声が大きいからではありません。供給網、重要技術、情報保全、基幹インフラ、知財、人材。こうした国家の骨組みに関わる論点を、制度として積み上げようとしてきたからです。表の印象だけで見ると見落としやすい。でも裏側の実務から見ると、この人はかなり分かりやすい制度化の政治家です。",
+        "speedScale": 1.1,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "制度化の実務家",
+              "subline": "経済安保を骨組みにした人",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_20_verdict.wav",
+        "duration": 724,
+        "startTime": 17693
+      },
+      {
+        "id": "takaichi_econ_long_21_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたは、こういう見えにくい国家実務をどれくらい評価しますか。派手な言葉より、制度を作って回す政治家のほうが大事だと思うのか。それとも成果が見えるまで評価しないのか。コメントで、経済安保を担う政治家に何を一番求めるか、ぜひ聞かせてください。",
+        "speedScale": 1.12,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "何を評価する?",
+              "subline": "派手さか 制度化か",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 244
+          }
+        ],
+        "voiceFile": "takaichi_econ_long_21_cta.wav",
+        "duration": 474,
+        "startTime": 18431
+      }
+    ]
+  },
+  "short": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "takaichi_econ_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "高市早苗の本当の評価点は、実は経済安保なんです。",
+        "speedScale": 1.22,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.04
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "実はここ",
+              "headline": "経済安保の人",
+              "subline": "高市早苗の裏側評価",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_00_hook.wav",
+        "duration": 111,
+        "startTime": 0
+      },
+      {
+        "id": "takaichi_econ_short_01_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "二〇二二年九月十二日の有識者会議では、法成立後の基本方針と基本指針の詰めが進んでいて、高市氏はその実装レーンの前面にいました。",
+        "speechText": "にせんにじゅうに年くがつじゅうに日の有識者会議では、法成立後の基本方針と基本指針の詰めが進んでいて、高市氏はその実装レーンの前面にいました。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-econ-law.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2022-09-12",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "局面",
+                  "value": "実装フェーズ",
+                  "color": "#38bdf8"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 66,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 196
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_01_fact.wav",
+        "duration": 269,
+        "startTime": 119
+      },
+      {
+        "id": "takaichi_econ_short_02_clearance",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "二〇二四年一月三十日の推進会議では、セキュリティ・クリアランスと基幹インフラ対応が議題になりました。",
+        "speechText": "にせんにじゅうよ年いちがつさんじゅう日の推進会議では、セキュリティ クリアランスと基幹インフラ対応が議題になりました。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "運用の核心",
+              "headline": "情報保全とインフラ",
+              "subline": "理念だけで終わらない",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_02_clearance.wav",
+        "duration": 206,
+        "startTime": 396
+      },
+      {
+        "id": "takaichi_econ_short_03_ip",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "さらに二〇二四年六月四日の知財戦略本部では、生成エーアイ、国家標準戦略、博士人材まで一つの地図で語っていた。",
+        "speechText": "さらににせんにじゅうよ年ろくがつよっかの知財戦略本部では、生成エーアイ、国家標準戦略、博士人材まで一つの地図で語っていた。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-econ-ip.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "知財の先で見ているもの",
+              "bullets": [
+                "AI",
+                "国家標準",
+                "博士人材"
+              ],
+              "tagline": "守りと成長を接続",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_03_ip.wav",
+        "duration": 249,
+        "startTime": 610
+      },
+      {
+        "id": "takaichi_econ_short_03b_clearance",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかもクリアランスは、閉じるためじゃなくて、信頼できる相手と深い情報を共有するための回路です。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-econ-clearance.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "本質",
+              "headline": "信用をつなぐ制度",
+              "subline": "閉じるためだけじゃない",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_03b_clearance.wav",
+        "duration": 177,
+        "startTime": 867
+      },
+      {
+        "id": "takaichi_econ_short_03c_predictability",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "予算の予見可能性まで揃うと、企業も大学も動きやすい。だからこれは守りであり、同時に成長の土台でもあります。",
+        "speedScale": 1.18,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.82,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "守りと成長がつながる",
+              "bullets": [
+                "企業が動く",
+                "大学が動く",
+                "制度が続く"
+              ],
+              "tagline": "ここが裏側評価",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 192
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_03c_predictability.wav",
+        "duration": 225,
+        "startTime": 1052
+      },
+      {
+        "id": "takaichi_econ_short_04_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "つまりこの人の強さは、人気取りじゃなくて、国家の骨組みを制度で積んでいくところです。",
+        "speedScale": 1.2,
+        "bg_image": "assets/images/takaichi-econ-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.94,
+            "speed": 1
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "制度を作る政治家",
+              "subline": "骨組みを積むタイプ",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_04_verdict.wav",
+        "duration": 153,
+        "startTime": 1285
+      },
+      {
+        "id": "takaichi_econ_short_05_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "こういう見えにくい実務を、あなたはもっと評価されるべきだと思いますか。",
+        "speedScale": 1.2,
+        "bg_image": "assets/images/takaichi-econ-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.86,
+            "speed": 1.02
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "あなたはどう見る?",
+              "headline": "実務は評価されるべき?",
+              "subline": "コメントで教えてください",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 188
+          }
+        ],
+        "voiceFile": "short_takaichi_econ_short_05_cta.wav",
+        "duration": 116,
+        "startTime": 1446
+      }
+    ]
+  }
+}

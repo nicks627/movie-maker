@@ -1,0 +1,50 @@
+{
+  "project": {
+    "title": "LINE Chat Template Sample"
+  },
+  "template": {
+    "id": "line-chat"
+  },
+  "output": {
+    "preset": "portrait-fhd"
+  },
+  "timeline": {
+    "chat": {
+      "mode": "dm",
+      "roomName": "たかし",
+      "myName": "私",
+      "partnerName": "たかし",
+      "partnerColor": "#38BDF8",
+      "bgColor": "#B2DFDB",
+      "messages": [
+        {
+          "id": "msg_001",
+          "sender": "me",
+          "text": "ねえ、昨日どこ行ってたの？",
+          "timestamp": "21:34",
+          "readReceipt": "既読",
+          "revealFrame": 0,
+          "duration": 90
+        },
+        {
+          "id": "msg_002",
+          "sender": "たかし",
+          "text": "え、友達と飲んでただけだよ",
+          "timestamp": "21:45",
+          "typingFrames": 40,
+          "revealFrame": 105,
+          "duration": 90
+        },
+        {
+          "id": "msg_003",
+          "sender": "me",
+          "text": "ほんとに？",
+          "timestamp": "21:46",
+          "revealFrame": 220,
+          "duration": 75,
+          "reaction": "👀"
+        }
+      ]
+    }
+  }
+}

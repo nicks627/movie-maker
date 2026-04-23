@@ -1,0 +1,22 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#06111F"/>
+  <text x="140" y="128" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="64" font-weight="800">シリコンの盾</text>
+  <text x="140" y="184" fill="#94A3B8" font-family="Arial, sans-serif" font-size="28" font-weight="600">台湾有事は、同盟の善意ではなく、産業の生存本能で抑止される</text>
+  <path d="M960 230C1078 230 1196 262 1268 328C1340 394 1372 490 1372 576C1372 672 1330 758 1254 824C1178 890 1074 934 960 956C846 934 742 890 666 824C590 758 548 672 548 576C548 490 580 394 652 328C724 262 842 230 960 230Z" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+  <path d="M960 314C1034 314 1110 336 1158 382C1206 428 1228 490 1228 554C1228 624 1200 688 1148 736C1096 784 1028 820 960 836C892 820 824 784 772 736C720 688 692 624 692 554C692 490 714 428 762 382C810 336 886 314 960 314Z" fill="#11253F"/>
+  <rect x="824" y="468" width="272" height="140" rx="22" fill="#081A2F" stroke="#22D3EE" stroke-width="3"/>
+  <text x="900" y="548" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="800">TSMC</text>
+  <rect x="174" y="458" width="230" height="112" rx="24" fill="#111827" stroke="#EF4444" stroke-width="2"/>
+  <text x="214" y="512" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="34" font-weight="800">米国</text>
+  <text x="214" y="548" fill="#FCA5A5" font-family="Arial, sans-serif" font-size="22" font-weight="700">AI / 軍事 / 同盟</text>
+  <rect x="1516" y="458" width="230" height="112" rx="24" fill="#111827" stroke="#22C55E" stroke-width="2"/>
+  <text x="1556" y="512" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="34" font-weight="800">日本</text>
+  <text x="1556" y="548" fill="#86EFAC" font-family="Arial, sans-serif" font-size="22" font-weight="700">車 / 産業 / 装置</text>
+  <rect x="266" y="746" width="230" height="112" rx="24" fill="#111827" stroke="#F59E0B" stroke-width="2"/>
+  <text x="306" y="800" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="34" font-weight="800">欧州</text>
+  <text x="306" y="836" fill="#FCD34D" font-family="Arial, sans-serif" font-size="22" font-weight="700">ASML / 車載</text>
+  <rect x="1424" y="746" width="230" height="112" rx="24" fill="#111827" stroke="#A855F7" stroke-width="2"/>
+  <text x="1464" y="800" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="34" font-weight="800">中国</text>
+  <text x="1464" y="836" fill="#D8B4FE" font-family="Arial, sans-serif" font-size="22" font-weight="700">台湾統合の誘惑</text>
+  <text x="140" y="958" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="34" font-weight="700">台湾防衛の核心は理想論ではない。TSMC を失うコストが、各国を先に動かす。</text>
+</svg>

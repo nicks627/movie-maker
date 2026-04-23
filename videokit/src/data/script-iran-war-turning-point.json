@@ -1,0 +1,1768 @@
+{
+  "project": {
+    "id": "iran-war-turning-point",
+    "title": "イラン戦争の本題 核だけでは終わらない 石油と覇権の再編",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.047,
+    "voiceVolume": 1.2,
+    "seVolume": 0.68,
+    "voiceDucking": 0.5,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 10,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 22,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "iran_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争の本題は、核だけではありません。石油ルート、重要鉱物、そして戦後のルールを誰が書くか。その三つが一気に動いたから、停戦が見えても世界経済が落ち着かないんです。",
+        "speedScale": 1.36,
+        "asset_query": "iran war global power oil route documentary",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.94
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "イラン戦争の本題",
+              "headline": "核だけじゃない",
+              "subline": "石油と覇権の再編",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "イラン戦争の本題は、核だけではありません。石油ルート、重要鉱物、そして戦後のルールを誰が書くか。その三つが一気に動いたから、停戦が見えても世界経済が落ち着かないんです。",
+        "duration": 311,
+        "startTime": 0,
+        "voiceFile": "iran_long_00_hook.wav"
+      },
+      {
+        "id": "iran_long_01_status",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "まず現状です。今回の対イラン攻撃は二月二十八日に始まり、アメリカ軍はエピック・フューリー、イスラエル軍はローリング・ライオンと呼びました。四月八日には二週間の停戦合意が出ましたが、その直前まで最高指導者ハーメネイー師の死亡、空爆、特殊作戦が連続し、地域の緊張は一気に跳ね上がりました。",
+        "speedScale": 1.22,
+        "asset_query": "iran war ceasefire april 2026 explainer",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2026年4月時点の戦況",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "開始",
+                  "value": "2月28日",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "停戦合意",
+                  "value": "4月8日",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "残る火種",
+                  "value": "ホルムズと原油",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "speechText": "まず現状です。今回の対イラン攻撃は二月二十八日に始まり、アメリカ軍はエピック・フューリー、イスラエル軍はローリング・ライオンと呼びました。四月八日には二週間の停戦合意が出ましたが、その直前まで最高指導者ハーメネイー師の死亡、空爆、特殊作戦が連続し、地域の緊張は一気に跳ね上がりました。",
+        "duration": 594,
+        "startTime": 325,
+        "voiceFile": "iran_long_01_status.wav"
+      },
+      {
+        "id": "iran_long_02_after_ceasefire",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "しかも停戦イコール正常化ではありません。ホルムズ海峡は一時的に事実上止まり、四月十七日になってようやく再開が伝えられました。わずかな遮断でも世界の原油、保険、物流コストが反応するから、この戦争は停戦後も経済戦として続いているんです。",
+        "speedScale": 1.34,
+        "asset_query": "strait of hormuz oil shipping disruption",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "停戦後も残る連鎖",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "海峡混乱",
+                  "sub": "通航が揺れる"
+                },
+                {
+                  "label": "原油と保険",
+                  "sub": "価格が跳ねる"
+                },
+                {
+                  "label": "世界経済",
+                  "sub": "遅れて痛む",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "しかも停戦イコール正常化ではありません。ホルムズ海峡は一時的に事実上止まり、四月十七日になってようやく再開が伝えられました。わずかな遮断でも世界の原油、保険、物流コストが反応するから、この戦争は停戦後も経済戦として続いているんです。",
+        "duration": 420,
+        "startTime": 933,
+        "voiceFile": "iran_long_02_after_ceasefire.wav"
+      },
+      {
+        "id": "iran_long_03_official_reason",
+        "speaker": "ryusei",
+        "sceneRole": "setup",
+        "text": "表向きの理由は一貫しています。イランの核開発が最終段階に近づき、イスラエルと地域全体への差し迫った脅威になった。だから今のうちに叩く、という説明です。ここまでは公式のロジックとして理解できます。",
+        "speedScale": 1.23,
+        "asset_query": "nuclear threat official explanation middle east",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "表向きの説明",
+              "bullets": [
+                "核開発の阻止",
+                "イスラエル防衛",
+                "先制的な排除"
+              ],
+              "tagline": "公式ロジック",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 252
+          }
+        ],
+        "speechText": "表向きの理由は一貫しています。イランの核開発が最終段階に近づき、イスラエルと地域全体への差し迫った脅威になった。だから今のうちに叩く、という説明です。ここまでは公式のロジックとして理解できます。",
+        "duration": 384,
+        "startTime": 1367,
+        "voiceFile": "iran_long_03_official_reason.wav"
+      },
+      {
+        "id": "iran_long_04_why_people_doubt",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "でも多くの人が、核だけでこのタイミングと規模を説明できるのかと感じています。なぜなら今回動いたのは、核施設だけではなく、海運、資源、選挙、同盟の再編まで含むからです。ここから先が、裏の政治として一気に面白くなる部分です。",
+        "speedScale": 1.35,
+        "asset_query": "war politics oil minerals election analysis",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "表の説明",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "核阻止",
+                  "安全保障"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "動いた論点",
+                "titleColor": "#ef4444",
+                "items": [
+                  "石油と海運",
+                  "鉱物と同盟"
+                ],
+                "highlight": true
+              },
+              "tagline": "規模が大きすぎる"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 262
+          }
+        ],
+        "speechText": "でも多くの人が、核だけでこのタイミングと規模を説明できるのかと感じています。なぜなら今回動いたのは、核施設だけではなく、海運、資源、選挙、同盟の再編まで含むからです。ここから先が、裏の政治として一気に面白くなる部分です。",
+        "duration": 420,
+        "startTime": 1765,
+        "voiceFile": "iran_long_04_why_people_doubt.wav"
+      },
+      {
+        "id": "iran_long_05_hormuz_core",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "一番地に足がついた読み筋は、ホルムズ海峡です。ここが揺れるだけで、原油を運ぶ船、化学原料、保険料、為替まで連動する。つまりミサイルの着弾地点より、海峡の通行確率のほうが世界経済には重いんです。",
+        "speedScale": 1.23,
+        "asset_query": "hormuz chokepoint oil tanker map",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "ホルムズが重い理由",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "影響",
+                  "value": "原油輸送",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "波及",
+                  "value": "保険と物流",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "結果",
+                  "value": "景気を直撃",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "speechText": "一番地に足がついた読み筋は、ホルムズ海峡です。ここが揺れるだけで、原油を運ぶ船、化学原料、保険料、為替まで連動する。つまりミサイルの着弾地点より、海峡の通行確率のほうが世界経済には重いんです。",
+        "duration": 423,
+        "startTime": 2199,
+        "voiceFile": "iran_long_05_hormuz_core.wav"
+      },
+      {
+        "id": "iran_long_06_oil_and_naphtha",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "この衝撃は日本にも直結します。原油価格だけではなく、ナフサの調達が詰まると化学、樹脂、物流まで連鎖するからです。だから今回のイラン戦争は、中東の軍事ニュースではなく、六月の家計と工場の話でもあるわけです。",
+        "speedScale": 1.34,
+        "asset_query": "oil price naphtha petrochemical logistics shock",
+        "bg_video": "assets/imported/wikimedia-commons/valparaiso-port-dusk.webm",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "日本への伝わり方",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "原油高",
+                  "sub": "燃料が上がる"
+                },
+                {
+                  "label": "ナフサ不足",
+                  "sub": "化学が詰まる"
+                },
+                {
+                  "label": "物流と物価",
+                  "sub": "生活に来る",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "この衝撃は日本にも直結します。原油価格だけではなく、ナフサの調達が詰まると化学、樹脂、物流まで連鎖するからです。だから今回のイラン戦争は、中東の軍事ニュースではなく、六月の家計と工場の話でもあるわけです。",
+        "duration": 392,
+        "startTime": 2636,
+        "voiceFile": "iran_long_06_oil_and_naphtha.wav"
+      },
+      {
+        "id": "iran_long_07_petrodollar_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "ここでよく出るのが、ペトロダラー防衛説です。イランが中国やロシアと組み、ドル以外の決済や資源取引を広げようとしたから最後の一撃が入った、という見方です。ただしこれは、いまの段階では強い解釈であって、公式資料で直接証明された動機ではありません。",
+        "speedScale": 1.22,
+        "asset_query": "petrodollar theory energy trade documentary",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "読み筋として強い",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "ドル決済の防衛",
+                  "資源取引の主導権"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "まだ未確認",
+                "titleColor": "#ef4444",
+                "items": [
+                  "公式な直接証拠",
+                  "単独での決定打"
+                ],
+                "highlight": true
+              },
+              "tagline": "断定はしない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 270
+          }
+        ],
+        "speechText": "ここでよく出るのが、ペトロダラー防衛説です。イランが中国やロシアと組み、ドル以外の決済や資源取引を広げようとしたから最後の一撃が入った、という見方です。ただしこれは、いまの段階では強い解釈であって、公式資料で直接証明された動機ではありません。",
+        "duration": 483,
+        "startTime": 3042,
+        "voiceFile": "iran_long_07_petrodollar_boundary.wav"
+      },
+      {
+        "id": "iran_long_08_energy_dominance",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ただ、より地に足がついた形で見るなら、アメリカのエネルギー優位は確かに追い風を受けます。中東の供給が不安定になるほど、シェールオイルとガスを持つアメリカの存在感は増す。これは陰謀論ではなく、価格と供給の構造から自然に出てくる話です。",
+        "speedScale": 1.34,
+        "asset_query": "us energy dominance shale oil exports documentary",
+        "bg_video": "assets/imported/wikimedia-commons/freight-ship-danube.mp4",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "より確認しやすい利得",
+              "bullets": [
+                "中東混乱で供給価値が上がる",
+                "米産エネルギーの交渉力が増す",
+                "同盟国の依存が深まる"
+              ],
+              "tagline": "構造的な追い風",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 262
+          }
+        ],
+        "speechText": "ただ、より地に足がついた形で見るなら、アメリカのエネルギー優位は確かに追い風を受けます。中東の供給が不安定になるほど、シェールオイルとガスを持つアメリカの存在感は増す。これは陰謀論ではなく、価格と供給の構造から自然に出てくる話です。",
+        "duration": 403,
+        "startTime": 3539,
+        "voiceFile": "iran_long_08_energy_dominance.wav"
+      },
+      {
+        "id": "iran_long_09_minerals_bloc",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "そこへ重なるのが、ヴァンス副大統領の重要鉱物トレードブロック構想です。二月の段階で、中国抜きの重要鉱物サプライチェーンを同盟国で固めると打ち出した。イランを叩くこと自体が目的というより、その後に組み替える資源地図のほうが本命に見えるわけです。",
+        "speedScale": 1.22,
+        "asset_query": "critical minerals trade bloc us allies china",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "鉱物ブロックの発想",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "中国依存を削る",
+                  "sub": "供給網を切り替える"
+                },
+                {
+                  "label": "同盟国で固める",
+                  "sub": "日本 豪州 米国"
+                },
+                {
+                  "label": "戦後秩序に接続",
+                  "sub": "資源同盟化",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "そこへ重なるのが、ヴァンス副大統領の重要鉱物トレードブロック構想です。二月の段階で、中国抜きの重要鉱物サプライチェーンを同盟国で固めると打ち出した。イランを叩くこと自体が目的というより、その後に組み替える資源地図のほうが本命に見えるわけです。",
+        "duration": 448,
+        "startTime": 3956,
+        "voiceFile": "iran_long_09_minerals_bloc.wav"
+      },
+      {
+        "id": "iran_long_10_message_to_china_russia",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だから今回の戦争は、イラン単独ではなく、中国とロシアへのメッセージとして読むほうがしっくり来ます。中国にはエネルギーと鉱物の供給不安を突きつけ、ロシアには支援ネットワークの脆さを見せつける。ユーラシア側の結び目を、戦争で揺らしたとも言えるんです。",
+        "speedScale": 1.34,
+        "asset_query": "iran china russia signal geopolitics documentary",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "中国へ",
+                "titleColor": "#ef4444",
+                "items": [
+                  "エネルギー供給に圧力",
+                  "鉱物で囲い込み"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "ロシアへ",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "支援線の脆さを示す",
+                  "地域の余力を削る"
+                ],
+                "highlight": true
+              },
+              "tagline": "見せしめの側面"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 266
+          }
+        ],
+        "speechText": "だから今回の戦争は、イラン単独ではなく、中国とロシアへのメッセージとして読むほうがしっくり来ます。中国にはエネルギーと鉱物の供給不安を突きつけ、ロシアには支援ネットワークの脆さを見せつける。ユーラシア側の結び目を、戦争で揺らしたとも言えるんです。",
+        "duration": 409,
+        "startTime": 4418,
+        "voiceFile": "iran_long_10_message_to_china_russia.wav"
+      },
+      {
+        "id": "iran_long_11_regime_change_history",
+        "speaker": "ryusei",
+        "sceneRole": "history",
+        "text": "もう一つの軸は、レジームチェンジです。アメリカのタカ派にとって、イラン革命以後のイスラム共和国体制は長年の宿題でした。今回の攻撃で核だけではなく、政権そのものの持久力を削ろうとしたと見るのは、歴史的にはかなり自然です。",
+        "speedScale": 1.22,
+        "asset_query": "regime change iran history hawks analysis",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "レジームチェンジ軸",
+              "bullets": [
+                "革命後の体制を長期標的化",
+                "核だけでなく持久力を削る",
+                "戦後秩序の再編まで視野"
+              ],
+              "tagline": "歴史的な宿題",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "speechText": "もう一つの軸は、レジームチェンジです。アメリカのタカ派にとって、イラン革命以後のイスラム共和国体制は長年の宿題でした。今回の攻撃で核だけではなく、政権そのものの持久力を削ろうとしたと見るのは、歴史的にはかなり自然です。",
+        "duration": 414,
+        "startTime": 4841,
+        "voiceFile": "iran_long_11_regime_change_history.wav"
+      },
+      {
+        "id": "iran_long_12_proxy_network",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "その狙いが一番分かりやすく出るのが、イラン本土より周辺です。ヒズボラやフーシ派のような反米反イスラエルのハブが弱れば、中東全体の勢力図は一気に変わる。つまり本丸はテヘランより、ネットワークの切断かもしれないんです。",
+        "speedScale": 1.34,
+        "asset_query": "iran proxy network hezbollah houthis analysis",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "本土より重いもの",
+              "accent": "#f97316",
+              "steps": [
+                {
+                  "label": "資金と補給",
+                  "sub": "ネットワークを維持"
+                },
+                {
+                  "label": "代理勢力",
+                  "sub": "地域に圧力"
+                },
+                {
+                  "label": "切断される",
+                  "sub": "秩序が変わる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "その狙いが一番分かりやすく出るのが、イラン本土より周辺です。ヒズボラやフーシ派のような反米反イスラエルのハブが弱れば、中東全体の勢力図は一気に変わる。つまり本丸はテヘランより、ネットワークの切断かもしれないんです。",
+        "duration": 357,
+        "startTime": 5269,
+        "voiceFile": "iran_long_12_proxy_network.wav"
+      },
+      {
+        "id": "iran_long_13_power_vacuum",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかもハーメネイー師の不在は、単なる象徴の空白ではありません。革命防衛隊の強硬派と、経済崩壊を恐れる実務派の力関係が揺れると、対外行動も読みづらくなる。外から見ると一枚岩に見えるイランが、いまは最も不安定な状態に入っている可能性があります。",
+        "speedScale": 1.22,
+        "asset_query": "tehran power vacuum irgc reformists analysis",
+        "bg_image": "assets/imported/wikimedia-commons/tehran-clean-day.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "強硬派",
+                "titleColor": "#ef4444",
+                "items": [
+                  "革命防衛隊",
+                  "報復を重視"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "実務派",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "経済崩壊を警戒",
+                  "体制維持を優先"
+                ],
+                "highlight": true
+              },
+              "tagline": "二重権力が揺れる"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 266
+          }
+        ],
+        "speechText": "しかもハーメネイー師の不在は、単なる象徴の空白ではありません。革命防衛隊の強硬派と、経済崩壊を恐れる実務派の力関係が揺れると、対外行動も読みづらくなる。外から見ると一枚岩に見えるイランが、いまは最も不安定な状態に入っている可能性があります。",
+        "duration": 489,
+        "startTime": 5640,
+        "voiceFile": "iran_long_13_power_vacuum.wav"
+      },
+      {
+        "id": "iran_long_14_us_domestic_politics",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "アメリカ国内政治も外せません。トランプ政権にとって有事の指導者像は、中間選挙をにらんだ強い演出になります。これを直接の開戦理由と断定はできなくても、戦争が支持率、防衛予算、エネルギー業界にとって使いやすいイベントなのは間違いありません。",
+        "speedScale": 1.34,
+        "asset_query": "us midterm politics wartime leadership analysis",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "国内政治で効く点",
+              "bullets": [
+                "強い指導者像を演出できる",
+                "防衛予算を通しやすい",
+                "物価不満を外に逃がせる"
+              ],
+              "tagline": "政治的には便利",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 264
+          }
+        ],
+        "speechText": "アメリカ国内政治も外せません。トランプ政権にとって有事の指導者像は、中間選挙をにらんだ強い演出になります。これを直接の開戦理由と断定はできなくても、戦争が支持率、防衛予算、エネルギー業界にとって使いやすいイベントなのは間違いありません。",
+        "duration": 423,
+        "startTime": 6143,
+        "voiceFile": "iran_long_14_us_domestic_politics.wav"
+      },
+      {
+        "id": "iran_long_15_beneficiaries",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "利益を得る主体で見ると、話はさらに分かりやすいです。原油が上がれば米エネルギーは追い風、防衛緊張が続けば軍需は追い風、重要鉱物の再編が進めば新しい採掘と加工の利権が生まれる。誰が撃ったかだけでなく、誰が長く得をするかを見ると、この戦争の輪郭が出てきます。",
+        "speedScale": 1.22,
+        "asset_query": "energy defense critical minerals beneficiaries analysis",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "利益を受けやすい領域",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "エネルギー",
+                  "value": "供給価値が上がる",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "軍需",
+                  "value": "緊張で予算化",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "03",
+                  "label": "鉱物",
+                  "value": "再編で利権化",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 264
+          }
+        ],
+        "speechText": "利益を得る主体で見ると、話はさらに分かりやすいです。原油が上がれば米エネルギーは追い風、防衛緊張が続けば軍需は追い風、重要鉱物の再編が進めば新しい採掘と加工の利権が生まれる。誰が撃ったかだけでなく、誰が長く得をするかを見ると、この戦争の輪郭が出てきます。",
+        "duration": 528,
+        "startTime": 6580,
+        "voiceFile": "iran_long_15_beneficiaries.wav"
+      },
+      {
+        "id": "iran_long_16_visible_vs_hidden",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ここで大事なのは、見えている利得と、まだ証明できない裏の意図を混同しないことです。エネルギー優位や鉱物同盟が追い風になるのは構造として見える。でも、最初からそのためだけに戦争を設計したとまでは、まだ言い切れません。",
+        "speedScale": 1.34,
+        "asset_query": "fact versus speculation political documentary",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "見えていること",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "エネルギー優位の追い風",
+                  "鉱物同盟が前進"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "言い切れないこと",
+                "titleColor": "#ef4444",
+                "items": [
+                  "それだけが開戦理由",
+                  "全てが一枚岩の計画"
+                ],
+                "highlight": true
+              },
+              "tagline": "線引きが大事"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 266
+          }
+        ],
+        "speechText": "ここで大事なのは、見えている利得と、まだ証明できない裏の意図を混同しないことです。エネルギー優位や鉱物同盟が追い風になるのは構造として見える。でも、最初からそのためだけに戦争を設計したとまでは、まだ言い切れません。",
+        "duration": 370,
+        "startTime": 7122,
+        "voiceFile": "iran_long_16_visible_vs_hidden.wav"
+      },
+      {
+        "id": "iran_long_17_japan_intro",
+        "speaker": "ryusei",
+        "sceneRole": "transition",
+        "text": "そしてこの話は、日本に入った瞬間に急に生々しくなります。中東が揺れると、燃料調達、化学原料、半導体や防衛に要る鉱物まで一つの線でつながるからです。つまり日本にとっての本題は、外交論評より経済安全保障そのものなんです。",
+        "speedScale": 1.22,
+        "asset_query": "japan economic security energy minerals documentary",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "ここから日本",
+              "headline": "遠い戦争じゃない",
+              "subline": "経済安全保障に直結",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "そしてこの話は、日本に入った瞬間に急に生々しくなります。中東が揺れると、燃料調達、化学原料、半導体や防衛に要る鉱物まで一つの線でつながるからです。つまり日本にとっての本題は、外交論評より経済安全保障そのものなんです。",
+        "duration": 471,
+        "startTime": 7506,
+        "voiceFile": "iran_long_17_japan_intro.wav"
+      },
+      {
+        "id": "iran_long_18_naphtha_warning",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "その象徴がナフサです。ロイター系の報道でも、日本のナフサ依存企業が六月に向けて供給懸念を強めていると伝えられました。化学産業は在庫だけでは回し切れないので、もしここが詰まると、工場と物流の両方に遅れて効いてきます。",
+        "speechText": "その象徴がナフサです。ロイター系の報道でも、日本のナフサ依存企業が六月に向けて供給懸念を強めていると伝えられました。化学産業は在庫だけでは回し切れないので、もしここが詰まると、工場と物流の両方に遅れて効いてきます。",
+        "speedScale": 1.34,
+        "asset_query": "japan naphtha supply petrochemical logistics",
+        "bg_video": "assets/imported/wikimedia-commons/valparaiso-port-dusk.webm",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ナフサが詰まると",
+              "bullets": [
+                "化学原料が鈍る",
+                "物流コストが上がる",
+                "景気に遅れて効く"
+              ],
+              "tagline": "六月の焦点",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 258
+          }
+        ],
+        "duration": 377,
+        "startTime": 7991,
+        "voiceFile": "iran_long_18_naphtha_warning.wav"
+      },
+      {
+        "id": "iran_long_19_takaichi_position",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "高市政権は、備蓄があるから慌てる段階ではないと押し返しています。たしかに政府にはクッションがあります。ただ、民間の現場は価格、輸送、原料の到着時期まで見ているので、政府の余裕発言と企業の緊張感がずれるのが、この手の危機の怖いところです。",
+        "speedScale": 1.22,
+        "asset_query": "japan government stockpile energy crisis analysis",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "政府の見方",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "備蓄がある",
+                  "すぐには尽きない"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "現場の見方",
+                "titleColor": "#ef4444",
+                "items": [
+                  "価格と輸送が不安",
+                  "六月以降が怖い"
+                ],
+                "highlight": true
+              },
+              "tagline": "温度差がある"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 266
+          }
+        ],
+        "speechText": "高市政権は、備蓄があるから慌てる段階ではないと押し返しています。たしかに政府にはクッションがあります。ただ、民間の現場は価格、輸送、原料の到着時期まで見ているので、政府の余裕発言と企業の緊張感がずれるのが、この手の危機の怖いところです。",
+        "duration": 472,
+        "startTime": 8382,
+        "voiceFile": "iran_long_19_takaichi_position.wav"
+      },
+      {
+        "id": "iran_long_20_minamitorishima",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ここで一気に意味を持つのが、南鳥島です。四月の報道では、日本が深海レアアース泥から試験的に回収を始める段階に入ったと伝えられました。危機が深まるほど、脱中国と資源自立を前に出しやすくなるので、ここは経済安全保障と利権が重なる象徴になります。",
+        "speedScale": 1.34,
+        "asset_query": "minamitorishima rare earth japan security",
+        "bg_image": "assets/imported/wikimedia-commons/minamitorishima-aerial.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "南鳥島が熱い理由",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "名目",
+                  "value": "資源自立",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "背景",
+                  "value": "脱中国",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "実利",
+                  "value": "巨大投資案件",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 264
+          }
+        ],
+        "speechText": "ここで一気に意味を持つのが、南鳥島です。四月の報道では、日本が深海レアアース泥から試験的に回収を始める段階に入ったと伝えられました。危機が深まるほど、脱中国と資源自立を前に出しやすくなるので、ここは経済安全保障と利権が重なる象徴になります。",
+        "duration": 441,
+        "startTime": 8868,
+        "voiceFile": "iran_long_20_minamitorishima.wav"
+      },
+      {
+        "id": "iran_long_21_us_japan_action_plan",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "しかも三月には、日米の重要鉱物アクションプランが公表されています。つまり日本のレアアースや資源確保は、国内政策ではなく、アメリカ主導の再編とすでに接続されている。イラン戦争がその流れを一段早めたと見るのは、かなり自然です。",
+        "speedScale": 1.22,
+        "asset_query": "us japan critical minerals action plan 2026",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "日米資源ライン",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "重要鉱物",
+                  "sub": "共同で確保"
+                },
+                {
+                  "label": "中国依存を下げる",
+                  "sub": "供給網を再設計"
+                },
+                {
+                  "label": "危機で加速",
+                  "sub": "戦争が追い風",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "しかも三月には、日米の重要鉱物アクションプランが公表されています。つまり日本のレアアースや資源確保は、国内政策ではなく、アメリカ主導の再編とすでに接続されている。イラン戦争がその流れを一段早めたと見るのは、かなり自然です。",
+        "duration": 437,
+        "startTime": 9323,
+        "voiceFile": "iran_long_21_us_japan_action_plan.wav"
+      },
+      {
+        "id": "iran_long_22_azec_plus",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "さらに四月十五日のエーゼックプラスの場で、高市首相はエネルギー・レジリエンスを前面に出しました。中東依存を減らしつつ、日本主導のクリーンエネルギー供給網を広げる。戦争のショックを利用して、新しい利権の入口を正当化する動きにも見えます。",
+        "speechText": "さらに四月十五日のエーゼックプラスの場で、高市首相はエネルギー・レジリエンスを前面に出しました。中東依存を減らしつつ、日本主導のクリーンエネルギー供給網を広げる。戦争のショックを利用して、新しい利権の入口を正当化する動きにも見えます。",
+        "speedScale": 1.34,
+        "asset_query": "AZEC Plus energy resilience Japan clean tech",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "AZEC Plusで前に出たもの",
+              "bullets": [
+                "エネルギーの耐久性",
+                "次世代電源と輸出",
+                "日本主導の枠組み"
+              ],
+              "tagline": "危機を成長戦略に変える",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 258
+          }
+        ],
+        "duration": 401,
+        "startTime": 9774,
+        "voiceFile": "iran_long_22_azec_plus.wav"
+      },
+      {
+        "id": "iran_long_23_japan_stakes",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "つまり日本にとって今回の戦争は、単なる被害ではありません。ナフサ不足で苦しむ側でありながら、レアアース、重要鉱物、クリーンエネルギーでは新しい主導権を取りに行く側でもある。被害者とプレイヤーを同時にやっているのが、今の高市政権です。",
+        "speedScale": 1.22,
+        "asset_query": "japan victim and player energy security analysis",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "被害者として",
+                "titleColor": "#ef4444",
+                "items": [
+                  "ナフサと物流が痛い",
+                  "家計と工場が揺れる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "プレイヤーとして",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "レアアースで前進",
+                  "資源同盟に乗る"
+                ],
+                "highlight": true
+              },
+              "tagline": "二つの顔がある"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 266
+          }
+        ],
+        "speechText": "つまり日本にとって今回の戦争は、単なる被害ではありません。ナフサ不足で苦しむ側でありながら、レアアース、重要鉱物、クリーンエネルギーでは新しい主導権を取りに行く側でもある。被害者とプレイヤーを同時にやっているのが、今の高市政権です。",
+        "duration": 452,
+        "startTime": 10189,
+        "voiceFile": "iran_long_23_japan_stakes.wav"
+      },
+      {
+        "id": "iran_long_24_china_russia_response",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "では中国とロシアは受け身なのかというと、そうでもありません。イランの混乱が長引くほど、現地のインフラ、物流、資源権益に別の形で入り込む余地が出てくる。ここはまだ見えにくいですが、戦後の取り分争いが静かに始まる局面だと見たほうが自然です。",
+        "speedScale": 1.34,
+        "asset_query": "china russia response iran infrastructure influence",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "中露が狙う余地",
+              "bullets": [
+                "インフラの影響力",
+                "物流ルートの掌握",
+                "戦後の権益回収"
+              ],
+              "tagline": "静かな取り分争い",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 258
+          }
+        ],
+        "speechText": "では中国とロシアは受け身なのかというと、そうでもありません。イランの混乱が長引くほど、現地のインフラ、物流、資源権益に別の形で入り込む余地が出てくる。ここはまだ見えにくいですが、戦後の取り分争いが静かに始まる局面だと見たほうが自然です。",
+        "duration": 423,
+        "startTime": 10655,
+        "voiceFile": "iran_long_24_china_russia_response.wav"
+      },
+      {
+        "id": "iran_long_25_early_winners",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここまでを見ると、短期的な勝ち筋はかなり見えてきます。アメリカのエネルギー、日米の重要鉱物陣営、そして防衛とインフラの大型予算を取れる側です。逆に生活者や製造業は、戦場から遠くても確実にコストを払わされます。",
+        "speedScale": 1.22,
+        "asset_query": "war winners energy defense infrastructure analysis",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "短期的な勝ち筋",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "米エネルギー",
+                  "value": "供給価値が上昇",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "資源同盟",
+                  "value": "投資が集まる",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "生活者",
+                  "value": "コスト負担",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 264
+          }
+        ],
+        "speechText": "ここまでを見ると、短期的な勝ち筋はかなり見えてきます。アメリカのエネルギー、日米の重要鉱物陣営、そして防衛とインフラの大型予算を取れる側です。逆に生活者や製造業は、戦場から遠くても確実にコストを払わされます。",
+        "duration": 424,
+        "startTime": 11092,
+        "voiceFile": "iran_long_25_early_winners.wav"
+      },
+      {
+        "id": "iran_long_26_unresolved",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ただし勝者が確定したわけではありません。停戦が崩れればホルムズは再び止まり、イラン内部の空白が暴発すれば、むしろ統制不能な局面に入る。勝ち筋は見えていても、着地はまだ見えていない。それが四月時点の怖さです。",
+        "speedScale": 1.34,
+        "asset_query": "ceasefire fragile risk hormuz iran instability",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "まだ終わっていない理由",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "停戦崩れ",
+                  "sub": "海峡が再び揺れる"
+                },
+                {
+                  "label": "内部抗争",
+                  "sub": "暴発リスクが残る"
+                },
+                {
+                  "label": "着地不明",
+                  "sub": "市場は恐れる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 252
+          }
+        ],
+        "speechText": "ただし勝者が確定したわけではありません。停戦が崩れればホルムズは再び止まり、イラン内部の空白が暴発すれば、むしろ統制不能な局面に入る。勝ち筋は見えていても、着地はまだ見えていない。それが四月時点の怖さです。",
+        "duration": 371,
+        "startTime": 11530,
+        "voiceFile": "iran_long_26_unresolved.wav"
+      },
+      {
+        "id": "iran_long_27_boundary_card",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "最後に線を引きます。確認できるのは、戦争が石油、海運、重要鉱物、日本の経済安全保障を同時に揺らしたことです。強い推測として成り立つのは、エネルギー優位や資源同盟を加速する戦争だったという読みです。まだ未確認なのは、ペトロダラー防衛が唯一の開戦理由だったと断定することです。",
+        "speedScale": 1.22,
+        "asset_query": "fact concern speculation card documentary",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "確認できること",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "石油と海運が揺れた",
+                  "鉱物と日本政策が加速"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "未確認の断定",
+                "titleColor": "#ef4444",
+                "items": [
+                  "唯一の動機がペトロダラー",
+                  "全部が予定通りの脚本"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここを混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 270
+          }
+        ],
+        "speechText": "最後に線を引きます。確認できるのは、戦争が石油、海運、重要鉱物、日本の経済安全保障を同時に揺らしたことです。強い推測として成り立つのは、エネルギー優位や資源同盟を加速する戦争だったという読みです。まだ未確認なのは、ペトロダラー防衛が唯一の開戦理由だったと断定することです。",
+        "duration": 575,
+        "startTime": 11915,
+        "voiceFile": "iran_long_27_boundary_card.wav"
+      },
+      {
+        "id": "iran_long_28_watchpoints",
+        "speaker": "tsumugi",
+        "sceneRole": "watchpoints",
+        "text": "この先の注目点は三つです。ホルムズが本当に安定運用へ戻るのか。日本のナフサと鉱物政策がどこまで前倒しされるのか。そして日米の資源同盟が、中国依存の代替としてどこまで具体化するのか。ここを見ると、この戦争の本当の勝者が見えてきます。",
+        "speedScale": 1.34,
+        "asset_query": "watchpoints hormuz japan minerals alliance",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.92
+          }
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "次に見るべき三点",
+              "bullets": [
+                "ホルムズの安定",
+                "日本の原料と鉱物政策",
+                "資源同盟の具体化"
+              ],
+              "tagline": "勝者を決める指標",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 258
+          }
+        ],
+        "speechText": "この先の注目点は三つです。ホルムズが本当に安定運用へ戻るのか。日本のナフサと鉱物政策がどこまで前倒しされるのか。そして日米の資源同盟が、中国依存の代替としてどこまで具体化するのか。ここを見ると、この戦争の本当の勝者が見えてきます。",
+        "duration": 426,
+        "startTime": 12504,
+        "voiceFile": "iran_long_28_watchpoints.wav"
+      },
+      {
+        "id": "iran_long_29_close",
+        "speaker": "ryusei",
+        "sceneRole": "close",
+        "text": "結局、この戦争はミサイルの本数より、戦後に誰が供給網とルールを握るかの争いとして見たほうが分かりやすいです。あなたは今回の勝者を、軍事、エネルギー、資源、日本政府のどこに見るでしょうか。コメントで視点を聞かせてください。",
+        "speedScale": 1.22,
+        "asset_query": "who wins iran war energy minerals question",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最後の問い",
+              "headline": "本当の勝者は誰か",
+              "subline": "軍事 エネルギー 資源 日本",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 228
+          }
+        ],
+        "speechText": "結局、この戦争はミサイルの本数より、戦後に誰が供給網とルールを握るかの争いとして見たほうが分かりやすいです。あなたは今回の勝者を、軍事、エネルギー、資源、日本政府のどこに見るでしょうか。コメントで視点を聞かせてください。",
+        "duration": 442,
+        "startTime": 12944,
+        "voiceFile": "iran_long_29_close.wav"
+      }
+    ]
+  },
+  "short": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "iran_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争の本題は、核だけじゃありません。石油ルートと資源の主導権まで一緒に動いたから、停戦後も世界が揺れているんです。",
+        "speedScale": 1.32,
+        "asset_query": "iran war short oil power hook",
+        "bg_video": "assets/imported/wikimedia-commons/earth-animation.mp4",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.84,
+            "speed": 1
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "イラン戦争の本題",
+              "headline": "核だけじゃない",
+              "subline": "石油と覇権の再編",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 180
+          }
+        ],
+        "speechText": "イラン戦争の本題は、核だけじゃありません。石油ルートと資源の主導権まで一緒に動いたから、停戦後も世界が揺れているんです。",
+        "duration": 220,
+        "startTime": 0,
+        "voiceFile": "iran_short_00_hook.wav"
+      },
+      {
+        "id": "iran_short_01_fact",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "二月二十八日に攻撃が始まり、四月八日に停戦合意。それでもホルムズ海峡の混乱で、原油と物流はまだ平常に戻っていません。",
+        "speedScale": 1.2,
+        "asset_query": "hormuz disruption short explainer",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.96
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "短く言うと",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "開戦",
+                  "value": "2月28日",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "停戦",
+                  "value": "4月8日",
+                  "color": "#f97316"
+                },
+                {
+                  "icon": "03",
+                  "label": "残る火種",
+                  "value": "ホルムズ",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 190
+          }
+        ],
+        "speechText": "二月二十八日に攻撃が始まり、四月八日に停戦合意。それでもホルムズ海峡の混乱で、原油と物流はまだ平常に戻っていません。",
+        "duration": 255,
+        "startTime": 234,
+        "voiceFile": "iran_short_01_fact.wav"
+      },
+      {
+        "id": "iran_short_02_energy",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だから見えてくるのは、核阻止よりエネルギーと海運の争いです。中東が揺れるほど、アメリカの供給力は強く見えるようになります。",
+        "speedScale": 1.28,
+        "asset_query": "energy dominance short explainer",
+        "bg_video": "assets/imported/wikimedia-commons/oil-tankers-california.webm",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.82,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "見えてくる本題",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "海峡が揺れる",
+                  "sub": "原油が反応"
+                },
+                {
+                  "label": "供給価値が上がる",
+                  "sub": "米国が有利"
+                },
+                {
+                  "label": "戦後秩序へ",
+                  "sub": "主導権の争い",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 196
+          }
+        ],
+        "speechText": "だから見えてくるのは、核阻止よりエネルギーと海運の争いです。中東が揺れるほど、アメリカの供給力は強く見えるようになります。",
+        "duration": 220,
+        "startTime": 503,
+        "voiceFile": "iran_short_02_energy.wav"
+      },
+      {
+        "id": "iran_short_03_minerals_japan",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも同時に、重要鉱物の同盟づくりと日本の南鳥島開発も前に進む。日本は被害者でありながら、資源同盟のプレイヤーにもなっています。",
+        "speedScale": 1.18,
+        "asset_query": "japan minerals short explainer",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.96
+          }
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "日本で起きること",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "ナフサ",
+                  "value": "供給懸念",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "02",
+                  "label": "南鳥島",
+                  "value": "資源自立",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "03",
+                  "label": "日米",
+                  "value": "鉱物同盟",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 190
+          }
+        ],
+        "speechText": "しかも同時に、重要鉱物の同盟づくりと日本の南鳥島開発も前に進む。日本は被害者でありながら、資源同盟のプレイヤーにもなっています。",
+        "duration": 270,
+        "startTime": 737,
+        "voiceFile": "iran_short_03_minerals_japan.wav"
+      },
+      {
+        "id": "iran_short_04_boundary",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "ペトロダラー防衛のような強い説はあります。でも今の時点で確実に言えるのは、石油、海運、鉱物、日本経済が同時に揺れたという事実までです。",
+        "speedScale": 1.28,
+        "asset_query": "fact vs speculation short political",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.82,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "事実",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "石油と海運が揺れた",
+                  "日本政策も動いた"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "まだ推測",
+                "titleColor": "#ef4444",
+                "items": [
+                  "唯一の動機がドル防衛",
+                  "全部が一枚岩の脚本"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここを分ける"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 198
+          }
+        ],
+        "speechText": "ペトロダラー防衛のような強い説はあります。でも今の時点で確実に言えるのは、石油、海運、鉱物、日本経済が同時に揺れたという事実までです。",
+        "duration": 282,
+        "startTime": 1021,
+        "voiceFile": "iran_short_04_boundary.wav"
+      },
+      {
+        "id": "iran_short_05_close",
+        "speaker": "ryusei",
+        "sceneRole": "close",
+        "text": "この戦争の勝者は誰か。軍事より、エネルギーと資源の側から見ると、かなり違う景色が見えてきます。",
+        "speedScale": 1.16,
+        "asset_query": "iran war winner question short",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.82,
+            "speed": 0.98
+          }
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最後の問い",
+              "headline": "勝者は誰か",
+              "subline": "軍事より 石油と資源",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 90,
+            "imageHeight": 24,
+            "duration": 176
+          }
+        ],
+        "speechText": "この戦争の勝者は誰か。軍事より、エネルギーと資源の側から見ると、かなり違う景色が見えてきます。",
+        "duration": 205,
+        "startTime": 1317,
+        "voiceFile": "iran_short_05_close.wav"
+      }
+    ]
+  }
+}

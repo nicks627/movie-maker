@@ -1,0 +1,1894 @@
+{
+  "project": {
+    "id": "bear-governance-crisis",
+    "title": "なぜ熊は町に降りるのか 地方崩壊と境界管理の限界",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.38,
+    "seVolume": 0.72,
+    "voiceDucking": 0.48,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "config": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 8,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 16,
+        "file": "Indomitable.mp3"
+      },
+      {
+        "at_scene": 21,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "beargov_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "熊が山にいるのは普通です。でも駅前、住宅街、通学路まで出てくるようになったら、それはただの野生動物ニュースではありません。山と町の境界線を、こちら側が管理できなくなったということです。いま日本の熊問題で本当に怖いのは、熊が少し増えたことより、人間の側の境界管理がまとめて弱っていることです。",
+        "speechText": "熊が山にいるのは普通です。でも駅前、住宅街、通学路まで出てくるようになったら、それはただの野生動物ニュースではありません。山と町の境界線を、こちら側が管理できなくなったということです。いま日本の熊問題で本当に怖いのは、熊が少し増えたことより、人間の側の境界管理がまとめて弱っていることです。",
+        "asset_query": "japan bear urban crisis political documentary",
+        "bg_image": "assets/images/bear-crisis-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.96,
+            "speed": 1.04
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "熊害の本体",
+              "headline": "山の話じゃない",
+              "subline": "境界管理の崩れだ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.24,
+            "duration": 18
+          },
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 10,
+            "volume": 0.14,
+            "duration": 32
+          }
+        ],
+        "voiceFile": "beargov_long_00_hook.wav",
+        "duration": 635,
+        "startTime": 0
+      },
+      {
+        "id": "beargov_long_01_thesis",
+        "speaker": "ryusei",
+        "sceneRole": "thesis",
+        "text": "この動画の結論を先に置きます。熊被害の拡大は、一つの原因で説明できません。山の実りの不安定化、暖かい秋、放任果樹と生ゴミ、過疎化で崩れた里山管理、さらに出没後の初動の弱さが重なっています。つまりこれは生態の異変であると同時に、地方行政と地域社会の持久力が試されている問題です。",
+        "speechText": "この動画の結論を先に置きます。熊被害の拡大は、一つの原因で説明できません。山の実りの不安定化、暖かい秋、放任果樹と生ゴミ、過疎化で崩れた里山管理、さらに出没後の初動の弱さが重なっています。つまりこれは生態の異変であると同時に、地方行政と地域社会の持久力が試されている問題です。",
+        "asset_query": "governance failure wildlife border management japan",
+        "bg_image": "assets/images/bear-crisis-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.92
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "一つではない",
+                "titleColor": "#ef4444",
+                "items": [
+                  "餌条件",
+                  "暖かい秋",
+                  "初動の弱さ"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "つながっている",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "里山の崩れ",
+                  "生活圏の誘引物",
+                  "行政能力の試練"
+                ],
+                "highlight": true
+              },
+              "tagline": "熊害は複合危機"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "beargov_long_01_thesis.wav",
+        "duration": 664,
+        "startTime": 649
+      },
+      {
+        "id": "beargov_long_02_roadmap",
+        "speaker": "tsumugi",
+        "sceneRole": "roadmap",
+        "text": "順番に見ます。まず、被害がどこまで増えたのか。次に、環境省の分析で見える、春と秋で違う事故の起き方。そこから、山側の圧力と人間側の弱点を分けて整理します。後半では、秋田、岩手、北海道を見て、最後に制度対応がどこまで進んだのかを確認します。",
+        "speechText": "順番に見ます。まず、被害がどこまで増えたのか。次に、環境省の分析で見える、春と秋で違う事故の起き方。そこから、山側の圧力と人間側の弱点を分けて整理します。後半では、秋田、岩手、北海道を見て、最後に制度対応がどこまで進んだのかを確認します。",
+        "asset_query": "bear crisis roadmap japan explainer",
+        "bg_image": "assets/images/bear-crisis-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "この動画で追う順番",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "Trend",
+                  "sub": "2023-2025"
+                },
+                {
+                  "label": "Pattern",
+                  "sub": "spring / autumn"
+                },
+                {
+                  "label": "Cause",
+                  "sub": "mountain + town"
+                },
+                {
+                  "label": "Policy",
+                  "sub": "who can fix it",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_02_roadmap.wav",
+        "duration": 570,
+        "startTime": 1327
+      },
+      {
+        "id": "beargov_long_03_trend",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "数字の背骨を置きます。環境省の人身被害速報では、2023年度は被害者219人、死者6人でした。2024年度はいったん85人まで減りましたが、死者は3人出ています。そして2025年度は、2026年4月7日更新の速報で被害者238人、死者13人です。落ち着いた年が一度あったから解決、という段階ではありません。",
+        "speechText": "数字の背骨を置きます。環境省の人身被害速報では、2023年度は被害者219人、死者6人でした。2024年度はいったん85人まで減りましたが、死者は3人出ています。そして2025年度は、2026年4月7日更新の速報で被害者238人、死者13人です。落ち着いた年が一度あったから解決、という段階ではありません。",
+        "asset_query": "japan bear injury official trend 2023 2025",
+        "bg_image": "assets/images/bear-crisis-trend.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.06,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Official injury trend",
+              "stats": [
+                {
+                  "icon": "23",
+                  "label": "2023 victims",
+                  "value": "219 / 6",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "24",
+                  "label": "2024 victims",
+                  "value": "85 / 3",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "25",
+                  "label": "2025 provisional",
+                  "value": "238 / 13",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 63,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 12,
+            "volume": 0.12,
+            "duration": 14
+          }
+        ],
+        "voiceFile": "beargov_long_03_trend.wav",
+        "duration": 817,
+        "startTime": 1911
+      },
+      {
+        "id": "beargov_long_04_false_relief",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ここで大事なのは、2024年度が少なめだったことの読み方です。前年より減ったのは事実です。でも翌年にまた跳ねたということは、問題の土台が消えていなかった。大量出没の年と比較的静かな年が振れるのは、餌条件や天候に左右されるからです。つまり、平年並みに見えた年を、安心材料と取り違えると危ないんです。",
+        "speechText": "ここで大事なのは、2024年度が少なめだったことの読み方です。前年より減ったのは事実です。でも翌年にまた跳ねたということは、問題の土台が消えていなかった。大量出没の年と比較的静かな年が振れるのは、餌条件や天候に左右されるからです。つまり、平年並みに見えた年を、安心材料と取り違えると危ないんです。",
+        "asset_query": "bear outbreak quiet year interpretation japan",
+        "bg_image": "assets/images/bear-crisis-trend.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "Wrong read",
+                "titleColor": "#ef4444",
+                "items": [
+                  "one calm year",
+                  "problem solved"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "Better read",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "high volatility",
+                  "same structural base"
+                ],
+                "highlight": true
+              },
+              "tagline": "do not confuse lower with solved"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_04_false_relief.wav",
+        "duration": 648,
+        "startTime": 2742
+      },
+      {
+        "id": "beargov_long_05_env_pattern",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "環境省が2026年3月に出した分析レポートは、ここをかなり分かりやすく整理しています。平常年でも春から初夏は、主にクマの生息域で被害が起きやすい。ところが大量出没年の秋は、人の生活圏での被害割合が高くなる。春の山の事故と、秋の町の事故は、同じ熊害でも性格が違う。ここを分けて考えないと、対策が全部ずれます。",
+        "speechText": "環境省が2026年3月に出した分析レポートは、ここをかなり分かりやすく整理しています。平常年でも春から初夏は、主にクマの生息域で被害が起きやすい。ところが大量出没年の秋は、人の生活圏での被害割合が高くなる。春の山の事故と、秋の町の事故は、同じ熊害でも性格が違う。ここを分けて考えないと、対策が全部ずれます。",
+        "asset_query": "environment ministry bear analysis spring habitat autumn town",
+        "bg_image": "assets/images/bear-crisis-trend.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "spring / early summer",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "bear habitat",
+                  "encounter risk"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "autumn mass year",
+                "titleColor": "#ef4444",
+                "items": [
+                  "human living area",
+                  "town-side danger"
+                ],
+                "highlight": true
+              },
+              "tagline": "same species, different risk zone"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 18
+          }
+        ],
+        "voiceFile": "beargov_long_05_env_pattern.wav",
+        "duration": 723,
+        "startTime": 3404
+      },
+      {
+        "id": "beargov_long_06_mast_failure",
+        "speaker": "tsumugi",
+        "sceneRole": "cause",
+        "text": "まず山側の圧力です。ツキノワグマにとって、秋の堅果類は冬眠前の脂肪をためる生命線です。ブナやミズナラ、コナラが凶作になると、熊は広く動いてでも食べ物を探します。ユーザー提供の資料でも、2023年と2025年に東北を中心に同時不作が重なったと整理されていました。山の食卓が空になると、低い場所へ押し出す圧力が一気に強くなります。",
+        "speechText": "まず山側の圧力です。ツキノワグマにとって、秋の堅果類は冬眠前の脂肪をためる生命線です。ブナやミズナラ、コナラが凶作になると、熊は広く動いてでも食べ物を探します。ユーザー提供の資料でも、2023年と2025年に東北を中心に同時不作が重なったと整理されていました。山の食卓が空になると、低い場所へ押し出す圧力が一気に強くなります。",
+        "asset_query": "mast failure bear food shortage japan autumn",
+        "bg_image": "assets/images/bear-crisis-ecology.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "food shock on the mountain side",
+              "bullets": [
+                "mast crops drive pre-hibernation fat",
+                "multiple tree species can fail together",
+                "hungry bears range lower and wider"
+              ],
+              "tagline": "empty mountain table, stronger downward pressure",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 88,
+            "imageHeight": 32,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_06_mast_failure.wav",
+        "duration": 726,
+        "startTime": 4141
+      },
+      {
+        "id": "beargov_long_07_forest_structure",
+        "speaker": "ryusei",
+        "sceneRole": "cause",
+        "text": "しかも今は、単年の凶作だけではありません。ナラ枯れで広葉樹林そのものが弱り、実のなる木の安定供給が崩れている地域がある。さらに戦後に広がった人工林は、経済林としては意味があっても、熊の餌場としては弱い。山の中に緑はあっても、食べ物と移動の質は別問題です。見た目より中身が痩せた森が、熊を人里側へ寄せる背景になっています。",
+        "speechText": "しかも今は、単年の凶作だけではありません。ナラ枯れで広葉樹林そのものが弱り、実のなる木の安定供給が崩れている地域がある。さらに戦後に広がった人工林は、経済林としては意味があっても、熊の餌場としては弱い。山の中に緑はあっても、食べ物と移動の質は別問題です。見た目より中身が痩せた森が、熊を人里側へ寄せる背景になっています。",
+        "asset_query": "forest stress nara disease broadleaf loss bear habitat",
+        "bg_image": "assets/images/bear-crisis-ecology.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.86
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "looks green",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "trees remain",
+                  "forest seems full"
+                ]
+              },
+              "right": {
+                "title": "but thinner inside",
+                "titleColor": "#ef4444",
+                "items": [
+                  "fewer nuts",
+                  "weaker habitat quality"
+                ],
+                "highlight": true
+              },
+              "tagline": "visual forest and feeding forest are different"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_07_forest_structure.wav",
+        "duration": 796,
+        "startTime": 4881
+      },
+      {
+        "id": "beargov_long_08_warm_autumn",
+        "speaker": "tsumugi",
+        "sceneRole": "cause",
+        "text": "気候の話も一つの補助線です。秋が長く、積雪が遅れると、熊の活動期間は伸びやすい。資料では、冬眠に入りにくい個体や、餌不足で冬にも動く個体への言及がありました。気候変動だけで全部は説明できません。でも、食べ物が少ない年に活動期間まで伸びれば、人間との接点が増える方向へ働きます。山の圧力を長引かせる要因としては無視できません。",
+        "speechText": "気候の話も一つの補助線です。秋が長く、積雪が遅れると、熊の活動期間は伸びやすい。資料では、冬眠に入りにくい個体や、餌不足で冬にも動く個体への言及がありました。気候変動だけで全部は説明できません。でも、食べ物が少ない年に活動期間まで伸びれば、人間との接点が増える方向へ働きます。山の圧力を長引かせる要因としては無視できません。",
+        "asset_query": "warmer autumn bear activity season japan",
+        "bg_image": "assets/images/bear-crisis-ecology.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "warmer autumn matters because",
+              "bullets": [
+                "active season stretches",
+                "contact time increases",
+                "food shortage lasts longer"
+              ],
+              "tagline": "not the whole story, but a strong multiplier",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 88,
+            "imageHeight": 32,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_08_warm_autumn.wav",
+        "duration": 774,
+        "startTime": 5691
+      },
+      {
+        "id": "beargov_long_09_depopulation",
+        "speaker": "ryusei",
+        "sceneRole": "structure",
+        "text": "次に人間側です。昔は集落と奥山の間に、里山という緩衝帯がありました。人が草を刈り、畑を回し、犬が吠え、気配があることで、野生動物は町に入りにくかった。ところが過疎化と高齢化で、その中間地帯の手入れが落ちています。熊が増えたという話だけではなく、人間の側が境界線を保てなくなった。その変化が、今の被害拡大ではかなり大きい。",
+        "speechText": "次に人間側です。昔は集落と奥山の間に、里山という緩衝帯がありました。人が草を刈り、畑を回し、犬が吠え、気配があることで、野生動物は町に入りにくかった。ところが過疎化と高齢化で、その中間地帯の手入れが落ちています。熊が増えたという話だけではなく、人間の側が境界線を保てなくなった。その変化が、今の被害拡大ではかなり大きい。",
+        "asset_query": "rural depopulation satoyama collapse wildlife boundary japan",
+        "bg_image": "assets/images/bear-crisis-rural.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "HookHeadline",
+            "props": {
+              "tag": "human side",
+              "title": "boundary faded",
+              "subtitle": "the middle ground stopped being maintained",
+              "accentColor": "#38bdf8",
+              "secondaryColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 88,
+            "imageHeight": 24,
+            "duration": 230
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.15,
+            "duration": 18
+          }
+        ],
+        "voiceFile": "beargov_long_09_depopulation.wav",
+        "duration": 848,
+        "startTime": 6479
+      },
+      {
+        "id": "beargov_long_10_corridors",
+        "speaker": "tsumugi",
+        "sceneRole": "structure",
+        "text": "分かりやすいのが、耕作放棄地と藪化です。放置された畑や道路脇の草地は、熊にとって身を隠しながら移動できる通路になります。人間から見れば雑草ですが、熊から見れば、町に近づくための回廊です。しかも住宅地に柿や栗が残っていれば、目的地まで用意されている。藪と誘引物がセットになると、山と町の距離は地図よりずっと短くなります。",
+        "speechText": "分かりやすいのが、耕作放棄地と藪化です。放置された畑や道路脇の草地は、熊にとって身を隠しながら移動できる通路になります。人間から見れば雑草ですが、熊から見れば、町に近づくための回廊です。しかも住宅地に柿や栗が残っていれば、目的地まで用意されている。藪と誘引物がセットになると、山と町の距離は地図よりずっと短くなります。",
+        "asset_query": "abandoned fields brush corridors bear town japan",
+        "bg_image": "assets/images/bear-crisis-rural.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.12,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "how the corridor forms",
+              "accent": "#84cc16",
+              "steps": [
+                {
+                  "label": "abandoned field",
+                  "sub": "cover grows"
+                },
+                {
+                  "label": "brush line",
+                  "sub": "hidden movement"
+                },
+                {
+                  "label": "fruit tree",
+                  "sub": "food reward"
+                },
+                {
+                  "label": "town edge",
+                  "sub": "repeat route",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_10_corridors.wav",
+        "duration": 686,
+        "startTime": 7341
+      },
+      {
+        "id": "beargov_long_11_response_capacity",
+        "speaker": "ryusei",
+        "sceneRole": "structure",
+        "text": "対応側の持久力も削られています。狩猟者の高齢化と減少は前から言われてきました。現場で素早く動ける人が少なくなり、市街地付近では発砲の制約も重い。つまり、見つけたあとすぐ押し返す力が弱っている。熊の数だけでなく、人間の防御力まで落ちているから、同じ出没でも以前より町側が押し込まれやすいんです。",
+        "speechText": "対応側の持久力も削られています。狩猟者の高齢化と減少は前から言われてきました。現場で素早く動ける人が少なくなり、市街地付近では発砲の制約も重い。つまり、見つけたあとすぐ押し返す力が弱っている。熊の数だけでなく、人間の防御力まで落ちているから、同じ出没でも以前より町側が押し込まれやすいんです。",
+        "asset_query": "bear response capacity hunters aging japan",
+        "bg_image": "assets/images/bear-crisis-rural.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "why response weakens",
+              "bullets": [
+                "fewer fast responders",
+                "aging hunter base",
+                "urban shooting constraints"
+              ],
+              "tagline": "the defense side lost stamina too",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 88,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_11_response_capacity.wav",
+        "duration": 695,
+        "startTime": 8041
+      },
+      {
+        "id": "beargov_long_12_attack_shift",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ここからが、いわゆるアーバンベアの怖さです。昔からあったのは、山でばったり会って防衛的に襲われる事故でした。今はそれに加えて、人里の食べ物に執着し、人間の気配に慣れた個体が増える可能性がある。環境省の直近分析でも、人の生活圏では散歩や自宅周辺のような日常行動中の被害が最多でした。特定の危険作業だけではなく、普通の暮らしが事故の舞台になっているのが、今の質的な変化です。",
+        "speechText": "ここからが、いわゆるアーバンベアの怖さです。昔からあったのは、山でばったり会って防衛的に襲われる事故でした。今はそれに加えて、人里の食べ物に執着し、人間の気配に慣れた個体が増える可能性がある。環境省の直近分析でも、人の生活圏では散歩や自宅周辺のような日常行動中の被害が最多でした。特定の危険作業だけではなく、普通の暮らしが事故の舞台になっているのが、今の質的な変化です。",
+        "asset_query": "urban bear daily life risk japan",
+        "bg_image": "assets/images/bear-crisis-urban-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "older pattern",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "mountain encounter",
+                  "defensive strike"
+                ]
+              },
+              "right": {
+                "title": "newer risk",
+                "titleColor": "#ef4444",
+                "items": [
+                  "town food fixation",
+                  "daily-life victims"
+                ],
+                "highlight": true
+              },
+              "tagline": "the stage moved closer to ordinary life"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_12_attack_shift.wav",
+        "duration": 868,
+        "startTime": 8750
+      },
+      {
+        "id": "beargov_long_13_learning_loop",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "熊は一度学ぶと戻ってきます。生ゴミ、果樹、農作物残渣、家畜飼料。人里で楽に食べられた経験は、熊にとって強い成功体験になります。資料では、母グマから子グマへ人里利用が継承される可能性にも触れていました。食べ物がある、脅かされない、戻ればまた取れる。この学習が回り始めると、単発の出没ではなく、地域に定着する問題へ変わります。",
+        "speechText": "熊は一度学ぶと戻ってきます。生ゴミ、果樹、農作物残渣、家畜飼料。人里で楽に食べられた経験は、熊にとって強い成功体験になります。資料では、母グマから子グマへ人里利用が継承される可能性にも触れていました。食べ物がある、脅かされない、戻ればまた取れる。この学習が回り始めると、単発の出没ではなく、地域に定着する問題へ変わります。",
+        "asset_query": "urban bear habituation food return loop",
+        "bg_image": "assets/images/bear-crisis-urban-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.06,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "the learning loop",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "food found",
+                  "sub": "easy reward"
+                },
+                {
+                  "label": "no threat",
+                  "sub": "fear drops"
+                },
+                {
+                  "label": "return visit",
+                  "sub": "route forms"
+                },
+                {
+                  "label": "local fix",
+                  "sub": "if not broken",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_13_learning_loop.wav",
+        "duration": 830,
+        "startTime": 9632
+      },
+      {
+        "id": "beargov_long_14_daily_risk",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "だから今の被害は、山のレジャーだけの話ではありません。環境省レポートでは、人の生活圏での被害は散歩や自宅周辺の活動が最多でした。明け方や日没前後、藪際、出没情報が出ている場所、放任果樹や生ゴミの近く。条件が重なると、誰でも当事者になりうる。熊害が一部の山好きの問題から、生活圏の安全問題へ移ったことがここで見えます。",
+        "speechText": "だから今の被害は、山のレジャーだけの話ではありません。環境省レポートでは、人の生活圏での被害は散歩や自宅周辺の活動が最多でした。明け方や日没前後、藪際、出没情報が出ている場所、放任果樹や生ゴミの近く。条件が重なると、誰でも当事者になりうる。熊害が一部の山好きの問題から、生活圏の安全問題へ移ったことがここで見えます。",
+        "asset_query": "daily life bear risk walking home japan",
+        "bg_image": "assets/images/bear-crisis-urban-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "daily-life danger markers",
+              "bullets": [
+                "dawn and dusk",
+                "brush edges and town fringe",
+                "fruit / waste near homes"
+              ],
+              "tagline": "ordinary routines can become the scene",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 88,
+            "imageHeight": 32,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_14_daily_risk.wav",
+        "duration": 774,
+        "startTime": 10476
+      },
+      {
+        "id": "beargov_long_15_akita",
+        "speaker": "ryusei",
+        "sceneRole": "regional",
+        "text": "地域で見ると、秋田は象徴的です。2025年度速報では、被害者67人、死者4人と非常に重い。秋田県の対策資料でも、2007年時点と2025年時点を比べると、分布がほぼ全県域へ広がったことが示されています。要するに、一部の山村だけの問題ではなくなった。人口減少が最も深い県の一つで、境界管理の弱体化と広域化した分布がぶつかっているんです。",
+        "speechText": "地域で見ると、秋田は象徴的です。2025年度速報では、被害者67人、死者4人と非常に重い。秋田県の対策資料でも、2007年時点と2025年時点を比べると、分布がほぼ全県域へ広がったことが示されています。要するに、一部の山村だけの問題ではなくなった。人口減少が最も深い県の一つで、境界管理の弱体化と広域化した分布がぶつかっているんです。",
+        "asset_query": "akita bear victims 2025 distribution expansion",
+        "bg_image": "assets/images/bear-crisis-regions.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.02,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Akita",
+              "stats": [
+                {
+                  "icon": "A1",
+                  "label": "2025 victims",
+                  "value": "67",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "A2",
+                  "label": "2025 deaths",
+                  "value": "4",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "A3",
+                  "label": "spread",
+                  "value": "almost whole prefecture",
+                  "color": "#38bdf8"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 10,
+            "volume": 0.12,
+            "duration": 14
+          }
+        ],
+        "voiceFile": "beargov_long_15_akita.wav",
+        "duration": 882,
+        "startTime": 11264
+      },
+      {
+        "id": "beargov_long_16_iwate",
+        "speaker": "tsumugi",
+        "sceneRole": "regional",
+        "text": "岩手も深刻です。2025年度速報では、被害者40人、死者5人で、死者数は秋田より多い。東北の中でも、生息密度、山地と生活圏の近さ、そして出没後の初動負担が重なると、ひとつの事故が重大化しやすい。件数だけでなく、致死性の重さを見る必要があります。被害が東北に偏る年ほど、行政の人手と地域の管理力の差が、そのまま結果へ出やすいんです。",
+        "speechText": "岩手も深刻です。2025年度速報では、被害者40人、死者5人で、死者数は秋田より多い。東北の中でも、生息密度、山地と生活圏の近さ、そして出没後の初動負担が重なると、ひとつの事故が重大化しやすい。件数だけでなく、致死性の重さを見る必要があります。被害が東北に偏る年ほど、行政の人手と地域の管理力の差が、そのまま結果へ出やすいんです。",
+        "asset_query": "iwate bear deaths 2025 japan",
+        "bg_image": "assets/images/bear-crisis-regions.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Iwate",
+              "stats": [
+                {
+                  "icon": "I1",
+                  "label": "2025 victims",
+                  "value": "40",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "I2",
+                  "label": "2025 deaths",
+                  "value": "5",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "I3",
+                  "label": "signal",
+                  "value": "severity can rise fast",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_16_iwate.wav",
+        "duration": 858,
+        "startTime": 12160
+      },
+      {
+        "id": "beargov_long_17_hokkaido",
+        "speaker": "ryusei",
+        "sceneRole": "regional",
+        "text": "一方、北海道は同じ熊でも性格が少し違います。ヒグマは体格が大きく、追跡性や致死性の面で別の重さがある。本州のツキノワグマ問題を、そのまま北海道へ当てはめるとずれます。ただし共通するのは、どちらも人の生活圏へ接近した時に、単なる野生生物保護だけでは処理できないことです。種の違いはあっても、統治課題になっている点は同じです。",
+        "speechText": "一方、北海道は同じ熊でも性格が少し違います。ヒグマは体格が大きく、追跡性や致死性の面で別の重さがある。本州のツキノワグマ問題を、そのまま北海道へ当てはめるとずれます。ただし共通するのは、どちらも人の生活圏へ接近した時に、単なる野生生物保護だけでは処理できないことです。種の違いはあっても、統治課題になっている点は同じです。",
+        "asset_query": "hokkaido brown bear lethality comparison japan",
+        "bg_image": "assets/images/bear-crisis-regions.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.7,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "Honshu core issue",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "urbanizing black bears",
+                  "boundary management"
+                ]
+              },
+              "right": {
+                "title": "Hokkaido difference",
+                "titleColor": "#ef4444",
+                "items": [
+                  "larger brown bears",
+                  "higher lethality risk"
+                ],
+                "highlight": true
+              },
+              "tagline": "different species, same governance challenge"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "beargov_long_17_hokkaido.wav",
+        "duration": 788,
+        "startTime": 13032
+      },
+      {
+        "id": "beargov_long_18_designation",
+        "speaker": "tsumugi",
+        "sceneRole": "policy",
+        "text": "制度も動き始めました。環境省は2024年4月、四国個体群を除くクマ類を指定管理鳥獣に追加しました。背景として公式に挙げられているのは、分布の拡大、市街地への出没、人身被害の深刻化です。つまり国も、これは従来の局所対応では足りないと認めたわけです。広域で、計画的に、捕獲も含めて管理する方向へ舵が切られました。",
+        "speechText": "制度も動き始めました。環境省は2024年4月、四国個体群を除くクマ類を指定管理鳥獣に追加しました。背景として公式に挙げられているのは、分布の拡大、市街地への出没、人身被害の深刻化です。つまり国も、これは従来の局所対応では足りないと認めたわけです。広域で、計画的に、捕獲も含めて管理する方向へ舵が切られました。",
+        "asset_query": "designated wildlife bear april 2024 japan policy",
+        "bg_image": "assets/images/bear-crisis-policy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.72,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Policy turn",
+              "stats": [
+                {
+                  "icon": "P1",
+                  "label": "date",
+                  "value": "2024-04",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "P2",
+                  "label": "status",
+                  "value": "designated wildlife",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "P3",
+                  "label": "meaning",
+                  "value": "wide-area management",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 63,
+            "imageWidth": 90,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.16,
+            "duration": 18
+          }
+        ],
+        "voiceFile": "beargov_long_18_designation.wav",
+        "duration": 777,
+        "startTime": 13834
+      },
+      {
+        "id": "beargov_long_19_package",
+        "speaker": "ryusei",
+        "sceneRole": "policy",
+        "text": "さらに2025年11月には、関係閣僚会議でクマ被害対策パッケージが決まりました。緊急銃猟の理解促進、自治体の緊急対応体制支援、科学的根拠に基づく個体数管理、人材確保、情報発信の強化。言い換えると、国はもう、現場の善意だけでは回らないと見ている。問題は、制度を作ることと、地域で回ることの間にまだ距離があることです。",
+        "speechText": "さらに2025年11月には、関係閣僚会議でクマ被害対策パッケージが決まりました。緊急銃猟の理解促進、自治体の緊急対応体制支援、科学的根拠に基づく個体数管理、人材確保、情報発信の強化。言い換えると、国はもう、現場の善意だけでは回らないと見ている。問題は、制度を作ることと、地域で回ることの間にまだ距離があることです。",
+        "asset_query": "bear countermeasure package november 2025 japan",
+        "bg_image": "assets/images/bear-crisis-policy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "package logic",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "emergency use",
+                  "sub": "town-side response"
+                },
+                {
+                  "label": "population control",
+                  "sub": "science based"
+                },
+                {
+                  "label": "people",
+                  "sub": "staff and hunters"
+                },
+                {
+                  "label": "gap",
+                  "sub": "local execution",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_19_package.wav",
+        "duration": 818,
+        "startTime": 14625
+      },
+      {
+        "id": "beargov_long_20_measures",
+        "speaker": "tsumugi",
+        "sceneRole": "solution",
+        "text": "じゃあ何が効くのか。環境省の分析はかなり実務的です。放任果樹をなくす、生ゴミを外へ置かない、草刈りで見通しをつくる、電気柵を正しく維持する、出没情報がある時は明け方と夕方を避ける。派手さはありません。でも熊害は、派手な一発対策より、小さな管理を切らさない地域の方が強い。ここは政策というより、行政と住民の共同作業です。",
+        "speechText": "じゃあ何が効くのか。環境省の分析はかなり実務的です。放任果樹をなくす、生ゴミを外へ置かない、草刈りで見通しをつくる、電気柵を正しく維持する、出没情報がある時は明け方と夕方を避ける。派手さはありません。でも熊害は、派手な一発対策より、小さな管理を切らさない地域の方が強い。ここは政策というより、行政と住民の共同作業です。",
+        "asset_query": "bear practical measures fruit waste brush electric fence",
+        "bg_image": "assets/images/bear-crisis-policy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "what actually works",
+              "bullets": [
+                "remove fruit and waste rewards",
+                "clear brush and keep sight lines",
+                "maintain electric fences and alerts"
+              ],
+              "tagline": "small management beats one flashy fix",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 32,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "beargov_long_20_measures.wav",
+        "duration": 748,
+        "startTime": 15457
+      },
+      {
+        "id": "beargov_long_21_governance",
+        "speaker": "ryusei",
+        "sceneRole": "solution",
+        "text": "政治の論点に戻すと、本当に問われているのは、山から町までを一続きで管理する能力です。鳥獣対策、農地管理、道路脇の草刈り、放棄果樹、学校の安全情報、猟友会支援。これらが縦割りのままだと、熊はその隙間を通ってくる。熊問題が難しいのは、生態学だけではなく、自治体の総合力そのものが試されるからです。",
+        "speechText": "政治の論点に戻すと、本当に問われているのは、山から町までを一続きで管理する能力です。鳥獣対策、農地管理、道路脇の草刈り、放棄果樹、学校の安全情報、猟友会支援。これらが縦割りのままだと、熊はその隙間を通ってくる。熊問題が難しいのは、生態学だけではなく、自治体の総合力そのものが試されるからです。",
+        "asset_query": "integrated governance wildlife town management japan",
+        "bg_image": "assets/images/bear-crisis-policy.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.02,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "what must connect",
+              "accent": "#f59e0b",
+              "steps": [
+                {
+                  "label": "wildlife",
+                  "sub": "capture and data"
+                },
+                {
+                  "label": "land",
+                  "sub": "fields and brush"
+                },
+                {
+                  "label": "community",
+                  "sub": "schools and alerts"
+                },
+                {
+                  "label": "response",
+                  "sub": "rapid action",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_21_governance.wav",
+        "duration": 804,
+        "startTime": 16219
+      },
+      {
+        "id": "beargov_long_22_false_choice",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "だから、この話を、全部殺すか、全部守るかだけで語ると雑になります。必要なのは、個体数管理の強化と、生活圏へ寄せない環境整備を同時にやることです。人里に来たあとで毎回追い払うだけでは遅いし、理念だけで共存を唱えても現場は守れない。厳しさと地味な管理を一緒に続ける以外に、近道はありません。",
+        "speechText": "だから、この話を、全部殺すか、全部守るかだけで語ると雑になります。必要なのは、個体数管理の強化と、生活圏へ寄せない環境整備を同時にやることです。人里に来たあとで毎回追い払うだけでは遅いし、理念だけで共存を唱えても現場は守れない。厳しさと地味な管理を一緒に続ける以外に、近道はありません。",
+        "asset_query": "bear management false binary coexistence control",
+        "bg_image": "assets/images/bear-crisis-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.7,
+            "speed": 0.86
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "too simple",
+                "titleColor": "#ef4444",
+                "items": [
+                  "kill everything",
+                  "protect everything"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "what reality needs",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "population control",
+                  "town-side prevention"
+                ],
+                "highlight": true
+              },
+              "tagline": "strictness and maintenance together"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "beargov_long_22_false_choice.wav",
+        "duration": 654,
+        "startTime": 17037
+      },
+      {
+        "id": "beargov_long_23_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "結論です。熊が町へ降りてくるのは、山の異変だけでも、気候だけでもありません。地方の境界管理が細り、食べ物と通り道と初動の弱さが重なった時に、被害は一気に広がります。つまり熊害の本体は、熊の話だけではない。人口減少の時代に、日本がどこまで生活圏を守り直せるのかという、行政能力の話なんです。",
+        "speechText": "結論です。熊が町へ降りてくるのは、山の異変だけでも、気候だけでもありません。地方の境界管理が細り、食べ物と通り道と初動の弱さが重なった時に、被害は一気に広がります。つまり熊害の本体は、熊の話だけではない。人口減少の時代に、日本がどこまで生活圏を守り直せるのかという、行政能力の話なんです。",
+        "asset_query": "bear crisis final verdict governance capacity japan",
+        "bg_image": "assets/images/bear-crisis-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.94
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.06,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "行政能力の話だ",
+              "subline": "熊害の本体は 境界管理の弱体化",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 230
+          }
+        ],
+        "se": [
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 10,
+            "volume": 0.14,
+            "duration": 32
+          }
+        ],
+        "voiceFile": "beargov_long_23_verdict.wav",
+        "duration": 741,
+        "startTime": 17705
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "beargov_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "熊が町に降りる。本当に怖いのは、熊が少し増えたことじゃない。人間の側が境界線を維持できなくなったことです。",
+        "speechText": "熊が町に降りる。本当に怖いのは、熊が少し増えたことじゃない。人間の側が境界線を維持できなくなったことです。",
+        "asset_query": "japan bear urban crisis short",
+        "startTime": 0,
+        "duration": 191,
+        "speedScale": 1.34,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1.02,
+            "speed": 1.08
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "熊害の本体",
+              "headline": "山の話じゃない",
+              "subline": "境界管理の崩れだ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "beargov_short_00_hook.wav"
+      },
+      {
+        "id": "beargov_short_01_trend",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "環境省の速報では、2023年度は被害者219人、2025年度は2026年4月7日時点で238人。死者も13人です。",
+        "speechText": "環境省の速報では、2023年度は被害者219人、2025年度は2026年4月7日時点で238人。死者も13人です。",
+        "asset_query": "official bear injury trend short japan",
+        "startTime": 199,
+        "duration": 300,
+        "speedScale": 1.18,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-trend.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.96
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Official trend",
+              "stats": [
+                {
+                  "icon": "23",
+                  "label": "2023",
+                  "value": "219 / 6",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "25",
+                  "label": "2025",
+                  "value": "238 / 13",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 200
+          }
+        ],
+        "voiceFile": "beargov_short_01_trend.wav"
+      },
+      {
+        "id": "beargov_short_02_pattern",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかも環境省分析では、平常年の春は山側、出没年の秋は町側。事故の舞台が生活圏へ寄っています。",
+        "speechText": "しかも環境省分析では、平常年の春は山側、出没年の秋は町側。事故の舞台が生活圏へ寄っています。",
+        "asset_query": "bear analysis spring mountain autumn town short",
+        "startTime": 507,
+        "duration": 205,
+        "speedScale": 1.3,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-trend.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.96,
+            "speed": 1.04
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "spring",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "bear habitat"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "autumn mass year",
+                "titleColor": "#ef4444",
+                "items": [
+                  "town-side danger"
+                ],
+                "highlight": true
+              },
+              "tagline": "the stage moved"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 96,
+            "imageHeight": 34,
+            "duration": 210
+          }
+        ],
+        "voiceFile": "beargov_short_02_pattern.wav"
+      },
+      {
+        "id": "beargov_short_03_human_side",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "原因は熊だけじゃない。過疎化、耕作放棄地、放任果樹、生ゴミ。人間の側の隙が、通り道と餌場を作っています。",
+        "speechText": "原因は熊だけじゃない。過疎化、耕作放棄地、放任果樹、生ゴミ。人間の側の隙が、通り道と餌場を作っています。",
+        "asset_query": "rural collapse bear corridor fruit waste short",
+        "startTime": 720,
+        "duration": 251,
+        "speedScale": 1.22,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-rural.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.96
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "human-side openings",
+              "bullets": [
+                "depopulation",
+                "abandoned land",
+                "fruit and waste rewards"
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 210
+          }
+        ],
+        "voiceFile": "beargov_short_03_human_side.wav"
+      },
+      {
+        "id": "beargov_short_04_policy",
+        "speaker": "tsumugi",
+        "sceneRole": "policy",
+        "text": "だから国も2024年に指定管理鳥獣へ追加し、2025年には対策パッケージを作りました。でも最後は地域管理を回せるかです。",
+        "speechText": "だから国も2024年に指定管理鳥獣へ追加し、2025年には対策パッケージを作りました。でも最後は地域管理を回せるかです。",
+        "asset_query": "bear policy shift designated wildlife package short",
+        "startTime": 979,
+        "duration": 238,
+        "speedScale": 1.28,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-policy.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.96,
+            "speed": 1.04
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "Policy shift",
+              "stats": [
+                {
+                  "icon": "24",
+                  "label": "2024",
+                  "value": "designated wildlife",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "25",
+                  "label": "2025",
+                  "value": "countermeasure package",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 65,
+            "imageWidth": 94,
+            "imageHeight": 30,
+            "duration": 210
+          }
+        ],
+        "voiceFile": "beargov_short_04_policy.wav"
+      },
+      {
+        "id": "beargov_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "結局、熊害の本体は熊だけの話じゃない。人口減少の時代に、生活圏を守り直せるかという行政能力の話です。",
+        "speechText": "結局、熊害の本体は熊だけの話じゃない。人口減少の時代に、生活圏を守り直せるかという行政能力の話です。",
+        "asset_query": "bear crisis verdict governance capacity short",
+        "startTime": 1225,
+        "duration": 228,
+        "speedScale": 1.22,
+        "subtitleY": 5,
+        "subtitleWidth": 84,
+        "subtitleHeight": 12,
+        "bg_image": "assets/images/bear-crisis-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 1
+          }
+        },
+        "subtitleStyle": {
+          "fontSize": 46,
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 8,
+          "backgroundColor": "rgba(0, 0, 0, 0.8)",
+          "fontWeight": "900",
+          "borderRadius": 24,
+          "padding": 12
+        },
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "最終結論",
+              "headline": "行政能力の話だ",
+              "subline": "熊害の本体は 境界管理の弱体化",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 82,
+            "imageWidth": 94,
+            "imageHeight": 26,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "beargov_short_05_verdict.wav"
+      }
+    ]
+  }
+}

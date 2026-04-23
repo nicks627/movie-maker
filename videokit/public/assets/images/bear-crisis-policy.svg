@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#101827" />
+  <rect x="84" y="84" width="1752" height="912" rx="28" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">Policy moved, but late.</text>
+  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">The center recognized the problem as a planned-management issue.</text>
+  <line x1="212" y1="540" x2="1708" y2="540" stroke="#475569" stroke-width="8" stroke-linecap="round" />
+  <circle cx="496" cy="540" r="26" fill="#f97316" />
+  <circle cx="960" cy="540" r="26" fill="#fb7185" />
+  <circle cx="1424" cy="540" r="26" fill="#eab308" />
+  <rect x="320" y="316" width="352" height="154" rx="20" fill="#111827" stroke="#475569" />
+  <text x="360" y="384" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">2024-04</text>
+  <text x="360" y="434" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">Designated wildlife framework</text>
+  <rect x="784" y="316" width="352" height="154" rx="20" fill="#111827" stroke="#475569" />
+  <text x="824" y="384" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">2025-11</text>
+  <text x="824" y="434" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">National bear package</text>
+  <rect x="1248" y="316" width="352" height="154" rx="20" fill="#111827" stroke="#475569" />
+  <text x="1288" y="384" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Needed next</text>
+  <text x="1288" y="434" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">staff, patrol, local execution</text>
+  <rect x="266" y="648" width="1400" height="220" rx="24" fill="#111827" />
+  <text x="308" y="718" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Why the politics matters</text>
+  <text x="308" y="772" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">Recognition at the top does not automatically create people, money, or speed on the ground.</text>
+  <text x="308" y="826" fill="#fca5a5" font-family="Arial, sans-serif" font-size="34" font-weight="700">National design without local capacity stays brittle.</text>
+</svg>

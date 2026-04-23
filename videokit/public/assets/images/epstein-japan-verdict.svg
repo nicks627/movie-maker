@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B14"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect y="110" width="1920" height="180" fill="#05070B" opacity="0.92"/>
+  <rect y="796" width="1920" height="170" fill="#05070B" opacity="0.92"/>
+  <rect x="0" y="306" width="1920" height="22" fill="#991B1B"/>
+  <g opacity="0.1">
+    <path d="M0 154H1920M0 308H1920M0 462H1920M0 616H1920M0 770H1920M0 924H1920" stroke="#F8FAFC"/>
+    <path d="M160 0V1080M320 0V1080M480 0V1080M640 0V1080M800 0V1080M960 0V1080M1120 0V1080M1280 0V1080M1440 0V1080M1600 0V1080M1760 0V1080" stroke="#F8FAFC"/>
+  </g>
+  <g opacity="0.95">
+    <rect x="184" y="402" width="676" height="322" rx="34" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <rect x="250" y="466" width="308" height="24" rx="12" fill="#E5E7EB"/>
+    <rect x="250" y="520" width="534" height="18" rx="9" fill="#64748B"/>
+    <rect x="250" y="556" width="492" height="18" rx="9" fill="#64748B"/>
+    <rect x="250" y="592" width="458" height="18" rx="9" fill="#64748B"/>
+    <rect x="250" y="642" width="214" height="52" rx="16" fill="#991B1B"/>
+    <rect x="484" y="642" width="168" height="52" rx="16" fill="#1E40AF"/>
+  </g>
+  <g opacity="0.95">
+    <circle cx="1318" cy="530" r="204" fill="#111827" stroke="#334155" stroke-width="2"/>
+    <circle cx="1318" cy="530" r="144" fill="none" stroke="#EF4444" stroke-width="8" stroke-dasharray="18 20"/>
+    <circle cx="1318" cy="530" r="88" fill="#7F1D1D" opacity="0.22"/>
+    <path d="M1226 530H1410" stroke="#E5E7EB" stroke-width="18" stroke-linecap="round"/>
+    <path d="M1318 438V622" stroke="#E5E7EB" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M1024 240C1136 172 1276 146 1418 162C1566 178 1706 238 1784 326" stroke="#EF4444" stroke-width="12" stroke-linecap="round" stroke-dasharray="10 16"/>
+    <path d="M1012 820C1128 886 1268 914 1410 900C1540 886 1668 836 1752 756" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" stroke-dasharray="10 16"/>
+  </g>
+</svg>

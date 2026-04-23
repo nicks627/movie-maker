@@ -1,0 +1,1785 @@
+[
+  {
+    "variant": "long",
+    "sceneId": "scene_00",
+    "text": "結論から言うと、テラファブ構想の本質は巨大投資ではありませんわ。半導体製造の常識そのものを、第一原理で壊しに来ている点で",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.23,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_01",
+    "text": "2026年3月21日に示された数字だけでも10分に大きいのだ。総投資額250億ドル、月100万枚処理、ティーエスエムシー",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.22,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_02",
+    "text": "ただ、本当に注目すべきなのは規模ではありませんわ。ロケットや自動車でやった『常識を疑って作り直す』やり方を、半導体へ持ち",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [
+      {
+        "file": "きらきら輝く3.mp3",
+        "volume": 0.52,
+        "startOffset": 0,
+        "duration": 42
+      }
+    ],
+    "_meta": {
+      "layerUsed": 1,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": {
+        "role": "success-sting",
+        "mood": [
+          "positive",
+          "uplift"
+        ],
+        "strength": "light",
+        "volume": 0.52,
+        "startOffset": 0
+      },
+      "resolution": {
+        "status": "resolved",
+        "strategy": "scored-match",
+        "requested": {
+          "role": "success-sting",
+          "mood": [
+            "positive",
+            "uplift"
+          ],
+          "strength": "light",
+          "volume": 0.52,
+          "startOffset": 0
+        },
+        "chosen": "きらきら輝く3.mp3",
+        "chosenRole": "success-sting",
+        "score": 66,
+        "reasons": [
+          "role",
+          "mood:positive,uplift",
+          "strength-exact"
+        ]
+      }
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_03",
+    "text": "だから今日は、テラファブを単なる夢物語としてではなく、第一原理思考の実験として読むのだ。どの常識を疑い、どこまで現実味が",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_04",
+    "text": "まず押さえるべきは、第一原理思考そのものですわ。ここを外すと、テラファブの狙いがただの大風呂敷に見えてしまいますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_05",
+    "text": "第一原理思考とは、業界の習慣や前提をいったん全部どけて、物理法則のように動かせない事実だけを残し、そこから作り直すやり方",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_06",
+    "text": "言い換えれば、『みんなそうしているから』を理由にしない姿勢ですわ。守るべきなのは慣習ではなく、自然法則とコスト構造ですの",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_07",
+    "text": "スペースXの例が分かりやすいのだ。ロケットは使い捨てという常識に対して、材料費自体は打ち上げコストのごく一部だと見たのだ",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_08",
+    "text": "ならば高いのは素材そのものではなく、『一度しか使わない』設計思想だと気づきますわ。そこから再利用ロケットという答えが出て",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_09",
+    "text": "結果として、ファルコン9の着陸回収が進み、打ち上げコストは大きく下がったのだ。常識を疑うと、コストの本丸が見えるという例",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_10",
+    "text": "テスラでも同じですわ。自動車は何百もの部品をプレスして溶接するという前提を疑い、ギガプレスで車体後部を大きくまとめて成形",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_11",
+    "text": "部品点数を400以上からほぼ一つへ寄せる。これはまさに、工程の複雑さそのものを消してしまう第一原理の使い方なのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_12",
+    "text": "そして今回、その発想を人類史上でもっとも複雑な製造業のひとつ、半導体へ持ち込もうとしている。ここがテラファブの怖いところ",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_13",
+    "text": "マスクはこの考え方を、五段階のアルゴリズムとして語っているのだ。重要なのは内容だけでなく、順番にも意味があることなのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [
+      {
+        "file": "シャキーン1.mp3",
+        "volume": 0.43,
+        "startOffset": 0,
+        "duration": 28
+      }
+    ],
+    "_meta": {
+      "layerUsed": 1,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": {
+        "role": "accent-ping",
+        "mood": [
+          "tech",
+          "clean"
+        ],
+        "strength": "light",
+        "volume": 0.43,
+        "startOffset": 0
+      },
+      "resolution": {
+        "status": "resolved",
+        "strategy": "scored-match",
+        "requested": {
+          "role": "accent-ping",
+          "mood": [
+            "tech",
+            "clean"
+          ],
+          "strength": "light",
+          "volume": 0.43,
+          "startOffset": 0
+        },
+        "chosen": "シャキーン1.mp3",
+        "chosenRole": "accent-ping",
+        "score": 66,
+        "reasons": [
+          "role",
+          "mood:tech,clean",
+          "strength-exact"
+        ]
+      }
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_14",
+    "text": "第一は『あらゆる要件を疑う』ですわ。本当に必要な要件なのか、誰かが昔つけた飾りなのかを切り分ける段階ですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_15",
+    "text": "第二は『追加する前にまず削る』なのだ。何かを足して改善する前に、消せる工程やルールがないかを見るのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_16",
+    "text": "第三でようやく最適化と簡略化ですわ。存在する価値のある工程だけを対象に磨くから、無駄を高性能にする事故を防げますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_17",
+    "text": "第四がサイクルタイムの加速、第五が自動化なのだ。つまり自動化は最後であって、最初に飛びつくものではないのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_18",
+    "text": "存在すべきでない工程を最適化するのは、最悪に近い非効率ですわ。テラファブはこの順番を、ファブ全体へ適用しようとしているわ",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_19",
+    "text": "もう一つの道具が、イディオットインデックス、つまり愚か者指数なのだ。完成品コストと原材料コストの差を見る指標なのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_20",
+    "text": "この比率が大きいほど、途中工程に巨大な非効率が潜んでいる可能性が高いと考えますわ。半導体は、まさにその典型に見えるのです",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_21",
+    "text": "最先端AIチップの価格は非常に高いのに、出発点であるシリコンそのものは相対的に安いのだ。差額の山こそ、マスクが崩したい壁",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_22",
+    "text": "だからテラファブは、新しい工場計画というより『半導体版の愚か者指数をどこまで下げられるか』という挑戦でもありますわ。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_23",
+    "text": "では、なぜ今これをやる必要があるのか。結論から言うと、マスクの企業群が必要とする半導体量が、既存供給では全く足りないから",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_24",
+    "text": "本人の言い方を要約すると、『なぜチップが足りないのか。供給者が快適に拡張できる速度でしか増やさないからだ。なら自分で作る",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_25",
+    "text": "需要の中身も重いですわ。テスラにはAI5、AI6、自動運転、サイバーキャブがあり、その先にはオプティマスがありますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_26",
+    "text": "特にオプティマスは、自動車向けの10倍から100倍のチップを食う可能性があるのだ。ここで需要カーブが急に立ち上がるのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_27",
+    "text": "さらにxAIのコロッサス拡張まで重なりますわ。二ギガワット級の計算基盤を本気で回すなら、外部供給頼みでは不安が残りますの",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_28",
+    "text": "一方で既存ファウンドリは、景気循環と巨額投資リスクの前で慎重になりやすいのだ。需要が指数関数で増えても、供給は直線的にし",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_29",
+    "text": "つまりテラファブは、攻めの夢ではなく守りの必然でもありますわ。ここを外すと、構想全体を正しく評価できませんの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_30",
+    "text": "ここから本題ですわ。テラファブが本当に面白いのは、四つの『常識』を順番に疑っている点ですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_31",
+    "text": "まず一つ目は、『ファブ全体をクリーンルームにしなければならない』という常識なのだ。半導体工場の中では、ほぼ宗教みたいな前",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_32",
+    "text": "この前提に理由がないわけではありませんわ。2ナノの世界では、極小の粒子が落ちるだけで回路不良を起こし、歩留まりを壊します",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_33",
+    "text": "だから空調、濾過、圧力制御に膨大な電力がかかるのだ。記事では、その維持にファブ電力の3割から4割が使われるとされているの",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_34",
+    "text": "ここでマスク流の問いが入りますわ。『守るべきものは建物全体なのか、それともウェハー表面なのか』ですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_35",
+    "text": "第一原理で見ると、危険なのはウェハーが外界に露出する瞬間だけなのだ。なら建物全体を過剰に清浄化する必要は、本当にあるのか",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_36",
+    "text": "しかも最大の汚染源は、いつも人間ですわ。呼気、衣服、動線、その全部が微粒子リスクになりますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_37",
+    "text": "そこから出てくるのが、ダーティ・ファブ構想なのだ。名前は挑発的だけど、意味は『何も守らない』ではなく『守る場所を極小化す",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_38",
+    "text": "現在の密閉搬送容器をもっと徹底し、装置インターフェースごと独立した微小環境として扱う。建屋ではなく、ウェハーの旅路だけを",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_39",
+    "text": "さらに搬送とハンドリングをオプティマスのようなロボットが担えば、人間由来の発塵をフロアからかなり減らせるのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_40",
+    "text": "局所クリーンルームの研究や、部分無人化で稼働率が上がった実績もありますわ。だから完全に荒唐無稽というより、延長線上の急進",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_41",
+    "text": "もしここが効けば、建設コスト、工期、運用電力の全部が軽くなるのだ。だから最初の常識破壊として非常に大きいのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_42",
+    "text": "二つ目の常識は、『半導体サプライチェーンは細かく分業するのが最適』というものですわ。長年これが効率の源だと信じられてきま",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_43",
+    "text": "設計会社、ファウンドリ、パッケージング会社、テスト会社が地理的にも組織的にも分かれているのだ。アップル、ティーエスエムシ",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_44",
+    "text": "この分業は専門性を高めますけれど、フィードバックループを非常に遅くしますわ。設計変更が現場へ戻るまで、月単位の遅延が起き",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_45",
+    "text": "ここでの第一原理は単純なのだ。イノベーション速度は、反復回数に強く依存する。なら遅さの根本原因は何かを見るのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_46",
+    "text": "答えは、物理距離と組織の壁ですわ。設計、製造、パッケージ、テストが離れているほど、学習速度は落ちますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_47",
+    "text": "だからテラファブは、巨大施設の中に設計から最終テストまでを押し込もうとするのだ。工場というより、半導体版の閉ループ実験装",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_48",
+    "text": "マスクが言う再帰的ループとはこれですわ。作る、測る、直すの距離を縮めること自体が、競争優位になるという発想ですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_49",
+    "text": "三つ目の常識は、『ロジックとメモリは別々に作って後からつなぐ』ですわ。今のAIチップの限界は、演算よりもこの接続距離にあ",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_50",
+    "text": "いわゆるメモリの壁なのだ。計算は速いのに、データを取りに行く往復がボトルネックになるのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_51",
+    "text": "そこでの問いは、『電子の移動距離が短いほど有利なのに、なぜ平面上で長く引き回すのか』ですわ。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_52",
+    "text": "答えとして出てくるのが、モノリシック三次元統合なのだ。ロジックとメモリを上下方向へ近づけ、配線距離そのものを削るのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_53",
+    "text": "ギガプレスが多数部品をまとめてしまったように、こちらはシリコン内部の距離をまとめてしまう発想ですわ。半導体版の一体成形で",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_54",
+    "text": "うまくいけば、帯域は増え、遅延は下がり、消費電力も減るのだ。だから三つ目の常識破壊は、性能そのものに直結するのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_55",
+    "text": "四つ目の常識は、『データセンターは地球上に置くもの』ですわ。ここは一番荒唐無稽に見えるけれど、だからこそ第一原理で見直す",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_56",
+    "text": "テラファブで作るチップの大部分を軌道上へ打ち上げる、という発想が出ているのだ。そこで動く専用チップがディースリーなのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_57",
+    "text": "宇宙では大気減衰がほぼなく、強い太陽光を長時間受けられますわ。一方で冷却は対流ではなく、深宇宙への熱放射に頼ることになり",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_58",
+    "text": "だから設計思想が逆転するのだ。低温で守るのではなく、高温で安定動作させ、放射効率を稼ぐチップを作るという発想なのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [
+      {
+        "file": "和太鼓でドドン.mp3",
+        "volume": 0.57,
+        "startOffset": 0,
+        "duration": 34
+      }
+    ],
+    "_meta": {
+      "layerUsed": 1,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": {
+        "role": "impact-soft",
+        "mood": [
+          "dramatic",
+          "energetic"
+        ],
+        "strength": "heavy",
+        "volume": 0.57,
+        "startOffset": 0
+      },
+      "resolution": {
+        "status": "resolved",
+        "strategy": "scored-match",
+        "requested": {
+          "role": "impact-soft",
+          "mood": [
+            "dramatic",
+            "energetic"
+          ],
+          "strength": "heavy",
+          "volume": 0.57,
+          "startOffset": 0
+        },
+        "chosen": "和太鼓でドドン.mp3",
+        "chosenRole": "impact-soft",
+        "score": 66,
+        "reasons": [
+          "role",
+          "mood:dramatic,energetic",
+          "strength-exact"
+        ]
+      }
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_59",
+    "text": "スターシップの完全再利用が前提ではありますけれど、もし打ち上げコストが大きく下がれば、地上データセンターの電力コスト構造",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_60",
+    "text": "つまり四つ目の常識破壊は、工場の話を超えて、計算資源をどこに置くかという前提まで崩しに行っているのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_61",
+    "text": "ここからは冷静に見ますわ。第一原理で正しいことと、商業スケールで量産できることの間には、深い谷がありますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_62",
+    "text": "4680バッテリーの量産が苦戦したように、原理がきれいでも量産は別ゲームなのだ。テラファブもそこは避けて通れないのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_63",
+    "text": "ダーティ・ファブは理屈としては筋が通っていますわ。けれど最先端EUVでは、装置内部の環境管理がまったく別の難問として立ち",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_64",
+    "text": "業界側の反論はかなり重いのだ。人の呼気レベルの汚染でも、EUVミラーや光学系には致命傷になりうるのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_65",
+    "text": "だから現実線は、建屋全体を完全にダーティ化することではなく、ISO要件を少し緩める部分的ダーティ化かもしれませんわ。それ",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_66",
+    "text": "一方で、再帰的ループはテラファブの中で最も実現可能性が高い部分なのだ。これは既存技術の延長でもかなり戦えるのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_67",
+    "text": "テスラにはすでに短いチップ開発サイクルの実績がありますわ。さらに、AIを使ったプロセス最適化は業界全体で成果が出始めてい",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_68",
+    "text": "ただし、二ナノ量産の歩留まりは別格に難しいのだ。GAA構造、材料、工程統合、どれも簡単には飛び越えられないのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_69",
+    "text": "AI5の量産投入が遅れている事実も、その壁の高さを示していますわ。『設計が正しい』だけでは、量産は始まりませんの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_70",
+    "text": "モノリシック三次元統合は方向性としては正しいのだ。けれど真の量産価値が出るのは、かなり時間がかかる可能性が高いのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_71",
+    "text": "軌道上データセンターは、もっとも革命的で、もっともリスクが高いですわ。打ち上げコスト、放射線、メンテナンス、どれもまだ重",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_72",
+    "text": "それでも長期ではゼロではないのだ。だから投資家目線では『いつ実現するか』と『どこまで部分実装されるか』を分けて見るのが大",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_73",
+    "text": "では産業インパクトですわ。全部がそのまま実現しなくても、いくつかの要素だけで競争地図は動きますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_74",
+    "text": "まず短期では、ティーエスエムシーやサムスンへの即時脅威にはなりにくいのだ。先端量産の壁は依然として高いのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_75",
+    "text": "ただしテラファブは、極めて強い交渉カードになりますわ。自前化の選択肢があるだけで、価格、納期、優先枠の交渉力が変わります",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_76",
+    "text": "そしてもしAI駆動のプロセス最適化が本当に効くなら、既存勢の最大のモートである経験蓄積の価値も、相対的には揺らぐかもしれ",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_77",
+    "text": "恩恵を受けやすいのは装置と素材ですわ。EUV、成膜、エッチング、搬送、ウェハー、フォトレジスト、特殊ガス、どれも需要が先",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_78",
+    "text": "日本企業で見るなら、東京エレクトロン、SCREEN、DISCO、信越化学、SUMCO、JSR、レーザーテック、アドバンテ",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_79",
+    "text": "投資家としては、夢の完成図よりも観測ポイントを押さえる方が重要ですわ。タイムラインと歩留まりを丁寧に追うことですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [
+      {
+        "file": "シャキーン1.mp3",
+        "volume": 0.43,
+        "startOffset": 0,
+        "duration": 28
+      }
+    ],
+    "_meta": {
+      "layerUsed": 1,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": {
+        "role": "accent-ping",
+        "mood": [
+          "tech",
+          "clean"
+        ],
+        "strength": "light",
+        "volume": 0.43,
+        "startOffset": 0
+      },
+      "resolution": {
+        "status": "resolved",
+        "strategy": "scored-match",
+        "requested": {
+          "role": "accent-ping",
+          "mood": [
+            "tech",
+            "clean"
+          ],
+          "strength": "light",
+          "volume": 0.43,
+          "startOffset": 0
+        },
+        "chosen": "シャキーン1.mp3",
+        "chosenRole": "accent-ping",
+        "score": 66,
+        "reasons": [
+          "role",
+          "mood:tech,clean",
+          "strength-exact"
+        ]
+      }
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_80",
+    "text": "現実的には、2026年から2027年が設計と研究、2028年から2030年が試験ライン、量産級は2030年代半ば以降と見",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_81",
+    "text": "最大のリスクは一貫して歩留まりですわ。テスラの4680が示したように、量産の壁は理念だけでは越えられませんの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_82",
+    "text": "それでも、全部の1割でも形になれば話は変わるのだ。建設費3割削減、高速フィードバック、AI歩留まり改善だけでも10分イン",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_83",
+    "text": "だからテラファブは、成功か失敗かの二択では測れませんわ。部分実装だけでも、半導体産業のコスト構造と交渉力学を動かしうる計",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [
+      {
+        "file": "間抜け3.mp3",
+        "volume": 0.45,
+        "startOffset": 0,
+        "duration": 26
+      }
+    ],
+    "_meta": {
+      "layerUsed": 1,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": {
+        "role": "deflate",
+        "mood": [
+          "fail",
+          "comedy"
+        ],
+        "strength": "light",
+        "volume": 0.45,
+        "startOffset": 0
+      },
+      "resolution": {
+        "status": "resolved",
+        "strategy": "scored-match",
+        "requested": {
+          "role": "deflate",
+          "mood": [
+            "fail",
+            "comedy"
+          ],
+          "strength": "light",
+          "volume": 0.45,
+          "startOffset": 0
+        },
+        "chosen": "間抜け3.mp3",
+        "chosenRole": "deflate",
+        "score": 66,
+        "reasons": [
+          "role",
+          "mood:fail,comedy",
+          "strength-exact"
+        ]
+      }
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_84",
+    "text": "スペースXが宇宙を変えたように、テラファブが半導体の常識をどこまで崩すのか。装置発注、歩留まり、設計速度を追う価値はかな",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "long",
+    "sceneId": "scene_85",
+    "text": "次は、テラファブで得をする企業や、ASML、TSMC、東京エレクトロンへの影響まで分解しても面白そうですわ。続きを見たい",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_00",
+    "text": "結論から言うと、テラファブは巨大工場の話ではありませんわ。半導体製造の常識を、第一原理で作り直そうとする計画ですの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.23,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_01",
+    "text": "250億ドル、月100万枚、ティーエスエムシー能力の約70%級。数字も大きいけど、本質は思考法のほうなのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.22,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_02",
+    "text": "マスク流のアルゴリズムは、まず疑う、次に削る、それから最適化し、サイクルを速め、最後に自動化する。この順番が肝ですわ。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_03",
+    "text": "テラファブは四つの常識を疑うのだ。建物全体をクリーンルームにする、分業が最適、ロジックとメモリは別、データセンターは地上",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_04",
+    "text": "特に面白いのがダーティ・ファブですわ。建屋全体ではなく、ウェハーの周りだけ守ればいいのでは、と問い直しますの。",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.21,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_05",
+    "text": "さらに設計から製造、テストまでを一施設に寄せ、反復を極限まで速くする。ここは一番現実味のある革新なのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_06",
+    "text": "最大のリスクは歩留まりですわ。ただ、構想の一部しか実現しなくても、装置、素材、既存ファウンドリとの力関係には10分な影響",
+    "speaker": "metan",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  },
+  {
+    "variant": "short",
+    "sceneId": "scene_07",
+    "text": "テラファブの勝者と敗者をもっと知りたいなら、ロング版で実現可能性と投資インパクトまで一気に追うのだ。",
+    "speaker": "zundamon",
+    "emotion": "",
+    "temperature": 0.2,
+    "se": [],
+    "_meta": {
+      "layerUsed": null,
+      "ruleApplied": null,
+      "tempMult": 0.7,
+      "emotionMult": 1,
+      "requestedIntent": null,
+      "resolution": null
+    }
+  }
+]

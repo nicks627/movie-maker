@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fee2e2"/>
+      <stop offset="100%" stop-color="#fca5a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="900" rx="72" fill="url(#bg)"/>
+  <circle cx="360" cy="340" r="220" fill="#fff7ed" stroke="#dc2626" stroke-width="24"/>
+  <circle cx="285" cy="315" r="22" fill="#111827"/>
+  <circle cx="435" cy="315" r="22" fill="#111827"/>
+  <path d="M280 430c48 42 112 42 160 0" fill="none" stroke="#991b1b" stroke-linecap="round" stroke-width="24"/>
+  <path d="M190 170h340l-36 96H226z" fill="#dc2626"/>
+  <path d="M240 124h240v84H240z" fill="#ffffff" stroke="#dc2626" stroke-width="18"/>
+  <text x="360" y="700" fill="#7f1d1d" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="108" font-weight="700" text-anchor="middle">霊夢</text>
+  <text x="360" y="792" fill="#7f1d1d" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="42" font-weight="700" text-anchor="middle">Yukkuri Narrator</text>
+</svg>

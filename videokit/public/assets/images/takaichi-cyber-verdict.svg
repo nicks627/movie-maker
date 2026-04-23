@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="60" x2="1760" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050C16"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="band" x1="260" y1="0" x2="1660" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <g opacity="0.1">
+    <path d="M0 150H1920M0 300H1920M0 450H1920M0 600H1920M0 750H1920M0 900H1920" stroke="#E2E8F0"/>
+    <path d="M180 0V1080M360 0V1080M540 0V1080M720 0V1080M900 0V1080M1080 0V1080M1260 0V1080M1440 0V1080M1620 0V1080" stroke="#CBD5E1"/>
+  </g>
+  <rect x="198" y="164" width="1524" height="752" rx="34" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <rect x="198" y="164" width="1524" height="22" fill="url(#band)"/>
+  <rect x="296" y="262" width="1328" height="220" rx="28" fill="#020617" stroke="#334155" stroke-width="2"/>
+  <path d="M378 344H962M378 394H1044" stroke="#F8FAFC" stroke-width="28" stroke-linecap="round" opacity="0.92"/>
+  <rect x="1166" y="308" width="344" height="132" rx="28" fill="#111827"/>
+  <rect x="1218" y="354" width="102" height="40" rx="14" fill="#14B8A6"/>
+  <rect x="1344" y="354" width="114" height="40" rx="14" fill="#EF4444"/>
+  <g opacity="0.92">
+    <circle cx="560" cy="666" r="120" fill="#111827" stroke="#475569" stroke-width="2"/>
+    <path d="M560 590L632 626V698L560 734L488 698V626L560 590Z" fill="#14B8A6"/>
+    <path d="M560 628L596 646V678L560 696L524 678V646L560 628Z" fill="#0F172A"/>
+    <circle cx="960" cy="666" r="120" fill="#111827" stroke="#475569" stroke-width="2"/>
+    <path d="M884 718H1036V744H884V718Z" fill="#38BDF8"/>
+    <path d="M918 636H1002V718H918V636Z" fill="#F8FAFC"/>
+    <path d="M940 598H980V636H940V598Z" fill="#14B8A6"/>
+    <circle cx="1360" cy="666" r="120" fill="#111827" stroke="#475569" stroke-width="2"/>
+    <path d="M1360 594L1434 666L1360 738L1286 666L1360 594Z" fill="#EF4444"/>
+    <path d="M1360 632L1394 666L1360 700L1326 666L1360 632Z" fill="#0F172A"/>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "project": {
+    "title": "投資銘柄テンプレート サンプル"
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "scenes": [
+      {
+        "id": "sample_line_chart",
+        "speaker": "metan",
+        "emotion": "通常",
+        "text": "まずは株価推移から見ていきましょう。",
+        "duration": 120,
+        "startTime": 0,
+        "bg_image": "bg.png",
+        "popups": [
+          {
+            "component": "StockLineChart",
+            "props": {
+              "title": "株価推移",
+              "symbol": "NVDA",
+              "timeframe": "2024 - 2025",
+              "prefix": "$",
+              "decimals": 0,
+              "points": [
+                { "label": "1Q", "value": 88 },
+                { "label": "2Q", "value": 101 },
+                { "label": "3Q", "value": 124 },
+                { "label": "4Q", "value": 134 },
+                { "label": "1Q", "value": 148 }
+              ],
+              "highlights": [
+                { "index": 2, "label": "AI需要拡大", "tone": "bull" }
+              ],
+              "note": "押し目を作りながら高値更新"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 100,
+            "imageHeight": 46,
+            "startOffset": 8,
+            "duration": 96,
+            "effect": { "type": "fadeIn", "duration": 16 }
+          }
+        ]
+      },
+      {
+        "id": "sample_candles",
+        "speaker": "zundamon",
+        "emotion": "得意",
+        "text": "短期の値動きはローソク足で確認できるのだ。",
+        "duration": 110,
+        "startTime": 130,
+        "bg_image": "bg.png",
+        "popups": [
+          {
+            "component": "CandlestickChart",
+            "props": {
+              "title": "週足ローソク",
+              "symbol": "7203.T",
+              "prefix": "¥",
+              "candles": [
+                { "label": "W1", "open": 2820, "high": 2910, "low": 2780, "close": 2885 },
+                { "label": "W2", "open": 2885, "high": 2945, "low": 2840, "close": 2860 },
+                { "label": "W3", "open": 2860, "high": 3010, "low": 2850, "close": 2980 },
+                { "label": "W4", "open": 2980, "high": 3065, "low": 2940, "close": 3040 },
+                { "label": "W5", "open": 3040, "high": 3095, "low": 3000, "close": 3025 }
+              ],
+              "note": "上昇トレンド継続だが直近は利確も意識"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 100,
+            "imageHeight": 46,
+            "startOffset": 8,
+            "duration": 90,
+            "effect": { "type": "fadeIn", "duration": 16 }
+          }
+        ]
+      },
+      {
+        "id": "sample_allocation",
+        "speaker": "metan",
+        "emotion": "通常",
+        "text": "売上構成を見ると、どこが伸びしろか分かりやすいわ。",
+        "duration": 105,
+        "startTime": 250,
+        "bg_image": "bg.png",
+        "popups": [
+          {
+            "component": "AllocationDonutChart",
+            "props": {
+              "title": "売上構成比",
+              "centerLabel": "Segments",
+              "centerValue": "4事業",
+              "slices": [
+                { "label": "クラウド", "value": 42, "color": "#38bdf8" },
+                { "label": "広告", "value": 24, "color": "#facc15" },
+                { "label": "決済", "value": 18, "color": "#4ade80" },
+                { "label": "その他", "value": 16, "color": "#f97316" }
+              ],
+              "note": "高成長セグメントが利益率改善を牽引"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 100,
+            "imageHeight": 46,
+            "startOffset": 8,
+            "duration": 86,
+            "effect": { "type": "fadeIn", "duration": 16 }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2785 @@
+{
+  "project": {
+    "id": "mof-austerity-critique",
+    "title": "なぜ財務省の緊縮路線は止まらないのか 増税と停滞の構造",
+    "version": 1,
+    "defaultVariant": "long"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.06,
+    "voiceVolume": 1.42,
+    "seVolume": 0.72,
+    "voiceDucking": 0.46,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 10,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 22,
+        "file": "Indomitable.mp3"
+      },
+      {
+        "at_scene": 33,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "mofaus_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "1997年、2014年、2019年。消費税が上がるたび、日本経済はまた重くなったという記憶が残りました。それでも政治の現場では、財政規律の話が何度でも戻ってくる。いま問うべきなのは、増税の好き嫌いではありません。なぜこの発想だけが、こんなに長く止まらないのかです。",
+        "speechText": "1997年、2014年、2019年。消費税が上がるたび、日本経済はまた重くなったという記憶が残りました。それでも政治の現場では、財政規律の話が何度でも戻ってくる。いま問うべきなのは、増税の好き嫌いではありません。なぜこの発想だけが、こんなに長く止まらないのかです。",
+        "asset_query": "japan ministry finance austerity tax shock documentary",
+        "bg_image": "assets/images/mof-hero.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_0.mp4",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.98,
+            "speed": 1.04
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "緊縮財政",
+              "headline": "なぜ止まらない?",
+              "subline": "増税と停滞の構造",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 210
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.28,
+            "duration": 18
+          },
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 10,
+            "volume": 0.16,
+            "duration": 32
+          }
+        ],
+        "voiceFile": "mofaus_long_00_hook.wav",
+        "duration": 605,
+        "startTime": 0
+      },
+      {
+        "id": "mofaus_long_01_thesis",
+        "speaker": "ryusei",
+        "sceneRole": "thesis",
+        "text": "この動画の結論を先に置きます。財務省批判の芯は、陰謀論ではありません。景気より財政規律を優先し、必要な時まで財布を締める発想が、日本経済を冷やしたと見られていることです。そしてその発想は、単なる個人の好みではなく、制度の中で再生産されやすい形になっています。",
+        "speechText": "この動画の結論を先に置きます。財務省批判の芯は、陰謀論ではありません。景気より財政規律を優先し、必要な時まで財布を締める発想が、日本経済を冷やしたと見られていることです。そしてその発想は、単なる個人の好みではなく、制度の中で再生産されやすい形になっています。",
+        "asset_query": "fiscal discipline versus growth political documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.92
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "本体ではない",
+                "titleColor": "#ef4444",
+                "items": [
+                  "黒幕物語",
+                  "過激ラベル"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本当に燃えているもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "緊縮の発想",
+                  "制度への不信"
+                ],
+                "highlight": true
+              },
+              "tagline": "ラベルより構造を追う"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "mofaus_long_01_thesis.wav",
+        "duration": 573,
+        "startTime": 619
+      },
+      {
+        "id": "mofaus_long_02_timeline",
+        "speaker": "tsumugi",
+        "sceneRole": "timeline",
+        "text": "まずは時間軸です。1997年に5パーセント、2014年に8パーセント、2019年に10パーセント。もちろん、それぞれの時点で景気以外の要因もありました。けれど生活者の感覚では、税率が上がるたびに消費は冷え、回復しかけた空気がまた重くなった。その記憶が、緊縮批判の土台になっています。",
+        "speechText": "まずは時間軸です。1997年に5パーセント、2014年に8パーセント、2019年に10パーセント。もちろん、それぞれの時点で景気以外の要因もありました。けれど生活者の感覚では、税率が上がるたびに消費は冷え、回復しかけた空気がまた重くなった。その記憶が、緊縮批判の土台になっています。",
+        "asset_query": "consumption tax timeline japan austerity documentary",
+        "bg_image": "assets/images/mof-austerity-timeline.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "消費税率の節目",
+              "stats": [
+                {
+                  "icon": "97",
+                  "label": "1997",
+                  "value": "5%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "14",
+                  "label": "2014",
+                  "value": "8%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "19",
+                  "label": "2019",
+                  "value": "10%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "se": [
+          {
+            "file": "パッ.mp3",
+            "startOffset": 8,
+            "volume": 0.14,
+            "duration": 14
+          }
+        ],
+        "voiceFile": "mofaus_long_02_timeline.wav",
+        "duration": 645,
+        "startTime": 1206
+      },
+      {
+        "id": "mofaus_long_03_1997",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "1997年の引き上げは、バブル崩壊後の弱い回復の途中で行われました。そこで家計の財布が一段と締まり、景気の戻りが折れたという批判は今も強い。経済学的にどこまでを単独因果で語るかは慎重であるべきです。ですが、ここで重要なのは、日本人の中に『増税のたびに景気が失速する』という記憶が刻まれたことです。",
+        "speechText": "1997年の引き上げは、バブル崩壊後の弱い回復の途中で行われました。そこで家計の財布が一段と締まり、景気の戻りが折れたという批判は今も強い。経済学的にどこまでを単独因果で語るかは慎重であるべきです。ですが、ここで重要なのは、日本人の中に、増税のたびに景気が失速するという記憶が刻まれたことです。",
+        "asset_query": "japan 1997 tax hike weak recovery documentary",
+        "bg_image": "assets/imported/mof-remake/fiscal-statistics.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.86
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "1997が残したもの",
+              "bullets": [
+                "弱い回復の途中だった",
+                "家計の心理を冷やした",
+                "増税ショックの原型になった"
+              ],
+              "tagline": "記憶として定着した最初の大きな傷",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 88,
+            "imageHeight": 35,
+            "duration": 270
+          }
+        ],
+        "voiceFile": "mofaus_long_03_1997.wav",
+        "duration": 628,
+        "startTime": 1865
+      },
+      {
+        "id": "mofaus_long_04_deflation_memory",
+        "speaker": "tsumugi",
+        "sceneRole": "context",
+        "text": "しかも日本では、この時期の痛みが長いデフレ心理と結びつきました。給料は増えない、値上げにも弱い、でも税や社会保険料は重く感じる。そんな空気の中では、増税の正しさより、生活がまた苦しくなるという感覚の方が先に残ります。緊縮財政批判は、ここから単なる政策論争を越えて感情を帯び始めます。",
+        "speechText": "しかも日本では、この時期の痛みが長いデフレ心理と結びつきました。給料は増えない、値上げにも弱い、でも税や社会保険料は重く感じる。そんな空気の中では、増税の正しさより、生活がまた苦しくなるという感覚の方が先に残ります。緊縮財政批判は、ここから単なる政策論争を越えて感情を帯び始めます。",
+        "asset_query": "deflation psychology japan household pressure documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "デフレ心理",
+              "subtitle": "賃金が弱いときの増税は、数字以上に空気を冷やす",
+              "tag": "記憶",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 74,
+            "imageY": 52,
+            "imageWidth": 34,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "mofaus_long_04_deflation_memory.wav",
+        "duration": 625,
+        "startTime": 2507
+      },
+      {
+        "id": "mofaus_long_05_2014",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "2014年に税率が8パーセントへ上がった時も、景気の腰折れは強く意識されました。アベノミクスで空気が変わりかけたところに、また冷水がかかったという見方です。実際の統計評価は冷静に分ける必要があります。それでも視聴者の多くが覚えているのは、『やっぱり上げると冷える』という繰り返しでした。",
+        "speechText": "2014年に税率が8パーセントへ上がった時も、景気の腰折れは強く意識されました。アベノミクスで空気が変わりかけたところに、また冷水がかかったという見方です。実際の統計評価は冷静に分ける必要があります。それでも視聴者の多くが覚えているのは、やっぱり上げると冷えるという繰り返しでした。",
+        "asset_query": "2014 consumption tax hike japan documentary",
+        "bg_image": "assets/images/mof-austerity-timeline.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_14.mp4",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.96
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 10,
+        "popups": [
+          {
+            "component": "KineticText",
+            "props": {
+              "text": "上げると冷える",
+              "style": "pop",
+              "fontSize": 78,
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 82,
+            "imageHeight": 18,
+            "duration": 170
+          }
+        ],
+        "se": [
+          {
+            "file": "シャキーン1.mp3",
+            "startOffset": 18,
+            "volume": 0.16,
+            "duration": 18
+          }
+        ],
+        "voiceFile": "mofaus_long_05_2014.wav",
+        "duration": 539,
+        "startTime": 3146
+      },
+      {
+        "id": "mofaus_long_06_2019",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "2019年に10パーセントへ上がった時も、この感覚はさらに強まりました。軽減税率が入っても、家計には『また負担が増えた』という印象が残る。景気の流れに新型コロナの要因も重なりましたが、増税への不信はむしろ補強されたんです。だから今の緊縮批判は、一回だけの判断ではなく、三度の体験が積み重なった怒りなんですね。",
+        "speechText": "2019年に10パーセントへ上がった時も、この感覚はさらに強まりました。軽減税率が入っても、家計にはまた負担が増えたという印象が残る。景気の流れに新型コロナの要因も重なりましたが、増税への不信はむしろ補強されたんです。だから今の緊縮批判は、一回だけの判断ではなく、三度の体験が積み重なった怒りなんですね。",
+        "asset_query": "2019 tax hike japan consumer anxiety documentary",
+        "bg_image": "assets/images/mof-austerity-timeline.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "ImpactNumber",
+            "props": {
+              "value": "10%",
+              "label": "2019年の到達点",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 42,
+            "imageHeight": 28,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "mofaus_long_06_2019.wav",
+        "duration": 646,
+        "startTime": 3699
+      },
+      {
+        "id": "mofaus_long_07_memory_not_model",
+        "speaker": "ryusei",
+        "sceneRole": "clarifier",
+        "text": "ここで大事なのは、いま私たちが扱っているのが完全な学術論文の再現ではなく、政治的な不信の形成過程だということです。人は複雑なモデルより、繰り返しの体験で判断します。増税のたびに冷えたという記憶が積み上がれば、その路線を押す官庁に怒りが向くのは自然です。財務省が標的になりやすいのは、まずこの感情の蓄積があるからです。",
+        "speechText": "ここで大事なのは、いま私たちが扱っているのが完全な学術論文の再現ではなく、政治的な不信の形成過程だということです。人は複雑なモデルより、繰り返しの体験で判断します。増税のたびに冷えたという記憶が積み上がれば、その路線を押す官庁に怒りが向くのは自然です。財務省が標的になりやすいのは、まずこの感情の蓄積があるからです。",
+        "asset_query": "political distrust formation economic memory documentary",
+        "bg_image": "assets/images/mof-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.76,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 10,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "記憶が政治を動かす",
+              "subtitle": "統計の細部より、体験の反復が不信を作る",
+              "tag": "感情の土台",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 24,
+            "imageY": 54,
+            "imageWidth": 34,
+            "imageHeight": 30,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "mofaus_long_07_memory_not_model.wav",
+        "duration": 652,
+        "startTime": 4359
+      },
+      {
+        "id": "mofaus_long_08_official_logic_intro",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ただし、財務省側の建前も知らずに批判すると浅くなります。彼らが前面に出すのは、財政規律、将来世代への責任、そして社会保障財源の確保です。限られた予算を無駄なく使い、借金を膨らませすぎない。文字だけ見れば、かなり真っ当です。だからこそ、この論理がなぜ現実の停滞と結びついたのかを見なければいけません。",
+        "speechText": "ただし、財務省側の建前も知らずに批判すると浅くなります。彼らが前面に出すのは、財政規律、将来世代への責任、そして社会保障財源の確保です。限られた予算を無駄なく使い、借金を膨らませすぎない。文字だけ見れば、かなり真っ当です。だからこそ、この論理がなぜ現実の停滞と結びついたのかを見なければいけません。",
+        "asset_query": "fiscal discipline official logic ministry finance documentary",
+        "bg_image": "assets/imported/mof-remake/budget-audit.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "財務省の建前",
+              "bullets": [
+                "財政規律を守る",
+                "将来世代へ責任を持つ",
+                "社会保障の財源を確保する"
+              ],
+              "tagline": "まずはこの論理を正面から置く",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 56,
+            "imageWidth": 90,
+            "imageHeight": 36,
+            "duration": 270
+          }
+        ],
+        "voiceFile": "mofaus_long_08_official_logic_intro.wav",
+        "duration": 653,
+        "startTime": 5025
+      },
+      {
+        "id": "mofaus_long_09_official_logic_reasonable",
+        "speaker": "ryusei",
+        "sceneRole": "context",
+        "text": "この建前がやっかいなのは、完全に間違っているわけではないからです。財政に限界があることも、社会保障に財源が要ることも事実です。問題は、景気が弱い時期まで同じ定規で測ると、必要な需要まで削ってしまうことです。家計と国家をまったく同じ財布として扱う発想が強すぎると、景気が弱いほど逆効果になりやすい。",
+        "speechText": "この建前がやっかいなのは、完全に間違っているわけではないからです。財政に限界があることも、社会保障に財源が要ることも事実です。問題は、景気が弱い時期まで同じ定規で測ると、必要な需要まで削ってしまうことです。家計と国家をまったく同じ財布として扱う発想が強すぎると、景気が弱いほど逆効果になりやすい。",
+        "asset_query": "household logic versus national economy documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.78,
+            "speed": 0.86
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "建前",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "借金を増やしすぎない",
+                  "将来へ負担を残さない"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "批判",
+                "titleColor": "#ef4444",
+                "items": [
+                  "弱い景気まで削ってしまう",
+                  "需要不足を悪化させる"
+                ],
+                "highlight": true
+              },
+              "tagline": "争点はここにある"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "mofaus_long_09_official_logic_reasonable.wav",
+        "duration": 604,
+        "startTime": 5692
+      },
+      {
+        "id": "mofaus_long_10_demand_problem",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "景気が十分に強くないとき、家計も企業も支出を絞ります。その局面で政府まで同時に締めれば、需要の穴はさらに深くなる。緊縮財政批判の本丸はここです。つまり、財政規律そのものを否定しているのではなく、タイミングを間違えた規律が経済を冷やすと言っているんです。だからこの議論は、感情論ではなく景気の順番の話なんですね。",
+        "speechText": "景気が十分に強くないとき、家計も企業も支出を絞ります。その局面で政府まで同時に締めれば、需要の穴はさらに深くなる。緊縮財政批判の本丸はここです。つまり、財政規律そのものを否定しているのではなく、タイミングを間違えた規律が経済を冷やすと言っているんです。だからこの議論は、感情論ではなく景気の順番の話なんですね。",
+        "asset_query": "weak demand austerity spiral documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "需要が弱い時の緊縮ループ",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "民間支出が弱い",
+                  "sub": "家計も企業も慎重"
+                },
+                {
+                  "label": "政府も締める",
+                  "sub": "歳出抑制と増税"
+                },
+                {
+                  "label": "景気が冷える",
+                  "sub": "需要不足が深まる",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 276
+          }
+        ],
+        "voiceFile": "mofaus_long_10_demand_problem.wav",
+        "duration": 659,
+        "startTime": 6310
+      },
+      {
+        "id": "mofaus_long_11_balance_sheet_intro",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "ここでよく出るのが、『国の借金が大きすぎる』という説明です。たしかに負債だけを見れば、日本財政の数字はかなり大きい。けれど批判側は、そこで話が止まるのは不誠実だと言います。政府には資産もあり、国債の持たれ方や通貨発行の前提も、家計の借金とは違う。負債だけを強調する広報が、緊縮を正義に見せすぎるというわけです。",
+        "speechText": "ここでよく出るのが、国の借金が大きすぎるという説明です。たしかに負債だけを見れば、日本財政の数字はかなり大きい。けれど批判側は、そこで話が止まるのは不誠実だと言います。政府には資産もあり、国債の持たれ方や通貨発行の前提も、家計の借金とは違う。負債だけを強調する広報が、緊縮を正義に見せすぎるというわけです。",
+        "asset_query": "public debt communication balance sheet documentary",
+        "bg_image": "assets/images/mof-austerity-balance-sheet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.76,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "争点",
+              "headline": "負債だけ見るのか",
+              "subline": "資産と制度の前提は見ないのか",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 73,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_11_balance_sheet_intro.wav",
+        "duration": 651,
+        "startTime": 6983
+      },
+      {
+        "id": "mofaus_long_12_balance_sheet_boundary",
+        "speaker": "tsumugi",
+        "sceneRole": "clarifier",
+        "text": "もちろん、これは『借金は無限に増やしていい』と言っているわけではありません。インフレや金利、通貨の信用を無視していいという話でもない。ただ、弱い景気の局面で負債だけを前面に出し、支える側の論点を小さく見せると、政策の選択肢が極端に狭くなります。緊縮批判は、そこにある片寄った説明の仕方を問題にしているんです。",
+        "speechText": "もちろん、これは借金は無限に増やしていいと言っているわけではありません。インフレや金利、通貨の信用を無視していいという話でもない。ただ、弱い景気の局面で負債だけを前面に出し、支える側の論点を小さく見せると、政策の選択肢が極端に狭くなります。緊縮批判は、そこにある片寄った説明の仕方を問題にしているんです。",
+        "asset_query": "debt communication boundary nuance documentary",
+        "bg_image": "assets/images/mof-austerity-balance-sheet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "境界線",
+              "subtitle": "借金軽視ではなく、説明の片寄りを問う",
+              "tag": "Nuance",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 74,
+            "imageY": 52,
+            "imageWidth": 30,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "voiceFile": "mofaus_long_12_balance_sheet_boundary.wav",
+        "duration": 651,
+        "startTime": 7648
+      },
+      {
+        "id": "mofaus_long_13_why_repeat_intro",
+        "speaker": "ryusei",
+        "sceneRole": "chapter",
+        "text": "では、なぜ同じ路線が何度でも戻ってくるのか。ここで財務省という組織の話に入ります。増税や歳出抑制は、単に一人の官僚の好みで決まるわけではありません。財務省は税、国債、予算、会計、国際金融まで広く握っていて、生活が苦しい時ほど不信の受け皿になりやすい。しかもその中心に、国家の優先順位を査定する主計局があります。",
+        "speechText": "では、なぜ同じ路線が何度でも戻ってくるのか。ここで財務省という組織の話に入ります。増税や歳出抑制は、単に一人の官僚の好みで決まるわけではありません。財務省は税、国債、予算、会計、国際金融まで広く握っていて、生活が苦しい時ほど不信の受け皿になりやすい。しかもその中心に、国家の優先順位を査定する主計局があります。",
+        "asset_query": "ministry finance broad power political documentary",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.9,
+            "speed": 1.02
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "中盤の核心",
+              "headline": "なぜ路線が戻る?",
+              "subline": "制度が再生産するから",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_13_why_repeat_intro.wav",
+        "duration": 707,
+        "startTime": 8313
+      },
+      {
+        "id": "mofaus_long_14_mof_scope",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "財務省の強さは、単に予算を触るだけではないところにあります。税制も扱う。国債も扱う。国の会計制度も扱う。しかも国際金融や為替まで関与する。つまり国民から見れば、苦しい時に目につく論点がこの省庁に集まりやすいんです。この広さが、財務省を『最強官庁』に見せる最初の理由です。",
+        "speechText": "財務省の強さは、単に予算を触るだけではないところにあります。税制も扱う。国債も扱う。国の会計制度も扱う。しかも国際金融や為替まで関与する。つまり国民から見れば、苦しい時に目につく論点がこの省庁に集まりやすいんです。この広さが、財務省を最強官庁に見せる最初の理由です。",
+        "asset_query": "tax debt budget accounting power documentary",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "財務省に集まる権能",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "税制",
+                  "sub": "集める側"
+                },
+                {
+                  "label": "国債と会計",
+                  "sub": "帳尻を握る"
+                },
+                {
+                  "label": "予算",
+                  "sub": "優先順位を決める",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 94,
+            "imageHeight": 31,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "mofaus_long_14_mof_scope.wav",
+        "duration": 608,
+        "startTime": 9034
+      },
+      {
+        "id": "mofaus_long_15_budget_bureau_official",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "そして中核になるのが主計局です。財務省の採用パンフレットや関連資料でも、主計局は国の予算編成、決算の作成、会計制度の企画立案などを担う部門として説明されています。言い換えれば、国家の優先順位を実務のレベルで並べ替える場所です。ここが強いほど、緊縮の発想は単なる意見ではなく、査定の力として現れます。",
+        "speechText": "そして中核になるのが主計局です。財務省の採用パンフレットや関連資料でも、主計局は国の予算編成、決算の作成、会計制度の企画立案などを担う部門として説明されています。言い換えれば、国家の優先順位を実務のレベルで並べ替える場所です。ここが強いほど、緊縮の発想は単なる意見ではなく、査定の力として現れます。",
+        "asset_query": "budget bureau official role japan documentary",
+        "bg_image": "assets/imported/mof-remake/budget-audit.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.86
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "主計局の公式イメージ",
+              "stats": [
+                {
+                  "icon": "01",
+                  "label": "予算編成",
+                  "value": "国家の優先順位",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "02",
+                  "label": "決算作成",
+                  "value": "使い方を整理",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "03",
+                  "label": "会計制度",
+                  "value": "ルールも触れる",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 61,
+            "imageWidth": 92,
+            "imageHeight": 29,
+            "duration": 280
+          }
+        ],
+        "voiceFile": "mofaus_long_15_budget_bureau_official.wav",
+        "duration": 673,
+        "startTime": 9656
+      },
+      {
+        "id": "mofaus_long_16_gatekeeper_effect",
+        "speaker": "tsumugi",
+        "sceneRole": "explanation",
+        "text": "予算の世界では、全部の要求が通ることはありません。だからどこかで優先順位をつけ、削り、先送りする。その場所が主計局だと、他省庁は財務省にどう見えるかを常に意識するようになります。政治家も同じです。つまり主計局の力は、単なる事務ではなく、何を諦めさせるかまで含めた空気の支配なんです。",
+        "speechText": "予算の世界では、全部の要求が通ることはありません。だからどこかで優先順位をつけ、削り、先送りする。その場所が主計局だと、他省庁は財務省にどう見えるかを常に意識するようになります。政治家も同じです。つまり主計局の力は、単なる事務ではなく、何を諦めさせるかまで含めた空気の支配なんです。",
+        "asset_query": "budget gatekeeper ministries politicians documentary",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "ゲートキーパー効果",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "各省庁の要求",
+                  "sub": "通したい案件が並ぶ"
+                },
+                {
+                  "label": "主計局の査定",
+                  "sub": "削るか通すかを握る",
+                  "highlight": true
+                },
+                {
+                  "label": "政治の空気",
+                  "sub": "最初から遠慮が生まれる"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 94,
+            "imageHeight": 33,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "mofaus_long_16_gatekeeper_effect.wav",
+        "duration": 624,
+        "startTime": 10343
+      },
+      {
+        "id": "mofaus_long_17_technical_mask",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも査定は『政治』より『技術』に見えやすい。ここが厄介です。財務省は、無駄を削る、重点配分する、効率化する、という合理的な言葉で話せる。ところが、どこを無駄と見なし、何を先送りし、どの需要を切るのかには、実際には大きな価値判断が入ります。緊縮は中立の技術ではなく、優先順位を強く決める政治なんです。",
+        "speechText": "しかも査定は、政治より技術に見えやすい。ここが厄介です。財務省は、無駄を削る、重点配分する、効率化する、という合理的な言葉で話せる。ところが、どこを無駄と見なし、何を先送りし、どの需要を切るのかには、実際には大きな価値判断が入ります。緊縮は中立の技術ではなく、優先順位を強く決める政治なんです。",
+        "asset_query": "technical neutrality mask budget cuts documentary",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "査定は中立に見える",
+              "subtitle": "でも実際は、何を切るかという政治判断を含む",
+              "tag": "Mask",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 72,
+            "imageY": 53,
+            "imageWidth": 30,
+            "imageHeight": 28,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "mofaus_long_17_technical_mask.wav",
+        "duration": 681,
+        "startTime": 10981
+      },
+      {
+        "id": "mofaus_long_18_austerity_habit",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "こうして一度『締める側が正しい』という空気が根づくと、景気が弱くてもまず削る、増やすなら財源を示せ、という反応が自動で出やすくなります。これが緊縮の習慣です。危険なのは、景気の状態に応じて判断を変える柔軟性が失われること。つまり、平時の規律が、そのまま停滞期のルールにもなってしまうんです。",
+        "speechText": "こうして一度、締める側が正しいという空気が根づくと、景気が弱くてもまず削る、増やすなら財源を示せ、という反応が自動で出やすくなります。これが緊縮の習慣です。危険なのは、景気の状態に応じて判断を変える柔軟性が失われること。つまり、平時の規律が、そのまま停滞期のルールにもなってしまうんです。",
+        "asset_query": "austerity habit repeated response documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_6.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.94
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "再生産",
+              "headline": "締める側が正しい",
+              "subline": "その癖が、停滞期にも残る",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_18_austerity_habit.wav",
+        "duration": 623,
+        "startTime": 11676
+      },
+      {
+        "id": "mofaus_long_19_low_growth_problem",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "低成長で賃金も弱い国ほど、この癖は重くのしかかります。なぜなら民間が自分で勢いを取り戻しにくいからです。そこに政府まで緊縮の姿勢を崩さないと、景気は回復より守りに入りやすい。投資も賃上げも慎重になり、国民の側には『ずっと苦しいのに、なぜまた締めるのか』という不信だけが残る。ここで緊縮批判は生活感覚と直結します。",
+        "speechText": "低成長で賃金も弱い国ほど、この癖は重くのしかかります。なぜなら民間が自分で勢いを取り戻しにくいからです。そこに政府まで緊縮の姿勢を崩さないと、景気は回復より守りに入りやすい。投資も賃上げも慎重になり、国民の側には、ずっと苦しいのに、なぜまた締めるのかという不信だけが残る。ここで緊縮批判は生活感覚と直結します。",
+        "asset_query": "low growth wages weak austerity criticism documentary",
+        "bg_image": "assets/imported/mof-remake/fiscal-statistics.png",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "低成長で起きること",
+              "bullets": [
+                "投資も賃上げも慎重になる",
+                "回復より守りが先に来る",
+                "緊縮批判が生活感覚とつながる"
+              ],
+              "tagline": "数字より先に空気が冷える",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 90,
+            "imageHeight": 35,
+            "duration": 276
+          }
+        ],
+        "voiceFile": "mofaus_long_19_low_growth_problem.wav",
+        "duration": 657,
+        "startTime": 12313
+      },
+      {
+        "id": "mofaus_long_20_cost_of_living",
+        "speaker": "tsumugi",
+        "sceneRole": "context",
+        "text": "2025年の財務省批判が広がった背景にも、物価高と手取りの細さがありました。米や電気代が上がる。保険料も重い。そこに増税の記憶まで重なる。こういう局面では、財務省は単なる制度官庁ではなく、生活を締めつける象徴として見られやすい。だから緊縮の話は、霞が関の中だけで終わらず、街の怒りとつながっていきます。",
+        "speechText": "2025年の財務省批判が広がった背景にも、物価高と手取りの細さがありました。米や電気代が上がる。保険料も重い。そこに増税の記憶まで重なる。こういう局面では、財務省は単なる制度官庁ではなく、生活を締めつける象徴として見られやすい。だから緊縮の話は、霞が関の中だけで終わらず、街の怒りとつながっていきます。",
+        "asset_query": "cost of living burden japan political anger documentary",
+        "bg_image": "assets/imported/wikimedia-commons/02-national-diet-building-tokyo-japan-dsc06736.jpg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.78,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "leftRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "生活苦",
+              "subtitle": "物価高、保険料、手取りの細さが不信を増幅する",
+              "tag": "2025",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 22,
+            "imageY": 52,
+            "imageWidth": 34,
+            "imageHeight": 29,
+            "duration": 250
+          }
+        ],
+        "voiceFile": "mofaus_long_20_cost_of_living.wav",
+        "duration": 668,
+        "startTime": 12984
+      },
+      {
+        "id": "mofaus_long_21_visible_target",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも財務省は、減税に慎重な側、歳出を絞る側、財政規律を語る側として、いつも前に見えやすい。国民が毎日の生活で感じる痛みと、財務省の言葉がぶつかると、『この官庁が自分たちを締めている』という印象が生まれます。これが、緊縮批判を一気に政治化させる構図です。怒りの矛先が集まりやすいのは偶然ではありません。",
+        "speechText": "しかも財務省は、減税に慎重な側、歳出を絞る側、財政規律を語る側として、いつも前に見えやすい。国民が毎日の生活で感じる痛みと、財務省の言葉がぶつかると、この官庁が自分たちを締めているという印象が生まれます。これが、緊縮批判を一気に政治化させる構図です。怒りの矛先が集まりやすいのは偶然ではありません。",
+        "asset_query": "visible target ministry finance political anger documentary",
+        "bg_image": "assets/images/mof-hero.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 10,
+        "popups": [
+          {
+            "component": "KineticText",
+            "props": {
+              "text": "目につくから怒られる",
+              "style": "cascade",
+              "fontSize": 64,
+              "accentColor": "#ef4444"
+            },
+            "imageX": 64,
+            "imageY": 58,
+            "imageWidth": 34,
+            "imageHeight": 18,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "mofaus_long_21_visible_target.wav",
+        "duration": 653,
+        "startTime": 13666
+      },
+      {
+        "id": "mofaus_long_22_moritomo_trust",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ここに森友学園を巡る決裁文書改ざん問題が重なります。あの事件で壊れたのは、単なる一案件の評判ではありません。財務省が出す説明や数字そのものへの信頼です。もし文書まで書き換える組織なら、都合のいい物語を作っているのではないか。そう疑われ始めると、緊縮の説明も『正論』ではなく『自己正当化』として聞こえやすくなります。",
+        "speechText": "ここに森友学園を巡る決裁文書改ざん問題が重なります。あの事件で壊れたのは、単なる一案件の評判ではありません。財務省が出す説明や数字そのものへの信頼です。もし文書まで書き換える組織なら、都合のいい物語を作っているのではないか。そう疑われ始めると、緊縮の説明も正論ではなく、自己正当化として聞こえやすくなります。",
+        "asset_query": "moritomo document rewrite trust collapse documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_19.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 0.92
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "信頼の崩壊",
+              "headline": "文書まで書き換えた",
+              "subline": "これで説明を信じろは難しい",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "se": [
+          {
+            "file": "ショック2.mp3",
+            "startOffset": 10,
+            "volume": 0.18,
+            "duration": 20
+          }
+        ],
+        "voiceFile": "mofaus_long_22_moritomo_trust.wav",
+        "duration": 659,
+        "startTime": 14333
+      },
+      {
+        "id": "mofaus_long_23_numbers_no_longer_trusted",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "文書改ざん問題のあとで、財務省が『この数字を見てください』『財政は危ないです』と語っても、以前のようには受け止められません。国民の側では、負債だけを強調し、都合の悪い説明を薄くしているのではないかという目で見るようになる。つまり緊縮批判を強くしたのは、理論そのものだけではなく、説明主体への信頼崩壊でもあるんです。",
+        "speechText": "文書改ざん問題のあとで、財務省がこの数字を見てください、財政は危ないですと語っても、以前のようには受け止められません。国民の側では、負債だけを強調し、都合の悪い説明を薄くしているのではないかという目で見るようになる。つまり緊縮批判を強くしたのは、理論そのものだけではなく、説明主体への信頼崩壊でもあるんです。",
+        "asset_query": "trust collapse official numbers skepticism documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "昔の受け止め",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "専門官庁の数字だ",
+                  "まずは信じて聞く"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "今の受け止め",
+                "titleColor": "#ef4444",
+                "items": [
+                  "本当に全部見せているのか",
+                  "都合よく選んでいないか"
+                ],
+                "highlight": true
+              },
+              "tagline": "信頼崩壊が見方を変えた"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 264
+          }
+        ],
+        "voiceFile": "mofaus_long_23_numbers_no_longer_trusted.wav",
+        "duration": 614,
+        "startTime": 15006
+      },
+      {
+        "id": "mofaus_long_24_zaimu_words_spread",
+        "speaker": "tsumugi",
+        "sceneRole": "context",
+        "text": "そこで広がったのが、ザイム真理教のような強い言葉です。これをそのまま事実として受け取るのは危険です。でも、なぜこんな言葉がここまで刺さるのかは考える必要がある。ブラックボックスに見える。生活は苦しい。しかも説明主体への信頼が落ちている。そうなれば、人は複雑な制度批判を、分かりやすい一語に圧縮したくなります。",
+        "speechText": "そこで広がったのが、ザイム真理教のような強い言葉です。これをそのまま事実として受け取るのは危険です。でも、なぜこんな言葉がここまで刺さるのかは考える必要がある。ブラックボックスに見える。生活は苦しい。しかも説明主体への信頼が落ちている。そうなれば、人は複雑な制度批判を、分かりやすい一語に圧縮したくなります。",
+        "asset_query": "zaimu shinkyo rhetoric social spread documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.92,
+            "speed": 1.02
+          },
+          "cameraShake": {
+            "intensity": 0.08,
+            "speed": 1.4
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.18,
+        "tailFrames": 10,
+        "popups": [
+          {
+            "component": "KineticText",
+            "props": {
+              "text": "ザイム真理教",
+              "style": "char-bounce",
+              "fontSize": 76,
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 72,
+            "imageHeight": 18,
+            "duration": 180
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.22,
+            "duration": 18
+          }
+        ],
+        "voiceFile": "mofaus_long_24_zaimu_words_spread.wav",
+        "duration": 628,
+        "startTime": 15634
+      },
+      {
+        "id": "mofaus_long_25_boundary_not_thesis",
+        "speaker": "ryusei",
+        "sceneRole": "clarifier",
+        "text": "ただし、ここは明確に線を引きます。その言葉は現象の説明には使えても、結論にはできません。本当に見るべきなのは、財務省が秘密結社だからではなく、緊縮を正義として再生産しやすい制度と、そこに重なった信頼崩壊です。ラベルを叫ぶより、どういう仕組みが怒りを生んだのかを押さえた方が、はるかに本質に近づけます。",
+        "speechText": "ただし、ここは明確に線を引きます。その言葉は現象の説明には使えても、結論にはできません。本当に見るべきなのは、財務省が秘密結社だからではなく、緊縮を正義として再生産しやすい制度と、そこに重なった信頼崩壊です。ラベルを叫ぶより、どういう仕組みが怒りを生んだのかを押さえた方が、はるかに本質に近づけます。",
+        "asset_query": "boundary conspiracy versus institution documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.92
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "現象として触れる",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "強い言葉が広がった",
+                  "不信の圧縮表現になった"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "結論にはしない",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "本体は制度の問題",
+                  "信頼崩壊との結合"
+                ],
+                "highlight": true
+              },
+              "tagline": "ラベルではなく構造を見る"
+            },
+            "imageX": 50,
+            "imageY": 59,
+            "imageWidth": 92,
+            "imageHeight": 33,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "mofaus_long_25_boundary_not_thesis.wav",
+        "duration": 630,
+        "startTime": 16276
+      },
+      {
+        "id": "mofaus_long_26_compare_intro",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "ここで一度、海外と比べます。日本だけが財政を管理しているわけではありません。どの国にも財務当局はある。けれど、予算編成、資金管理、税、外部監視の置き方はかなり違う。比較すると見えてくるのは、日本で緊縮の発想が一つの官庁に集まりやすい構造です。つまり、これは変えられない運命ではなく、制度設計の問題なんです。",
+        "speechText": "ここで一度、海外と比べます。日本だけが財政を管理しているわけではありません。どの国にも財務当局はある。けれど、予算編成、資金管理、税、外部監視の置き方はかなり違う。比較すると見えてくるのは、日本で緊縮の発想が一つの官庁に集まりやすい構造です。つまり、これは変えられない運命ではなく、制度設計の問題なんです。",
+        "asset_query": "international comparison fiscal institutions documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "比較",
+              "headline": "他国はどうか",
+              "subline": "制度は一つではない",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 214
+          }
+        ],
+        "voiceFile": "mofaus_long_26_compare_intro.wav",
+        "duration": 717,
+        "startTime": 16920
+      },
+      {
+        "id": "mofaus_long_27_us_case",
+        "speaker": "ryusei",
+        "sceneRole": "comparison",
+        "text": "アメリカでは、予算の中枢に大統領府のOMBがあり、財務省は税、資金管理、国債、決済、制裁などの実務を担います。もちろん権力がないわけではありません。ですが、日本のように一つの官僚組織が、予算査定の政治性まで一体で抱え込む構図とは少し違う。ここでは、予算の優先順位と財務実務が完全には重ならないんです。",
+        "speechText": "アメリカでは、予算の中枢に大統領府のOMBがあり、財務省は税、資金管理、国債、決済、制裁などの実務を担います。もちろん権力がないわけではありません。ですが、日本のように一つの官僚組織が、予算査定の政治性まで一体で抱え込む構図とは少し違う。ここでは、予算の優先順位と財務実務が完全には重ならないんです。",
+        "asset_query": "us omb treasury comparison documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "アメリカのざっくり分担",
+              "accent": "#38bdf8",
+              "steps": [
+                {
+                  "label": "OMB",
+                  "sub": "予算の優先順位"
+                },
+                {
+                  "label": "Treasury",
+                  "sub": "税・資金・国債"
+                },
+                {
+                  "label": "分かれる",
+                  "sub": "一体化が弱い"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 94,
+            "imageHeight": 31,
+            "duration": 278
+          }
+        ],
+        "voiceFile": "mofaus_long_27_us_case.wav",
+        "duration": 701,
+        "startTime": 17651
+      },
+      {
+        "id": "mofaus_long_28_uk_case",
+        "speaker": "tsumugi",
+        "sceneRole": "comparison",
+        "text": "イギリスはHM Treasuryが強い一方で、政府の見通しや財政運営を外から見るOBRがあります。ここが重要です。財政当局が自分で物語を作り、自分でその正しさを証明する形になりにくい。日本の問題は、財務省が強いことそのものだけではなく、その強さを外から点検する装置が弱いことでもある。比較すると、その差がかなり見えてきます。",
+        "speechText": "イギリスはHM Treasuryが強い一方で、政府の見通しや財政運営を外から見るOBRがあります。ここが重要です。財政当局が自分で物語を作り、自分でその正しさを証明する形になりにくい。日本の問題は、財務省が強いことそのものだけではなく、その強さを外から点検する装置が弱いことでもある。比較すると、その差がかなり見えてきます。",
+        "asset_query": "uk treasury obr comparison documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "英国の特徴",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "HM Treasuryが強い",
+                  "OBRが外から点検する"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "日本の弱点",
+                "titleColor": "#ef4444",
+                "items": [
+                  "強い財務省",
+                  "外部点検が薄い"
+                ],
+                "highlight": true
+              },
+              "tagline": "自己点検だけでは信頼が戻りにくい"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 272
+          }
+        ],
+        "voiceFile": "mofaus_long_28_uk_case.wav",
+        "duration": 743,
+        "startTime": 18366
+      },
+      {
+        "id": "mofaus_long_29_comparison_takeaway",
+        "speaker": "ryusei",
+        "sceneRole": "comparison",
+        "text": "比較から分かるのは、日本だけが絶対におかしいという単純な話ではありません。問題は、予算の政治性、税と会計の実務、そして説明責任の重みが、財務省に濃く集まりやすいことです。そのうえ外からの点検が弱ければ、財政規律はいつの間にか唯一の正解のように振る舞い始める。緊縮批判は、まさにこの集中の構造に向かっています。",
+        "speechText": "比較から分かるのは、日本だけが絶対におかしいという単純な話ではありません。問題は、予算の政治性、税と会計の実務、そして説明責任の重みが、財務省に濃く集まりやすいことです。そのうえ外からの点検が弱ければ、財政規律はいつの間にか唯一の正解のように振る舞い始める。緊縮批判は、まさにこの集中の構造に向かっています。",
+        "asset_query": "institutional concentration fiscal orthodoxy documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "比較の結論",
+              "headline": "集中が強すぎる",
+              "subline": "しかも外から点検しにくい",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_29_comparison_takeaway.wav",
+        "duration": 669,
+        "startTime": 19123
+      },
+      {
+        "id": "mofaus_long_30_reform_intro",
+        "speaker": "tsumugi",
+        "sceneRole": "chapter",
+        "text": "では、どう変えるべきか。ここで大事なのは、解体という感情だけで終わらないことです。本当に必要なのは、緊縮を自動で再生産しにくい制度へ組み替えること。つまり、透明性、外部点検、役割分担、そして景気が弱い時に支える発想を、仕組みとして戻すことです。改革はこの具体論からしか始まりません。",
+        "speechText": "では、どう変えるべきか。ここで大事なのは、解体という感情だけで終わらないことです。本当に必要なのは、緊縮を自動で再生産しにくい制度へ組み替えること。つまり、透明性、外部点検、役割分担、そして景気が弱い時に支える発想を、仕組みとして戻すことです。改革はこの具体論からしか始まりません。",
+        "asset_query": "institutional reform transparency external review documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.88,
+            "speed": 1.02
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "改革論",
+              "headline": "感情の先へ",
+              "subline": "制度をどう組み替えるか",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_30_reform_intro.wav",
+        "duration": 636,
+        "startTime": 19806
+      },
+      {
+        "id": "mofaus_long_31_reform_transparency",
+        "speaker": "ryusei",
+        "sceneRole": "reform",
+        "text": "第一に必要なのは、説明責任の徹底です。負債だけではなく、資産や制度前提も含めて見せる。何を危険と見なし、何を切るのか、その判断基準をもっと開示する。『財政が危ないから仕方ない』だけで通すのではなく、なぜ今それを優先するのかを、国民の生活感覚に届く言葉で説明し直す。信頼回復の第一歩はここです。",
+        "speechText": "第一に必要なのは、説明責任の徹底です。負債だけではなく、資産や制度前提も含めて見せる。何を危険と見なし、何を切るのか、その判断基準をもっと開示する。財政が危ないから仕方ないだけで通すのではなく、なぜ今それを優先するのかを、国民の生活感覚に届く言葉で説明し直す。信頼回復の第一歩はここです。",
+        "asset_query": "transparency explanation reform ministry finance documentary",
+        "bg_image": "assets/images/mof-austerity-balance-sheet.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "改革 1",
+              "bullets": [
+                "負債だけでなく資産も示す",
+                "査定基準を見える化する",
+                "生活感覚に届く言葉で説明する"
+              ],
+              "tagline": "まずは説明の仕方を変える",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 90,
+            "imageHeight": 35,
+            "duration": 276
+          }
+        ],
+        "voiceFile": "mofaus_long_31_reform_transparency.wav",
+        "duration": 659,
+        "startTime": 20456
+      },
+      {
+        "id": "mofaus_long_32_reform_external_review",
+        "speaker": "tsumugi",
+        "sceneRole": "reform",
+        "text": "第二に、外から見る目を強くすることです。予算査定そのものを全部別組織へ渡す必要はなくても、政府の財政見通しや前提を点検する独立的なレビュー機能は厚くできる。財務省が自分で危機を語り、自分で答えを示す構図を弱めるだけでも、議論の幅はかなり広がります。英国のOBRが象徴するのは、まさにこの発想です。",
+        "speechText": "第二に、外から見る目を強くすることです。予算査定そのものを全部別組織へ渡す必要はなくても、政府の財政見通しや前提を点検する独立的なレビュー機能は厚くできる。財務省が自分で危機を語り、自分で答えを示す構図を弱めるだけでも、議論の幅はかなり広がります。英国のOBRが象徴するのは、まさにこの発想です。",
+        "asset_query": "external fiscal review obr style documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "改革 2",
+              "subtitle": "外部レビューを厚くして、自己点検だけの構図を弱める",
+              "tag": "Check",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 70,
+            "imageY": 52,
+            "imageWidth": 32,
+            "imageHeight": 28,
+            "duration": 252
+          }
+        ],
+        "voiceFile": "mofaus_long_32_reform_external_review.wav",
+        "duration": 651,
+        "startTime": 21129
+      },
+      {
+        "id": "mofaus_long_33_reform_growth_priority",
+        "speaker": "ryusei",
+        "sceneRole": "reform",
+        "text": "第三に、景気が弱い時には支える側へ重心を移すルールを、もっと明示することです。つまり、常に財政規律を最優先にするのではなく、需要不足の局面では成長と所得を戻す方を先に置く。成長が戻ってから整えるのか、弱いまま締めるのか。この順番を間違えると、税収まで細り、結局また緊縮の口実が生まれてしまいます。",
+        "speechText": "第三に、景気が弱い時には支える側へ重心を移すルールを、もっと明示することです。つまり、常に財政規律を最優先にするのではなく、需要不足の局面では成長と所得を戻す方を先に置く。成長が戻ってから整えるのか、弱いまま締めるのか。この順番を間違えると、税収まで細り、結局また緊縮の口実が生まれてしまいます。",
+        "asset_query": "growth first rule weak demand documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "改革 3",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "需要不足",
+                  "sub": "まず支える"
+                },
+                {
+                  "label": "成長回復",
+                  "sub": "所得と税収を戻す",
+                  "highlight": true
+                },
+                {
+                  "label": "整える",
+                  "sub": "規律はその後でも遅くない"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 278
+          }
+        ],
+        "voiceFile": "mofaus_long_33_reform_growth_priority.wav",
+        "duration": 661,
+        "startTime": 21794
+      },
+      {
+        "id": "mofaus_long_33b_politics_cover",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "では、なぜ政治家までこのロジックを受け入れやすいのか。理由は単純で、財政規律は『責任ある姿勢』に見えやすいからです。景気対策は効果が出るまで時間がかかる一方、削減や財源論は、その場で整って見える。だから選挙や国会の短い時間軸では、財務省の言葉は安全な正解として採用されやすい。ここでも緊縮は、制度だけでなく政治の都合に支えられます。",
+        "speechText": "では、なぜ政治家までこのロジックを受け入れやすいのか。理由は単純で、財政規律は責任ある姿勢に見えやすいからです。景気対策は効果が出るまで時間がかかる一方、削減や財源論は、その場で整って見える。だから選挙や国会の短い時間軸では、財務省の言葉は安全な正解として採用されやすい。ここでも緊縮は、制度だけでなく政治の都合に支えられます。",
+        "asset_query": "politicians adopt fiscal discipline logic documentary",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_28.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "政治にとっては安全牌",
+              "subtitle": "削減と財源論は、その場では責任ある姿勢に見えやすい",
+              "tag": "Politics",
+              "accentColor": "#f59e0b"
+            },
+            "imageX": 70,
+            "imageY": 53,
+            "imageWidth": 32,
+            "imageHeight": 28,
+            "duration": 260
+          }
+        ],
+        "voiceFile": "mofaus_long_33b_politics_cover.wav",
+        "duration": 725,
+        "startTime": 22469
+      },
+      {
+        "id": "mofaus_long_33c_household_chain",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかもこの発想は、家計の現場で逆回転を起こします。負担が増える。消費が鈍る。企業は賃上げや投資に慎重になる。すると税収の土台まで細くなる。そこでまた『財政が厳しい』と言って締める。この循環が見えるから、国民は増税と緊縮を一つのセットとして覚えてしまうんです。",
+        "speechText": "しかもこの発想は、家計の現場で逆回転を起こします。負担が増える。消費が鈍る。企業は賃上げや投資に慎重になる。すると税収の土台まで細くなる。そこでまた財政が厳しいと言って締める。この循環が見えるから、国民は増税と緊縮を一つのセットとして覚えてしまうんです。",
+        "asset_query": "household demand wage investment tax base cycle documentary",
+        "bg_image": "assets/images/mof-austerity-loop.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_29.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.78,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "家計で起きる逆回転",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "負担増",
+                  "sub": "消費が鈍る"
+                },
+                {
+                  "label": "賃上げ慎重",
+                  "sub": "投資も弱る",
+                  "highlight": true
+                },
+                {
+                  "label": "税収基盤が細る",
+                  "sub": "また緊縮の口実"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 274
+          }
+        ],
+        "voiceFile": "mofaus_long_33c_household_chain.wav",
+        "duration": 547,
+        "startTime": 23208
+      },
+      {
+        "id": "mofaus_long_33d_alternative_sequence",
+        "speaker": "tsumugi",
+        "sceneRole": "reform",
+        "text": "逆に言えば、順番を入れ替えるだけでも景色は変わります。まず需要と所得を支え、民間が動ける空気を戻す。次に投資と賃上げが広がり、税収の基盤を太くする。そのあとで財政を整える。この順番なら、景気を壊してから帳尻を合わせる矛盾を避けやすい。改革とは、魔法ではなく、先に何を守るかを決め直すことなんです。",
+        "speechText": "逆に言えば、順番を入れ替えるだけでも景色は変わります。まず需要と所得を支え、民間が動ける空気を戻す。次に投資と賃上げが広がり、税収の基盤を太くする。そのあとで財政を整える。この順番なら、景気を壊してから帳尻を合わせる矛盾を避けやすい。改革とは、魔法ではなく、先に何を守るかを決め直すことなんです。",
+        "asset_query": "growth wages tax base sequence reform documentary",
+        "bg_image": "assets/images/mof-austerity-compare.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_30.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "悪い順番",
+                "titleColor": "#ef4444",
+                "items": [
+                  "先に締める",
+                  "景気が壊れる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "変える順番",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "先に支える",
+                  "回復後に整える"
+                ],
+                "highlight": true
+              },
+              "tagline": "どこで順番を変えるか"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 270
+          }
+        ],
+        "voiceFile": "mofaus_long_33d_alternative_sequence.wav",
+        "duration": 673,
+        "startTime": 23769
+      },
+      {
+        "id": "mofaus_long_33e_guardrail",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "もちろん、何でも無制限にばらまけばいいという話ではありません。インフレや資源制約が強い局面なら、支え方にも工夫が要る。ここで言いたいのは、弱い需要の時にまで同じ緊縮ルールを当てるな、ということです。景気の局面を見ずに一律で締めるから、日本では財政規律が生活の痛みとして記憶されてしまった。その境界線を引き直すことが重要です。",
+        "speechText": "もちろん、何でも無制限にばらまけばいいという話ではありません。インフレや資源制約が強い局面なら、支え方にも工夫が要る。ここで言いたいのは、弱い需要の時にまで同じ緊縮ルールを当てるな、ということです。景気の局面を見ずに一律で締めるから、日本では財政規律が生活の痛みとして記憶されてしまった。その境界線を引き直すことが重要です。",
+        "asset_query": "guardrail not unlimited spending documentary",
+        "bg_image": "assets/images/mof-austerity-balance-sheet.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_31.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.8,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "rightRail",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "title": "無制限ではない",
+              "subtitle": "弱い需要の時にまで同じ締め付けを続けるな、という境界線の話",
+              "tag": "Guardrail",
+              "accentColor": "#38bdf8"
+            },
+            "imageX": 70,
+            "imageY": 52,
+            "imageWidth": 32,
+            "imageHeight": 28,
+            "duration": 258
+          }
+        ],
+        "voiceFile": "mofaus_long_33e_guardrail.wav",
+        "duration": 672,
+        "startTime": 24456
+      },
+      {
+        "id": "mofaus_long_34_not_conspiracy",
+        "speaker": "tsumugi",
+        "sceneRole": "final-clarifier",
+        "text": "ここまで来ると、この話を陰謀論の一語で片づけるのはむしろ雑だと分かります。強い言葉が広がったのは事実です。けれど、その言葉を生んだ土台には、増税の記憶、生活苦、主計局の査定権、負債偏重の説明、森友で壊れた信頼が重なっていた。つまり本当に噴き出したのは、黒幕論ではなく、緊縮を正義にする構造への不信なんです。",
+        "speechText": "ここまで来ると、この話を陰謀論の一語で片づけるのはむしろ雑だと分かります。強い言葉が広がったのは事実です。けれど、その言葉を生んだ土台には、増税の記憶、生活苦、主計局の査定権、負債偏重の説明、森友で壊れた信頼が重なっていた。つまり本当に噴き出したのは、黒幕論ではなく、緊縮を正義にする構造への不信なんです。",
+        "asset_query": "not conspiracy structural distrust austerity documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_32.mp4",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.84,
+            "speed": 0.9
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.78)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "見た目",
+                "titleColor": "#ef4444",
+                "items": [
+                  "強い言葉",
+                  "黒幕物語"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "土台",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "緊縮の記憶",
+                  "制度と信頼の崩れ"
+                ],
+                "highlight": true
+              },
+              "tagline": "本体は右側にある"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 268
+          }
+        ],
+        "voiceFile": "mofaus_long_34_not_conspiracy.wav",
+        "duration": 699,
+        "startTime": 25142
+      },
+      {
+        "id": "mofaus_long_35_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "結論です。財務省が嫌われるのは、ただ強そうだからではありません。増税のたびに景気が冷えたという記憶があり、景気より財政規律を優先する発想が止まりにくく、その説明を支える信頼まで傷ついたからです。だから批判の芯は、陰謀論ではなく緊縮構造への不信にある。この一点だけは、ぶらしてはいけません。",
+        "speechText": "結論です。財務省が嫌われるのは、ただ強そうだからではありません。増税のたびに景気が冷えたという記憶があり、景気より財政規律を優先する発想が止まりにくく、その説明を支える信頼まで傷ついたからです。だから批判の芯は、陰謀論ではなく緊縮構造への不信にある。この一点だけは、ぶらしてはいけません。",
+        "asset_query": "final verdict austerity structure distrust documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_33.mp4",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 1
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 18,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "芯は緊縮構造への不信",
+              "subline": "ラベルではなく制度を見る",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 226
+          }
+        ],
+        "se": [
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 0,
+            "volume": 0.18,
+            "duration": 30
+          }
+        ],
+        "voiceFile": "mofaus_long_35_verdict.wav",
+        "duration": 621,
+        "startTime": 25855
+      },
+      {
+        "id": "mofaus_long_36_takeaway",
+        "speaker": "tsumugi",
+        "sceneRole": "takeaway",
+        "text": "本当に問われているのは、国の信用を守るとは何か、ということです。数字の帳尻を合わせ続けることなのか。それとも、国民が将来に希望を持てる経済の土台を守ることなのか。もし後者を重く見るなら、弱い景気での緊縮は見直されなければいけない。財務省批判の深いところには、この価値観の衝突があります。",
+        "speechText": "本当に問われているのは、国の信用を守るとは何か、ということです。数字の帳尻を合わせ続けることなのか。それとも、国民が将来に希望を持てる経済の土台を守ることなのか。もし後者を重く見るなら、弱い景気での緊縮は見直されなければいけない。財務省批判の深いところには、この価値観の衝突があります。",
+        "asset_query": "what is true fiscal credibility documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.82,
+            "speed": 0.88
+          }
+        },
+        "sceneVisualMode": "split",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "帳尻の信用",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "常に締める",
+                  "数字を優先する"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "生活の信用",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "成長と所得を守る",
+                  "将来への希望を残す"
+                ],
+                "highlight": true
+              },
+              "tagline": "どちらを重く見るか"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 268
+          }
+        ],
+        "voiceFile": "mofaus_long_36_takeaway.wav",
+        "duration": 609,
+        "startTime": 26490
+      },
+      {
+        "id": "mofaus_long_37_cta",
+        "speaker": "ryusei",
+        "sceneRole": "cta",
+        "text": "あなたは、どこを変えるのが一番効くと思いますか。負債だけではなく全体を見せる説明の仕方ですか。外部レビューの強化ですか。それとも、景気が弱い時に緊縮を止める明確なルールですか。コメントで、どこが一番重要だと思うか教えてください。",
+        "speechText": "あなたは、どこを変えるのが一番効くと思いますか。負債だけではなく全体を見せる説明の仕方ですか。外部レビューの強化ですか。それとも、景気が弱い時に緊縮を止める明確なルールですか。コメントで、どこが一番重要だと思うか教えてください。",
+        "asset_query": "political documentary call to action fiscal reform",
+        "bg_image": "assets/images/mof-hero.svg",
+        "bg_video": "assets/imported/mof-remake/mof-scene_35.mp4",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.88,
+            "speed": 1
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "fontWeight": "900",
+          "borderRadius": 28,
+          "padding": 16
+        },
+        "speedScale": 1.16,
+        "tailFrames": 14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "コメント募集",
+              "headline": "どこを変える?",
+              "subline": "説明 / 点検 / ルール",
+              "accentColor": "#facc15"
+            },
+            "imageX": 50,
+            "imageY": 74,
+            "imageWidth": 92,
+            "imageHeight": 23,
+            "duration": 220
+          }
+        ],
+        "voiceFile": "mofaus_long_37_cta.wav",
+        "duration": 462,
+        "startTime": 27113
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "mofaus_short_00_hook",
+        "speaker": "ryusei",
+        "sceneRole": "hook",
+        "text": "増税のたびに景気が冷えたのに、なぜこの路線は止まらないのか。",
+        "speechText": "増税のたびに景気が冷えたのに、なぜこの路線は止まらないのか。",
+        "asset_query": "austerity hook japan documentary short",
+        "bg_image": "assets/images/mof-austerity-timeline.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 1,
+            "speed": 1.06
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.18,
+        "tailFrames": 8,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "緊縮財政",
+              "headline": "なぜ止まらない?",
+              "subline": "増税と停滞の記憶",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 170
+          }
+        ],
+        "voiceFile": "short_mofaus_short_00_hook.wav",
+        "duration": 120,
+        "startTime": 0
+      },
+      {
+        "id": "mofaus_short_01_memory",
+        "speaker": "tsumugi",
+        "sceneRole": "memory",
+        "text": "1997年、2014年、2019年。消費税が上がるたび、また冷えたという記憶が積み上がりました。",
+        "speechText": "1997年、2014年、2019年。消費税が上がるたび、また冷えたという記憶が積み上がりました。",
+        "asset_query": "tax hike memory japan documentary short",
+        "bg_image": "assets/images/mof-austerity-timeline.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.9,
+            "speed": 0.98
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.16,
+        "tailFrames": 8,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "3つの記憶",
+              "stats": [
+                {
+                  "icon": "97",
+                  "label": "1997",
+                  "value": "5%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "14",
+                  "label": "2014",
+                  "value": "8%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "19",
+                  "label": "2019",
+                  "value": "10%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 32,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "short_mofaus_short_01_memory.wav",
+        "duration": 248,
+        "startTime": 128
+      },
+      {
+        "id": "mofaus_short_02_mechanism",
+        "speaker": "ryusei",
+        "sceneRole": "mechanism",
+        "text": "背景には、財政規律を優先し、主計局が予算を査定する構造があります。",
+        "speechText": "背景には、財政規律を優先し、主計局が予算を査定する構造があります。",
+        "asset_query": "budget bureau austerity mechanism short",
+        "bg_image": "assets/images/mof-budget-power.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.92,
+            "speed": 1.02
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.16,
+        "tailFrames": 8,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "止まりにくい理由",
+              "accent": "#ef4444",
+              "steps": [
+                {
+                  "label": "財政規律",
+                  "sub": "建前"
+                },
+                {
+                  "label": "主計局",
+                  "sub": "査定"
+                },
+                {
+                  "label": "緊縮再生産",
+                  "sub": "習慣化",
+                  "highlight": true
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 57,
+            "imageWidth": 94,
+            "imageHeight": 33,
+            "duration": 190
+          }
+        ],
+        "voiceFile": "short_mofaus_short_02_mechanism.wav",
+        "duration": 168,
+        "startTime": 384
+      },
+      {
+        "id": "mofaus_short_03_trust",
+        "speaker": "tsumugi",
+        "sceneRole": "trust",
+        "text": "しかも森友で説明への信頼まで崩れた。だから数字の話も疑われやすくなったんです。",
+        "speechText": "しかも森友で説明への信頼まで崩れた。だから数字の話も疑われやすくなったんです。",
+        "asset_query": "trust collapse ministry finance short documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.84,
+            "speed": 0.92
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.16,
+        "tailFrames": 8,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "信頼崩壊",
+              "headline": "説明まで疑われる",
+              "subline": "ここが炎上を深くした",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "short_mofaus_short_03_trust.wav",
+        "duration": 165,
+        "startTime": 560
+      },
+      {
+        "id": "mofaus_short_04_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "ザイム真理教みたいな強い言葉は広がった。でも本体は黒幕論じゃありません。",
+        "speechText": "ザイム真理教みたいな強い言葉は広がった。でも本体は黒幕論じゃありません。",
+        "asset_query": "rhetoric boundary austerity short documentary",
+        "bg_image": "assets/images/mof-noise.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "short-punch",
+            "intensity": 0.92,
+            "speed": 1.02
+          }
+        },
+        "sceneVisualMode": "popupFocus",
+        "popupZone": "middleBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.18,
+        "tailFrames": 8,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "広がった言葉",
+                "titleColor": "#ef4444",
+                "items": [
+                  "過激ラベル",
+                  "黒幕物語"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "本体",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "緊縮の発想",
+                  "制度への不信"
+                ],
+                "highlight": true
+              },
+              "tagline": "ここを混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 92,
+            "imageHeight": 34,
+            "duration": 180
+          }
+        ],
+        "voiceFile": "short_mofaus_short_04_boundary.wav",
+        "duration": 144,
+        "startTime": 733
+      },
+      {
+        "id": "mofaus_short_05_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "財務省批判の芯は、陰謀論じゃない。景気より財政規律を優先する緊縮構造への不信です。",
+        "speechText": "財務省批判の芯は、陰謀論じゃない。景気より財政規律を優先する緊縮構造への不信です。",
+        "asset_query": "austerity structure distrust verdict short documentary",
+        "bg_image": "assets/images/mof-verdict.svg",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.96,
+            "speed": 1.04
+          }
+        },
+        "sceneVisualMode": "backgroundFocus",
+        "popupZone": "upperBand",
+        "subtitleStyle": {
+          "textColor": "#ffffff",
+          "borderColor": "#020617",
+          "borderSize": 12,
+          "backgroundColor": "rgba(0, 0, 0, 0.86)",
+          "fontWeight": "900",
+          "borderRadius": 30,
+          "padding": 20,
+          "fontSize": 76
+        },
+        "speedScale": 1.18,
+        "tailFrames": 12,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "芯は緊縮構造への不信",
+              "subline": "ラベルより制度を見ろ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 76,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 188
+          }
+        ],
+        "se": [
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 0,
+            "volume": 0.18,
+            "duration": 26
+          }
+        ],
+        "voiceFile": "short_mofaus_short_05_verdict.wav",
+        "duration": 206,
+        "startTime": 885
+      }
+    ]
+  }
+}
