@@ -206,20 +206,20 @@
               "accent": "#38bdf8",
               "steps": [
                 {
-                  "label": "Trend",
+                  "label": "推移",
                   "sub": "2023-2025"
                 },
                 {
-                  "label": "Pattern",
-                  "sub": "spring / autumn"
+                  "label": "パターン",
+                  "sub": "春 / 秋"
                 },
                 {
-                  "label": "Cause",
-                  "sub": "mountain + town"
+                  "label": "原因",
+                  "sub": "山 + 町"
                 },
                 {
-                  "label": "Policy",
-                  "sub": "who can fix it",
+                  "label": "政策",
+                  "sub": "誰が直すか",
                   "highlight": true
                 }
               ]
@@ -267,23 +267,23 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Official injury trend",
+              "title": "公式被害推移",
               "stats": [
                 {
                   "icon": "23",
-                  "label": "2023 victims",
+                  "label": "2023 被害/死者",
                   "value": "219 / 6",
                   "color": "#38bdf8"
                 },
                 {
                   "icon": "24",
-                  "label": "2024 victims",
+                  "label": "2024 被害/死者",
                   "value": "85 / 3",
                   "color": "#f59e0b"
                 },
                 {
                   "icon": "25",
-                  "label": "2025 provisional",
+                  "label": "2025 速報",
                   "value": "238 / 13",
                   "color": "#ef4444"
                 }
@@ -341,24 +341,24 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "Wrong read",
+                "title": "誤読",
                 "titleColor": "#ef4444",
                 "items": [
-                  "one calm year",
-                  "problem solved"
+                  "1年だけ静か",
+                  "もう解決"
                 ],
                 "highlight": true
               },
               "right": {
-                "title": "Better read",
+                "title": "正しい見方",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "high volatility",
-                  "same structural base"
+                  "振れ幅が大きい",
+                  "土台は同じ"
                 ],
                 "highlight": true
               },
-              "tagline": "do not confuse lower with solved"
+              "tagline": "減った年を 解決と誤認しない"
             },
             "imageX": 50,
             "imageY": 60,
@@ -404,24 +404,24 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "spring / early summer",
+                "title": "春から初夏",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "bear habitat",
-                  "encounter risk"
+                  "山側の生息域",
+                  "遭遇リスク"
                 ],
                 "highlight": true
               },
               "right": {
-                "title": "autumn mass year",
+                "title": "秋の凶作年",
                 "titleColor": "#ef4444",
                 "items": [
-                  "human living area",
-                  "town-side danger"
+                  "人の生活圏",
+                  "町側の危険"
                 ],
                 "highlight": true
               },
-              "tagline": "same species, different risk zone"
+              "tagline": "同じ熊でも 危険地帯は変わる"
             },
             "imageX": 50,
             "imageY": 60,
@@ -474,13 +474,13 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "food shock on the mountain side",
+              "title": "山側の餌ショック",
               "bullets": [
-                "mast crops drive pre-hibernation fat",
-                "multiple tree species can fail together",
-                "hungry bears range lower and wider"
+                "堅果の実りが脂肪を左右",
+                "複数樹種が同時凶作も",
+                "空腹個体は低地へ広く動く"
               ],
-              "tagline": "empty mountain table, stronger downward pressure",
+              "tagline": "山の食卓が空くと 下方圧力が強まる",
               "accent": "#f59e0b"
             },
             "imageX": 50,
@@ -527,23 +527,23 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "looks green",
+                "title": "見た目は緑",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "trees remain",
-                  "forest seems full"
+                  "木は残る",
+                  "森は埋まって見える"
                 ]
               },
               "right": {
-                "title": "but thinner inside",
+                "title": "中身は薄い",
                 "titleColor": "#ef4444",
                 "items": [
-                  "fewer nuts",
-                  "weaker habitat quality"
+                  "実りは少ない",
+                  "生息地の質が弱い"
                 ],
                 "highlight": true
               },
-              "tagline": "visual forest and feeding forest are different"
+              "tagline": "見える森と 食べられる森は別物"
             },
             "imageX": 50,
             "imageY": 58,
@@ -588,13 +588,13 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "warmer autumn matters because",
+              "title": "暖秋が効く理由",
               "bullets": [
-                "active season stretches",
-                "contact time increases",
-                "food shortage lasts longer"
+                "活動期が伸びる",
+                "接触時間が増える",
+                "餌不足が長引く"
               ],
-              "tagline": "not the whole story, but a strong multiplier",
+              "tagline": "単独原因ではないが 強い増幅要因",
               "accent": "#ef4444"
             },
             "imageX": 50,
@@ -640,9 +640,9 @@
           {
             "component": "HookHeadline",
             "props": {
-              "tag": "human side",
-              "title": "boundary faded",
-              "subtitle": "the middle ground stopped being maintained",
+              "tag": "人間側",
+              "title": "境界が薄れた",
+              "subtitle": "中間地帯の手入れが止まった",
               "accentColor": "#38bdf8",
               "secondaryColor": "#ef4444"
             },
@@ -697,24 +697,24 @@
           {
             "component": "FlowDiagram",
             "props": {
-              "title": "how the corridor forms",
+              "title": "侵入ルートの出来方",
               "accent": "#84cc16",
               "steps": [
                 {
-                  "label": "abandoned field",
-                  "sub": "cover grows"
+                  "label": "放棄地",
+                  "sub": "藪が伸びる"
                 },
                 {
-                  "label": "brush line",
-                  "sub": "hidden movement"
+                  "label": "藪際",
+                  "sub": "隠れて移動"
                 },
                 {
-                  "label": "fruit tree",
-                  "sub": "food reward"
+                  "label": "果樹",
+                  "sub": "報酬になる"
                 },
                 {
-                  "label": "town edge",
-                  "sub": "repeat route",
+                  "label": "町はずれ",
+                  "sub": "往復路になる",
                   "highlight": true
                 }
               ]
@@ -762,13 +762,13 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "why response weakens",
+              "title": "初動が弱る理由",
               "bullets": [
-                "fewer fast responders",
-                "aging hunter base",
-                "urban shooting constraints"
+                "すぐ動ける人が減る",
+                "狩猟の担い手が高齢化",
+                "市街地では発砲制約"
               ],
-              "tagline": "the defense side lost stamina too",
+              "tagline": "防ぐ側も 体力を失った",
               "accent": "#ef4444"
             },
             "imageX": 50,
@@ -815,23 +815,23 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "older pattern",
+                "title": "以前の型",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "mountain encounter",
-                  "defensive strike"
+                  "山中で遭遇",
+                  "防御的な一撃"
                 ]
               },
               "right": {
-                "title": "newer risk",
+                "title": "新しい危険",
                 "titleColor": "#ef4444",
                 "items": [
-                  "town food fixation",
-                  "daily-life victims"
+                  "町の餌に執着",
+                  "日常動線で被害"
                 ],
                 "highlight": true
               },
-              "tagline": "the stage moved closer to ordinary life"
+              "tagline": "現場が ふつうの生活に近づいた"
             },
             "imageX": 50,
             "imageY": 60,
@@ -876,24 +876,24 @@
           {
             "component": "FlowDiagram",
             "props": {
-              "title": "the learning loop",
+              "title": "学習ループ",
               "accent": "#ef4444",
               "steps": [
                 {
-                  "label": "food found",
-                  "sub": "easy reward"
+                  "label": "餌を発見",
+                  "sub": "楽に取れる"
                 },
                 {
-                  "label": "no threat",
-                  "sub": "fear drops"
+                  "label": "脅威なし",
+                  "sub": "警戒が下がる"
                 },
                 {
-                  "label": "return visit",
-                  "sub": "route forms"
+                  "label": "再訪する",
+                  "sub": "経路ができる"
                 },
                 {
-                  "label": "local fix",
-                  "sub": "if not broken",
+                  "label": "地元対処",
+                  "sub": "切れなければ固定",
                   "highlight": true
                 }
               ]
@@ -941,13 +941,13 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "daily-life danger markers",
+              "title": "生活圏の危険サイン",
               "bullets": [
-                "dawn and dusk",
-                "brush edges and town fringe",
-                "fruit / waste near homes"
+                "明け方と夕方",
+                "藪際と町はずれ",
+                "家の近くの果樹とゴミ"
               ],
-              "tagline": "ordinary routines can become the scene",
+              "tagline": "日常の動線が そのまま現場になる",
               "accent": "#ef4444"
             },
             "imageX": 50,
@@ -993,24 +993,24 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Akita",
+              "title": "秋田",
               "stats": [
                 {
-                  "icon": "A1",
-                  "label": "2025 victims",
+                  "icon": "被",
+                  "label": "2025 被害者",
                   "value": "67",
                   "color": "#ef4444"
                 },
                 {
-                  "icon": "A2",
-                  "label": "2025 deaths",
+                  "icon": "死",
+                  "label": "2025 死者",
                   "value": "4",
                   "color": "#f59e0b"
                 },
                 {
-                  "icon": "A3",
-                  "label": "spread",
-                  "value": "almost whole prefecture",
+                  "icon": "域",
+                  "label": "分布",
+                  "value": "県内ほぼ全域",
                   "color": "#38bdf8"
                 }
               ]
@@ -1066,24 +1066,24 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Iwate",
+              "title": "岩手",
               "stats": [
                 {
-                  "icon": "I1",
-                  "label": "2025 victims",
+                  "icon": "被",
+                  "label": "2025 被害者",
                   "value": "40",
                   "color": "#38bdf8"
                 },
                 {
-                  "icon": "I2",
-                  "label": "2025 deaths",
+                  "icon": "死",
+                  "label": "2025 死者",
                   "value": "5",
                   "color": "#ef4444"
                 },
                 {
-                  "icon": "I3",
-                  "label": "signal",
-                  "value": "severity can rise fast",
+                  "icon": "警",
+                  "label": "警戒点",
+                  "value": "重症化が早い",
                   "color": "#f59e0b"
                 }
               ]
@@ -1132,23 +1132,23 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "Honshu core issue",
+                "title": "本州の核心",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "urbanizing black bears",
-                  "boundary management"
+                  "都市化するツキノワグマ",
+                  "境界管理の崩れ"
                 ]
               },
               "right": {
-                "title": "Hokkaido difference",
+                "title": "北海道の違い",
                 "titleColor": "#ef4444",
                 "items": [
-                  "larger brown bears",
-                  "higher lethality risk"
+                  "大型のヒグマ",
+                  "致死リスクが高い"
                 ],
                 "highlight": true
               },
-              "tagline": "different species, same governance challenge"
+              "tagline": "種は違っても 統治課題は同じ"
             },
             "imageX": 50,
             "imageY": 58,
@@ -1193,24 +1193,24 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Policy turn",
+              "title": "政策転換",
               "stats": [
                 {
-                  "icon": "P1",
-                  "label": "date",
-                  "value": "2024-04",
+                  "icon": "日",
+                  "label": "時点",
+                  "value": "2024年4月",
                   "color": "#38bdf8"
                 },
                 {
-                  "icon": "P2",
-                  "label": "status",
-                  "value": "designated wildlife",
+                  "icon": "指",
+                  "label": "位置づけ",
+                  "value": "指定管理鳥獣",
                   "color": "#f59e0b"
                 },
                 {
-                  "icon": "P3",
-                  "label": "meaning",
-                  "value": "wide-area management",
+                  "icon": "意",
+                  "label": "意味",
+                  "value": "広域管理へ",
                   "color": "#ef4444"
                 }
               ]
@@ -1266,24 +1266,24 @@
           {
             "component": "FlowDiagram",
             "props": {
-              "title": "package logic",
+              "title": "対策パッケージ",
               "accent": "#ef4444",
               "steps": [
                 {
-                  "label": "emergency use",
-                  "sub": "town-side response"
+                  "label": "緊急出動",
+                  "sub": "町側の初動"
                 },
                 {
-                  "label": "population control",
-                  "sub": "science based"
+                  "label": "個体数管理",
+                  "sub": "科学に基づく"
                 },
                 {
-                  "label": "people",
-                  "sub": "staff and hunters"
+                  "label": "人員確保",
+                  "sub": "職員と猟友会"
                 },
                 {
-                  "label": "gap",
-                  "sub": "local execution",
+                  "label": "実行差",
+                  "sub": "現場で詰まる",
                   "highlight": true
                 }
               ]
@@ -1331,13 +1331,13 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "what actually works",
+              "title": "効く対策",
               "bullets": [
-                "remove fruit and waste rewards",
-                "clear brush and keep sight lines",
-                "maintain electric fences and alerts"
+                "果樹とゴミの報酬を消す",
+                "藪を刈って見通しを戻す",
+                "電気柵と警報を維持する"
               ],
-              "tagline": "small management beats one flashy fix",
+              "tagline": "派手な一手より 地道な管理",
               "accent": "#38bdf8"
             },
             "imageX": 50,
@@ -1383,24 +1383,24 @@
           {
             "component": "FlowDiagram",
             "props": {
-              "title": "what must connect",
+              "title": "つなぐべき現場",
               "accent": "#f59e0b",
               "steps": [
                 {
-                  "label": "wildlife",
-                  "sub": "capture and data"
+                  "label": "鳥獣行政",
+                  "sub": "捕獲とデータ"
                 },
                 {
-                  "label": "land",
-                  "sub": "fields and brush"
+                  "label": "土地管理",
+                  "sub": "畑と藪"
                 },
                 {
-                  "label": "community",
-                  "sub": "schools and alerts"
+                  "label": "地域連携",
+                  "sub": "学校と警報"
                 },
                 {
-                  "label": "response",
-                  "sub": "rapid action",
+                  "label": "緊急対応",
+                  "sub": "速い初動",
                   "highlight": true
                 }
               ]
@@ -1449,24 +1449,24 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "too simple",
+                "title": "単純すぎる",
                 "titleColor": "#ef4444",
                 "items": [
-                  "kill everything",
-                  "protect everything"
+                  "全部駆除",
+                  "全部保護"
                 ],
                 "highlight": true
               },
               "right": {
-                "title": "what reality needs",
+                "title": "現実に要るもの",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "population control",
-                  "town-side prevention"
+                  "個体数管理",
+                  "町側の予防"
                 ],
                 "highlight": true
               },
-              "tagline": "strictness and maintenance together"
+              "tagline": "厳しさと手入れを 両立する"
             },
             "imageX": 50,
             "imageY": 60,
@@ -1637,17 +1637,17 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Official trend",
+              "title": "公式推移",
               "stats": [
                 {
                   "icon": "23",
-                  "label": "2023",
+                  "label": "2023 被害/死者",
                   "value": "219 / 6",
                   "color": "#38bdf8"
                 },
                 {
                   "icon": "25",
-                  "label": "2025",
+                  "label": "2025 速報",
                   "value": "238 / 13",
                   "color": "#ef4444"
                 }
@@ -1699,22 +1699,22 @@
             "component": "TwoColumnComparison",
             "props": {
               "left": {
-                "title": "spring",
+                "title": "春",
                 "titleColor": "#38bdf8",
                 "items": [
-                  "bear habitat"
+                  "山側の遭遇"
                 ],
                 "highlight": true
               },
               "right": {
-                "title": "autumn mass year",
+                "title": "秋の凶作年",
                 "titleColor": "#ef4444",
                 "items": [
-                  "town-side danger"
+                  "町側の危険"
                 ],
                 "highlight": true
               },
-              "tagline": "the stage moved"
+              "tagline": "現場が移る"
             },
             "imageX": 50,
             "imageY": 62,
@@ -1761,11 +1761,11 @@
           {
             "component": "BulletList",
             "props": {
-              "title": "human-side openings",
+              "title": "人間側の穴",
               "bullets": [
-                "depopulation",
-                "abandoned land",
-                "fruit and waste rewards"
+                "人口減少",
+                "放棄地の拡大",
+                "果樹とゴミの報酬"
               ],
               "accent": "#ef4444"
             },
@@ -1814,18 +1814,18 @@
           {
             "component": "StatsCard",
             "props": {
-              "title": "Policy shift",
+              "title": "政策転換",
               "stats": [
                 {
                   "icon": "24",
                   "label": "2024",
-                  "value": "designated wildlife",
+                  "value": "指定管理鳥獣",
                   "color": "#38bdf8"
                 },
                 {
                   "icon": "25",
                   "label": "2025",
-                  "value": "countermeasure package",
+                  "value": "対策パッケージ",
                   "color": "#ef4444"
                 }
               ]

@@ -44,8 +44,12 @@ GitHub に置く前提の正本は、この repo 全体です。
   - 解説動画
   - ゲーム実況
   - LINEチャット
+  - 政治系
+  - その他
 - サンプル script と案件別 script
   - `videokit/src/data/*.json`
+- ジャンル別 playbook
+  - `videokit/docs/playbooks/*.md`
 - 共通素材
   - `videokit/public/assets/images`
   - `videokit/public/assets/stock`
@@ -108,12 +112,24 @@ VOICEVOX Core の配布一覧と利用ガイド:
 作業の起点は `videokit/src/data/script.json` です。  
 既存案件を複製して始めるなら、同じディレクトリの `script-*.json` を参考にします。
 
+ジャンルの作り方から入りたいときは、まず playbook を開きます。
+
+```bash
+npm run guide:genre -- --template explainer
+npm run guide:genre -- --template gameplay
+npm run guide:genre -- --template line-chat
+npm run guide:genre -- --template political
+npm run guide:genre -- --template generic
+```
+
 セットアップ直後に雛形を切るなら、まずこれを使います。
 
 ```bash
 npm run new:project -- --template explainer --output src/data/script-explainer-starter.json --project-id starter-explainer --title "新しい解説動画"
 npm run new:project -- --template gameplay --output src/data/script-gameplay-starter.json --project-id starter-gameplay --title "新しいゲーム実況動画"
 npm run new:project -- --template line-chat --output src/data/script-line-chat-starter.json --project-id starter-line-chat --title "新しいLINEチャット動画"
+npm run new:project -- --template political --output src/data/script-political-starter.json --project-id starter-political --title "新しい政治系動画"
+npm run new:project -- --template generic --output src/data/script-generic-starter.json --project-id starter-generic --title "新しい動画"
 ```
 
 ### 2. 素材を置く
@@ -168,10 +184,11 @@ npm run review:delivery -- --variant long
 
 ## 分析と素材収集
 
-YouTube 分析:
+YouTube 参考動画の深掘り分析:
 
 ```bash
-npm run analyze:youtube -- --url "https://youtube.com/shorts/xxxxxxxxxxx" --sample-count 6
+npm run analyze:youtube:deep -- --url "https://youtube.com/watch?v=xxxxxxxxxxx" --project-id reference-study --template explainer --sample-count 6
+npm run analyze:youtube:compare -- --url "https://youtube.com/watch?v=aaaaaaaaaaa" --url "https://youtube.com/watch?v=bbbbbbbbbbb" --project-id reference-study --template political --sample-count 6
 ```
 
 ゲーム実況分析:
@@ -188,6 +205,38 @@ npm run assets:fetch -- --source pexels --type image --query "city skyline japan
 ```
 
 API キーが必要な source は `doctor:assets` で確認できます。取得方法は [videokit/docs/api-key-setup.md](./videokit/docs/api-key-setup.md) にまとめています。
+
+YouTube 分析の出力先:
+
+- `videokit/projects/<project-id>/analysis/youtube/<video-id>/summary.json`
+- `videokit/projects/<project-id>/analysis/youtube/<video-id>/layout-signals.json`
+- `videokit/projects/<project-id>/analysis/youtube/<video-id>/audio-signals.json`
+- `videokit/projects/<project-id>/analysis/youtube/<video-id>/structure-signals.json`
+- `videokit/projects/<project-id>/analysis/youtube/analysis-summary.json`
+- 複数本比較時: `videokit/projects/<project-id>/analysis/youtube/comparison/comparison-summary.json`
+
+分析後に、この repo 向けの初期成果物へ変換するには:
+
+```bash
+npm run generate:from-analysis -- --template political --project-id reference-study
+```
+
+これで `projects/<project-id>/analysis/youtube/` に次が追加されます。
+
+- `codex-analysis-report.md`
+- `codex-analysis-brief.json`
+- `layout-contract.json`
+- `audio-direction-draft.json`
+- `script-outline.json`
+- `publish/youtube_metadata.md`
+- `publish/thumbnail_prompt.md`
+- `source/analysis-generated-script.json`
+
+字幕 / popup / 背景の衝突確認は、生成後にこれを使います。
+
+```bash
+npm run review:layout
+```
 
 ## 音声生成手段
 

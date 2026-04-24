@@ -1,0 +1,1558 @@
+{
+  "project": {
+    "id": "iran-war-household-price-shock",
+    "title": "イラン戦争で何が上がるのか 家計を直撃する価格連鎖",
+    "version": 1,
+    "defaultVariant": "long",
+    "category": "political"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.052,
+    "voiceVolume": 1.28,
+    "seVolume": 0.56,
+    "voiceDucking": 0.46,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "config": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Creeping Spiders - Nat Keefe & BeatMower.mp3"
+      },
+      {
+        "at_scene": 5,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 11,
+        "file": "MusMus-BGM-107.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "startTime": 0,
+        "duration": 656,
+        "id": "iran_household_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争は、中東だけのニュースで終わりません。 ホルムズ海峡が止まると、まず原油が跳ね、その次に電気代、ガソリン代、食料、航空券へと順番に波が来ます。 遠い戦争が、数週間後の家計簿を直撃する。 この価格連鎖が、今回いちばん生活に近い本題です。",
+        "subtitleText": "遠い戦争が、数週間後の家計簿に来る。",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "asset_query": "iran war household inflation hook documentary",
+        "speedScale": 1.06,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "何が上がる?",
+              "headline": "家計を直撃",
+              "subline": "価格連鎖を見る",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          },
+          {
+            "file": "和太鼓でドン.mp3",
+            "startOffset": 10,
+            "volume": 0.14,
+            "duration": 30
+          }
+        ],
+        "speechText": "イラン戦争は、中東だけのニュースで終わりません。 ホルムズ海峡が止まると、まず原油が跳ね、その次に電気代、ガソリン代、食料、航空券へと順番に波が来ます。 遠い戦争が、数週間後の家計簿を直撃する。 この価格連鎖が、今回いちばん生活に近い本題です。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_00_hook.wav",
+        "tailFrames": 25
+      },
+      {
+        "startTime": 670,
+        "duration": 568,
+        "id": "iran_household_long_01_roadmap",
+        "speaker": "ryusei",
+        "sceneRole": "roadmap",
+        "text": "この動画では、生活者目線で三つだけ押さえます。 なぜホルムズ海峡がそんなに重いのか。 なぜエネルギーの話が食料や日用品まで波及するのか。 そして、2026年4月24日時点で何を見ておくと、次の値上がりを早めに察知できるのかです。",
+        "subtitleText": "海峡、生活コスト、先読みのサインを見る。",
+        "bg_image": "assets/images/iran-war-hero.svg",
+        "asset_query": "iran war household roadmap explainer",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "この動画で追う順番",
+              "steps": [
+                {
+                  "label": "海峡",
+                  "sub": "なぜ重い?"
+                },
+                {
+                  "label": "波及",
+                  "sub": "家計へどう来る?"
+                },
+                {
+                  "label": "先読み",
+                  "sub": "何を見張る?",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "この動画では、生活者目線で三つだけ押さえます。 なぜホルムズ海峡がそんなに重いのか。 なぜエネルギーの話が食料や日用品まで波及するのか。 そして、2026年4月24日時点で何を見ておくと、次の値上がりを早めに察知できるのかです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_01_roadmap.wav",
+        "tailFrames": 25
+      },
+      {
+        "startTime": 1252,
+        "duration": 738,
+        "id": "iran_household_long_02_hormuz",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "2026年3月30日のIMFブログは、ホルムズ海峡を通るのが世界の石油の約25から30パーセント、LNGの20パーセントだと整理しています。 しかも戦争局面では事実上の閉鎖が起き、IEAは世界の石油市場史上最大級の供給途絶だと見ました。 ここが詰まると、原油だけの話で済まないんです。",
+        "subtitleText": "ホルムズは、石油とLNGの大動脈。",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "asset_query": "strait of hormuz oil lng chokepoint household explainer",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "ホルムズが重い理由",
+              "stats": [
+                {
+                  "icon": "油",
+                  "label": "石油",
+                  "value": "25-30%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "ガ",
+                  "label": "LNG",
+                  "value": "20%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "肥",
+                  "label": "肥料輸送",
+                  "value": "約1/3",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "2026年3月30日のIMFブログは、ホルムズ海峡を通るのが世界の石油の約25から30パーセント、LNGの20パーセントだと整理しています。 しかも戦争局面では事実上の閉鎖が起き、IEAは世界の石油市場史上最大級の供給途絶だと見ました。 ここが詰まると、原油だけの話で済まないんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_02_hormuz.wav",
+        "tailFrames": 25
+      },
+      {
+        "startTime": 2004,
+        "duration": 668,
+        "id": "iran_household_long_03_energy_shock",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "資料では、ブレント原油が1バレル120ドルを超え、ヨーロッパのガス価格も2倍に跳ねた局面が整理されていました。 エネルギーはあらゆるコストの床です。 ここが急に上がると、発電、輸送、冷蔵、製造の全部が同時にきしみます。 だから戦争の初撃は、まず資源価格に出ます。",
+        "subtitleText": "最初の衝撃は、まず資源価格に出る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "brent oil gas price shock household cost of living",
+        "speedScale": 1.05,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "戦争直後の価格ショック",
+              "stats": [
+                {
+                  "icon": "原",
+                  "label": "ブレント",
+                  "value": "120ドル超",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "欧",
+                  "label": "欧州ガス",
+                  "value": "約2倍",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "IEA",
+                  "label": "評価",
+                  "value": "最大級の供給途絶",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "資料では、ブレント原油が1バレル120ドルを超え、ヨーロッパのガス価格も2倍に跳ねた局面が整理されていました。 エネルギーはあらゆるコストの床です。 ここが急に上がると、発電、輸送、冷蔵、製造の全部が同時にきしみます。 だから戦争の初撃は、まず資源価格に出ます。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_03_energy_shock.wav",
+        "tailFrames": 25
+      },
+      {
+        "startTime": 2686,
+        "duration": 878,
+        "id": "iran_household_long_03b_shipping",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "しかも海峡ショックは、原油価格だけでは終わりません。 タンカーやコンテナ船が通る海路に戦争リスクが乗ると、保険料、迂回費用、運賃が先に上がる。 IMFも、通航の混乱は freight と insurance の上昇、納期の長期化として広がると整理しています。 値札が変わる前に、まず輸送の裏側が高くなるんです。",
+        "subtitleText": "先に上がるのは、保険と運賃かもしれない。",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "asset_query": "shipping insurance freight household war chokepoint",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "海峡ショックの中継地点",
+              "steps": [
+                {
+                  "label": "海路リスク",
+                  "sub": "通航が揺れる"
+                },
+                {
+                  "label": "保険と運賃",
+                  "sub": "先に跳ねる"
+                },
+                {
+                  "label": "店頭価格",
+                  "sub": "遅れて効く",
+                  "highlight": true
+                }
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "しかも海峡ショックは、原油価格だけでは終わりません。 タンカーやコンテナ船が通る海路に戦争リスクが乗ると、保険料、迂回費用、運賃が先に上がる。 IMFも、通航の混乱は freight と insurance の上昇、納期の長期化として広がると整理しています。 値札が変わる前に、まず輸送の裏側が高くなるんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_03b_shipping.wav",
+        "tailFrames": 25
+      },
+      {
+        "startTime": 3578,
+        "duration": 622,
+        "id": "iran_household_long_04_utilities_transport",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "家計に一番分かりやすく出るのは、燃料と移動です。 ガソリンや軽油が上がれば物流費が上がる。 航空燃料が不足すれば便数が絞られ、航空券も高くなる。 天然ガスが高ければ電気と暖房も圧迫される。 つまり戦場から離れた国ほど、レジと請求書で戦争を感じることになります。",
+        "subtitleText": "燃料高は、物流、航空、電気へ連鎖する。",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "asset_query": "fuel shock logistics airfare electricity household",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "燃料高が家計へ届く道",
+              "steps": [
+                {
+                  "label": "原油高",
+                  "sub": "仕入れが上がる"
+                },
+                {
+                  "label": "物流と航空",
+                  "sub": "移動が高くなる"
+                },
+                {
+                  "label": "電気と請求書",
+                  "sub": "毎月効いてくる",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "家計に一番分かりやすく出るのは、燃料と移動です。 ガソリンや軽油が上がれば物流費が上がる。 航空燃料が不足すれば便数が絞られ、航空券も高くなる。 天然ガスが高ければ電気と暖房も圧迫される。 つまり戦場から離れた国ほど、レジと請求書で戦争を感じることになります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_04_utilities_transport.wav"
+      },
+      {
+        "startTime": 4214,
+        "duration": 809,
+        "id": "iran_household_long_04b_europe_case",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "欧州のガス反応を見ると、この構図が分かりやすいです。 IMFは、今回のショックが2021年から2022年のガス危機を思い出させると書き、特にガス火力への依存が高い国ほど痛みが強いと整理しました。 エネルギー高は、単なる光熱費上昇ではなく、賃上げ圧力、実質所得の減少、景気の鈍化まで連れてきます。 家計の苦しさが長引く理由はここです。",
+        "subtitleText": "エネルギー高は、家計だけでなく景気も削る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "europe gas crisis household income war inflation",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "欧州型ショックの怖さ",
+              "bullets": [
+                "光熱費が上がる",
+                "実質所得が削られる",
+                "景気まで鈍る"
+              ],
+              "tagline": "家計と景気が同時に痛む",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "欧州のガス反応を見ると、この構図が分かりやすいです。 IMFは、今回のショックが2021年から2022年のガス危機を思い出させると書き、特にガス火力への依存が高い国ほど痛みが強いと整理しました。 エネルギー高は、単なる光熱費上昇ではなく、賃上げ圧力、実質所得の減少、景気の鈍化まで連れてきます。 家計の苦しさが長引く理由はここです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_04b_europe_case.wav"
+      },
+      {
+        "startTime": 5037,
+        "duration": 827,
+        "id": "iran_household_long_05_food",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "次に見落としやすいのが食料です。 IMFは、世界の肥料のおよそ3分の1がホルムズ海峡を通ると警告しました。 さらにFAOは2026年4月3日公表分で、3月の食料価格指数が前月比2.4パーセント上昇、植物油が5.1パーセント、砂糖が7.2パーセント上がったとしています。 戦争が長引くと、値上がりはガソリンスタンドではなく、スーパーで本格化します。",
+        "subtitleText": "食料高は、肥料と輸送から遅れて来る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "food inflation fertilizer hormuz fAO household",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "2026年3月の食料ショック",
+              "stats": [
+                {
+                  "icon": "総",
+                  "label": "FAO総合",
+                  "value": "+2.4%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "油",
+                  "label": "植物油",
+                  "value": "+5.1%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "糖",
+                  "label": "砂糖",
+                  "value": "+7.2%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "次に見落としやすいのが食料です。 IMFは、世界の肥料のおよそ3分の1がホルムズ海峡を通ると警告しました。 さらにFAOは2026年4月3日公表分で、3月の食料価格指数が前月比2.4パーセント上昇、植物油が5.1パーセント、砂糖が7.2パーセント上がったとしています。 戦争が長引くと、値上がりはガソリンスタンドではなく、スーパーで本格化します。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_05_food.wav"
+      },
+      {
+        "startTime": 5878,
+        "duration": 660,
+        "id": "iran_household_long_05b_fertilizer",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "肥料の話をもう一段だけ具体化します。 肥料が詰まるのは、単に農家の仕入れが高くなるだけではありません。 北半球の作付け期に重なると、収量見通しまで揺れ、結果として数か月先の野菜や穀物価格へ響きます。 つまり戦争のショックは、今日のガソリンだけではなく、次の収穫にも入り込むんです。",
+        "subtitleText": "肥料ショックは、次の収穫にまで入る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "fertilizer planting season food prices war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "肥料不足の遅行ルート",
+              "steps": [
+                {
+                  "label": "肥料高",
+                  "sub": "仕入れが重い"
+                },
+                {
+                  "label": "作付けと収量",
+                  "sub": "見通しが悪化"
+                },
+                {
+                  "label": "数か月後の食料高",
+                  "sub": "家計へ来る",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "肥料の話をもう一段だけ具体化します。 肥料が詰まるのは、単に農家の仕入れが高くなるだけではありません。 北半球の作付け期に重なると、収量見通しまで揺れ、結果として数か月先の野菜や穀物価格へ響きます。 つまり戦争のショックは、今日のガソリンだけではなく、次の収穫にも入り込むんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_05b_fertilizer.wav"
+      },
+      {
+        "startTime": 6552,
+        "duration": 669,
+        "id": "iran_household_long_06_basket",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "生活者の順番で言うと、まず燃料、次に配送を使う食品、そして電気を多く使う加工品や外食です。 さらに肥料が上がると、野菜や穀物のコストが後から効いてくる。 つまり今日のヘッドラインが、すぐ明日の値札になるわけではない。 でも数週間から数か月遅れて、家計の広い面を押すんです。",
+        "subtitleText": "燃料から始まり、あとで食料へ広がる。",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "asset_query": "household basket fuel food delayed inflation explainer",
+        "speedScale": 1.05,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "家計で先に効きやすい順番",
+              "bullets": [
+                "ガソリンと配送",
+                "加工食品と外食",
+                "野菜と穀物の遅行高"
+              ],
+              "tagline": "波は一気ではなく、ずれて届く",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "生活者の順番で言うと、まず燃料、次に配送を使う食品、そして電気を多く使う加工品や外食です。 さらに肥料が上がると、野菜や穀物のコストが後から効いてくる。 つまり今日のヘッドラインが、すぐ明日の値札になるわけではない。 でも数週間から数か月遅れて、家計の広い面を押すんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_06_basket.wav"
+      },
+      {
+        "startTime": 7235,
+        "duration": 779,
+        "id": "iran_household_long_07_low_income",
+        "speaker": "ryusei",
+        "sceneRole": "risk",
+        "text": "IMFが強調したのは、同じ値上がりでも痛みは同じではないという点です。 低所得国では平均で消費の43パーセントを食料に使うのに対し、新興国は25パーセント、先進国は12パーセント程度です。 食料と燃料が同時に上がる戦争は、弱い家計ほど逃げ道が少ない。 だからこれは物価の問題であると同時に、生活保障の問題でもあります。",
+        "subtitleText": "同じ値上がりでも、弱い家計ほど重い。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "low income food share imf cost of living war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "低所得国",
+                "titleColor": "#ef4444",
+                "items": [
+                  "食料比率 43%",
+                  "逃げ道が少ない"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "先進国",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "食料比率 12%",
+                  "まだ調整余地あり"
+                ],
+                "highlight": true
+              },
+              "tagline": "同じショックでも痛みは非対称"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "IMFが強調したのは、同じ値上がりでも痛みは同じではないという点です。 低所得国では平均で消費の43パーセントを食料に使うのに対し、新興国は25パーセント、先進国は12パーセント程度です。 食料と燃料が同時に上がる戦争は、弱い家計ほど逃げ道が少ない。 だからこれは物価の問題であると同時に、生活保障の問題でもあります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_07_low_income.wav"
+      },
+      {
+        "startTime": 8028,
+        "duration": 679,
+        "id": "iran_household_long_07b_social_risk",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "だからIMFは、このショックを単なる物価の話ではなく、社会的な不安定化の問題としても見ています。 食料の比率が高い家計ほど、値上がりを節約だけで吸収しにくい。 補助が薄い国では、生活防衛そのものが政治課題になりやすいんです。 戦争が遠くても、社会の緊張として戻ってくるのはこのためです。",
+        "subtitleText": "物価高は、そのまま社会不安にもつながる。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "food inflation social risk low income war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "社会不安に変わる条件",
+              "bullets": [
+                "食料比率が高い",
+                "補助の余力が小さい",
+                "値上がりを吸収できない"
+              ],
+              "tagline": "物価問題で終わらない",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "だからIMFは、このショックを単なる物価の話ではなく、社会的な不安定化の問題としても見ています。 食料の比率が高い家計ほど、値上がりを節約だけで吸収しにくい。 補助が薄い国では、生活防衛そのものが政治課題になりやすいんです。 戦争が遠くても、社会の緊張として戻ってくるのはこのためです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_07b_social_risk.wav"
+      },
+      {
+        "startTime": 8721,
+        "duration": 799,
+        "id": "iran_household_long_08_japan",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "日本でも無関係ではありません。 エネルギー輸入依存が高い国では、原油やLNGの上昇が電気代と物流費に乗りやすい。 加えてナフサや化学原料が詰まれば、樹脂、包装、日用品、工場のコストまで広がります。 戦争が中東で起きても、日本の家庭では、ガソリン、電気、食品、宅配の四点セットで実感しやすいんです。",
+        "subtitleText": "日本では、ガソリン、電気、食品、宅配に出やすい。",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "asset_query": "japan imported energy naphtha household cost war",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "日本で実感しやすい4か所",
+              "steps": [
+                {
+                  "label": "ガソリン",
+                  "sub": "移動コスト"
+                },
+                {
+                  "label": "電気",
+                  "sub": "毎月の固定負担"
+                },
+                {
+                  "label": "食品",
+                  "sub": "配送と肥料の波及"
+                },
+                {
+                  "label": "宅配",
+                  "sub": "物流費が反映",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "日本でも無関係ではありません。 エネルギー輸入依存が高い国では、原油やLNGの上昇が電気代と物流費に乗りやすい。 加えてナフサや化学原料が詰まれば、樹脂、包装、日用品、工場のコストまで広がります。 戦争が中東で起きても、日本の家庭では、ガソリン、電気、食品、宅配の四点セットで実感しやすいんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_08_japan.wav"
+      },
+      {
+        "startTime": 9534,
+        "duration": 731,
+        "id": "iran_household_long_08b_goods_chain",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "日本で見落としやすいのは、日用品の原価です。 ナフサや化学原料が詰まると、樹脂、包装材、洗剤容器、食品トレー、宅配資材のコストがじわじわ上がる。 つまり原油高は、ガソリンスタンドだけではなく、スーパーやドラッグストアの棚にも化けて現れます。 見た目は別の商品でも、根っこは同じ供給ショックなんです。",
+        "subtitleText": "原油高は、日用品の原価にも化ける。",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "asset_query": "naphtha plastics packaging household goods war japan",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "日用品に化けるルート",
+              "bullets": [
+                "樹脂と包装材",
+                "洗剤や容器",
+                "食品トレーと宅配資材"
+              ],
+              "tagline": "見た目は別でも根は同じ",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "日本で見落としやすいのは、日用品の原価です。 ナフサや化学原料が詰まると、樹脂、包装材、洗剤容器、食品トレー、宅配資材のコストがじわじわ上がる。 つまり原油高は、ガソリンスタンドだけではなく、スーパーやドラッグストアの棚にも化けて現れます。 見た目は別の商品でも、根っこは同じ供給ショックなんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_08b_goods_chain.wav"
+      },
+      {
+        "startTime": 10279,
+        "duration": 677,
+        "id": "iran_household_long_09_rates",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで中央銀行の話がつながります。 エネルギーと食料が上がると、インフレ率がもう一段上振れし、利下げは先送りされやすくなる。 資料でも欧州ではガス高騰がインフレと実質所得を押し、利下げ見送りの圧力になったと整理されていました。 値上がりだけでなく、金利が高めに残ることもまた、家計を長く苦しめます。",
+        "subtitleText": "値上がりと高金利が、同時に残りうる。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "inflation delayed rate cuts household pressure war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "ショックの前半",
+                "titleColor": "#f97316",
+                "items": [
+                  "燃料と食料が上がる",
+                  "家計がすぐ痛む"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "ショックの後半",
+                "titleColor": "#ef4444",
+                "items": [
+                  "利下げが遅れる",
+                  "痛みが長引く"
+                ],
+                "highlight": true
+              },
+              "tagline": "物価だけで終わらない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで中央銀行の話がつながります。 エネルギーと食料が上がると、インフレ率がもう一段上振れし、利下げは先送りされやすくなる。 資料でも欧州ではガス高騰がインフレと実質所得を押し、利下げ見送りの圧力になったと整理されていました。 値上がりだけでなく、金利が高めに残ることもまた、家計を長く苦しめます。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_09_rates.wav"
+      },
+      {
+        "startTime": 10970,
+        "duration": 583,
+        "id": "iran_household_long_09b_stagflation",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "ここで出てくる嫌な言葉がスタグフレーションです。 物価は上がるのに、景気は弱る。 賃金や雇用が強く伸びないまま、燃料、食料、金利だけが残ると、家計は節約しても楽になりにくい。 戦争のショックが長引くほど、この形に近づきやすくなります。",
+        "subtitleText": "物価高と景気減速が同時に来るのが最悪形。",
+        "bg_image": "assets/images/iran-war-scenario.svg",
+        "asset_query": "stagflation household war inflation explainer",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "本来なら",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "景気が弱ければ物価も落ち着く",
+                  "利下げで支える"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "今回は",
+                "titleColor": "#ef4444",
+                "items": [
+                  "景気が弱いのに物価は高い",
+                  "利下げもしづらい"
+                ],
+                "highlight": true
+              },
+              "tagline": "だからしんどい"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで出てくる嫌な言葉がスタグフレーションです。 物価は上がるのに、景気は弱る。 賃金や雇用が強く伸びないまま、燃料、食料、金利だけが残ると、家計は節約しても楽になりにくい。 戦争のショックが長引くほど、この形に近づきやすくなります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_09b_stagflation.wav"
+      },
+      {
+        "startTime": 11567,
+        "duration": 733,
+        "id": "iran_household_long_09c_wages",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "家計が特につらく感じるのは、値上がりの速さと賃金の速さが違うからです。 燃料、食料、金利は先に動くのに、賃上げや所得の調整はあとから来る。 マクロ指標だけ見ると持ちこたえているようでも、毎月の出費のほうが先に膨らむと、体感としては急に苦しくなります。 生活コストのショックが政治問題になりやすいのはこのズレがあるからです。",
+        "subtitleText": "値上がりは先に来て、賃金はあとから来る。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "wages lag inflation household war cost of living",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "先に動くもの",
+                "titleColor": "#ef4444",
+                "items": [
+                  "燃料",
+                  "食料",
+                  "金利"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "遅れて動くもの",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "賃金",
+                  "所得調整",
+                  "家計の回復"
+                ],
+                "highlight": true
+              },
+              "tagline": "この時間差がつらい"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "家計が特につらく感じるのは、値上がりの速さと賃金の速さが違うからです。 燃料、食料、金利は先に動くのに、賃上げや所得の調整はあとから来る。 マクロ指標だけ見ると持ちこたえているようでも、毎月の出費のほうが先に膨らむと、体感としては急に苦しくなります。 生活コストのショックが政治問題になりやすいのはこのズレがあるからです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_09c_wages.wav"
+      },
+      {
+        "startTime": 12314,
+        "duration": 725,
+        "id": "iran_household_long_10_ceasefire",
+        "speaker": "tsumugi",
+        "sceneRole": "risk",
+        "text": "怖いのは、停戦の見出しが出ても生活コストがすぐ戻るとは限らないことです。 海峡が一度止まれば、保険料、迂回輸送、在庫の積み増しが残る。 IMFも、通航が再開してもリスクプレミアムと不確実性が投資と成長を抑えると書いています。 安くなるときはゆっくり、高くなるときは一気という嫌な非対称が起きやすいんです。",
+        "subtitleText": "停戦イコール、すぐ値下がりではない。",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "asset_query": "ceasefire does not normalize insurance freight household",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "PosterCard",
+            "props": {
+              "line1": "停戦",
+              "connector": "→",
+              "line2": "すぐ正常化ではない",
+              "sub": "保険と物流の高さが残る",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 62,
+            "imageWidth": 88,
+            "imageHeight": 22,
+            "duration": 220
+          }
+        ],
+        "speechText": "怖いのは、停戦の見出しが出ても生活コストがすぐ戻るとは限らないことです。 海峡が一度止まれば、保険料、迂回輸送、在庫の積み増しが残る。 IMFも、通航が再開してもリスクプレミアムと不確実性が投資と成長を抑えると書いています。 安くなるときはゆっくり、高くなるときは一気という嫌な非対称が起きやすいんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_10_ceasefire.wav"
+      },
+      {
+        "startTime": 13053,
+        "duration": 681,
+        "id": "iran_household_long_11_false_signal",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "ここで生活者が勘違いしやすいのは、株や金の値動きを見て安心してしまうことです。 金が一時的に上がっても、ドル高や金利上昇で逆に下がることもある。 資産市場の戻りと、スーパーの値札は別のテンポで動きます。 家計目線で大事なのは、資産ニュースより、燃料、配送、食料の三つを追うことです。",
+        "subtitleText": "市場の安心感と、家計の安心感は別物。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "gold stocks vs grocery inflation household explainer",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "市場ニュース",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "株が戻る",
+                  "金が上がることもある"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "家計ニュース",
+                "titleColor": "#ef4444",
+                "items": [
+                  "食料は遅れて上がる",
+                  "光熱費は毎月来る"
+                ],
+                "highlight": true
+              },
+              "tagline": "見張る場所を間違えない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで生活者が勘違いしやすいのは、株や金の値動きを見て安心してしまうことです。 金が一時的に上がっても、ドル高や金利上昇で逆に下がることもある。 資産市場の戻りと、スーパーの値札は別のテンポで動きます。 家計目線で大事なのは、資産ニュースより、燃料、配送、食料の三つを追うことです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_11_false_signal.wav"
+      },
+      {
+        "startTime": 13748,
+        "duration": 653,
+        "id": "iran_household_long_10b_slow_relief",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "しかも値下がりは、値上がりより遅い。 小売りや物流は、高い保険、高い在庫、高い調達をいったん抱えると、すぐには元へ戻せません。 電気料金の改定もタイムラグがあり、航空券も供給が戻るまで時間がかかる。 だから見出しで平和が近づいても、家計には時間差でしか戻りが来ないんです。",
+        "subtitleText": "値上がりは速く、値下がりは遅い。",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "asset_query": "slow relief prices freight insurance inventory war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "値下がりが遅い理由",
+              "steps": [
+                {
+                  "label": "高い在庫",
+                  "sub": "すぐ切り替わらない"
+                },
+                {
+                  "label": "料金改定の遅れ",
+                  "sub": "請求書へ時間差"
+                },
+                {
+                  "label": "家計の戻りも遅い",
+                  "sub": "見出しより遅れる",
+                  "highlight": true
+                }
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "しかも値下がりは、値上がりより遅い。 小売りや物流は、高い保険、高い在庫、高い調達をいったん抱えると、すぐには元へ戻せません。 電気料金の改定もタイムラグがあり、航空券も供給が戻るまで時間がかかる。 だから見出しで平和が近づいても、家計には時間差でしか戻りが来ないんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_10b_slow_relief.wav"
+      },
+      {
+        "startTime": 14415,
+        "duration": 762,
+        "id": "iran_household_long_12_scenarios",
+        "speaker": "tsumugi",
+        "sceneRole": "scenario",
+        "text": "シナリオは大きく三つです。 短期で海峡が完全安定へ戻るなら、夏までにエネルギーの緊張は和らぐ。 停戦は続くが保険と物流だけ高止まりするなら、じわじわした物価高が残る。 戦争が再拡大するなら、エネルギーと食料の二重高でスタグフレーション色が強まる。 家計に一番重いのは、派手な再拡大より、長い高止まりかもしれません。",
+        "subtitleText": "家計に重いのは、長い高止まりかもしれない。",
+        "bg_image": "assets/images/iran-war-scenario.svg",
+        "asset_query": "war inflation scenario household cost of living",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "3つのシナリオ",
+              "steps": [
+                {
+                  "label": "短期正常化",
+                  "sub": "夏に和らぐ"
+                },
+                {
+                  "label": "高止まり",
+                  "sub": "じわじわ残る",
+                  "highlight": true
+                },
+                {
+                  "label": "再拡大",
+                  "sub": "食料と燃料の二重高"
+                }
+              ],
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "シナリオは大きく三つです。 短期で海峡が完全安定へ戻るなら、夏までにエネルギーの緊張は和らぐ。 停戦は続くが保険と物流だけ高止まりするなら、じわじわした物価高が残る。 戦争が再拡大するなら、エネルギーと食料の二重高でスタグフレーション色が強まる。 家計に一番重いのは、派手な再拡大より、長い高止まりかもしれません。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_12_scenarios.wav"
+      },
+      {
+        "startTime": 15191,
+        "duration": 542,
+        "id": "iran_household_long_13_watchpoints",
+        "speaker": "ryusei",
+        "sceneRole": "watchpoints",
+        "text": "だから今見るべき指標は五つです。 ホルムズ海峡の通航正常化、ブレント原油、欧州ガス、FAO食料価格指数、中央銀行が利下げを遅らせるかどうか。 戦争ニュースそのものより、この五つのほうが、来月の家計に近いサインになります。",
+        "subtitleText": "見るべきは、海峡、原油、ガス、FAO、金利。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "watchpoints oil gas food inflation household",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "今すぐ見るべき5指標",
+              "bullets": [
+                "ホルムズ通航",
+                "ブレント原油",
+                "欧州ガス",
+                "FAO食料価格指数",
+                "利下げ先送り"
+              ],
+              "tagline": "戦況より家計に近いサイン",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "だから今見るべき指標は五つです。 ホルムズ海峡の通航正常化、ブレント原油、欧州ガス、FAO食料価格指数、中央銀行が利下げを遅らせるかどうか。 戦争ニュースそのものより、この五つのほうが、来月の家計に近いサインになります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_13_watchpoints.wav"
+      },
+      {
+        "startTime": 15747,
+        "duration": 744,
+        "id": "iran_household_long_14_policy",
+        "speaker": "tsumugi",
+        "sceneRole": "policy",
+        "text": "政策側に必要なのも、感情論より生活防衛です。 航路の安全確保、低所得世帯への食料と光熱費支援、肥料とエネルギーの供給多様化、省エネと再エネ投資の前倒し。 IMFとFAOの示唆を生活者側へ翻訳すると、結局は値上がり後の補助だけでなく、供給ショックそのものを弱める設計が要るということです。",
+        "subtitleText": "補助だけでなく、供給ショック自体を弱める。",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "asset_query": "policy response supply shock household support war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "生活防衛で必要なこと",
+              "bullets": [
+                "航路の安全確保",
+                "光熱費と食料支援",
+                "供給多様化と省エネ投資"
+              ],
+              "tagline": "対症療法だけでは足りない",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "政策側に必要なのも、感情論より生活防衛です。 航路の安全確保、低所得世帯への食料と光熱費支援、肥料とエネルギーの供給多様化、省エネと再エネ投資の前倒し。 IMFとFAOの示唆を生活者側へ翻訳すると、結局は値上がり後の補助だけでなく、供給ショックそのものを弱める設計が要るということです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_14_policy.wav"
+      },
+      {
+        "startTime": 16505,
+        "duration": 705,
+        "id": "iran_household_long_14b_household_defense",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "生活者が見る順番も整理しておきます。 燃料を多く使う支出、電気料金の改定、食料の値動き、旅行や配送サービスの料金。 この四つを別々に見るのではなく、一つの供給ショックの枝分かれとして見ると、ニュースに振り回されにくくなります。 大事なのは、何が主因で、何が遅れて出るのかを分けて見ることです。",
+        "subtitleText": "家計側も、枝分かれの順番で見る。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "household checklist inflation war explainer",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "家計側の見る順番",
+              "bullets": [
+                "燃料を多く使う支出",
+                "電気料金の改定",
+                "食料価格",
+                "旅行と配送サービス"
+              ],
+              "tagline": "別々の話ではなく一本の枝",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "生活者が見る順番も整理しておきます。 燃料を多く使う支出、電気料金の改定、食料の値動き、旅行や配送サービスの料金。 この四つを別々に見るのではなく、一つの供給ショックの枝分かれとして見ると、ニュースに振り回されにくくなります。 大事なのは、何が主因で、何が遅れて出るのかを分けて見ることです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_14b_household_defense.wav"
+      },
+      {
+        "startTime": 17224,
+        "duration": 785,
+        "id": "iran_household_long_15_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "結論です。 イラン戦争が家計に効く順番は、ホルムズ、原油、物流、食料、そして金利です。 遠い戦争の本体は、遠い戦場ではなく、遅れてやってくる生活コストの圧力かもしれません。 あなたが今いちばん先に上がると思うのは、ガソリン、電気、食料、航空券のどれでしょうか。 コメントで教えてください。",
+        "subtitleText": "本体は、遅れて来る生活コストの圧力。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "verdict household inflation war cost of living",
+        "speedScale": 1.04,
+        "tailFrames": 30,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "家計に来る戦争",
+              "subline": "ホルムズから金利までつながる",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "結論です。 イラン戦争が家計に効く順番は、ホルムズ、原油、物流、食料、そして金利です。 遠い戦争の本体は、遠い戦場ではなく、遅れてやってくる生活コストの圧力かもしれません。 あなたが今いちばん先に上がると思うのは、ガソリン、電気、食料、航空券のどれでしょうか。 コメントで教えてください。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_household_long_15_verdict.wav"
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Gravity.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "startTime": 0,
+        "duration": 238,
+        "id": "iran_household_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争は遠いニュースで終わりません。 ホルムズ海峡が揺れると、原油、食料、電気代へと家計に波が来ます。",
+        "subtitleText": "遠い戦争が、家計に来る。",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "asset_query": "iran war household inflation short",
+        "speedScale": 1.14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "何が上がる?",
+              "headline": "家計直撃",
+              "subline": "価格連鎖を見る",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "イラン戦争は遠いニュースで終わりません。 ホルムズ海峡が揺れると、原油、食料、電気代へと家計に波が来ます。",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_00_hook.wav"
+      },
+      {
+        "startTime": 246,
+        "duration": 321,
+        "id": "iran_household_short_01_hormuz",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "IMFは、ホルムズ海峡を世界の石油の25から30パーセント、LNGの20パーセントが通ると整理しました。 ここが揺れると、原油だけで済みません。",
+        "subtitleText": "ホルムズは、石油とLNGの大動脈。",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "asset_query": "hormuz oil lng chokepoint short household",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "海峡が重い理由",
+              "stats": [
+                {
+                  "icon": "油",
+                  "label": "石油",
+                  "value": "25-30%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "ガ",
+                  "label": "LNG",
+                  "value": "20%",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "IMFは、ホルムズ海峡を世界の石油の25から30パーセント、LNGの20パーセントが通ると整理しました。 ここが揺れると、原油だけで済みません。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_01_hormuz.wav"
+      },
+      {
+        "startTime": 575,
+        "duration": 417,
+        "id": "iran_household_short_02_food",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "FAOは2026年4月3日公表分で、3月の食料価格指数が2.4パーセント上昇、植物油が5.1パーセント、砂糖が7.2パーセント上がったとしました。 燃料高は、あとでスーパーに来ます。",
+        "subtitleText": "燃料高は、あとでスーパーに来る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "food inflation short war household",
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "3月の食料ショック",
+              "stats": [
+                {
+                  "icon": "総",
+                  "label": "FAO総合",
+                  "value": "+2.4%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "油",
+                  "label": "植物油",
+                  "value": "+5.1%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "糖",
+                  "label": "砂糖",
+                  "value": "+7.2%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "FAOは2026年4月3日公表分で、3月の食料価格指数が2.4パーセント上昇、植物油が5.1パーセント、砂糖が7.2パーセント上がったとしました。 燃料高は、あとでスーパーに来ます。",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_02_food.wav"
+      },
+      {
+        "startTime": 1000,
+        "duration": 282,
+        "id": "iran_household_short_03_chain",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "順番で言えば、ガソリン、物流、電気、そして食品です。 戦場から遠くても、レジと請求書で戦争を感じることになります。",
+        "subtitleText": "ガソリン、物流、電気、食品の順で来る。",
+        "bg_image": "assets/images/iran-war-japan.svg",
+        "asset_query": "household chain fuel logistics food short",
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "家計への順番",
+              "steps": [
+                {
+                  "label": "ガソリン"
+                },
+                {
+                  "label": "物流と電気"
+                },
+                {
+                  "label": "食品",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "順番で言えば、ガソリン、物流、電気、そして食品です。 戦場から遠くても、レジと請求書で戦争を感じることになります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_03_chain.wav"
+      },
+      {
+        "startTime": 1290,
+        "duration": 261,
+        "id": "iran_household_short_04_watch",
+        "speaker": "tsumugi",
+        "sceneRole": "watchpoints",
+        "text": "見るべきは五つです。 ホルムズ通航、ブレント原油、欧州ガス、FAO食料価格指数、そして利下げ先送りです。",
+        "subtitleText": "海峡、原油、ガス、FAO、金利を見る。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "watchpoints household short inflation war",
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき5指標",
+              "bullets": [
+                "ホルムズ通航",
+                "ブレント",
+                "欧州ガス",
+                "FAO",
+                "利下げ先送り"
+              ],
+              "tagline": "戦況より家計に近い",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "見るべきは五つです。 ホルムズ通航、ブレント原油、欧州ガス、FAO食料価格指数、そして利下げ先送りです。",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_04_watch.wav"
+      },
+      {
+        "startTime": 1559,
+        "duration": 288,
+        "id": "iran_household_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "イラン戦争が家計に効く順番は、ホルムズ、原油、物流、食料、そして金利です。 あなたは何が先に上がると思いますか。",
+        "subtitleText": "本体は、遅れて来る生活コスト。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "household verdict short war inflation",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "家計に来る戦争",
+              "subline": "何が先に上がる?",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "イラン戦争が家計に効く順番は、ホルムズ、原油、物流、食料、そして金利です。 あなたは何が先に上がると思いますか。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_household_short_05_verdict.wav"
+      }
+    ]
+  }
+}

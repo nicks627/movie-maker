@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
   <rect width="1920" height="1080" fill="#0b1320" />
   <rect x="84" y="84" width="1752" height="912" rx="28" fill="#101926" stroke="#334155" stroke-width="2" />
-  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="68" font-weight="700">Final reading</text>
-  <text x="126" y="228" fill="#94a3b8" font-family="Arial, sans-serif" font-size="34">The bear issue is ecological pressure amplified by a weaker state at the edge.</text>
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="68" font-weight="700">最終結論</text>
+  <text x="126" y="228" fill="#94a3b8" font-family="Arial, sans-serif" font-size="34">熊問題は、生態圧力に地方の弱体化が重なって拡大した。</text>
   <rect x="196" y="318" width="446" height="462" rx="24" fill="#17311e" stroke="#4ade80" stroke-width="3" />
   <rect x="736" y="318" width="446" height="462" rx="24" fill="#1e293b" stroke="#93c5fd" stroke-width="3" />
   <rect x="1276" y="318" width="446" height="462" rx="24" fill="#3a2415" stroke="#fb7185" stroke-width="3" />
-  <text x="244" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">Ecology</text>
-  <text x="244" y="458" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">Food shocks</text>
-  <text x="244" y="506" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">Forest degradation</text>
-  <text x="244" y="554" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">Longer activity windows</text>
-  <text x="784" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">Governance</text>
-  <text x="784" y="458" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">Slow patrol and response</text>
-  <text x="784" y="506" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">Patchy data and staffing</text>
-  <text x="784" y="554" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">National-local gap</text>
-  <text x="1324" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">Daily life</text>
-  <text x="1324" y="458" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">Walking</text>
-  <text x="1324" y="506" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">Near the home</text>
-  <text x="1324" y="554" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">School routes</text>
+  <text x="244" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">生態</text>
+  <text x="244" y="458" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">食料ショック</text>
+  <text x="244" y="506" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">森林劣化</text>
+  <text x="244" y="554" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30">長い活動期</text>
+  <text x="784" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">統治</text>
+  <text x="784" y="458" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">巡回と初動の遅れ</text>
+  <text x="784" y="506" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">ばらつくデータと人員</text>
+  <text x="784" y="554" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">国と地方のずれ</text>
+  <text x="1324" y="396" fill="#f8fafc" font-family="Arial, sans-serif" font-size="40" font-weight="700">日常生活</text>
+  <text x="1324" y="458" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">歩行中</text>
+  <text x="1324" y="506" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">自宅付近</text>
+  <text x="1324" y="554" fill="#fecdd3" font-family="Arial, sans-serif" font-size="30">通学路</text>
   <path d="M642 550 H736" stroke="#f8fafc" stroke-width="10" stroke-linecap="round" />
   <path d="M1182 550 H1276" stroke="#f8fafc" stroke-width="10" stroke-linecap="round" />
   <polygon points="736,550 696,526 696,574" fill="#f8fafc" />
   <polygon points="1276,550 1236,526 1236,574" fill="#f8fafc" />
   <rect x="314" y="832" width="1292" height="126" rx="22" fill="#111827" />
-  <text x="366" y="904" fill="#fca5a5" font-family="Arial, sans-serif" font-size="42" font-weight="700">Not just “more bears.” It is a boundary-management failure under depopulation.</text>
+  <text x="366" y="904" fill="#fca5a5" font-family="Arial, sans-serif" font-size="42" font-weight="700">「熊が増えた」だけではない。人口減少下の境界管理の失敗だ。</text>
 </svg>

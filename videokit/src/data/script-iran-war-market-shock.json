@@ -1,0 +1,1579 @@
+{
+  "project": {
+    "id": "iran-war-market-shock",
+    "title": "イラン戦争で市場はどう動くのか 原油高が株・金利・金に波及する構図",
+    "version": 1,
+    "defaultVariant": "long",
+    "category": "political"
+  },
+  "template": {
+    "id": "yukkuri-explainer"
+  },
+  "audio": {
+    "bgmVolume": 0.05,
+    "voiceVolume": 1.24,
+    "seVolume": 0.52,
+    "voiceDucking": 0.44,
+    "duckFadeFrames": 12,
+    "masterVolume": 1
+  },
+  "activeVariant": "long",
+  "long": {
+    "config": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      },
+      {
+        "at_scene": 5,
+        "file": "Gravity.mp3"
+      },
+      {
+        "at_scene": 11,
+        "file": "Indomitable.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "startTime": 0,
+        "duration": 644,
+        "id": "iran_market_long_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争で市場が見ているのは、戦況そのものより、原油がどこまで金融商品全体を引きずるかです。 原油が跳ねると、株、金利、ドル、金、穀物、金属まで一斉に値付けが変わる。 この連鎖を読めると、ニュースが資産価格へ変わる順番が見えてきます。",
+        "subtitleText": "戦況より、原油が何を連れて動くか。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "iran war market shock oil correlation hook",
+        "speedScale": 1.06,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "市場はこう動く",
+              "headline": "原油高の連鎖",
+              "subline": "株 金利 金 ドルへ波及",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "se": [
+          {
+            "file": "シーン切り替え1.mp3",
+            "startOffset": 0,
+            "volume": 0.2,
+            "duration": 18
+          },
+          {
+            "file": "和太鼓でドドン.mp3",
+            "startOffset": 10,
+            "volume": 0.12,
+            "duration": 30
+          }
+        ],
+        "speechText": "イラン戦争で市場が見ているのは、戦況そのものより、原油がどこまで金融商品全体を引きずるかです。 原油が跳ねると、株、金利、ドル、金、穀物、金属まで一斉に値付けが変わる。 この連鎖を読めると、ニュースが資産価格へ変わる順番が見えてきます。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_00_hook.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 658,
+        "duration": 650,
+        "id": "iran_market_long_01_roadmap",
+        "speaker": "ryusei",
+        "sceneRole": "roadmap",
+        "text": "順番に見ます。 まずホルムズ海峡と原油ショック。 次に株の勝ち負け、つまりエネルギー株と航空・輸送株の差。 そのあとで、金、米国債、ドル、農産物、金属まで追います。 最後に、2026年4月24日時点での見張り方を整理します。",
+        "subtitleText": "原油、株、金利、ドル、商品を順に見る。",
+        "bg_image": "assets/images/iran-war-hook-board.svg",
+        "asset_query": "iran war market roadmap explainer",
+        "speedScale": 1.04,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "この動画で追う順番",
+              "steps": [
+                {
+                  "label": "原油",
+                  "sub": "海峡から始まる"
+                },
+                {
+                  "label": "株",
+                  "sub": "勝ち負けが割れる"
+                },
+                {
+                  "label": "金利とドル",
+                  "sub": "期待が揺れる"
+                },
+                {
+                  "label": "商品全体",
+                  "sub": "穀物と金属へ",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "順番に見ます。 まずホルムズ海峡と原油ショック。 次に株の勝ち負け、つまりエネルギー株と航空・輸送株の差。 そのあとで、金、米国債、ドル、農産物、金属まで追います。 最後に、2026年4月24日時点での見張り方を整理します。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_01_roadmap.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 1322,
+        "duration": 754,
+        "id": "iran_market_long_02_oil",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "資料では、ホルムズ海峡の混乱でブレント原油が1バレル120ドルを超え、3月9日前後には一日で25パーセント級の急伸が観測されました。 原油は単なる一商品ではありません。 インフレ、輸送、企業利益、中央銀行見通しの全部にかぶさる土台です。 だからここが跳ねると、市場全体の地図が描き変わります。",
+        "subtitleText": "原油は一商品ではなく、市場全体の土台。",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "asset_query": "brent oil 120 war market shock",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "原油ショックの背骨",
+              "stats": [
+                {
+                  "icon": "原",
+                  "label": "ブレント",
+                  "value": "120ドル超",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "急",
+                  "label": "急伸",
+                  "value": "約25%",
+                  "color": "#ef4444"
+                },
+                {
+                  "icon": "核",
+                  "label": "本質",
+                  "value": "インフレ税",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "資料では、ホルムズ海峡の混乱でブレント原油が1バレル120ドルを超え、3月9日前後には一日で25パーセント級の急伸が観測されました。 原油は単なる一商品ではありません。 インフレ、輸送、企業利益、中央銀行見通しの全部にかぶさる土台です。 だからここが跳ねると、市場全体の地図が描き変わります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_02_oil.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 2090,
+        "duration": 697,
+        "id": "iran_market_long_02b_volatility",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "市場で最初に起きるのは、価格上昇そのものより、ボラティリティの爆発です。 原油先物、エネルギー関連株、輸送株、為替が同時に大きく振れると、ポジション整理が連鎖しやすい。 つまり戦争相場では、方向だけでなく、振れ幅自体がリスクになります。 原油が市場の温度計になる理由はそこです。",
+        "subtitleText": "最初に広がるのは、方向より振れ幅。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "oil volatility futures war market explainer",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "ボラティリティが先に来る理由",
+              "bullets": [
+                "先物が大きく動く",
+                "関連資産も同時に揺れる",
+                "ポジション整理が連鎖する"
+              ],
+              "tagline": "方向だけではなく振れ幅も見る",
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "市場で最初に起きるのは、価格上昇そのものより、ボラティリティの爆発です。 原油先物、エネルギー関連株、輸送株、為替が同時に大きく振れると、ポジション整理が連鎖しやすい。 つまり戦争相場では、方向だけでなく、振れ幅自体がリスクになります。 原油が市場の温度計になる理由はそこです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_02b_volatility.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 2801,
+        "duration": 707,
+        "id": "iran_market_long_03_sp500",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "株式全体には逆風でした。 資料では、S&P500は戦争勃発後に6か月ぶり安値へ下落し、20日移動相関はマイナス0.89と、原油高とかなり強い逆相関を示した局面が整理されています。 理由は単純で、原油高がインフレ懸念と金利上昇期待を高め、企業利益を圧迫するからです。",
+        "subtitleText": "原油高は、株式全体には逆風になりやすい。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "sp500 oil negative correlation war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "原油",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "急騰する",
+                  "インフレ懸念を連れてくる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "S&P500",
+                "titleColor": "#ef4444",
+                "items": [
+                  "反落しやすい",
+                  "利益見通しが削られる"
+                ],
+                "highlight": true
+              },
+              "tagline": "市場全体では逆相関"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "株式全体には逆風でした。 資料では、S&P500は戦争勃発後に6か月ぶり安値へ下落し、20日移動相関はマイナス0.89と、原油高とかなり強い逆相関を示した局面が整理されています。 理由は単純で、原油高がインフレ懸念と金利上昇期待を高め、企業利益を圧迫するからです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_03_sp500.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 3522,
+        "duration": 861,
+        "id": "iran_market_long_04_energy_winners",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ただし市場が全部同じ方向へ動くわけではありません。 資料に引かれたReutersベースでは、エネルギーETFのXLEが年初来38.2パーセント、XOPが41.3パーセント上昇し、エクソンは約42パーセント、シェブロンは約37パーセント上がりました。 原油高は、指数全体には悪くても、石油会社には利益見通しの改善として映ります。",
+        "speechText": "ただし市場が全部同じ方向へ動くわけではありません。 資料に引かれたロイター ベースでは、エネルギーETFのエックスエルイーが年初来38.2パーセント、エックスオーピーが41.3パーセント上昇し、エクソンは約42パーセント、シェブロンは約37パーセント上がりました。 原油高は、指数全体には悪くても、石油会社には利益見通しの改善として映ります。",
+        "subtitleText": "指数は弱くても、エネルギー株は別で上がる。",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "asset_query": "xle xop exxon chevron oil war winners",
+        "speedScale": 1.02,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "原油高の勝ち組",
+              "stats": [
+                {
+                  "icon": "XLE",
+                  "label": "XLE",
+                  "value": "+38.2%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "XOP",
+                  "label": "XOP",
+                  "value": "+41.3%",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "石",
+                  "label": "Exxon / Chevron",
+                  "value": "+42 / +37%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_04_energy_winners.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 4397,
+        "duration": 737,
+        "id": "iran_market_long_04b_index_weight",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで一つ大事なのは、エネルギー株が上がっても指数全体を救いにくいことです。 エネルギーセクターは上がっても、S&P500全体に占める比重は限られる。 一方で、原油高の悪影響は輸送、消費、製造、金利感応株に広く及ぶ。 だから石油会社が強い日でも、指数全体は重いというねじれが起きます。",
+        "subtitleText": "エネルギー株高だけでは、指数全体を救えない。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "energy sector weight sp500 oil war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "局所的な追い風",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "石油会社の利益改善",
+                  "エネルギーETFは上がる"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "全体の逆風",
+                "titleColor": "#ef4444",
+                "items": [
+                  "消費と輸送が弱い",
+                  "金利も重くなる"
+                ],
+                "highlight": true
+              },
+              "tagline": "部分高と全体安は両立する"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで一つ大事なのは、エネルギー株が上がっても指数全体を救いにくいことです。 エネルギーセクターは上がっても、S&P500全体に占める比重は限られる。 一方で、原油高の悪影響は輸送、消費、製造、金利感応株に広く及ぶ。 だから石油会社が強い日でも、指数全体は重いというねじれが起きます。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_04b_index_weight.wav",
+        "tailFrames": 28
+      },
+      {
+        "startTime": 5148,
+        "duration": 714,
+        "id": "iran_market_long_05_airlines",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "逆に分かりやすい敗者は航空と輸送です。 資料では、米航空株指数は開戦以来およそ11パーセント下落しました。 航空会社は燃料費の比重が高く、原油高がそのままコスト増になる。 しかも原油価格が10パーセント上がるごとにGDP成長率を15から20ベーシスポイント押し下げる推計もあり、需要側まで冷やしやすいんです。",
+        "subtitleText": "航空と輸送は、燃料高をまともに受ける。",
+        "bg_image": "assets/images/iran-war-maritime-board.svg",
+        "asset_query": "airlines transport oil shock war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "航空・輸送が弱い理由",
+              "bullets": [
+                "燃料費の比重が高い",
+                "便数減と運賃上昇",
+                "景気減速で需要も弱る"
+              ],
+              "tagline": "コスト面と需要面の二重苦",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "逆に分かりやすい敗者は航空と輸送です。 資料では、米航空株指数は開戦以来およそ11パーセント下落しました。 航空会社は燃料費の比重が高く、原油高がそのままコスト増になる。 しかも原油価格が10パーセント上がるごとにGDP成長率を15から20ベーシスポイント押し下げる推計もあり、需要側まで冷やしやすいんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_05_airlines.wav"
+      },
+      {
+        "startTime": 5876,
+        "duration": 669,
+        "id": "iran_market_long_05b_consumers",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "航空だけでなく、消費関連もじわじわ苦しくなります。 燃料代と光熱費が上がると、家計の裁量支出は細りやすい。 外食、小売り、旅行、レジャーのような景気敏感セクターは、売上面でもコスト面でも挟まれます。 原油高が怖いのは、企業ごとの損益計算書を広く痛めるからです。",
+        "subtitleText": "原油高は、消費関連の売上も削りやすい。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "consumer discretionary travel retail oil shock war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "消費関連が弱くなりやすい理由",
+              "bullets": [
+                "家計の裁量支出が細る",
+                "店舗の光熱費も重い",
+                "需要とコストの両面が逆風"
+              ],
+              "tagline": "航空だけでは終わらない",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "航空だけでなく、消費関連もじわじわ苦しくなります。 燃料代と光熱費が上がると、家計の裁量支出は細りやすい。 外食、小売り、旅行、レジャーのような景気敏感セクターは、売上面でもコスト面でも挟まれます。 原油高が怖いのは、企業ごとの損益計算書を広く痛めるからです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_05b_consumers.wav"
+      },
+      {
+        "startTime": 6559,
+        "duration": 724,
+        "id": "iran_market_long_06_gold",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "安全資産の金も、今回は単純ではありませんでした。 資料では、戦争直後に過去高値近くまで上がったあと、ドル高と金利上昇で11パーセント下落したと整理されています。 金はインフレヘッジとして買われやすい一方、米国の長期金利が上がると保有コスト面で逆風になります。 戦争だから金と決め打ちすると外しやすい典型例です。",
+        "subtitleText": "金は安全資産でも、一直線ではない。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "gold dollar yields war market shock",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "金を支える力",
+                "titleColor": "#f59e0b",
+                "items": [
+                  "インフレ懸念",
+                  "地政学リスク"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "金を押す力",
+                "titleColor": "#ef4444",
+                "items": [
+                  "ドル高",
+                  "長期金利上昇"
+                ],
+                "highlight": true
+              },
+              "tagline": "今回は両方がぶつかった"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "安全資産の金も、今回は単純ではありませんでした。 資料では、戦争直後に過去高値近くまで上がったあと、ドル高と金利上昇で11パーセント下落したと整理されています。 金はインフレヘッジとして買われやすい一方、米国の長期金利が上がると保有コスト面で逆風になります。 戦争だから金と決め打ちすると外しやすい典型例です。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_06_gold.wav"
+      },
+      {
+        "startTime": 7297,
+        "duration": 732,
+        "id": "iran_market_long_07_treasuries",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "米10年国債利回りも二段で動きました。 エネルギー価格上昇とインフレ懸念で3月には4.38パーセントまで上昇。 その一方で、戦争長期化による景気減速懸念が強まると、安全資産需要で3月末には4.348パーセントへ低下したと資料は整理しています。 つまり最初はインフレ、次に景気後退が勝つという二相構造です。",
+        "subtitleText": "国債利回りは、まず上がり、次に景気不安で戻る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "us 10 year yield inflation recession war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "米10年の二段反応",
+              "steps": [
+                {
+                  "label": "前半",
+                  "sub": "インフレ懸念で上昇"
+                },
+                {
+                  "label": "後半",
+                  "sub": "景気不安で低下"
+                },
+                {
+                  "label": "結論",
+                  "sub": "一方向ではない",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "米10年国債利回りも二段で動きました。 エネルギー価格上昇とインフレ懸念で3月には4.38パーセントまで上昇。 その一方で、戦争長期化による景気減速懸念が強まると、安全資産需要で3月末には4.348パーセントへ低下したと資料は整理しています。 つまり最初はインフレ、次に景気後退が勝つという二相構造です。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_07_treasuries.wav"
+      },
+      {
+        "startTime": 8043,
+        "duration": 708,
+        "id": "iran_market_long_07b_valuation",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "金利の動きが株へ重いのは、割引率の問題があるからです。 特に将来の利益期待に支えられる成長株ほど、長期金利の上昇に弱い。 原油高は目先のコストだけでなく、評価倍率そのものを押し下げる方向にも働きます。 だから戦争相場では、景気敏感株だけでなく、バリュエーションの高い銘柄も揺れやすいんです。",
+        "subtitleText": "金利上昇は、評価倍率そのものも削る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "equity valuation long yields oil shock war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "金利から株へ来るルート",
+              "steps": [
+                {
+                  "label": "長期金利上昇",
+                  "sub": "割引率が上がる"
+                },
+                {
+                  "label": "評価倍率低下",
+                  "sub": "成長株に重い"
+                },
+                {
+                  "label": "株価調整",
+                  "sub": "指数にも波及",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "金利の動きが株へ重いのは、割引率の問題があるからです。 特に将来の利益期待に支えられる成長株ほど、長期金利の上昇に弱い。 原油高は目先のコストだけでなく、評価倍率そのものを押し下げる方向にも働きます。 だから戦争相場では、景気敏感株だけでなく、バリュエーションの高い銘柄も揺れやすいんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_07b_valuation.wav"
+      },
+      {
+        "startTime": 8765,
+        "duration": 638,
+        "id": "iran_market_long_08_dollar",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "ドルも安全資産として買われやすくなりました。 資料では、戦争の不安定化でドル指数が3月上旬に3か月ぶり高値へ上昇したと整理されています。 エネルギー輸入国は通貨安になりやすく、逆に原油輸出国通貨は原油高に連動しやすい。 この為替の差が、国ごとのインフレ体感まで変えていきます。",
+        "subtitleText": "ドル高は、輸入国にさらに重くのしかかる。",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "asset_query": "dxy currencies oil importers exporters war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "輸入国通貨",
+                "titleColor": "#ef4444",
+                "items": [
+                  "通貨安になりやすい",
+                  "輸入インフレが重い"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "輸出国通貨",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "原油高に連動",
+                  "相対的に支えられる"
+                ],
+                "highlight": true
+              },
+              "tagline": "為替でも勝ち負けが割れる"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ドルも安全資産として買われやすくなりました。 資料では、戦争の不安定化でドル指数が3月上旬に3か月ぶり高値へ上昇したと整理されています。 エネルギー輸入国は通貨安になりやすく、逆に原油輸出国通貨は原油高に連動しやすい。 この為替の差が、国ごとのインフレ体感まで変えていきます。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_08_dollar.wav"
+      },
+      {
+        "startTime": 9417,
+        "duration": 617,
+        "id": "iran_market_long_08b_importer_stress",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "通貨が弱い輸入国ほど、このショックはさらに重くなります。 原油も肥料もドル建てで買うので、ドル高と資源高が同時に来ると二重苦になります。 IMFが強調したのも、エネルギー輸入国や外貨バッファの小さい国ほど危ないという点です。 市場のストレスは、まず為替と資金繰りに出やすいんです。",
+        "subtitleText": "ドル高と資源高が同時に来ると輸入国は二重苦。",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "asset_query": "energy importers currency stress war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "輸入国が苦しい理由",
+              "bullets": [
+                "資源はドル建て",
+                "通貨安で輸入高が増幅",
+                "外貨余力が削られる"
+              ],
+              "tagline": "為替と資源の二重苦",
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "通貨が弱い輸入国ほど、このショックはさらに重くなります。 原油も肥料もドル建てで買うので、ドル高と資源高が同時に来ると二重苦になります。 IMFが強調したのも、エネルギー輸入国や外貨バッファの小さい国ほど危ないという点です。 市場のストレスは、まず為替と資金繰りに出やすいんです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_08b_importer_stress.wav"
+      },
+      {
+        "startTime": 10048,
+        "duration": 741,
+        "id": "iran_market_long_09_agri",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "農産物も見逃せません。 資料では、原油急騰を受けてマレーシア産パーム油が9パーセント、シカゴ大豆油が2022年末以来の高値まで上昇し、小麦や大豆も高値圏に入ったと整理されています。 植物油はバイオ燃料需要と結びつき、輸送費高騰も穀物価格を押し上げる。 だから原油高は、食料商品にも形を変えて波及します。",
+        "subtitleText": "原油高は、植物油や穀物にも波及する。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "palm oil soybean oil wheat oil shock war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "食料商品への波及",
+              "stats": [
+                {
+                  "icon": "油",
+                  "label": "パーム油",
+                  "value": "+9%",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "豆",
+                  "label": "大豆油",
+                  "value": "2022年以来高値",
+                  "color": "#f59e0b"
+                },
+                {
+                  "icon": "麦",
+                  "label": "小麦",
+                  "value": "高値圏",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "農産物も見逃せません。 資料では、原油急騰を受けてマレーシア産パーム油が9パーセント、シカゴ大豆油が2022年末以来の高値まで上昇し、小麦や大豆も高値圏に入ったと整理されています。 植物油はバイオ燃料需要と結びつき、輸送費高騰も穀物価格を押し上げる。 だから原油高は、食料商品にも形を変えて波及します。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_09_agri.wav"
+      },
+      {
+        "startTime": 10803,
+        "duration": 675,
+        "id": "iran_market_long_10_metals",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "金属も同じです。 資料では、輸送や電力供給への懸念からアルミニウム価格が4年ぶり高値に急伸し、銅やその他の金属も供給不安で堅調だったと整理されていました。 精錬には大量のエネルギーが要るので、原油高や電力不安がそのままコスト圧力になります。 製造業のマージンが苦しくなるのはこのためです。",
+        "subtitleText": "金属は、エネルギーコストから押し上がる。",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "asset_query": "aluminum copper energy cost war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "金属が上がりやすい理由",
+              "bullets": [
+                "精錬に電力を使う",
+                "輸送不安が重なる",
+                "製造業の原価が上がる"
+              ],
+              "tagline": "資源高は工業コスト高でもある",
+              "accent": "#f97316"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "金属も同じです。 資料では、輸送や電力供給への懸念からアルミニウム価格が4年ぶり高値に急伸し、銅やその他の金属も供給不安で堅調だったと整理されていました。 精錬には大量のエネルギーが要るので、原油高や電力不安がそのままコスト圧力になります。 製造業のマージンが苦しくなるのはこのためです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_10_metals.wav"
+      },
+      {
+        "startTime": 11492,
+        "duration": 659,
+        "id": "iran_market_long_10b_manufacturing_margin",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "ここで製造業の利益を考えると、かなり厳しい絵になります。 エネルギー、金属、物流の三つが同時に上がると、価格転嫁できる企業とできない企業の差が開きやすい。 とくに中流工程のメーカーは、原価は上がるのに販売価格はすぐ変えられないことが多い。 市場が製造業を慎重に見る理由はここにあります。",
+        "subtitleText": "製造業は、原価高をすぐ売価へ乗せにくい。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "manufacturing margins metal energy freight war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "価格転嫁しやすい",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "資源会社",
+                  "一部の寡占セクター"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "価格転嫁しにくい",
+                "titleColor": "#ef4444",
+                "items": [
+                  "中流メーカー",
+                  "景気敏感消費財"
+                ],
+                "highlight": true
+              },
+              "tagline": "利益の差が開く"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここで製造業の利益を考えると、かなり厳しい絵になります。 エネルギー、金属、物流の三つが同時に上がると、価格転嫁できる企業とできない企業の差が開きやすい。 とくに中流工程のメーカーは、原価は上がるのに販売価格はすぐ変えられないことが多い。 市場が製造業を慎重に見る理由はここにあります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_10b_manufacturing_margin.wav"
+      },
+      {
+        "startTime": 12165,
+        "duration": 672,
+        "id": "iran_market_long_11_why",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "なぜここまで相関が広がるのか。 答えは、原油高が一種のインフレ税として機能するからです。 企業は燃料、輸送、原材料のコスト増に直面し、中央銀行は利下げをしづらくなり、投資家は割引率の上昇を意識する。 一つの戦争ニュースが、複数の資産クラスを同時に揺らす構造がここにあります。",
+        "subtitleText": "原油高は、一種のインフレ税として広がる。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "oil shock inflation tax asset correlations war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "原油高が広がる理由",
+              "steps": [
+                {
+                  "label": "コスト増",
+                  "sub": "企業利益を圧迫"
+                },
+                {
+                  "label": "インフレ再燃",
+                  "sub": "利下げしづらい"
+                },
+                {
+                  "label": "評価額低下",
+                  "sub": "資産全体に波及",
+                  "highlight": true
+                }
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "なぜここまで相関が広がるのか。 答えは、原油高が一種のインフレ税として機能するからです。 企業は燃料、輸送、原材料のコスト増に直面し、中央銀行は利下げをしづらくなり、投資家は割引率の上昇を意識する。 一つの戦争ニュースが、複数の資産クラスを同時に揺らす構造がここにあります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_11_why.wav"
+      },
+      {
+        "startTime": 12851,
+        "duration": 720,
+        "id": "iran_market_long_11b_earnings_lag",
+        "speaker": "tsumugi",
+        "sceneRole": "analysis",
+        "text": "もう一つ大事なのは、業績修正が価格より遅れて来ることです。 原油が跳ねた瞬間に市場は将来の利益圧迫を先に織り込み、あとから決算や会社計画が追いついてくる。 つまり株価の下落を見てから業績悪化を確認するのでは順番が逆で、相場はいつも先に走る。 戦争相場では、この時間差を意識しておく必要があります。",
+        "subtitleText": "相場は、業績修正より先に走る。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "earnings revisions lag oil shock war market",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "価格と業績の時間差",
+              "steps": [
+                {
+                  "label": "原油急騰",
+                  "sub": "市場が先に反応"
+                },
+                {
+                  "label": "株価調整",
+                  "sub": "利益圧迫を織り込む"
+                },
+                {
+                  "label": "決算で確認",
+                  "sub": "あとから追いつく",
+                  "highlight": true
+                }
+              ],
+              "accent": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "もう一つ大事なのは、業績修正が価格より遅れて来ることです。 原油が跳ねた瞬間に市場は将来の利益圧迫を先に織り込み、あとから決算や会社計画が追いついてくる。 つまり株価の下落を見てから業績悪化を確認するのでは順番が逆で、相場はいつも先に走る。 戦争相場では、この時間差を意識しておく必要があります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_11b_earnings_lag.wav"
+      },
+      {
+        "startTime": 13585,
+        "duration": 633,
+        "id": "iran_market_long_12_misreads",
+        "speaker": "tsumugi",
+        "sceneRole": "boundary",
+        "text": "個人投資家が誤解しやすい点も三つあります。 一つ、エネルギー株が上がっても指数全体を救えるとは限らない。 二つ、金は常に安全資産ではない。 三つ、国債は最初から一直線で買われるわけではない。 戦争相場で大事なのは、資産ごとに反応の順番が違うと理解することです。",
+        "subtitleText": "戦争相場は、全部同じ反応をしない。",
+        "bg_image": "assets/images/iran-war-source-board.svg",
+        "asset_query": "war market misreads energy gold bonds",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "誤解しやすい3点",
+              "bullets": [
+                "エネルギー株高でも指数は弱い",
+                "金は常勝ではない",
+                "国債も最初は売られうる"
+              ],
+              "tagline": "順番の違いを見る",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "speechText": "個人投資家が誤解しやすい点も三つあります。 一つ、エネルギー株が上がっても指数全体を救えるとは限らない。 二つ、金は常に安全資産ではない。 三つ、国債は最初から一直線で買われるわけではない。 戦争相場で大事なのは、資産ごとに反応の順番が違うと理解することです。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_12_misreads.wav"
+      },
+      {
+        "startTime": 14232,
+        "duration": 764,
+        "id": "iran_market_long_13_scenarios",
+        "speaker": "ryusei",
+        "sceneRole": "scenario",
+        "text": "ここから先の市場シナリオも三つです。 海峡が安定へ戻るなら、エネルギー株の独走は鈍り、指数全体も落ち着きやすい。 停戦は続くが高止まりするなら、景気敏感株は弱く、インフレ耐性の高い資産が選ばれやすい。 戦争が再拡大するなら、原油、ドル、短期のエネルギー株が再び前へ出て、航空と消費がさらに苦しくなります。",
+        "subtitleText": "正常化、高止まり、再拡大で勝ち負けが変わる。",
+        "bg_image": "assets/images/iran-war-scenario.svg",
+        "asset_query": "war market scenarios oil equities yields",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "3つの市場シナリオ",
+              "steps": [
+                {
+                  "label": "正常化",
+                  "sub": "原油と緊張が和らぐ"
+                },
+                {
+                  "label": "高止まり",
+                  "sub": "選別相場が続く",
+                  "highlight": true
+                },
+                {
+                  "label": "再拡大",
+                  "sub": "原油とドルが再加速"
+                }
+              ],
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "ここから先の市場シナリオも三つです。 海峡が安定へ戻るなら、エネルギー株の独走は鈍り、指数全体も落ち着きやすい。 停戦は続くが高止まりするなら、景気敏感株は弱く、インフレ耐性の高い資産が選ばれやすい。 戦争が再拡大するなら、原油、ドル、短期のエネルギー株が再び前へ出て、航空と消費がさらに苦しくなります。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_13_scenarios.wav"
+      },
+      {
+        "startTime": 15010,
+        "duration": 653,
+        "id": "iran_market_long_14_watch",
+        "speaker": "tsumugi",
+        "sceneRole": "watchpoints",
+        "text": "だから見るべきダッシュボードは七つです。 ブレント原油、XLEとXOP、航空株、米10年国債利回り、ドル指数、金、そしてパーム油や小麦などの食料商品。 この並びを毎日見ると、戦争ニュースがどこまで資産価格へ広がっているかがかなり立体的に読めます。",
+        "speechText": "だから見るべきダッシュボードは七つです。 ブレント原油、エックスエルイーとエックスオーピー、航空株、米10年国債利回り、ドル指数、金、そしてパーム油や小麦などの食料商品。 この並びを毎日見ると、戦争ニュースがどこまで資産価格へ広がっているかがかなり立体的に読めます。",
+        "subtitleText": "原油、エネルギー株、航空、10年債、ドル、金、食料を見る。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "market dashboard oil xle xop dxy gold wheat",
+        "speedScale": 1.02,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "市場で見るべき7項目",
+              "bullets": [
+                "ブレント",
+                "XLE / XOP",
+                "航空株",
+                "米10年債",
+                "ドル指数",
+                "金",
+                "食料商品"
+              ],
+              "tagline": "相関の広がりを見る",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_14_watch.wav"
+      },
+      {
+        "startTime": 15677,
+        "duration": 698,
+        "id": "iran_market_long_14b_sequence",
+        "speaker": "ryusei",
+        "sceneRole": "summary",
+        "text": "相場を見る順番も決めておくと読みやすくなります。 まず原油と海峡、次にエネルギー株と航空株、そのあと米10年債とドル、最後に金と食料商品です。 この順番で見ると、ショックがまだ初撃なのか、景気減速まで織り込み始めたのかが分かりやすい。 戦争ニュースを価格へ翻訳する手順として持っておくと便利です。",
+        "subtitleText": "原油→株→金利→ドル→商品、の順で読む。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "market reading sequence war oil stocks yields dollar",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "相場を見る手順",
+              "steps": [
+                {
+                  "label": "原油と海峡",
+                  "sub": "初撃を見る"
+                },
+                {
+                  "label": "株と航空",
+                  "sub": "勝ち負けを見る"
+                },
+                {
+                  "label": "金利とドル",
+                  "sub": "景気織り込みを見る"
+                },
+                {
+                  "label": "金と食料",
+                  "sub": "広がりを見る",
+                  "highlight": true
+                }
+              ],
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "相場を見る順番も決めておくと読みやすくなります。 まず原油と海峡、次にエネルギー株と航空株、そのあと米10年債とドル、最後に金と食料商品です。 この順番で見ると、ショックがまだ初撃なのか、景気減速まで織り込み始めたのかが分かりやすい。 戦争ニュースを価格へ翻訳する手順として持っておくと便利です。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_14b_sequence.wav"
+      },
+      {
+        "startTime": 16389,
+        "duration": 776,
+        "id": "iran_market_long_15_boundary",
+        "speaker": "ryusei",
+        "sceneRole": "boundary",
+        "text": "最後に線を引きます。 この動画は投資助言ではなく、2026年3月から4月の戦争局面で、原油高がどう資産クラスへ伝わったかの整理です。 確認事実として扱うのは、IMFとFAOの公開資料、それからユーザー提供PDFにまとめられたReutersベースの市場データまでです。 将来の値動きを断定する動画ではありません。",
+        "subtitleText": "これは投資助言ではなく、相関の整理。",
+        "bg_image": "assets/images/iran-war-source-board.svg",
+        "asset_query": "fact boundary market explainer war",
+        "speedScale": 1.03,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "確認事実",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "IMFとFAOの公開資料",
+                  "PDFに整理された市場データ"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "やらないこと",
+                "titleColor": "#ef4444",
+                "items": [
+                  "将来の値動き断定",
+                  "単一資産の煽り"
+                ],
+                "highlight": true
+              },
+              "tagline": "レイヤーを混ぜない"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "speechText": "最後に線を引きます。 この動画は投資助言ではなく、2026年3月から4月の戦争局面で、原油高がどう資産クラスへ伝わったかの整理です。 確認事実として扱うのは、IMFとFAOの公開資料、それからユーザー提供PDFにまとめられたReutersベースの市場データまでです。 将来の値動きを断定する動画ではありません。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_15_boundary.wav"
+      },
+      {
+        "startTime": 17179,
+        "duration": 828,
+        "id": "iran_market_long_16_verdict",
+        "speaker": "tsumugi",
+        "sceneRole": "verdict",
+        "text": "結論です。 イラン戦争の市場インパクトは、原油高が株、金利、ドル、金、穀物、金属を引きずる連鎖として見ると一番分かりやすい。 原油そのものを見るだけでは足りず、どの資産が勝ち、どの資産が遅れて痛むかまで追う必要があります。 あなたは今回、いちばん敏感に反応する資産を何だと思いますか。 コメントで聞かせてください。",
+        "subtitleText": "原油高の連鎖として見ると、市場は読みやすい。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "market verdict oil chain war",
+        "speedScale": 1.03,
+        "tailFrames": 30,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "原油高の連鎖",
+              "subline": "どの資産がいちばん敏感か",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "結論です。 イラン戦争の市場インパクトは、原油高が株、金利、ドル、金、穀物、金属を引きずる連鎖として見ると一番分かりやすい。 原油そのものを見るだけでは足りず、どの資産が勝ち、どの資産が遅れて痛むかまで追う必要があります。 あなたは今回、いちばん敏感に反応する資産を何だと思いますか。 コメントで聞かせてください。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.74,
+            "speed": 0.9
+          }
+        },
+        "voiceFile": "iran_market_long_16_verdict.wav"
+      }
+    ]
+  },
+  "short": {
+    "config": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "characterScale": 0,
+    "bgm_sequence": [
+      {
+        "at_scene": 0,
+        "file": "Demon_Rush.mp3"
+      }
+    ],
+    "scenes": [
+      {
+        "startTime": 0,
+        "duration": 311,
+        "id": "iran_market_short_00_hook",
+        "speaker": "tsumugi",
+        "sceneRole": "hook",
+        "text": "イラン戦争で市場が見ているのは、戦況そのものより、原油が何を連れて動くかです。 原油高は、株、金利、ドル、金まで波及します。",
+        "subtitleText": "戦況より、原油が何を連れて動くか。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "iran war market short hook",
+        "speedScale": 1.14,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "市場はこう動く",
+              "headline": "原油高の連鎖",
+              "subline": "株 金利 金 ドルへ",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "イラン戦争で市場が見ているのは、戦況そのものより、原油が何を連れて動くかです。 原油高は、株、金利、ドル、金まで波及します。",
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_00_hook.wav"
+      },
+      {
+        "startTime": 319,
+        "duration": 322,
+        "id": "iran_market_short_01_oil",
+        "speaker": "ryusei",
+        "sceneRole": "fact",
+        "text": "資料では、ホルムズ海峡の混乱でブレント原油が120ドルを超え、3月9日前後に25パーセント級の急伸が観測されました。 ここが市場地図の出発点です。",
+        "subtitleText": "出発点は、原油ショック。",
+        "bg_image": "assets/images/iran-war-hormuz.svg",
+        "asset_query": "oil shock short market war",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "StatsCard",
+            "props": {
+              "title": "出発点",
+              "stats": [
+                {
+                  "icon": "原",
+                  "label": "ブレント",
+                  "value": "120ドル超",
+                  "color": "#38bdf8"
+                },
+                {
+                  "icon": "急",
+                  "label": "急伸",
+                  "value": "約25%",
+                  "color": "#ef4444"
+                }
+              ]
+            },
+            "imageX": 50,
+            "imageY": 64,
+            "imageWidth": 92,
+            "imageHeight": 28,
+            "duration": 240
+          }
+        ],
+        "speechText": "資料では、ホルムズ海峡の混乱でブレント原油が120ドルを超え、3月9日前後に25パーセント級の急伸が観測されました。 ここが市場地図の出発点です。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "documentary-drift",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_01_oil.wav"
+      },
+      {
+        "startTime": 649,
+        "duration": 362,
+        "id": "iran_market_short_02_winners_losers",
+        "speaker": "tsumugi",
+        "sceneRole": "fact",
+        "text": "指数全体には逆風でも、エネルギー株は別でした。 XLEとXOPは約4割高、逆に航空株はおよそ11パーセント下落。 同じ戦争でも勝ち負けは割れます。",
+        "speechText": "指数全体には逆風でも、エネルギー株は別でした。 エックスエルイーとエックスオーピーは約4割高、逆に航空株はおよそ11パーセント下落。 同じ戦争でも勝ち負けは割れます。",
+        "subtitleText": "エネルギー株は上、航空株は下。",
+        "bg_image": "assets/images/iran-war-power-bloc.svg",
+        "asset_query": "energy stocks airlines short war market",
+        "speedScale": 1.1,
+        "popups": [
+          {
+            "component": "TwoColumnComparison",
+            "props": {
+              "left": {
+                "title": "勝ち組",
+                "titleColor": "#38bdf8",
+                "items": [
+                  "エネルギー株",
+                  "原油高が追い風"
+                ],
+                "highlight": true
+              },
+              "right": {
+                "title": "負け組",
+                "titleColor": "#ef4444",
+                "items": [
+                  "航空と輸送",
+                  "燃料高が逆風"
+                ],
+                "highlight": true
+              },
+              "tagline": "同じ市場でも反応は逆"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 94,
+            "imageHeight": 32,
+            "duration": 240
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "ken-burns",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_02_winners_losers.wav"
+      },
+      {
+        "startTime": 1019,
+        "duration": 365,
+        "id": "iran_market_short_03_gold_bonds_dollar",
+        "speaker": "ryusei",
+        "sceneRole": "analysis",
+        "text": "金も国債も一直線ではありません。 金はドル高と金利上昇で押され、米10年債は最初にインフレ懸念で上がり、そのあと景気不安で戻る。 ドルは安全資産として強くなりやすい。",
+        "subtitleText": "金も国債も、一直線ではない。",
+        "bg_image": "assets/images/iran-war-market.svg",
+        "asset_query": "gold yields dollar short war market",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "FlowDiagram",
+            "props": {
+              "title": "金利と安全資産の順番",
+              "steps": [
+                {
+                  "label": "前半",
+                  "sub": "インフレ懸念"
+                },
+                {
+                  "label": "後半",
+                  "sub": "景気不安"
+                },
+                {
+                  "label": "ドル高",
+                  "sub": "避難先として強い",
+                  "highlight": true
+                }
+              ],
+              "accent": "#f59e0b"
+            },
+            "imageX": 50,
+            "imageY": 60,
+            "imageWidth": 92,
+            "imageHeight": 30,
+            "duration": 240
+          }
+        ],
+        "speechText": "金も国債も一直線ではありません。 金はドル高と金利上昇で押され、米10年債は最初にインフレ懸念で上がり、そのあと景気不安で戻る。 ドルは安全資産として強くなりやすい。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "pan-right",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_03_gold_bonds_dollar.wav"
+      },
+      {
+        "startTime": 1392,
+        "duration": 362,
+        "id": "iran_market_short_04_watch",
+        "speaker": "tsumugi",
+        "sceneRole": "watchpoints",
+        "text": "見るべきは、ブレント、XLEとXOP、航空株、米10年債、ドル指数、金です。 この並びで、戦争ニュースの広がり方が見えます。",
+        "speechText": "見るべきは、ブレント、エックスエルイーとエックスオーピー、航空株、米10年債、ドル指数、金です。 この並びで、戦争ニュースの広がり方が見えます。",
+        "subtitleText": "ブレント、エネルギー株、航空、10年債、ドル、金を見る。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "market watchlist short war oil",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "BulletList",
+            "props": {
+              "title": "見るべき6項目",
+              "bullets": [
+                "ブレント",
+                "XLE / XOP",
+                "航空株",
+                "米10年債",
+                "ドル指数",
+                "金"
+              ],
+              "tagline": "相関の広がりを見る",
+              "accent": "#38bdf8"
+            },
+            "imageX": 50,
+            "imageY": 58,
+            "imageWidth": 88,
+            "imageHeight": 34,
+            "duration": 240
+          }
+        ],
+        "sceneEffect": {
+          "stylePreset": "shorts-punch",
+          "cameraMotion": {
+            "type": "pan-left",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_04_watch.wav"
+      },
+      {
+        "startTime": 1762,
+        "duration": 290,
+        "id": "iran_market_short_05_verdict",
+        "speaker": "ryusei",
+        "sceneRole": "verdict",
+        "text": "結局、イラン戦争の市場インパクトは、原油高が何を連れて動くかで見るのが一番分かりやすいです。 あなたは何がいちばん敏感だと思いますか。",
+        "subtitleText": "原油高の連鎖で見ると、市場は読みやすい。",
+        "bg_image": "assets/images/iran-war-final.svg",
+        "asset_query": "market verdict short oil chain war",
+        "speedScale": 1.08,
+        "popups": [
+          {
+            "component": "PoliticalShockBanner",
+            "props": {
+              "kicker": "結論",
+              "headline": "原油高の連鎖",
+              "subline": "何がいちばん敏感か",
+              "accentColor": "#ef4444"
+            },
+            "imageX": 50,
+            "imageY": 72,
+            "imageWidth": 92,
+            "imageHeight": 24,
+            "duration": 220
+          }
+        ],
+        "speechText": "結局、イラン戦争の市場インパクトは、原油高が何を連れて動くかで見るのが一番分かりやすいです。 あなたは何がいちばん敏感だと思いますか。",
+        "sceneEffect": {
+          "stylePreset": "documentary",
+          "cameraMotion": {
+            "type": "push-in",
+            "intensity": 0.86,
+            "speed": 1
+          }
+        },
+        "voiceFile": "short_iran_market_short_05_verdict.wav"
+      }
+    ]
+  }
+}

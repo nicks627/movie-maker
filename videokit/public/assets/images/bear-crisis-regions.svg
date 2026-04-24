@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
   <rect width="1920" height="1080" fill="#0b1320" />
   <rect x="84" y="84" width="1752" height="912" rx="28" fill="#111827" stroke="#334155" stroke-width="2" />
-  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">Regional concentration matters.</text>
-  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">Akita, Iwate, and Hokkaido illustrate different versions of the same governance strain.</text>
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">地域集中を見ないと見誤る</text>
+  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">秋田・岩手・北海道で、同じ統治負荷の別の顔が見える。</text>
   <rect x="188" y="314" width="1540" height="468" rx="24" fill="#0f172a" />
   <line x1="244" y1="716" x2="1680" y2="716" stroke="#475569" stroke-width="3" />
   <rect x="338" y="452" width="248" height="264" rx="18" fill="#ef4444" />
   <rect x="794" y="500" width="248" height="216" rx="18" fill="#f97316" />
   <rect x="1250" y="396" width="248" height="320" rx="18" fill="#eab308" />
-  <text x="390" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Akita</text>
-  <text x="854" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Iwate</text>
-  <text x="1286" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Hokkaido</text>
-  <text x="392" y="432" fill="#fecaca" font-family="Arial, sans-serif" font-size="28">living-area repeats</text>
-  <text x="842" y="480" fill="#fed7aa" font-family="Arial, sans-serif" font-size="28">mixed habitat risk</text>
-  <text x="1292" y="376" fill="#fde68a" font-family="Arial, sans-serif" font-size="28">broad area management</text>
+  <text x="390" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">秋田</text>
+  <text x="854" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">岩手</text>
+  <text x="1286" y="776" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">北海道</text>
+  <text x="392" y="432" fill="#fecaca" font-family="Arial, sans-serif" font-size="28">生活圏反復型</text>
+  <text x="842" y="480" fill="#fed7aa" font-family="Arial, sans-serif" font-size="28">隣接混在型</text>
+  <text x="1292" y="376" fill="#fde68a" font-family="Arial, sans-serif" font-size="28">広域管理型</text>
   <rect x="208" y="832" width="472" height="122" rx="18" fill="#111827" stroke="#475569" />
   <rect x="726" y="832" width="472" height="122" rx="18" fill="#111827" stroke="#475569" />
   <rect x="1244" y="832" width="472" height="122" rx="18" fill="#111827" stroke="#475569" />
-  <text x="244" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Akita</text>
-  <text x="244" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Repeated town incursions and learning-risk framing.</text>
-  <text x="762" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Iwate</text>
-  <text x="762" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Habitat adjacency and everyday exposure.</text>
-  <text x="1280" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Hokkaido</text>
-  <text x="1280" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">Scale and management capacity across large territory.</text>
+  <text x="244" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">秋田</text>
+  <text x="244" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">町への反復侵入と学習リスクが目立つ。</text>
+  <text x="762" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">岩手</text>
+  <text x="762" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">生息地隣接と日常接触が重なる。</text>
+  <text x="1280" y="884" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">北海道</text>
+  <text x="1280" y="924" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">広域空間と管理力の勝負になる。</text>
 </svg>

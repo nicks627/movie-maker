@@ -18,21 +18,22 @@ export const BulletList: React.FC<Props> = ({ title, bullets, tagline, accent = 
       background: '#020617',
       display: 'flex', flexDirection: 'column',
       alignItems: 'flex-start', justifyContent: 'center',
-      padding: '32px 64px',
+      padding: '28px 36px',
       boxSizing: 'border-box',
-      gap: 20,
+      gap: 16,
     }}>
       <div style={{
-        color: 'white', fontSize: 62, fontWeight: 900,
+        color: 'white', fontSize: 46, fontWeight: 900,
         fontFamily: 'sans-serif', width: '100%',
         opacity: titleOpacity,
-        borderBottom: `3px solid ${accent}`,
-        paddingBottom: 10,
+        lineHeight: 1.08,
+        borderBottom: `2px solid ${accent}`,
+        paddingBottom: 8,
       }}>
         {title}
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: '100%' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, width: '100%' }}>
         {bullets.map((bullet, i) => {
           const delay = i * 8 + 10;
           const opacity = interpolate(frame, [delay, delay + 14], [0, 1], { extrapolateRight: 'clamp' });
@@ -40,19 +41,22 @@ export const BulletList: React.FC<Props> = ({ title, bullets, tagline, accent = 
           return (
             <div key={i} style={{
               display: 'flex', flexDirection: 'row',
-              alignItems: 'center', gap: 20,
+              alignItems: 'flex-start', gap: 14,
               opacity,
               transform: `translateX(${translateX}px)`,
             }}>
               <div style={{
-                width: 20, height: 20, borderRadius: '50%',
+                width: 16, height: 16, borderRadius: '50%',
                 background: accent,
                 flexShrink: 0,
+                marginTop: 12,
                 boxShadow: `0 0 12px ${accent}88`,
               }} />
               <div style={{
-                color: 'white', fontSize: 52, fontWeight: 800,
+                color: 'white', fontSize: 38, fontWeight: 800,
                 fontFamily: 'sans-serif',
+                lineHeight: 1.18,
+                width: '100%',
               }}>
                 {bullet}
               </div>
@@ -63,10 +67,11 @@ export const BulletList: React.FC<Props> = ({ title, bullets, tagline, accent = 
 
       {tagline && (
         <div style={{
-          color: '#facc15', fontSize: 50, fontWeight: 900,
+          color: '#facc15', fontSize: 32, fontWeight: 900,
           fontFamily: 'sans-serif', textAlign: 'center', width: '100%',
+          lineHeight: 1.16,
           opacity: interpolate(frame, [32, 44], [0, 1], { extrapolateRight: 'clamp' }),
-          marginTop: 4,
+          marginTop: 2,
         }}>
           {tagline}
         </div>

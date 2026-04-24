@@ -474,6 +474,234 @@ def infer_cta_type(subtitle_cues, ocr_results):
     return "assertive takeaway"
 
 
+def classify_text_region(detection):
+    center_x = detection.get("centerX", 540) / 1080.0
+    center_y = detection.get("centerY", 960) / 1920.0
+
+    horizontal = "center"
+    if center_x < 0.34:
+        horizontal = "left"
+    elif center_x > 0.66:
+        horizontal = "right"
+
+    vertical = "middle"
+    if center_y < 0.28:
+        vertical = "upper"
+    elif center_y > 0.72:
+        vertical = "lower"
+
+    return f"{vertical}-{horizontal}"
+
+
+def popup_zone_from_card_position(card_position):
+    if card_position == "top banner":
+        return "upperBand"
+    if card_position == "lower text block":
+        return "middleBand"
+    if card_position == "side card":
+        return "rightRail"
+    if card_position == "center card":
+        return "full"
+    return "auto"
+
+
+def build_layout_signals(meta, subtitle_cues, ocr_results, summary):
+    detections = [item for frame in ocr_results for item in frame.get("detections", [])]
+    region_counts = {}
+    for detection in detections:
+        region = classify_text_region(detection)
+        region_counts[region] = region_counts.get(region, 0) + 1
+
+    dominant_region = None
+    if region_counts:
+        dominant_region = sorted(region_counts.items(), key=lambda item: item[1], reverse=True)[0][0]
+
+    headline_lines = collect_ocr_lines(ocr_results, 20)[:4]
+    cta_lines = collect_ocr_lines(ocr_results, 100)[-3:]
+    subtitle_band_occupancy = {
+        "cueCount": len(subtitle_cues),
+        "firstCueStartSec": subtitle_cues[0]["startSec"] if subtitle_cues else None,
+        "lastCueEndSec": subtitle_cues[-1]["endSec"] if subtitle_cues else None,
+    }
+
+    return {
+        "title": meta.get("title"),
+        "headlineLines": headline_lines,
+        "ctaLines": cta_lines,
+        "dominantTextRegion": dominant_region,
+        "regionCounts": region_counts,
+        "headlineHierarchy": summary.get("headlineHierarchy"),
+        "hookStyle": summary.get("hookStyle"),
+        "informationCardPosition": summary.get("informationCardPosition"),
+        "suggestedPopupZone": popup_zone_from_card_position(summary.get("informationCardPosition")),
+        "subtitleBandOccupancy": subtitle_band_occupancy,
+    }
+
+
+def get_timeline_entries(subtitle_cues, transcript):
+    if transcript and transcript.get("segments"):
+        return transcript["segments"]
+    return subtitle_cues
+
+
+def classify_narration_density(subtitle_stats, transcript):
+    if transcript and transcript.get("segments"):
+        total_words = 0
+        total_duration = 0.0
+        for segment in transcript["segments"]:
+            text = strip_tags(segment.get("text", ""))
+            total_words += max(1, len(text.split()))
+            total_duration += max(0.2, segment.get("endSec", 0.0) - segment.get("startSec", 0.0))
+        if total_duration <= 0:
+            return "undetermined"
+        words_per_second = total_words / total_duration
+        if words_per_second >= 3.4:
+            return "high"
+        if words_per_second >= 2.0:
+            return "medium"
+        return "low"
+
+    chars_per_second = subtitle_stats.get("charsPerSecond", 0)
+    if chars_per_second >= 18:
+        return "high"
+    if chars_per_second >= 10:
+        return "medium"
+    return "low"
+
+
+def build_audio_signals(meta, subtitle_cues, transcript, subtitle_stats):
+    entries = get_timeline_entries(subtitle_cues, transcript)
+    silence_windows = []
+    impact_cue_moments = []
+    question_moments = []
+
+    previous_end = 0.0
+    for entry in entries:
+        start_sec = float(entry.get("startSec", 0.0))
+        end_sec = float(entry.get("endSec", start_sec))
+        text = strip_tags(entry.get("text", ""))
+        gap = start_sec - previous_end
+        if gap >= 1.2:
+            silence_windows.append(
+                {
+                    "startSec": round(previous_end, 2),
+                    "endSec": round(start_sec, 2),
+                    "durationSec": round(gap, 2),
+                }
+            )
+
+        if "!" in text or "！" in text:
+            impact_cue_moments.append(
+                {
+                    "startSec": round(start_sec, 2),
+                    "endSec": round(end_sec, 2),
+                    "text": text,
+                }
+            )
+
+        if "?" in text or "？" in text:
+            question_moments.append(
+                {
+                    "startSec": round(start_sec, 2),
+                    "endSec": round(end_sec, 2),
+                    "text": text,
+                }
+            )
+
+        previous_end = max(previous_end, end_sec)
+
+    duration = float(meta.get("duration") or 0.0)
+    opening_silence = entries[0].get("startSec") if entries else None
+    ending_silence = round(max(0.0, duration - previous_end), 2) if duration and entries else None
+    narration_density = classify_narration_density(subtitle_stats, transcript)
+    voice_mix_style = "voice-punctuated"
+    if opening_silence is not None and opening_silence > 1.4:
+        voice_mix_style = "delayed-voice-entry"
+    elif len(silence_windows) <= 1 and narration_density in {"medium", "high"}:
+        voice_mix_style = "continuous-bed"
+
+    bgm_role_suggestion = "steady documentary bed"
+    if voice_mix_style == "delayed-voice-entry":
+        bgm_role_suggestion = "cold-open swell into narration bed"
+    elif narration_density == "high":
+        bgm_role_suggestion = "low-profile pulse under dense narration"
+
+    se_usage_style = "restrained punctuation"
+    if len(impact_cue_moments) >= 4:
+        se_usage_style = "reveal punctuation"
+    if len(impact_cue_moments) >= 8:
+        se_usage_style = "frequent impact hits"
+
+    bgm_transition_moments = []
+    for window in silence_windows[:6]:
+        bgm_transition_moments.append(
+            {
+                "anchorSec": window["startSec"],
+                "reason": "silence-window",
+            }
+        )
+
+    se_hit_moments = [
+        {
+            "anchorSec": moment["startSec"],
+            "reason": "impact-line",
+            "text": moment["text"],
+        }
+        for moment in impact_cue_moments[:12]
+    ]
+
+    return {
+        "openingSilenceSec": round(opening_silence, 2) if opening_silence is not None else None,
+        "endingSilenceSec": ending_silence,
+        "narrationDensity": narration_density,
+        "voiceMixStyle": voice_mix_style,
+        "bgmRoleSuggestion": bgm_role_suggestion,
+        "seUsageStyle": se_usage_style,
+        "silenceWindows": silence_windows[:20],
+        "bgmTransitionMoments": bgm_transition_moments,
+        "impactCueMoments": impact_cue_moments[:20],
+        "seHitMoments": se_hit_moments,
+        "questionMoments": question_moments[:20],
+        "timelineEntryCount": len(entries),
+    }
+
+
+def build_structure_signals(meta, subtitle_cues, transcript):
+    entries = get_timeline_entries(subtitle_cues, transcript)
+    duration = float(meta.get("duration") or 0.0)
+    hook_text = strip_tags(entries[0].get("text", "")) if entries else ""
+    cta_text = strip_tags(entries[-1].get("text", "")) if entries else ""
+    thirds = {"opening": 0, "middle": 0, "ending": 0}
+    summary_beats = []
+
+    for entry in entries:
+        start_sec = float(entry.get("startSec", 0.0))
+        text = strip_tags(entry.get("text", ""))
+        if duration > 0:
+            if start_sec <= duration / 3:
+                thirds["opening"] += 1
+            elif start_sec <= (duration / 3) * 2:
+                thirds["middle"] += 1
+            else:
+                thirds["ending"] += 1
+
+        if re.search(r"つまり|要するに|結局|まとめ", text):
+            summary_beats.append(
+                {
+                    "startSec": round(start_sec, 2),
+                    "text": text,
+                }
+            )
+
+    return {
+        "hookText": hook_text,
+        "ctaText": cta_text,
+        "thirdBeatDistribution": thirds,
+        "summaryBeats": summary_beats[:12],
+        "questionBeatCount": len([entry for entry in entries if "?" in strip_tags(entry.get("text", "")) or "？" in strip_tags(entry.get("text", ""))]),
+    }
+
+
 def build_recommendations(hook_style, hierarchy, density, info_card_position, cta_type):
     recommendations = []
     if hook_style == "headline-led":
@@ -504,7 +732,7 @@ def build_recommendations(hook_style, hierarchy, density, info_card_position, ct
     return recommendations[:6]
 
 
-def build_summary(meta, subtitle_cues, ocr_results):
+def build_summary(meta, subtitle_cues, ocr_results, audio_signals=None, structure_signals=None):
     stats = subtitle_stats(subtitle_cues)
     density = classify_subtitle_density(stats)
     early_lines = collect_ocr_lines(ocr_results, 20)
@@ -538,6 +766,13 @@ def build_summary(meta, subtitle_cues, ocr_results):
         "title": meta.get("title"),
         "channel": meta.get("channel"),
         "duration": meta.get("duration"),
+        "voiceMixStyle": audio_signals.get("voiceMixStyle") if audio_signals else None,
+        "narrationDensity": audio_signals.get("narrationDensity") if audio_signals else None,
+        "bgmRoleSuggestion": audio_signals.get("bgmRoleSuggestion") if audio_signals else None,
+        "seUsageStyle": audio_signals.get("seUsageStyle") if audio_signals else None,
+        "suggestedPopupZone": popup_zone_from_card_position(info_card_position),
+        "hookText": structure_signals.get("hookText") if structure_signals else None,
+        "ctaText": structure_signals.get("ctaText") if structure_signals else None,
     }
 
 
@@ -552,6 +787,11 @@ def summary_to_markdown(meta, summary, warnings):
         f"- Subtitle density: {summary['subtitleDensity']}",
         f"- Information card position: {summary['informationCardPosition']}",
         f"- CTA type: {summary['ctaType']}",
+        f"- Suggested popup zone: {summary.get('suggestedPopupZone')}",
+        f"- Narration density: {summary.get('narrationDensity')}",
+        f"- Voice mix style: {summary.get('voiceMixStyle')}",
+        f"- BGM role suggestion: {summary.get('bgmRoleSuggestion')}",
+        f"- SE usage style: {summary.get('seUsageStyle')}",
         "",
         "## Recommendations",
         "",
@@ -589,16 +829,25 @@ def main():
     )
     ocr_results = run_ocr(frame_bundle["frames"], warnings)
     transcript = maybe_transcribe(reference["videoPath"], warnings)
-
-    summary = build_summary(reference["meta"], subtitle_cues, ocr_results)
+    subtitle_info = subtitle_stats(subtitle_cues)
+    audio_signals = build_audio_signals(reference["meta"], subtitle_cues, transcript, subtitle_info)
+    structure_signals = build_structure_signals(reference["meta"], subtitle_cues, transcript)
+    summary = build_summary(reference["meta"], subtitle_cues, ocr_results, audio_signals, structure_signals)
+    layout_signals = build_layout_signals(reference["meta"], subtitle_cues, ocr_results, summary)
     summary_json_path = reference["videoDir"] / "summary.json"
     summary_md_path = reference["videoDir"] / "summary.md"
     ocr_json_path = reference["videoDir"] / "ocr.json"
     transcript_json_path = reference["videoDir"] / "transcript.json"
+    layout_json_path = reference["videoDir"] / "layout-signals.json"
+    audio_json_path = reference["videoDir"] / "audio-signals.json"
+    structure_json_path = reference["videoDir"] / "structure-signals.json"
 
     write_json(ocr_json_path, {"generatedAt": utc_now(), "frames": ocr_results, "warnings": warnings})
     if transcript is not None:
         write_json(transcript_json_path, transcript)
+    write_json(layout_json_path, layout_signals)
+    write_json(audio_json_path, audio_signals)
+    write_json(structure_json_path, structure_signals)
     write_json(summary_json_path, summary)
     write_markdown(summary_md_path, summary_to_markdown(reference["meta"], summary, warnings))
 
@@ -615,10 +864,16 @@ def main():
         "contactSheetPath": contact_sheet_path,
         "ocrPath": str(ocr_json_path),
         "transcriptPath": str(transcript_json_path) if transcript is not None else None,
+        "layoutSignalsPath": str(layout_json_path),
+        "audioSignalsPath": str(audio_json_path),
+        "structureSignalsPath": str(structure_json_path),
         "summaryPath": str(summary_json_path),
         "summaryMarkdownPath": str(summary_md_path),
         "warnings": warnings,
         "frameBundle": frame_bundle,
+        "layoutSignals": layout_signals,
+        "audioSignals": audio_signals,
+        "structureSignals": structure_signals,
         "summary": summary,
     }
     sys.stdout.write(json.dumps(result, ensure_ascii=False))

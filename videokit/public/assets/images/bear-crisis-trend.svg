@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
   <rect width="1920" height="1080" fill="#0f172a" />
   <rect x="84" y="84" width="1752" height="912" rx="28" fill="#111827" stroke="#334155" stroke-width="2" />
-  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="68" font-weight="700">Injuries did not normalize.</text>
-  <text x="126" y="228" fill="#94a3b8" font-family="Arial, sans-serif" font-size="34">Official reports show a volatile but elevated risk profile.</text>
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="68" font-weight="700">被害は平常化していない</text>
+  <text x="126" y="228" fill="#94a3b8" font-family="Arial, sans-serif" font-size="34">公的集計でも、高止まりの危険が続いている。</text>
   <line x1="182" y1="822" x2="1700" y2="822" stroke="#475569" stroke-width="3" />
   <line x1="182" y1="346" x2="182" y2="822" stroke="#475569" stroke-width="3" />
   <text x="142" y="356" fill="#64748b" font-family="Arial, sans-serif" font-size="22">250</text>
@@ -22,14 +22,14 @@
   <text x="1206" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2023</text>
   <text x="1526" y="880" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="28">2025</text>
   <rect x="120" y="282" width="266" height="112" rx="18" fill="#1e293b" />
-  <text x="150" y="334" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">2023: 219 injured</text>
-  <text x="150" y="372" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">6 deaths</text>
+  <text x="150" y="334" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">2023年度 219人被害</text>
+  <text x="150" y="372" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">死者6人</text>
   <rect x="1510" y="122" width="260" height="112" rx="18" fill="#7f1d1d" />
-  <text x="1540" y="174" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">2025: 238 injured</text>
-  <text x="1540" y="212" fill="#fecaca" font-family="Arial, sans-serif" font-size="24">13 deaths</text>
+  <text x="1540" y="174" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">2025年度 238人被害</text>
+  <text x="1540" y="212" fill="#fecaca" font-family="Arial, sans-serif" font-size="24">死者13人</text>
   <rect x="1108" y="614" width="632" height="240" rx="22" fill="#0b1220" stroke="#334155" />
-  <text x="1144" y="678" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Interpretation</text>
-  <text x="1144" y="734" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">A low year did not solve the structure.</text>
-  <text x="1144" y="784" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">The system bounced back to crisis scale.</text>
-  <text x="1144" y="836" fill="#fb7185" font-family="Arial, sans-serif" font-size="34" font-weight="700">Capacity lag + ecological shocks</text>
+  <text x="1144" y="678" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">読み筋</text>
+  <text x="1144" y="734" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">一度下がっても構造は解決していない</text>
+  <text x="1144" y="784" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">危機水準へ再び跳ね返った</text>
+  <text x="1144" y="836" fill="#fb7185" font-family="Arial, sans-serif" font-size="34" font-weight="700">管理力不足 + 生態ショック</text>
 </svg>

@@ -6,7 +6,8 @@
 1. 解説動画
 2. ゲーム実況
 3. LINEチャット
-4. その他
+4. 政治系
+5. その他
 
 作業前に次を読むこと。
 
@@ -14,6 +15,7 @@
 - 視覚・演出・図版: `agent-rules/common/visual-system.md`
 - フォルダ規約: `agent-rules/folders/videokit.md`
 - 解説動画: `agent-rules/templates/explainer.md`
+- 政治系: `agent-rules/templates/political.md`
 - ゲーム実況: `agent-rules/templates/game-commentary.md`
 - LINEチャット: `agent-rules/templates/line-chat.md`
 

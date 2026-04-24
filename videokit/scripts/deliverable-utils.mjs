@@ -17,6 +17,7 @@ export const REVIEW_REPORT_FILENAMES = {
 	textAudio: 'script-text-audio-review.generated.json',
 	audioBalance: 'script-audio-balance-review.generated.json',
 	rhythmVisual: 'script-rhythm-visual-review.generated.json',
+	layout: 'script-layout-review.generated.json',
 	publish: 'script-publish-review.generated.json',
 };
 
@@ -92,6 +93,7 @@ export const getDeliverablePaths = ({script, projectId, deliverableDir} = {}) =>
 			textAudio: path.join(root, 'review', REVIEW_REPORT_FILENAMES.textAudio),
 			audioBalance: path.join(root, 'review', REVIEW_REPORT_FILENAMES.audioBalance),
 			rhythmVisual: path.join(root, 'review', REVIEW_REPORT_FILENAMES.rhythmVisual),
+			layout: path.join(root, 'review', REVIEW_REPORT_FILENAMES.layout),
 			publish: path.join(root, 'review', REVIEW_REPORT_FILENAMES.publish),
 		},
 		renderOutputs: {

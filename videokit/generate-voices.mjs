@@ -27,6 +27,12 @@ const PROJECT_SCRIPT_MIRRORS = {
   'iran-war-turning-point': [
     path.join(process.cwd(), 'src', 'data', 'script-iran-war-turning-point.json'),
   ],
+  'iran-war-household-price-shock': [
+    path.join(process.cwd(), 'src', 'data', 'script-iran-war-household-price-shock.json'),
+  ],
+  'iran-war-market-shock': [
+    path.join(process.cwd(), 'src', 'data', 'script-iran-war-market-shock.json'),
+  ],
   'epstein-japan-silence': [
     path.join(process.cwd(), 'src', 'data', 'script-epstein-japan-silence.json'),
   ],

@@ -22,23 +22,24 @@ export const FlowDiagram: React.FC<Props> = ({ title, steps, accent = '#38bdf8' 
       width: '100%', height: '100%',
       background: '#020617',
       display: 'flex', flexDirection: 'column',
-      alignItems: 'center', justifyContent: 'center',
-      padding: '32px 48px',
+      alignItems: 'stretch', justifyContent: 'center',
+      padding: '22px 26px',
       boxSizing: 'border-box',
-      gap: 24,
+      gap: 14,
     }}>
       <div style={{
-        color: 'white', fontSize: 60, fontWeight: 900,
+        color: 'white', fontSize: 42, fontWeight: 900,
         fontFamily: 'sans-serif', opacity: titleOpacity,
         textAlign: 'center',
+        lineHeight: 1.08,
       }}>
         {title}
       </div>
 
       <div style={{
-        display: 'flex', flexDirection: 'row',
-        alignItems: 'center', justifyContent: 'center',
-        width: '100%', gap: 0,
+        display: 'flex', flexDirection: 'column',
+        alignItems: 'stretch', justifyContent: 'center',
+        width: '100%', gap: 6,
       }}>
         {steps.map((step, i) => {
           const delay = i * 8;
@@ -48,48 +49,63 @@ export const FlowDiagram: React.FC<Props> = ({ title, steps, accent = '#38bdf8' 
           return (
             <React.Fragment key={i}>
               <div style={{
-                display: 'flex', flexDirection: 'column',
-                alignItems: 'center', justifyContent: 'center',
+                display: 'grid',
+                gridTemplateColumns: '52px 1fr',
+                alignItems: 'center',
                 background: step.highlight ? `${accent}22` : 'rgba(255,255,255,0.06)',
-                border: `3px solid ${step.highlight ? accent : 'rgba(255,255,255,0.2)'}`,
+                border: `2px solid ${step.highlight ? accent : 'rgba(255,255,255,0.2)'}`,
                 borderRadius: 16,
-                padding: '16px 20px',
-                minWidth: 180,
-                gap: 6,
+                padding: '12px 14px',
+                gap: 12,
                 opacity,
                 transform: `scale(${scale})`,
                 boxShadow: step.highlight ? `0 0 24px ${accent}44` : 'none',
               }}>
                 <div style={{
+                  width: 40,
+                  height: 40,
+                  borderRadius: 999,
+                  background: step.highlight ? `${accent}28` : 'rgba(255,255,255,0.08)',
                   color: step.highlight ? accent : 'white',
-                  fontSize: 46,
+                  fontSize: 22,
                   fontWeight: 900,
                   fontFamily: 'sans-serif',
                   textAlign: 'center',
-                  lineHeight: 1.2,
+                  lineHeight: '40px',
                 }}>
-                  {step.label}
+                  {i + 1}
                 </div>
-                {step.sub && (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4, minWidth: 0 }}>
                   <div style={{
-                    color: 'rgba(255,255,255,0.6)',
-                    fontSize: 34,
+                    color: step.highlight ? accent : 'white',
+                    fontSize: 28,
+                    fontWeight: 900,
                     fontFamily: 'sans-serif',
-                    textAlign: 'center',
+                    lineHeight: 1.14,
                   }}>
-                    {step.sub}
+                    {step.label}
                   </div>
-                )}
+                  {step.sub && (
+                    <div style={{
+                      color: 'rgba(255,255,255,0.68)',
+                      fontSize: 20,
+                      fontFamily: 'sans-serif',
+                      lineHeight: 1.16,
+                    }}>
+                      {step.sub}
+                    </div>
+                  )}
+                </div>
               </div>
               {i < steps.length - 1 && (
                 <div style={{
-                  color: accent,
-                  fontSize: 36,
-                  fontWeight: 900,
-                  padding: '0 8px',
+                  width: 4,
+                  height: 14,
+                  borderRadius: 999,
+                  background: `${accent}88`,
+                  alignSelf: 'center',
                   opacity: interpolate(frame, [(i + 0.5) * 8 + 5, (i + 0.5) * 8 + 18], [0, 1], { extrapolateRight: 'clamp' }),
                 }}>
-                  ▶
                 </div>
               )}
             </React.Fragment>

@@ -87,9 +87,9 @@ const zoneRectFromSafe = (
     case 'middleBand':
       return createRect(left + width * 0.08, top + height * 0.28, width * 0.84, height * 0.28);
     case 'leftRail':
-      return createRect(left + width * 0.04, top + height * 0.05, width * 0.29, height * 0.68);
+      return createRect(left + width * 0.04, top + height * 0.05, width * 0.25, height * 0.68);
     case 'rightRail':
-      return createRect(left + width * 0.67, top + height * 0.05, width * 0.29, height * 0.68);
+      return createRect(left + width * 0.71, top + height * 0.05, width * 0.25, height * 0.68);
     case 'full':
     case 'auto':
     default:

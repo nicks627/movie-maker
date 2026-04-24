@@ -37,12 +37,12 @@ gameplay_cut_manifest.json
 scripts/__pycache__/
 
 # Local QA / temp outputs
-.cache/
-analysis/
-analysis_frames/
-temp_frames/
-tmp_recover_preview/
-test-results/
+/.cache/
+/analysis/
+/analysis_frames/
+/temp_frames/
+/tmp_recover_preview/
+/test-results/
 qa-*.jpg
 tmp-short-check-*.jpg
 scripts/_tmp_*.mjs

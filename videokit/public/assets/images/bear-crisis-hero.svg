@@ -29,27 +29,27 @@
   <path d="M1524 580 L1566 526 L1604 588 Z" fill="#1f2937" />
   <path d="M1674 588 L1710 526 L1752 580 Z" fill="#1f2937" />
   <path d="M168 250 H642" stroke="#64748b" stroke-width="2" opacity="0.45" />
-  <text x="168" y="206" fill="#f8fafc" font-family="Arial, sans-serif" font-size="78" font-weight="700">Bear Crisis</text>
-  <text x="168" y="312" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="38">Boundary management failed before the bear arrived.</text>
+  <text x="168" y="206" fill="#f8fafc" font-family="Arial, sans-serif" font-size="78" font-weight="700">熊害の本体</text>
+  <text x="168" y="312" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="38">熊が来る前に、境界管理は崩れていた。</text>
   <rect x="168" y="380" width="506" height="120" rx="16" fill="#0b1320" stroke="#334155" />
-  <text x="210" y="444" fill="#f8fafc" font-family="Arial, sans-serif" font-size="36" font-weight="700">Town / Forest Boundary</text>
+  <text x="210" y="444" fill="#f8fafc" font-family="Arial, sans-serif" font-size="36" font-weight="700">町と山の境界</text>
   <rect x="210" y="466" width="422" height="14" rx="7" fill="#1e293b" />
   <rect x="210" y="466" width="170" height="14" rx="7" fill="url(#alert)" />
-  <text x="210" y="538" fill="#fca5a5" font-family="Arial, sans-serif" font-size="34" font-weight="700">Control capacity down</text>
+  <text x="210" y="538" fill="#fca5a5" font-family="Arial, sans-serif" font-size="34" font-weight="700">管理力が低下</text>
   <rect x="168" y="576" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
   <rect x="422" y="576" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
   <rect x="168" y="742" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
   <rect x="422" y="742" width="230" height="140" rx="18" fill="#111827" stroke="#475569" />
-  <text x="198" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Food stress</text>
-  <text x="198" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Mast failure</text>
-  <text x="452" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Warm autumn</text>
-  <text x="452" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Long activity</text>
-  <text x="198" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Depopulation</text>
-  <text x="198" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Blurred buffer</text>
-  <text x="452" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Governance gap</text>
-  <text x="452" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Slow response</text>
-  <text x="844" y="204" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Official injury totals</text>
-  <text x="844" y="252" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Environment Ministry reports</text>
+  <text x="198" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">食料圧力</text>
+  <text x="198" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">堅果類の不作</text>
+  <text x="452" y="636" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">暖秋化</text>
+  <text x="452" y="678" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">活動長期化</text>
+  <text x="198" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">人口減少</text>
+  <text x="198" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">緩衝地帯が消失</text>
+  <text x="452" y="802" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">行政の空白</text>
+  <text x="452" y="844" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">対応遅れ</text>
+  <text x="844" y="204" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">人身被害の推移</text>
+  <text x="844" y="252" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">環境省の公表ベース</text>
   <line x1="860" y1="432" x2="1750" y2="432" stroke="#334155" stroke-width="2" />
   <rect x="896" y="346" width="170" height="86" rx="18" fill="#334155" />
   <rect x="1158" y="232" width="170" height="200" rx="18" fill="#f97316" />
@@ -63,9 +63,9 @@
   <text x="1208" y="284" fill="#111827" font-family="Arial, sans-serif" font-size="32" font-weight="700">219</text>
   <text x="1470" y="372" fill="#f8fafc" font-family="Arial, sans-serif" font-size="32" font-weight="700">85</text>
   <text x="1730" y="240" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">238</text>
-  <text x="844" y="616" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Political reading</text>
-  <text x="844" y="672" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">This is not only wildlife pressure.</text>
-  <text x="844" y="720" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">It is a shrinking-state capacity story.</text>
-  <text x="844" y="816" fill="#fca5a5" font-family="Arial, sans-serif" font-size="54" font-weight="700">Boundary lost.</text>
-  <text x="844" y="882" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">Town pays the price.</text>
+  <text x="844" y="616" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">政治的な読み筋</text>
+  <text x="844" y="672" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">これは生態系だけの話ではない</text>
+  <text x="844" y="720" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">地方の実行力低下の話でもある</text>
+  <text x="844" y="816" fill="#fca5a5" font-family="Arial, sans-serif" font-size="54" font-weight="700">境界が消えた</text>
+  <text x="844" y="882" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">生活圏が代償を払う</text>
 </svg>

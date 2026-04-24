@@ -21,6 +21,7 @@ const parseArgs = () => {
 	let sampleCount = 6;
 	let deliverableDir = null;
 	let projectId = null;
+	let template = null;
 
 	for (let index = 0; index < args.length; index += 1) {
 		const arg = args[index];
@@ -66,6 +67,17 @@ const parseArgs = () => {
 
 		if (arg.startsWith('--project-id=')) {
 			projectId = arg.slice('--project-id='.length);
+			continue;
+		}
+
+		if (arg === '--template' && args[index + 1]) {
+			template = args[index + 1];
+			index += 1;
+			continue;
+		}
+
+		if (arg.startsWith('--template=')) {
+			template = arg.slice('--template='.length);
 		}
 	}
 
@@ -78,6 +90,7 @@ const parseArgs = () => {
 		sampleCount: Math.max(3, Math.min(12, Math.floor(sampleCount))),
 		deliverableDir,
 		projectId,
+		template,
 	};
 };
 
@@ -180,6 +193,11 @@ const buildCombinedSummary = ({results, urls, sampleCount}) => {
 	const subtitleDensities = results.map((item) => item.summary?.subtitleDensity);
 	const infoCardPositions = results.map((item) => item.summary?.informationCardPosition);
 	const ctaTypes = results.map((item) => item.summary?.ctaType);
+	const popupZones = results.map((item) => item.layoutSignals?.suggestedPopupZone);
+	const narrationDensities = results.map((item) => item.audioSignals?.narrationDensity);
+	const voiceMixStyles = results.map((item) => item.audioSignals?.voiceMixStyle);
+	const bgmRoles = results.map((item) => item.audioSignals?.bgmRoleSuggestion);
+	const seStyles = results.map((item) => item.audioSignals?.seUsageStyle);
 	const commonRecommendations = summarizeRecommendations(results);
 
 	return {
@@ -193,6 +211,11 @@ const buildCombinedSummary = ({results, urls, sampleCount}) => {
 			subtitleDensity: mostCommon(subtitleDensities),
 			informationCardPosition: mostCommon(infoCardPositions),
 			ctaType: mostCommon(ctaTypes),
+			suggestedPopupZone: mostCommon(popupZones),
+			narrationDensity: mostCommon(narrationDensities),
+			voiceMixStyle: mostCommon(voiceMixStyles),
+			bgmRoleSuggestion: mostCommon(bgmRoles),
+			seUsageStyle: mostCommon(seStyles),
 		},
 		videoSummaries: results.map((item) => ({
 			videoId: item.videoId,
@@ -203,6 +226,13 @@ const buildCombinedSummary = ({results, urls, sampleCount}) => {
 			subtitleDensity: item.summary?.subtitleDensity ?? null,
 			informationCardPosition: item.summary?.informationCardPosition ?? null,
 			ctaType: item.summary?.ctaType ?? null,
+			suggestedPopupZone: item.layoutSignals?.suggestedPopupZone ?? null,
+			narrationDensity: item.audioSignals?.narrationDensity ?? null,
+			voiceMixStyle: item.audioSignals?.voiceMixStyle ?? null,
+			bgmRoleSuggestion: item.audioSignals?.bgmRoleSuggestion ?? null,
+			seUsageStyle: item.audioSignals?.seUsageStyle ?? null,
+			openingSilenceSec: item.audioSignals?.openingSilenceSec ?? null,
+			endingSilenceSec: item.audioSignals?.endingSilenceSec ?? null,
 			recommendations: item.summary?.recommendations ?? [],
 			warnings: item.warnings ?? [],
 		})),
@@ -225,6 +255,11 @@ const toMarkdown = (summary) => {
 		`- Subtitle density: ${summary.structuralConsensus.subtitleDensity}`,
 		`- Information card position: ${summary.structuralConsensus.informationCardPosition}`,
 		`- CTA type: ${summary.structuralConsensus.ctaType}`,
+		`- Suggested popup zone: ${summary.structuralConsensus.suggestedPopupZone}`,
+		`- Narration density: ${summary.structuralConsensus.narrationDensity}`,
+		`- Voice mix style: ${summary.structuralConsensus.voiceMixStyle}`,
+		`- BGM role suggestion: ${summary.structuralConsensus.bgmRoleSuggestion}`,
+		`- SE usage style: ${summary.structuralConsensus.seUsageStyle}`,
 		'',
 		'## Carry Into Future Explainers',
 		'',
@@ -246,6 +281,13 @@ const toMarkdown = (summary) => {
 		lines.push(`- Subtitle density: ${item.subtitleDensity ?? 'n/a'}`);
 		lines.push(`- Information card position: ${item.informationCardPosition ?? 'n/a'}`);
 		lines.push(`- CTA type: ${item.ctaType ?? 'n/a'}`);
+		lines.push(`- Suggested popup zone: ${item.suggestedPopupZone ?? 'n/a'}`);
+		lines.push(`- Narration density: ${item.narrationDensity ?? 'n/a'}`);
+		lines.push(`- Voice mix style: ${item.voiceMixStyle ?? 'n/a'}`);
+		lines.push(`- BGM role suggestion: ${item.bgmRoleSuggestion ?? 'n/a'}`);
+		lines.push(`- SE usage style: ${item.seUsageStyle ?? 'n/a'}`);
+		lines.push(`- Opening silence: ${item.openingSilenceSec ?? 'n/a'}`);
+		lines.push(`- Ending silence: ${item.endingSilenceSec ?? 'n/a'}`);
 		if ((item.recommendations ?? []).length > 0) {
 			item.recommendations.forEach((recommendation) => lines.push(`- Rec: ${recommendation}`));
 		}
@@ -279,6 +321,7 @@ const main = () => {
 		urls: options.urls,
 		sampleCount: options.sampleCount,
 		projectId: deliverableContext.paths.projectId,
+		template: options.template,
 	};
 	writeJsonFile(
 		path.join(deliverableContext.paths.youtubeAnalysisDir, 'requested-urls.json'),
@@ -318,6 +361,13 @@ const main = () => {
 	const summaryMdPath = path.join(deliverableContext.paths.youtubeAnalysisDir, 'analysis-summary.md');
 	writeJsonFile(summaryJsonPath, combinedSummary);
 	fs.writeFileSync(summaryMdPath, toMarkdown(combinedSummary), 'utf8');
+
+	if (options.urls.length > 1) {
+		const comparisonDir = path.join(deliverableContext.paths.youtubeAnalysisDir, 'comparison');
+		fs.mkdirSync(comparisonDir, {recursive: true});
+		writeJsonFile(path.join(comparisonDir, 'comparison-summary.json'), combinedSummary);
+		fs.writeFileSync(path.join(comparisonDir, 'comparison-summary.md'), toMarkdown(combinedSummary), 'utf8');
+	}
 
 	console.log(`\nWrote ${summaryJsonPath}`);
 	console.log(`Wrote ${summaryMdPath}`);

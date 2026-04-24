@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
   <rect width="1920" height="1080" fill="#111827" />
   <rect x="84" y="84" width="1752" height="912" rx="28" fill="#0b1220" stroke="#334155" stroke-width="2" />
-  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">Urban learning loop</text>
-  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">Once food and routes become predictable, incursions stop being random.</text>
+  <text x="126" y="164" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="700">都市型の学習ループ</text>
+  <text x="126" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="32">餌場と経路を覚えると、出没は偶然ではなくなる。</text>
   <circle cx="960" cy="560" r="244" fill="none" stroke="#f97316" stroke-width="12" stroke-dasharray="28 24" />
   <rect x="824" y="286" width="272" height="116" rx="18" fill="#1e293b" />
-  <text x="860" y="356" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">1. Entry</text>
+  <text x="860" y="356" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">1. 侵入</text>
   <rect x="1236" y="500" width="330" height="116" rx="18" fill="#1e293b" />
-  <text x="1272" y="570" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">2. Easy food / trash</text>
+  <text x="1272" y="570" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">2. 餌とゴミ</text>
   <rect x="822" y="718" width="286" height="116" rx="18" fill="#1e293b" />
-  <text x="858" y="788" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">3. Return route</text>
+  <text x="858" y="788" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">3. 戻り道</text>
   <rect x="352" y="500" width="330" height="116" rx="18" fill="#7f1d1d" />
-  <text x="388" y="570" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">4. Habit formation</text>
+  <text x="388" y="570" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">4. 習慣化</text>
   <path d="M960 428 V500" stroke="#fb7185" stroke-width="10" stroke-linecap="round" />
   <path d="M1126 560 H1210" stroke="#fb7185" stroke-width="10" stroke-linecap="round" />
   <path d="M960 618 V706" stroke="#fb7185" stroke-width="10" stroke-linecap="round" />
@@ -25,7 +25,7 @@
     <rect x="34" y="84" width="42" height="48" fill="#475569" />
     <rect x="96" y="54" width="42" height="78" fill="#64748b" />
     <rect x="158" y="30" width="42" height="102" fill="#94a3b8" />
-    <text x="34" y="50" fill="#f8fafc" font-family="Arial, sans-serif" font-size="26" font-weight="700">Repeat risk</text>
+    <text x="34" y="50" fill="#f8fafc" font-family="Arial, sans-serif" font-size="26" font-weight="700">再訪リスク</text>
   </g>
-  <text x="126" y="898" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="34">Policy lesson: remove incentives fast, or the route becomes normal.</text>
+  <text x="126" y="898" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="34">政策の要点は誘因を早く消すこと。遅れると経路が定着する。</text>
 </svg>

@@ -12,6 +12,8 @@
 - BGM / SE / 背景動画 / 図版 / 立ち絵の差し替え
 - YouTube 参考動画の分析
 - ゲームプレイ動画の分析とコメント台本生成
+- ジャンル別 playbook の参照
+- 参考動画分析からの script / metadata / thumbnail 下書き生成
 
 repo 全体の使い方はひとつ上の [../README.md](../README.md) を見てください。  
 ここでは `videokit/` の中で何を触るかに絞って説明します。
@@ -98,12 +100,24 @@ VOICEVOX Core の公式情報:
 基準ファイルは `src/data/script.json` です。  
 既存案件から始める場合は `src/data/script-*.json` を複製して流用します。
 
+ジャンルの作り方から確認したいとき:
+
+```bash
+npm run guide:genre -- --template explainer
+npm run guide:genre -- --template gameplay
+npm run guide:genre -- --template line-chat
+npm run guide:genre -- --template political
+npm run guide:genre -- --template generic
+```
+
 雛形を切るには次を使います。
 
 ```bash
 npm run new:project -- --template explainer --output src/data/script-explainer-starter.json --project-id starter-explainer
 npm run new:project -- --template gameplay --output src/data/script-gameplay-starter.json --project-id starter-gameplay
 npm run new:project -- --template line-chat --output src/data/script-line-chat-starter.json --project-id starter-line-chat
+npm run new:project -- --template political --output src/data/script-political-starter.json --project-id starter-political
+npm run new:project -- --template generic --output src/data/script-generic-starter.json --project-id starter-generic
 ```
 
 ### 2. 素材を置く
@@ -209,16 +223,32 @@ npm run render:short
 
 ```bash
 npm run doctor
+npm run guide:genre -- --template political
 npm run dev:ui
 npm run dev
 npm run generate:voices
 npm run review:preflight -- --variant long
+npm run review:layout
 npm run render:long
 npm run render:short
-npm run analyze:youtube -- --url "https://example.com"
+npm run analyze:youtube:deep -- --url "https://youtube.com/watch?v=xxxxxxxxxxx" --project-id reference-study --template explainer
+npm run analyze:youtube:compare -- --url "https://youtube.com/watch?v=aaaaaaaaaaa" --url "https://youtube.com/watch?v=bbbbbbbbbbb" --project-id reference-study --template political
+npm run generate:from-analysis -- --template political --project-id reference-study
 npm run analyze:gameplay -- --input "./public/assets/video/sample.mp4"
 npm run assets:fetch -- --source pixabay --type video --query "night city japan" --limit 5 --download
 ```
+
+## 参考動画分析ワークフロー
+
+1. `npm run guide:genre -- --template <type>` で playbook を開く
+2. `npm run analyze:youtube:deep` または `npm run analyze:youtube:compare`
+3. `projects/<project-id>/analysis/youtube/` の `summary.json`, `layout-signals.json`, `audio-signals.json`, `structure-signals.json` を確認する
+4. `npm run generate:from-analysis -- --template <type> --project-id <id>`
+5. `npm run review:layout`
+6. `npm run review:preflight -- --variant long`
+
+`audio-signals.json` には narration 密度だけでなく、BGM の役割候補、SE の打ち方、無音窓、impact cue も入ります。  
+`structure-signals.json` には hook / ending / thirds 分布が入り、`layout-signals.json` には subtitle / popup / 背景の使い方を寄せるための示唆が入ります。
 
 ## ローカル専用
 
